@@ -1,3 +1,0 @@
-Vendor_Name,Product_Name,Source_Location_URL,SL_CN_Name,SL_CA_Name,Access_Control,NATF_Response_File_URL
-Microsoft,PowerToys (Preview),https://github.com/microsoft/PowerToys/releases/,github.com,DigiCert Inc,None,https://raw.githubusercontent.com/rjb4standards/REA-Products/master/VendorResponse.txt
-Reliable Energy Analytics LLC,SAG-PM,https://github.com/rjb4standards/REA-Products,github.com,DigiCert Inc,BasicAuth,https://raw.githubusercontent.com/rjb4standards/REA-Products/master/VendorResponse.txt
