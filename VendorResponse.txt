@@ -17,7 +17,7 @@
             <LicensorName>Reliable Energy Analytics LLC</LicensorName>
             <ProductName>SAG-PM</ProductName>
             <Version>1.0.0</Version>
-            <SourceLocationURL>https://github.com/rjb4standards/REA-Products/</SourceLocationURL>
+            <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
             <DigitallySigned>Y</DigitallySigned>
             <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
             <LastModifiedDateTimeUTC>2020-04-16T15:00:00</LastModifiedDateTimeUTC>
