@@ -1,1 +1,45 @@
-Work in Process
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: Software Assurance Guardian Point Man (SAG-PM)
+DocumentNamespace: http://softwareassuranceguardian.com/
+Creator: Person: Dick Brooks (dick@reliableenergyanalytics.com
+Creator: Tool: PyInstaller 3.6
+Created: 2020-09-08T19:44:17Z
+
+##### Package: SAG-PM
+
+PackageName: SAG-PM
+SPDXID: SPDXRef-Package-SAG-PM-DBOM-POC
+PackageDownloadLocation: https://github.com/rjb4standards/REA-Products/SAGPM-1_0_0.zip
+FilesAnalyzed: true
+PackageVerificationCode: 9d20237bb72087e87069f96afb41c6ca2fa2a342
+PackageLicenseConcluded: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseDeclared: GPL-3.0-or-later
+PackageCopyrightText: NOASSERTION
+PackageChecksum: SHA1: 85ed0817af83a24ad8da68c2b5094de69833983c
+
+FileName: SAG-PM.msi
+SPDXID: SPDXRef-SAG-PM-DBOM-POC-Install
+FileType: BINARY
+FileChecksum: SHA1: 20291a81ef065ff891b537b64d4fdccaf6f5ac02
+LicenseConcluded: GPL-3.0-or-later
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: SAG-PM.exe
+SPDXID: SPDXRef-SAG-PM-DBOM-POC-Executable
+FileType: BINARY
+FileChecksum: SHA1: 69a2e85696fff1865c3f0686d6c3824b59915c80
+LicenseConcluded: GPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: NOASSERTION
+
+FileName: SAG-PM.py
+SPDXID: SPDXRef-SAG-PM-DBOM-POC-Source
+FileType: SOURCE
+FileChecksum: SHA1: 20862a6d08391d07d09344029533ec644fac6b21
+LicenseConcluded: GPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+FileCopyrightText: NOASSERTION
