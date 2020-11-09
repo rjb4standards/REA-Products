@@ -12,7 +12,7 @@ Created: 2020-09-08T19:44:17Z
 PackageName: SAG-PM
 PackageVersion: 1.0.0
 SPDXID: SPDXRef-Package-SAG-PM-DBOM-POC
-PackageDownloadLocation: https://github.com/rjb4standards/REA-Products/SAGPM-1_0_0.zip
+PackageDownloadLocation: https://github.com/rjb4standards/REA-Products/raw/master/SAGPM-1_0_0.zip
 FilesAnalyzed: true
 PackageVerificationCode: 9d20237bb72087e87069f96afb41c6ca2fa2a342
 PackageLicenseConcluded: GPL-3.0-or-later
