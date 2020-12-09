@@ -44,3 +44,17 @@ FileChecksum: SHA1: 20862a6d08391d07d09344029533ec644fac6b21
 LicenseConcluded: Unicode-DFS-2016
 LicenseInfoInFile: Unicode-DFS-2016
 FileCopyrightText: NOASSERTION
+
+FileName: aiodns-2.0.0
+SPDXID: SPDXRef-PythonPackage-aiodns==2.0.0
+FileType: BINARY
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: altgraph-0.17
+SPDXID: SPDXRef-PythonPackage-altgraph==0.17
+FileType: BINARY
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
