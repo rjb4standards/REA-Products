@@ -1,6 +1,6 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
-SPDXID: SPDXRef-DOCUMENT
+SPDXID: SPDXRef-SAG-PM-1-0-0
 DocumentName: Software Assurance Guardian Point Man (SAG-PM)
 DocumentNamespace: http://softwareassuranceguardian.com/
 Creator: Person: Dick Brooks (dick@reliableenergyanalytics.com
@@ -45,3 +45,10 @@ LicenseConcluded: Unicode-DFS-2016
 LicenseInfoInFile: Unicode-DFS-2016
 FileCopyrightText: NOASSERTION
 
+FileName: aiodns-2.0.0
+SPDXID: SPDXRef-SAG-PM-PythonPackage-aiodns-2.0.0
+FileType: BINARY
+FileChecksum: SHA1: 20862a6d08391d07d09344029533ec644fac6b9af
+LicenseConcluded: Unicode-DFS-2016
+LicenseInfoInFile: Unicode-DFS-2016
+FileCopyrightText: NOASSERTION
