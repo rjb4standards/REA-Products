@@ -48,7 +48,7 @@ FileCopyrightText: NOASSERTION
 FileName: aiodns-2.0.0
 SPDXID: SPDXRef-SAG-PM-PythonPackage-aiodns-2.0.0
 FileType: BINARY
-FileChecksum: SHA1: 20862a6d08391d07d09344029533ec644fac6b9af
+FileChecksum: SHA1: 20862a6d08391d07d09344029533ec644fac6b22
 LicenseConcluded: Unicode-DFS-2016
 LicenseInfoInFile: Unicode-DFS-2016
 FileCopyrightText: NOASSERTION
