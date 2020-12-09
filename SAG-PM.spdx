@@ -37,6 +37,14 @@ LicenseConcluded: Unicode-DFS-2016
 LicenseInfoInFile: Unicode-DFS-2016
 FileCopyrightText: NOASSERTION
 
+FileName: pandas-1.0.3
+SPDXID: SPDXRef-PythonPkg
+FileType: BINARY
+FileChecksum: SHA1: 69a2e85696fff1865c3f0686d6c3824b59915c91
+LicenseConcluded: Unicode-DFS-2016
+LicenseInfoInFile: Unicode-DFS-2016
+FileCopyrightText: NOASSERTION
+
 FileName: SAG-PM.py
 SPDXID: SPDXRef-SAG-PM-DBOM-POC-Source
 FileType: SOURCE
