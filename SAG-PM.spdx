@@ -38,7 +38,7 @@ LicenseInfoInFile: Unicode-DFS-2016
 FileCopyrightText: NOASSERTION
 
 FileName: openssl 1.1.1d
-SPDXID: SPDXRef-PythonPkg
+SPDXID: SPDXRef-PythonPkg-openssl
 FileType: BINARY
 FileChecksum: SHA1: 69a2e85696fff1865c3f0686d6c3824b59915c91
 LicenseConcluded: Unicode-DFS-2016
