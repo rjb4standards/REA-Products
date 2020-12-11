@@ -20,7 +20,7 @@
             <SBOM type="spdx" version="2.2" format="TV">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM.spdx</SBOM>
             <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
             <DigitallySigned>Y</DigitallySigned>
-            <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
+            <UnsolvedVulnerabilities>Y</UnsolvedVulnerabilities>
             <LastModifiedDateTimeUTC>2020-08-19T15:00:00</LastModifiedDateTimeUTC>
         </Product>
     </Products>
