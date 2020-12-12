@@ -5,6 +5,12 @@
                <publisher>Reliable Energy Analytics LLC</publisher>
                <name>SAG-PM.msi</name>
                <version>1.0.0</version>
+               <licenses>
+                   <license>
+                    <name>Reliable Energy Analytics LLC Commercial License</name>
+                    <text content-type="text/plain">See license file embedded in package</text>
+                   </license>
+               </licenses>
                <components>
                  <component type="application">
                     <publisher>Reliable Energy Analytics LLC</publisher>
