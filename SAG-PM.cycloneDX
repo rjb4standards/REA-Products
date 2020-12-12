@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bom version="1" xmlns="http://cyclonedx.org/schema/bom/1.0">
-    <metadata>
-        <component type="application" bom-ref="SAG-PM-100">
-            <name>Software Assurance Guardian Point Man</name>
-            <version>1.0.0</version>
-        </component>
-    </metadata>
     <components>
-            <component type="application">
-            <name>SAG-PM.msi</name>
-            <version>1.0.0</version>
+        <component type="application">
+               <publisher>Reliable Energy Analytics LLC</publisher>
+               <name>SAG-PM.msi</name>
+               <version>1.0.0</version>
                <components>
                  <component type="application">
+                    <publisher>Reliable Energy Analytics LLC</publisher>
                     <name>SAG-PM.exe</name>
                     <version>1.0.0</version>
                  </component>
                </components>
-            </component>
         </component>
         <component type="library">
             <publisher>Saúl Ibarra Corretgé</publisher>
