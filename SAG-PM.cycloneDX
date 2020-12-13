@@ -11,13 +11,11 @@
                     <text content-type="text/plain">See license file embedded in package</text>
                    </license>
                </licenses>
-               <components>
-                 <component type="application">
+        </component>
+        <component type="application">
                     <publisher>Reliable Energy Analytics LLC</publisher>
                     <name>SAG-PM.exe</name>
                     <version>1.0.0</version>
-                 </component>
-               </components>
         </component>
         <component type="library">
             <publisher>Saúl Ibarra Corretgé</publisher>
