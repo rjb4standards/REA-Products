@@ -14,7 +14,7 @@
         </component>
         <component type="application">
                     <publisher>Reliable Energy Analytics LLC</publisher>
-                    <name>SAG-PM.exe</name>
+                    <name>SAG.exe</name>
                     <version>1.0.0</version>
         </component>
         <component type="library">
