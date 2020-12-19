@@ -17,6 +17,8 @@ PackageVersion: 2.0.0
 PackageChecksum: SHA-256: aaa5ac584f40fe778013df0aa6544bf157799bd3f608364b451840ed2c8688de 
 PackageDownloadLocation: purl+pkg:pypi/aiodns@2.0.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:altgraph 
 SPDXID: SPDXRef-altgraph-0.17 
@@ -26,6 +28,8 @@ PackageChecksum: SHA-256: c623e5f3408ca61d4016f23a681b9adb100802ca3e3da5e718915a
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/altgraph@0.17 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:antlr4-python3-runtime 
 SPDXID: SPDXRef-antlr4-python3-runtime-4.8
@@ -35,6 +39,8 @@ PackageChecksum: SHA-256: 15793f5d0512a372b4e7d2284058ad32ce7dd27126b105fb0b2245
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/antlr4-python3-runtime@4.8 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:boto3 
 SPDXID: SPDXRef-boto3-1.13.6
@@ -44,6 +50,8 @@ PackageChecksum: SHA-256: 05f75d30aa10094eb96bba22b25b6005126de748188f196a5fffab
 PackageLicenseConcluded: Apache License 2.0  
 PackageDownloadLocation: purl+pkg:pypi/boto3@1.13.6 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 SPDXID: SPDXRef-botocore-1.16.6
 PackageSupplier: Person:Amazon Web Services 
@@ -53,6 +61,8 @@ PackageChecksum: SHA-256: 1f5e57f41f9f9400feffc62f17b517a601643ffec69f7ee9275556
 PackageLicenseConcluded: Apache License 2.0  
 PackageDownloadLocation: purl+pkg:pypi/botocore@1.16.6 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:certifi 
 SPDXID: SPDXRef-certifi-2020.4.5.1
@@ -62,6 +72,8 @@ PackageChecksum: SHA-256: 1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa
 PackageLicenseConcluded: MPL-2.0 
 PackageDownloadLocation: purl+pkg:pypi/certifi@2020.4.5.1 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 SPDXID: SPDXRef-cffi-1.14.0
 PackageSupplier: Person:Armin Rigo, Maciej Fijalkowski 
@@ -71,6 +83,8 @@ PackageChecksum: SHA-256: 00789914be39dffba161cfc5be31b55775de5ba2235fe49aa28c14
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/cffi@1.14.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:chardet 
 SPDXID: SPDXRef-chardet-3.0.4
@@ -80,6 +94,8 @@ PackageChecksum: SHA-256: fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460
 PackageLicenseConcluded: LPGL 
 PackageDownloadLocation: purl+pkg:pypi/chardet@3.0.4 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 SPDXID: SPDXRef-cloudmersive-validate-api-client-2.1.2 
 PackageName:cloudmersive-validate-api-client 
@@ -87,6 +103,8 @@ PackageVersion: 2.1.2
 PackageChecksum: SHA-256: 84c887acbac7e29016f3a9464798ee6f80d8fdf66699f9b153ba1cc91ceef6b3 
 PackageDownloadLocation: purl+pkg:pypi/cloudmersive-validate-api-client@2.1.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:cloudmersive-virus-api-client 
 SPDXID: SPDXRef-cloudmersive-virus-api-client-2.0.5
@@ -94,6 +112,8 @@ PackageVersion: 2.0.5
 PackageChecksum: SHA-256: 046ad5770375df9a5b3c35ec566dc723ec26a9bf64645e173b736b0d94d56194 
 PackageDownloadLocation: purl+pkg:pypi/cloudmersive-virus-api-client@2.0.5 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:cyclonedx-bom 
 SPDXID: SPDXRef-cyclonedx-bom-0.3.5
@@ -103,6 +123,8 @@ PackageChecksum: SHA-256: 99ba2ec3603083131ab3a64b64d24dd6bd527815c99e34881d3844
 PackageLicenseConcluded: Apache-2.0  
 PackageDownloadLocation: purl+pkg:pypi/cyclonedx-bom@0.3.5 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:datedelta 
 SPDXID: SPDXRef-datedelta-1.3 
@@ -112,6 +134,8 @@ PackageChecksum: SHA-256: eaf2b332582a083e0db7baab36ab37d5fe98b9de3cfd46a75c4524
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/datedelta@1.3 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:dnspython 
 SPDXID: SPDXRef-dnspython-1.16.0
@@ -121,6 +145,8 @@ PackageChecksum: SHA-256: f69c21288a962f4da86e56c4905b49d11aba7938d3d740e80d9e36
 PackageLicenseConcluded: BSD -like 
 PackageDownloadLocation: purl+pkg:pypi/dnspython@1.16.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:docutils 
 SPDXID: SPDXRef-docutils-0.15.2
@@ -130,6 +156,8 @@ PackageChecksum: SHA-256: 6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b7
 PackageLicenseConcluded: public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt) 
 PackageDownloadLocation: purl+pkg:pypi/docutils@0.15.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:elementpath 
 SPDXID: SPDXRef-elementpath-1.3.3
@@ -139,6 +167,8 @@ PackageChecksum: SHA-256: 4b1fc2120d69c126a2d9993ea206c214b4098ded9135318ad382eb
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/elementpath@1.3.3 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:et-xmlfile 
 SPDXID: SPDXRef-et-xmlfile-1.0.1
@@ -148,6 +178,8 @@ PackageChecksum: SHA-256: 614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/et-xmlfile@1.0.1 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:future 
 SPDXID: SPDXRef-future-0.18.2 
@@ -157,6 +189,8 @@ PackageChecksum: SHA-256: b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/future@0.18.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:geoip2 
 SPDXID: SPDXRef-geoip2-3.0.0
@@ -166,6 +200,8 @@ PackageChecksum: SHA-256: 99ec12d2f1271a73a0a4a2b663fe6ce25fd02289c0a6bef05c0a1c
 PackageLicenseConcluded: Apache License, Version 2.0 
 PackageDownloadLocation: purl+pkg:pypi/geoip2@3.0.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:idna 
 SPDXID: SPDXRef-idna-2.8
@@ -175,6 +211,8 @@ PackageChecksum: SHA-256: ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46
 PackageLicenseConcluded: BSD -like 
 PackageDownloadLocation: purl+pkg:pypi/idna@2.8 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:ipwhois 
 SPDXID: SPDXRef-ipwhois-1.1.0
@@ -184,6 +222,8 @@ PackageChecksum: SHA-256: 1f01f7cf4b4d667df6859e9f52d0971aac830d1e602946b4c02f47
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/ipwhois@1.1.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:isodate 
 SPDXID: SPDXRef-isodate-0.6.0
@@ -193,6 +233,8 @@ PackageChecksum: SHA-256: aa4d33c06640f5352aca96e4b81afd8ab3b47337cc12089822d6f3
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/isodate@0.6.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:jmespath 
 SPDXID: SPDXRef-jmespath-0.9.5
@@ -202,6 +244,8 @@ PackageChecksum: SHA-256: 695cb76fa78a10663425d5b73ddc5714eb711157e52704d69be03b
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/jmespath@0.9.5 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:lxml 
 SPDXID: SPDXRef-lxml-4.5.0
@@ -211,6 +255,8 @@ PackageChecksum: SHA-256: d5b3c4b7edd2e770375a01139be11307f04341ec709cf724e0f26e
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/lxml@4.5.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:maxminddb 
 SPDXID: SPDXRef-maxminddb-1.5.2 
@@ -220,6 +266,8 @@ PackageChecksum: SHA-256: d0ce131d901eb11669996b49a59f410efd3da2c6dbe2c0094fe2fe
 PackageLicenseConcluded: Apache License, Version 2.0 
 PackageDownloadLocation: purl+pkg:pypi/maxminddb@1.5.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:numpy 
 SPDXID: SPDXRef-numpy-1.18.2
@@ -229,6 +277,8 @@ PackageChecksum: SHA-256: ba3c7a2814ec8a176bb71f91478293d633c08582119e713a0c5351
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/numpy@1.18.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:packageurl-python 
 SPDXID: SPDXRef-packageurl-python-0.8.7
@@ -238,6 +288,8 @@ PackageChecksum: SHA-256: 5dc5adb151e501fd0555c278eda3621c05997d1cabba9dc82ab9ac
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/packageurl-python@0.8.7 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:packaging 
 SPDXID: SPDXRef-packaging-19.2
@@ -247,6 +299,8 @@ PackageChecksum: SHA-256: d9551545c6d761f3def1677baf08ab2a3ca17c56879e70fecba2fc
 PackageLicenseConcluded: BSD  or Apache License, Version 2.0 
 PackageDownloadLocation: purl+pkg:pypi/packaging@19.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pandas 
 SPDXID: SPDXRef-pandas-1.0.3 
@@ -255,6 +309,8 @@ PackageChecksum: SHA-256: 1a7c56f1df8d5ad8571fa251b864231f26b47b59cbe41aa5c0983d
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/pandas@1.0.3 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pefile 
 SPDXID: SPDXRef-pefile-2019.4.18
@@ -263,6 +319,8 @@ PackageVersion: 2019.4.18
 PackageChecksum: SHA-256: a5d6e8305c6b210849b47a6174ddf9c452b2888340b8177874b862ba6c207645 
 PackageDownloadLocation: purl+pkg:pypi/pefile@2019.4.18 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:ply 
 SPDXID: SPDXRef-ply-3.11 
@@ -272,6 +330,8 @@ PackageChecksum: SHA-256: 096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c2
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/ply@3.11 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:psycopg2 
 SPDXID: SPDXRef-psycopg2-2.8.5
@@ -281,6 +341,8 @@ PackageChecksum: SHA-256: 132efc7ee46a763e68a815f4d26223d9c679953cd190f1f218187c
 PackageLicenseConcluded: LPGL with exceptions 
 PackageDownloadLocation: purl+pkg:pypi/psycopg2@2.8.5 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pycares 
 SPDXID: SPDXRef-pycares-3.1.1
@@ -289,6 +351,8 @@ PackageVersion: 3.1.1
 PackageChecksum: SHA-256: 7e2d7effd08d2e5a3cb95d98a7286ebab71ab2fbce84fa93cc2dd56caf7240dd 
 PackageDownloadLocation: purl+pkg:pypi/pycares@3.1.1 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pycparser 
 SPDXID: SPDXRef-pycparser-2.20
@@ -298,6 +362,8 @@ PackageChecksum: SHA-256: 7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101b
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/pycparser@2.20 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pycurl 
 SPDXID: SPDXRef-pycurl-7.43.0.5
@@ -307,6 +373,8 @@ PackageChecksum: SHA-256: 1957c867e2a341f5526c107c7bbc5014d6e75fdc2a14294fcb8a47
 PackageLicenseConcluded: LGPL/MIT 
 PackageDownloadLocation: purl+pkg:pypi/pycurl@7.43.0.5 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pydnsbl 
 SPDXID: SPDXRef-pydnsbl@1.0.2 
@@ -316,6 +384,8 @@ PackageChecksum: SHA-256: dd3e3a147d323dc589e45d1bf83e4171ccb3a98afcf1851301fe7d
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/pydnsbl@1.0.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:PyInstaller 
 SPDXID: SPDXRef-pyinstaller-3.6
@@ -325,6 +395,8 @@ PackageChecksum: SHA-256: 3730fa80d088f8bb7084d32480eb87cbb4ddb64123363763cf8f2a
 PackageLicenseConcluded: GPL license with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones) 
 PackageDownloadLocation: purl+pkg:pypi/pyinstaller@3.6 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pyparsing 
 SPDXID: SPDXRef-pyparsing-2.4.7
@@ -334,6 +406,8 @@ PackageChecksum: SHA-256: ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85
 PackageLicenseConcluded: MIT License 
 PackageDownloadLocation: purl+pkg:pypi/pyparsing@2.4.7 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:python-dateutil 
 SPDXID: SPDXRef-python-dateutil-2.8.1
@@ -343,6 +417,8 @@ PackageChecksum: SHA-256: 75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32
 PackageLicenseConcluded: Dual License 
 PackageDownloadLocation: purl+pkg:pypi/python-dateutil@2.8.1 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pytz 
 SPDXID: SPDXRef-pytz-2019.3 
@@ -352,6 +428,8 @@ PackageChecksum: SHA-256: 1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/pytz@2019.3 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pywin32 
 SPDXID: SPDXRef-pywin32-227 
@@ -361,6 +439,8 @@ PackageChecksum: SHA-256: f27cec5e7f588c3d1051651830ecc00294f90728d19c3bf6916e6d
 PackageLicenseConcluded: PSF 
 PackageDownloadLocation: purl+pkg:pypi/pywin32@227 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:pywin32-ctypes 
 SPDXID: SPDXRef-pywin32-ctypes-0.2.0 
@@ -370,6 +450,8 @@ PackageChecksum: SHA-256: 9dc2d991b3479cc2df15930958b674a48a227d5361d413827a4cfd
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/pywin32-ctypes@0.2.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:PyYAML 
 SPDXID: SPDXRef-pyyaml-5.3.1
@@ -379,6 +461,8 @@ PackageChecksum: SHA-256: 6034f55dab5fea9e53f436aa68fa3ace2634918e8b5994d82f3621
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/pyyaml@5.3.1 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:rdflib 
 SPDXID: SPDXRef-rdflib-5.0.0
@@ -388,6 +472,8 @@ PackageChecksum: SHA-256: 88208ea971a87886d60ae2b1a4b2cdc263527af0454c422118d43f
 PackageLicenseConcluded: BSD -3-Clause 
 PackageDownloadLocation: purl+pkg:pypi/rdflib@5.0.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:requests 
 SPDXID: SPDXRef-requests-2.22.0
@@ -397,6 +483,8 @@ PackageChecksum: SHA-256: 9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c0105
 PackageLicenseConcluded: Apache 2.0 
 PackageDownloadLocation: purl+pkg:pypi/requests@2.22.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:requirements-parser 
 SPDXID: SPDXRef-requirements-parser-0.2.0
@@ -406,6 +494,8 @@ PackageChecksum: SHA-256: 76650b4a9d98fc65edf008a7920c076bb2a76c08eaae230ce4cfc6
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/requirements-parser@0.2.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:s3transfer 
 SPDXID: SPDXRef-s3transfer-0.3.3
@@ -415,6 +505,8 @@ PackageChecksum: SHA-256: 2482b4259524933a022d59da830f51bd746db62f047d6eb213f2f8
 PackageLicenseConcluded: Apache License 2.0  
 PackageDownloadLocation: purl+pkg:pypi/s3transfer@0.3.3 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:simplejson 
 SPDXID: SPDXRef-simplejson-3.17.0
@@ -424,6 +516,8 @@ PackageChecksum: SHA-256: 7cce4bac7e0d66f3a080b80212c2238e063211fe327f98d764c6ac
 PackageLicenseConcluded: MIT License 
 PackageDownloadLocation: purl+pkg:pypi/simplejson@3.17.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:six 
 SPDXID: SPDXRef-six-1.14.0 
@@ -433,6 +527,8 @@ PackageChecksum: SHA-256: 8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c7
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/six@1.14.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:spdx-tools 
 SPDXID: SPDXRef-spdx-tools-0.6.1
@@ -442,6 +538,8 @@ PackageChecksum: SHA-256: 45fa09d43534772ca63bff2dccf1fbde88e1fc9b9515fc7a34ae50
 PackageLicenseConcluded: Apache-2.0  
 PackageDownloadLocation: purl+pkg:pypi/spdx-tools@0.6.1 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:stix2 
 SPDXID: SPDXRef-stix2-2.0.2 
@@ -451,6 +549,8 @@ PackageChecksum: SHA-256: 7e88ab5f0cf569404f47e5938c0b5e97513ce93a36dde8c2fc86bd
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/stix2@2.0.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:stix2-patterns 
 SPDXID: SPDXRef-stix2-patterns-1.3.1
@@ -459,6 +559,8 @@ PackageVersion: 1.3.1
 PackageChecksum: SHA-256: 5a38f634adc856b7d03e13dd140d38e184ac1ef11077c1ffca28a262fa6d8c41 
 PackageDownloadLocation: purl+pkg:pypi/stix2-patterns@1.3.1 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:taxii2-client 
 SPDXID: SPDXRef-taxii2-client-2.2.0 
@@ -468,6 +570,8 @@ PackageChecksum: SHA-256: 242a0040511f0a7d139e6b94f8418df5bd38e1d9845f421c2641d9
 PackageLicenseConcluded: BSD  
 PackageDownloadLocation: purl+pkg:pypi/taxii2-client@2.2.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:urllib3 
 SPDXID: SPDXRef-urllib3-1.25.8
@@ -477,6 +581,8 @@ PackageChecksum: SHA-256: 2f3db8b19923a873b3e5256dc9c2dedfa883e33d87c690d9c7913e
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/urllib3@1.25.8 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:virustotal-python 
 SPDXID: SPDXRef-virustotal-python-0.0.8
@@ -485,6 +591,8 @@ PackageVersion: 0.0.8
 PackageChecksum: SHA-256: 85cc4dd063f4e1ba355f04c96d122807b205251a2e3a1517c6ca7778f5e0e6d6 
 PackageDownloadLocation: purl+pkg:pypi/virustotal-python@0.0.8 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:wincertstore 
 SPDXID: SPDXRef-wincertstore-0.2 
@@ -494,6 +602,8 @@ PackageChecksum: SHA-256: 22d5eebb52df88a8d4014d5cf6d1b6c3a5d469e6c3b2e2854f3a00
 PackageLicenseConcluded: PSFL 
 PackageDownloadLocation: purl+pkg:pypi/wincertstore@0.2 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:xmlschema 
 SPDXID: SPDXRef-xmlschema-1.0.16
@@ -503,6 +613,8 @@ PackageChecksum: SHA-256: 6987ee1b7c1fd487592004ffda70f49ebca274df2d8b471e65b71a
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/xmlschema@1.0.16 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName:xmltodict 
 SPDXID: SPDXRef-xmltodict-0.12.0
@@ -512,6 +624,8 @@ PackageChecksum: SHA-256: 8bbcb45cc982f48b2ca8fe7e7827c5d792f217ecf1792626f808bf
 PackageLicenseConcluded: MIT 
 PackageDownloadLocation: purl+pkg:pypi/xmltodict@0.12.0 
 FilesAnalyzed: false 
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
 
 PackageName: SAG-PM
 PackageVersion:  1.0.0
