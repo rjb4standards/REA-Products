@@ -21,7 +21,7 @@
             <SBOM type="cyclone" version="1.2" format="XML">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM.cycloneDX</SBOM>
             <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
             <DigitallySigned>Y</DigitallySigned>
-            <UnsolvedVulnerabilities>Y</UnsolvedVulnerabilities>
+            <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
             <LastModifiedDateTimeUTC>2020-08-19T15:00:00</LastModifiedDateTimeUTC>
         </Product>
     </Products>
