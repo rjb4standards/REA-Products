@@ -644,6 +644,12 @@ PackageLicenseConcluded: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
 PackageChecksum: SHA1: 85ed0817af83a24ad8da68c2b5094de69833983c
+LicenseID: LicenseRef-Unicode-DFS-2016
+LicenseName: Unicode-DFS-2016
+ExtractedText: <Text>
+See the License File embedded in the package.
+</Text>
+
 
 FileName: SAG-PM.msi
 SPDXID: SPDXRef-SAG-PM-DBOM-POC-Install
