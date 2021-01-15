@@ -380,7 +380,7 @@ PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
 
 PackageName:pydnsbl 
-SPDXID: SPDXRef-pydnsbl@1.0.2 
+SPDXID: SPDXRef-pydnsbl-1.0.2 
 PackageSupplier: Person:Dmitry ippolitov 
 PackageVersion: 1.0.2 
 PackageChecksum: SHA256: dd3e3a147d323dc589e45d1bf83e4171ccb3a98afcf1851301fe7dd49f8c432e 
