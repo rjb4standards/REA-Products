@@ -13,7 +13,7 @@
                </licenses>
         </component>
         <component type="application">
-                    <publisher>Reliable Energy Analytics LLC</publisher>
+                    <publisher>iana:DNS:$Origin:reliableenergyanalytics.com</publisher>
                     <name>SAG.exe</name>
                     <version>1.0.0</version>
         </component>
