@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <VendorResponse>
     <VendorLegalName>Reliable Energy Analytics LLC</VendorLegalName>
+    <SupplierID>iana:DNS:$Origin:reliableenergyanalytics.com</SupplierID>
     <StreetAddress>23 Linda Drive</StreetAddress>
     <City>Westfield</City>
     <StateOrProvince>Massachusetts</StateOrProvince>
