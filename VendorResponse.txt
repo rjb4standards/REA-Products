@@ -18,8 +18,8 @@
             <LicensorName>Reliable Energy Analytics LLC</LicensorName>
             <ProductName>SAG-PM</ProductName>
             <Version>1.0.0</Version>
-            <SBOM type="spdx" version="2.2" format="TV">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM.spdx</SBOM>
-            <!-- <SBOM type="cyclone" version="1.2" format="XML">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM.cycloneDX</SBOM> -->
+            <!-- <SBOM type="spdx" version="2.2" format="TV">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM.spdx</SBOM> -->
+            <SBOM type="cyclone" version="1.2" format="XML">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM.cycloneDX</SBOM>
             <!-- <SBOM type="cyclone" version="1.2" format="XML">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-STEVE.cycloneDX.xml</SBOM> -->
             <!-- <SBOM type="spdx" version="2.2" format="TV">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-STEVE.spdx</SBOM> -->
             <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
