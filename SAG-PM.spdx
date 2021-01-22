@@ -636,6 +636,7 @@ PackageCopyrightText: NOASSERTION
 PackageName: SAG-PM
 PackageVersion:  1.0.0
 SPDXID: SPDXRef-Package-SAG-PM-DBOM-POC
+PackageSupplier: Organization: dns:reliableenergyanalytics.com
 PackageDownloadLocation: https://github.com/rjb4standards/REA-Products/raw/master/SAGPM-1_0_0.zip
 FilesAnalyzed: true
 PackageLicenseInfoFromFiles: NOASSERTION
