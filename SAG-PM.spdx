@@ -3,7 +3,7 @@ DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: Software Assurance Guardian Point Man (SAG-PM)
 DocumentNamespace: http://softwareassuranceguardian.com/
-Creator: Person: Dick Brooks (dick@reliableenergyanalytics.com
+Creator: Organization: dns:reliableenergyanalytics.com
 Creator: Tool: PyInstaller 3.6
 Created: 2020-09-08T19:44:17Z
 
