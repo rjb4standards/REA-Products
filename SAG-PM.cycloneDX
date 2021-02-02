@@ -2,7 +2,7 @@
 <bom version="1" xmlns="http://cyclonedx.org/schema/bom/1.2">
     <components>
         <component type="application">
-               <publisher>icann:DNS:$Origin:reliableenergyanalytics.com</publisher>
+               <publisher>dns:reliableenergyanalytics.com</publisher>
                <name>SAG-PM.msi</name>
                <version>1.0.0</version>
                <licenses>
@@ -13,7 +13,7 @@
                </licenses>
         </component>
         <component type="application">
-                    <publisher>icann:DNS:$Origin:reliableenergyanalytics.com</publisher>
+                    <publisher>dns:reliableenergyanalytics.com</publisher>
                     <name>SAG.exe</name>
                     <version>1.0.0</version>
         </component>
