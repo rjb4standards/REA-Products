@@ -885,18 +885,6 @@
             <modified>false</modified>
         </component>
         <component type="library">
-            <publisher>Dextroz</publisher>
-            <name>virustotal-python</name>
-            <version>0.0.8</version>
-            <description>A light wrapper around the public VirusTotal API.</description>
-            <hashes>
-                <hash alg="MD5">1550c4431c05084e1148ae25599a7f30</hash>
-                <hash alg="SHA-256">85cc4dd063f4e1ba355f04c96d122807b205251a2e3a1517c6ca7778f5e0e6d6</hash>
-            </hashes>
-            <purl>pkg:pypi/virustotal-python@0.0.8</purl>
-            <modified>false</modified>
-        </component>
-        <component type="library">
             <publisher>Christian Heimes</publisher>
             <name>wincertstore</name>
             <version>0.2</version>
