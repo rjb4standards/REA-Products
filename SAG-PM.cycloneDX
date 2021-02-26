@@ -5,6 +5,10 @@
                <publisher>dns:reliableenergyanalytics.com</publisher>
                <name>SAG-PM.msi</name>
                <version>1.0.0</version>
+               <description>Software Assurance Guardian Point Man (SAG-PM) Installation Package</description>
+               <hashes>
+                    <hash alg="SHA-256">1B53BFF7D2CC4872A288F0902FA6B61204048FF7FB666AFFC561607453C74CAC</hash>
+               </hashes>
                <licenses>
                    <license>
                     <name>Reliable Energy Analytics LLC Commercial License</name>
@@ -16,6 +20,10 @@
                     <publisher>dns:reliableenergyanalytics.com</publisher>
                     <name>SAG.exe</name>
                     <version>1.0.0</version>
+                    <description>Software Assurance Guardian Point Man (SAG-PM)</description>
+                    <hashes>
+                        <hash alg="SHA-256">90391DCF587C7F1198D29CEE5DC5AC131A40FBC2563FC70CD4992A4ED2E769FF</hash>
+                    </hashes>
         </component>
         <component type="library">
             <publisher>Saúl Ibarra Corretgé</publisher>
