@@ -24,6 +24,12 @@
                     <hashes>
                         <hash alg="SHA-256">90391DCF587C7F1198D29CEE5DC5AC131A40FBC2563FC70CD4992A4ED2E769FF</hash>
                     </hashes>
+                    <licenses>
+                        <license>
+                            <name>Reliable Energy Analytics LLC Commercial License</name>
+                            <text content-type="text/plain">See license file embedded in package</text>
+                        </license>
+                    </licenses>
         </component>
         <component type="library">
             <publisher>Saúl Ibarra Corretgé</publisher>
