@@ -3,11 +3,11 @@
     <components>
         <component type="application">
                <publisher>dns:reliableenergyanalytics.com</publisher>
-               <name>SAG-PM.msi</name>
+               <name>SAGPM.msi</name>
                <version>1.0.0</version>
                <description>Software Assurance Guardian Point Man (SAG-PM) Installation Package</description>
                <hashes>
-                    <hash alg="SHA-256">1B53BFF7D2CC4872A288F0902FA6B61204048FF7FB666AFFC561607453C74CAC</hash>
+                    <hash alg="SHA-256">5D9EA2CAA4FC95945FAE1C301D6BA8A374029685560ECFD8D1D377B97B31598C</hash>
                </hashes>
                <licenses>
                    <license>
