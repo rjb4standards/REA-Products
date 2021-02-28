@@ -23,7 +23,7 @@
             <!-- <SBOM type="cyclone" version="1.2" format="XML" signatureKeyFP="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-STEVE.cycloneDX.xml</SBOM> -->
             <!-- <SBOM type="spdx" version="2.2" format="TV" signatureKeyFP="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-STEVE.spdx</SBOM> -->
             <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
-            <DigitallySigned>Y</DigitallySigned>
+            <DigitallySigned X509SKID="8fb1c29c8276b85393b17fb2f1f686b060a56cae">Y</DigitallySigned>
             <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
             <LastModifiedDateTimeUTC>2020-08-19T15:00:00</LastModifiedDateTimeUTC>
         </Product>
