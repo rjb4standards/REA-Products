@@ -18,6 +18,7 @@
             <LicensorName>Reliable Energy Analytics LLC</LicensorName>
             <ProductName>SAG-PM</ProductName>
             <Version>1.0.0</Version>
+            <SourceLocationURL>https://github.com/rjb4standards/REA-Products/SAGPM_1_0_0.zip</SourceLocationURL>
             <DigitallySigned>Y</DigitallySigned>
             <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
             <LastModifiedDateTimeUTC>2020-08-19T15:00:00</LastModifiedDateTimeUTC>
@@ -27,7 +28,7 @@
             <ProductName>SAG-PM</ProductName>
             <Version>1.1.0</Version>
             <SBOM type="cyclone" version="1.2" format="XML" signature="SAG-PM-cycloneDX.xml.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-cycloneDX.xml</SBOM>
-            <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
+            <SourceLocationURL>https://github.com/rjb4standards/REA-Products/SAGPM.zip</SourceLocationURL>
             <DigitallySigned>Y</DigitallySigned>
             <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
             <LastModifiedDateTimeUTC>2021-03-25T12:40:00</LastModifiedDateTimeUTC>
