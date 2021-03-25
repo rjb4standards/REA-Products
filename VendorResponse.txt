@@ -18,14 +18,19 @@
             <LicensorName>Reliable Energy Analytics LLC</LicensorName>
             <ProductName>SAG-PM</ProductName>
             <Version>1.0.0</Version>
-            <!-- <SBOM type="spdx" version="2.2" format="TV" signatureKeyFP="2C17B5D1A50EA9144AAF8DD6D4EB22CCB8A6A3AB" signature="https://github.com/rjb4standards/REA-Products/blob/master/SAG-PM.spdx.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM.spdx</SBOM> -->
-            <SBOM type="cyclone" version="1.2" format="XML" signature="SAG-PM-cycloneDX.xml.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-cycloneDX.xml</SBOM>
-            <!-- <SBOM type="cyclone" version="1.2" format="XML" signatureKeyFP="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-STEVE.cycloneDX.xml</SBOM> -->
-            <!-- <SBOM type="spdx" version="2.2" format="TV" signatureKeyFP="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-STEVE.spdx</SBOM> -->
-            <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
-            <DigitallySigned X509SKID="8fb1c29c8276b85393b17fb2f1f686b060a56cae">Y</DigitallySigned>
+            <DigitallySigned>Y</DigitallySigned>
             <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
             <LastModifiedDateTimeUTC>2020-08-19T15:00:00</LastModifiedDateTimeUTC>
+        </Product>
+           <Product>
+            <LicensorName>Reliable Energy Analytics LLC</LicensorName>
+            <ProductName>SAG-PM</ProductName>
+            <Version>1.1.0</Version>
+            <SBOM type="cyclone" version="1.2" format="XML" signature="SAG-PM-cycloneDX.xml.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-cycloneDX.xml</SBOM>
+            <SourceLocationURL>https://github.com/rjb4standards/REA-Products</SourceLocationURL>
+            <DigitallySigned>Y</DigitallySigned>
+            <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
+            <LastModifiedDateTimeUTC>2021-03-25T12:40:00</LastModifiedDateTimeUTC>
         </Product>
     </Products>
 </VendorResponse>
