@@ -31,7 +31,7 @@
             <SourceLocationURL>https://github.com/rjb4standards/REA-Products/blob/master/sag-pm.zip?raw=true</SourceLocationURL>
             <DigitallySigned>Y</DigitallySigned>
             <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
-            <LastModifiedDateTimeUTC>2021-03-25T15:08:00</LastModifiedDateTimeUTC>
+            <LastModifiedDateTimeUTC>2021-04-09T17:24:00</LastModifiedDateTimeUTC>
         </Product>
     </Products>
 </VendorResponse>
