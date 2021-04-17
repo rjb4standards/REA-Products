@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<VendorResponse>
+    <VendorLegalName>Reliable Energy Analytics LLC</VendorLegalName>
+    <SupplierID>dns:reliableenergyanalytics.com</SupplierID>
+    <StreetAddress>23 Linda Drive</StreetAddress>
+    <City>Westfield</City>
+    <StateOrProvince>Massachusetts</StateOrProvince>
+    <ZipCode>01085</ZipCode>
+    <Country>USA</Country>
+    <WebsiteURL>https://reliableenergyanalytics.com/</WebsiteURL>
+    <ContactTelephone>978-696-1788</ContactTelephone>
+    <ContactEmail>dick@reliableenergyanalytics.com</ContactEmail>
+    <ContactPerson>Dick Brooks</ContactPerson>
+    <DUNSNumber>111509681</DUNSNumber>
+    <NAESBEIRID>REAL</NAESBEIRID>
+    <Products>
+        <Product>
+            <LicensorName>Reliable Energy Analytics LLC</LicensorName>
+            <ProductName>SAG-PM</ProductName>
+            <Version>1.0.0</Version>
+            <SourceLocationURL>https://github.com/rjb4standards/REA-Products/SAGPM_1_0_0.zip</SourceLocationURL>
+            <DigitallySigned>Y</DigitallySigned>
+            <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
+            <LastModifiedDateTimeUTC>2020-08-19T15:00:00</LastModifiedDateTimeUTC>
+        </Product>
+        <Product>
+            <LicensorName>Reliable Energy Analytics LLC</LicensorName>
+            <ProductName>SAG-PM (TM)</ProductName>
+            <Version>1.1.0</Version>
+            <SBOM type="cyclone" version="1.2" format="XML" signature="https://github.com/rjb4standards/REA-Products/raw/master/SAG-PM-cycloneDX.xml.sig?raw=true">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAG-PM-cycloneDX.xml</SBOM>
+            <SourceLocationURL>https://github.com/rjb4standards/REA-Products/blob/master/sag-pm.zip?raw=true</SourceLocationURL>
+            <DigitallySigned>Y</DigitallySigned>
+            <UnsolvedVulnerabilities>N</UnsolvedVulnerabilities>
+            <LastModifiedDateTimeUTC>2021-04-17T19:06:00</LastModifiedDateTimeUTC>
+        </Product>
+    </Products>
+</VendorResponse>
