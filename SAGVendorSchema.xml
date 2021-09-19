@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAG:VendorResponse xmlns:SAG="http://softwareassuranceguardian.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://softwareassuranceguardian.com/ SAGVendorSchema.xsd ">
+  <SAG:VendorLegalName>SAG:VendorLegalName</SAG:VendorLegalName>
+  <SAG:SupplierID>SAG:SupplierID</SAG:SupplierID>
+  <SAG:StreetAddress>SAG:StreetAddress</SAG:StreetAddress>
+  <SAG:City>SAG:City</SAG:City>
+  <SAG:StateOrProvince>SAG:StateOrProvince</SAG:StateOrProvince>
+  <SAG:ZipCode>SAG:ZipCode</SAG:ZipCode>
+  <SAG:Country>SAG:Country</SAG:Country>
+  <SAG:WebsiteURL>SAG:WebsiteURL</SAG:WebsiteURL>
+  <SAG:ContactTelephone>SAG:ContactTelephone</SAG:ContactTelephone>
+  <SAG:ContactEmail>SAG:ContactEmail</SAG:ContactEmail>
+  <SAG:ContactPerson>SAG:ContactPerson</SAG:ContactPerson>
+  <SAG:DUNSNumber>SAG:DUNSNumber</SAG:DUNSNumber>
+  <SAG:NAESBEIRID>SAG:NAESBEIRID</SAG:NAESBEIRID>
+  <SAG:Products>
+    <SAG:Product>
+      <SAG:LicensorName>SAG:LicensorName</SAG:LicensorName>
+      <SAG:ProductName>SAG:ProductName</SAG:ProductName>
+      <SAG:Version>SAG:Version</SAG:Version>
+      <SAG:SBOM>SAG:SBOM</SAG:SBOM>
+      <SAG:SourceLocationURL>SAG:SourceLocationURL</SAG:SourceLocationURL>
+      <SAG:DigitallySigned>SAG:DigitallySigned</SAG:DigitallySigned>
+      <SAG:UnsolvedVulnerabilities>SAG:UnsolvedVulnerabilities</SAG:UnsolvedVulnerabilities>
+      <SAG:CommercialStatus>SAG:CommercialStatus</SAG:CommercialStatus>
+      <SAG:SupportStatus>SAG:SupportStatus</SAG:SupportStatus>
+      <SAG:LastModifiedDateTimeUTC>2001-12-31T12:00:00</SAG:LastModifiedDateTimeUTC>
+    </SAG:Product>
+  </SAG:Products>
+</SAG:VendorResponse>
