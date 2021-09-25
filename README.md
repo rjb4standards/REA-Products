@@ -1,7 +1,7 @@
 # REA-Products
-Reliable Energy Analytics LLC
+<a href="https://reliableenergyanalytics.com/">Reliable Energy Analytics LLC</a>
 
-The SAG-PM™ V1.1.0 software release has been moved to its secure download location for the 5/1/2021 launch date. 
+The <a href="https://reliableenergyanalytics.com/products">SAG-PM™ software</a> release has been moved to its secure download location for the 5/1/2021 launch date. 
 
 Please submit your request to download and install the Software Assurance Guardian™ (SAG™) Point Man™ SAG-PM™ software through the contact form located here: 
 https://reliableenergyanalytics.com/contact-us
