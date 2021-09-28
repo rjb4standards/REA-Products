@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAG:VendorResponse xmlns:SAG="http://softwareassuranceguardian.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://softwareassuranceguardian.com/ SAGVendorSchema.xsd ">
+  <SAG:VendorLegalName>Reliable Energy Analytics LLC</SAG:VendorLegalName>
+  <SAG:SupplierID>dns:reliableenergyanalytics.com</SAG:SupplierID>
+  <SAG:StreetAddress>23 Linda Drive</SAG:StreetAddress>
+  <SAG:City>Westfield</SAG:City>
+  <SAG:StateOrProvince>Massachusetts</SAG:StateOrProvince>
+  <SAG:ZipCode>01085</SAG:ZipCode>
+  <SAG:Country>USA</SAG:Country>
+  <SAG:WebsiteURL>https://reliableenergyanalytics.com/</SAG:WebsiteURL>
+  <SAG:ContactTelephone>978-696-1788</SAG:ContactTelephone>
+  <SAG:ContactEmail>dick@reliableenergyanalytics.com</SAG:ContactEmail>
+  <SAG:ContactPerson>Dick Brooks</SAG:ContactPerson>
+  <SAG:DUNSNumber>111509681</SAG:DUNSNumber>
+  <SAG:NAESBEIRID>REAL</SAG:NAESBEIRID>
+  <SAG:CyberSecPolicyURL>https://softwareassuranceguardian.com/CyberSecPolicy.html</SAG:CyberSecPolicyURL>
+  <SAG:FinancialDataURL>https://softwareassuranceguardian.com/FinancialData.html</SAG:FinancialDataURL>
+  <SAG:CompanyDataURL>https://softwareassuranceguardian.com/CompanyData.html</SAG:CompanyDataURL>
+  <SAG:Products>
+    <SAG:Product>
+      <SAG:LicensorName>Reliable Energy Analytics LLC</SAG:LicensorName>
+      <SAG:ProductName>SAG-PM (TM)</SAG:ProductName>
+      <SAG:Version>1.1.3</SAG:Version>
+      <SAG:SBOM type="cycloneDX" version="1.2" format="XML" signature="https://softwareassuranceguardian.com/SAG-PM-1_1_3-cycloneDX.xml.sig">https://softwareassuranceguardian.com/SAG-PM-1_1_3-cycloneDX.xml</SAG:SBOM>
+      <SAG:SourceLocationURL>https://softwareassuranceguardian.com/sag-pm.zip</SAG:SourceLocationURL>
+      <SAG:DigitallySigned>Y</SAG:DigitallySigned>
+      <SAG:UnsolvedVulnerabilities>N</SAG:UnsolvedVulnerabilities>
+      <SAG:SDLCPolicyURL>https://softwareassuranceguardian.com/SDLCPolicySAG-PM_V113.html</SAG:SDLCPolicyURL>
+      <SAG:SDLCEvidenceDataURL>https://softwareassuranceguardian.com/SDLCEvidenceDataSAG-PM_V113.html</SAG:SDLCEvidenceDataURL>
+      <SAG:CommercialStatus>Available</SAG:CommercialStatus>
+      <SAG:SupportStatus>Supported</SAG:SupportStatus>
+      <SAG:LastModifiedDateTimeUTC>2021-08-21T15:05:00</SAG:LastModifiedDateTimeUTC>
+    </SAG:Product>
+  </SAG:Products>
+</SAG:VendorResponse>
