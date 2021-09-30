@@ -25,6 +25,7 @@
       <SAG:SourceLocationURL>https://softwareassuranceguardian.com/REDACTED/REDACTED/</SAG:SourceLocationURL>
       <SAG:DigitallySigned>Y</SAG:DigitallySigned>
       <SAG:UnsolvedVulnerabilities>N</SAG:UnsolvedVulnerabilities>
+      <SAG:KnownVulnInfoURL>https://softwareassuranceguardian.com/REDACTED</SAG:KnownVulnInfoURL>
       <SAG:SDLCPolicyURL>https://softwareassuranceguardian.com/REDACTED</SAG:SDLCPolicyURL>
       <SAG:SDLCEvidenceDataURL>https://softwareassuranceguardian.com/REDACTED</SAG:SDLCEvidenceDataURL>
       <SAG:CommercialStatus>Available</SAG:CommercialStatus>
