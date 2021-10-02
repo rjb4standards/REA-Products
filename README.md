@@ -15,6 +15,6 @@ Please use GitHubs Issues function on the toolbar above to provide all feedback 
 
 <h1> Intellectual Property Disclaimer</h1>
 <p>
-The XSDs are provided to you “as is” with no warranties whatsoever, including any warranty of merchantability, non-infringement, or fitness for any particular purpose. The authors of the XSDs disclaim all liability, including liability for infringement of any proprietary rights, relating to use or implementation of information in the XSDs.<br>
-XSD's are licensed under the Creative Commons V4.0
+The XSDs and other materials contained in this repository are provided to you “as is” with no warranties whatsoever, including any warranty of merchantability, non-infringement, or fitness for any particular purpose. The authors of the XSDs disclaim all liability, including liability for infringement of any proprietary rights, relating to use or implementation of information in the XSDs and other artifacts in this repository.<br>
+XSD's, XML examples and the Known Vulnerabilities Disclosre template are licensed under the Creative Commons V4.0
 </p>
