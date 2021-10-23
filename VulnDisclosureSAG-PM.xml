@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Legal Disclaimer
+
+Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
+Others are free to use this “boilerplate” template under the Creative Commons V4.0 license terms.
+
+DISCLAIMER OF WARRANTIES
+TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, WARRANTIES, GUARANTEES, AND CONDITIONS OF ANY KIND, ARISING BY LAW OR OTHERWISE, WITH REGARD TO THIS ARTIFACT, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES, GUARANTEES, AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, AND QUALITY OF SERVICE.
+REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS, USEFULNESS, RELIABILITY, AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
+ -->
+<SAG:VulnerabilityDisclosure VulnDisclosureCreateDate="2021-10-23T15:30:00Z" CVERespository="NIST_NVD" PackageSourceLocation="https://softwareassuranceguardian.com/sag-pm.zip" ProductName="SAG-PM (TM)" ProductVersion="1.1.4" SBOMAuthor="Reliable Energy Analytics LLC" SBOMFormat="CycloneDX" SBOMFormatSyntax="XML" SBOMLocation="https://softwareassuranceguardian.com/REDACTED" SBOMTotalComponentCount="86" SBOMTimestamp="2021-10-05T22:04:00Z" SupplierName="Reliable Energy Analytics LLC" xmlns:SAG="http://softwareassuranceguardian.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://softwareassuranceguardian.com/ VulnDisclosure.xsd ">
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=SAG-PM+(TM)+1.1.4" ComponentID="" ComponentName="SAG-PM (TM)" ComponentSupplierName="Reliable Energy Analytics LLC" ComponentVersion="1.1.4" NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=SAG-PM.msi+1.1.4" ComponentID="" ComponentName="SAG-PM.msi" ComponentSupplierName="Reliable Energy Analytics LLC" ComponentVersion="1.1.4" NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=SAG-PM.exe+1.1.4" ComponentID="" ComponentName="SAG-PM.exe" ComponentSupplierName="Reliable Energy Analytics LLC" ComponentVersion="1.1.4" NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=END+USER+LICENSE+AGREEMENT.rtf+1.1.4" ComponentID="" ComponentName="END USER LICENSE AGREEMENT.rtf" ComponentSupplierName="Reliable Energy Analytics LLC" ComponentVersion="1.1.4" NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=cryptography+3.3.1" ComponentID="0e85aaae861d0485eb5a79d33226dd6248d2a9f133b81532c8f5aae37de10ff7" ComponentName="cryptography" ComponentSupplierName="The cryptography developers" ComponentVersion="3.3.1" NumberVulnsReported="2">
+		<SAG:CVE>
+      			<SAG:CVEID>CVE-2020-36242</SAG:CVEID>
+      			<SAG:CVSS>9.1</SAG:CVSS>
+      			<SAG:CVEDescription>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</SAG:CVEDescription>
+      			<SAG:FixStatus>N/A</SAG:FixStatus>
+      			<SAG:AnalysisFindings>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE</SAG:AnalysisFindings>
+    	</SAG:CVE>
+    	<SAG:CVE>
+      			<SAG:CVEID>CVE-2014-8564</SAG:CVEID>
+      			<SAG:CVSS>5.0</SAG:CVSS>
+      			<SAG:CVEDescription>The _gnutls_ecc_ansi_x963_export function in gnutls_ecc.c in GnuTLS 3.x before 3.1.28, 3.2.x before 3.2.20, and 3.3.x before 3.3.10 allows remote attackers to cause a denial of service (out-of-bounds write) via a crafted (1) Elliptic Curve Cryptography (ECC) certificate or (2) certificate signing requests (CSR), related to generating key IDs.</SAG:CVEDescription>
+      			<SAG:FixStatus>N/A</SAG:FixStatus>
+      			<SAG:AnalysisFindings>This vulnerability is exploited when Elliptic curve certificates are used. SAG-PM does not perform any elliptic curve certificate functions from this component and is most likely not vulnerable to this CVE</SAG:AnalysisFindings>
+    	</SAG:CVE>
+  	</SAG:Component>
+<!--  Remaining components snipped for brevity. -->
+</SAG:VulnerabilityDisclosure>
