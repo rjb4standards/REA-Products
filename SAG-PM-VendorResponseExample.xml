@@ -32,5 +32,5 @@
       <SAG:SupportStatus>Supported</SAG:SupportStatus>
       <SAG:LastModifiedDateTimeUTC>2021-09-28T17:34:00</SAG:LastModifiedDateTimeUTC>
     </SAG:Product>
-  </SAG:Products>
+  </SAG:Products> 
 </SAG:VendorResponse>
