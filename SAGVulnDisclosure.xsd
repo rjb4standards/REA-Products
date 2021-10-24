@@ -81,4 +81,4 @@
     	<attribute name="CVESearchString" type="string"></attribute>
     	<attribute name="NumberVulnsReported" type="int"></attribute>
     </attributeGroup>
-</schema>
+</schema> 
