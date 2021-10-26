@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema elementFormDefault="qualified" targetNamespace="http://softwareassuranceguardian.com/1_1_4" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/1_1_4">
+	<element name="VulnerabilityDisclosure" type="SAG:VulnerabilityDisclosureType" ></element>
+<!-- 
+	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
+	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/  
+
+DISCLAIMER OF WARRANTIES
+TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
+WARRANTIES, GUARANTEES, AND CONDITIONS OF ANY KIND, ARISING BY LAW OR OTHERWISE, WITH REGARD TO THIS ARTIFACT, 
+INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES, GUARANTEES, AND CONDITIONS OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, AND QUALITY OF SERVICE.
+ 
+REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS, USEFULNESS, RELIABILITY, 
+AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE 
+RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
+	
+--> 
+     <complexType name="VulnerabilityDisclosureType">
+    	<sequence minOccurs="1" maxOccurs="unbounded">
+    		<element name="Component" type="SAG:ComponentType" minOccurs="1" maxOccurs="unbounded"></element>
+    	</sequence>
+        <attributeGroup ref="SAG:VulnDisclosureAttrGrp"></attributeGroup>
+    </complexType>
+
+    <complexType name="ComponentType">
+    	<sequence>
+    		<element name="CVE" type="SAG:CVEType" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+        <attributeGroup ref="SAG:ComponentAttrGrp"></attributeGroup>
+    </complexType>
+
+    <complexType name="CVEType">
+    	<sequence>
+    		<element name="CVEID" type="string"></element>
+    		<element name="CVSS" type="string"></element>
+    		<element name="CVEDescription" type="string"></element>
+    		<element name="FixStatus">
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="N/A"></enumeration>
+    					<enumeration value="Fix Available"></enumeration>
+    					<enumeration value="Not Fixed"></enumeration>
+    					<enumeration value="No Plans to Fix"></enumeration>
+    					<enumeration value="Pending Development"></enumeration>
+    					<enumeration value="In Development"></enumeration>
+    					<enumeration value="In Test"></enumeration>
+    					<enumeration value="Planned Fix this Year"></enumeration>
+    					<enumeration value="Planned Future Fix"></enumeration>
+    					<enumeration value="Investigating"></enumeration>
+    					<enumeration value="Confirmed Issue"></enumeration>
+    					<enumeration value="Unknown"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="AnalysisFindings" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <attributeGroup name="VulnDisclosureAttrGrp">
+    	<attribute name="SBOMAuthor" type="string"></attribute>
+    	<attribute name="SBOMTimestamp" type="dateTime"></attribute>
+    	<attribute name="SBOMLocation" type="string"></attribute>
+    	<attribute name="SBOMFormat">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="SPDX"></enumeration>
+    				<enumeration value="cycloneDX"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="SBOMFormatSyntax">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="TagValue"></enumeration>
+    				<enumeration value="XML"></enumeration>
+    				<enumeration value="JSON"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="SBOMTotalComponentCount" type="int"></attribute>
+    	<attribute name="CVERespository" type="string"></attribute>
+    	<attribute name="SupplierName" type="string"></attribute>
+    	<attribute name="ProductName" type="string"></attribute>
+    	<attribute name="ProductVersion" type="string"></attribute>
+    	<attribute name="PackageSourceLocation" type="string"></attribute>
+    	<attribute name="VulnDisclosureCreateDate" type="dateTime"></attribute>
+    </attributeGroup>
+
+    <attributeGroup name="ComponentAttrGrp">
+    	<attribute name="ComponentSupplierName" type="string"></attribute>
+    	<attribute name="ComponentName" type="string"></attribute>
+    	<attribute name="ComponentVersion" type="string"></attribute>
+    	<attribute name="ComponentID" type="string"></attribute>
+    	<attribute name="CVESearchString" type="string"></attribute>
+    	<attribute name="NumberVulnsReported" type="int"></attribute>
+    </attributeGroup>
+</schema>
