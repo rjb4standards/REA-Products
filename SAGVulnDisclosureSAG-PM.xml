@@ -72,4 +72,5 @@ RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-
 			<SAG:AnalysisFindings>This vulnerability is exploited when Elliptic curve certificates are used. SAG-PM does not perform any elliptic curve certificate functions from this component and is most likely not vulnerable to this CVE</SAG:AnalysisFindings>
 		</SAG:CVE>
 	</SAG:Component>
+	<!-- Remaining components snipped for brevity - the above materials are representative of all the capabilities available in the Vulnerability Disclosure Schema -->
 </SAG:VulnerabilityDisclosure>
