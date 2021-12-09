@@ -1,0 +1,2 @@
+Vendor_Name,Product_Name,Version,Source_Location_URL,SL_CN_Name,SL_CA_Name,Access_Control,NATF_Response_File_URL,X509SKID,PGPFingerprint,NATF_ResponseDigSigURL
+Amazon Web Services,AWS Command Line Interface v2,2.2.7.0,https://awscli.amazonaws.com/AWSCLIV2.msi,awscli.amazonaws.com,Amazon,None,https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/VendorResponse.txt,,,https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/VendorResponse.txt.sig
