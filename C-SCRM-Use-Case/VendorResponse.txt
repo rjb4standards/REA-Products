@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAG:VendorResponse xmlns:SAG="http://softwareassuranceguardian.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://softwareassuranceguardian.com/ SAGVendorSchema.xsd ">
+  <SAG:VendorLegalName>Amazon Web Services</SAG:VendorLegalName>
+  <SAG:SupplierID>dns:amazon.com</SAG:SupplierID>
+  <SAG:StreetAddress>440 Terry Avenue</SAG:StreetAddress>
+  <SAG:City>North Seattle</SAG:City>
+  <SAG:StateOrProvince>Washington</SAG:StateOrProvince>
+  <SAG:ZipCode>98109</SAG:ZipCode>
+  <SAG:Country>USA</SAG:Country>
+  <SAG:WebsiteURL>https://amazon.com</SAG:WebsiteURL>
+  <SAG:ContactTelephone>1-206-266-1000</SAG:ContactTelephone>
+  <SAG:ContactEmail>support@amazon.com</SAG:ContactEmail>
+  <SAG:ContactPerson>Support</SAG:ContactPerson>
+  <SAG:DUNSNumber>None</SAG:DUNSNumber>
+  <SAG:NAESBEIRID>None</SAG:NAESBEIRID>
+  <SAG:CyberSecPolicyURL>https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/CyberSecPolicy.html</SAG:CyberSecPolicyURL>
+  <SAG:FinancialDataURL>https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/FinancialData.html</SAG:FinancialDataURL>
+  <SAG:CompanyDataURL>https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/CompanyData.html</SAG:CompanyDataURL>
+  <SAG:Products>
+    <SAG:Product>
+      <SAG:LicensorName>Amazon Web Services</SAG:LicensorName>
+      <SAG:ProductName>AWS Command Line Interface v2</SAG:ProductName>
+      <SAG:Version>2.4.6.0</SAG:Version>
+      <SAG:SBOM type="spdx" version="2.2" format="TV" DigitalSignatureURL="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWS_SBOM.spdx.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWS_SBOM.spdx</SAG:SBOM>
+      <SAG:SourceLocationURL>https://awscli.amazonaws.com/AWSCLIV2.msi</SAG:SourceLocationURL>
+      <SAG:DigitallySigned>Y</SAG:DigitallySigned>
+      <SAG:UnsolvedVulnerabilities>N</SAG:UnsolvedVulnerabilities>
+      <SAG:KnownVulnInfoURL DigitalSignatureURL="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWSCLIVDR.xml.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWSCLIVDR.xml</SAG:KnownVulnInfoURL>
+      <SAG:SDLCPolicyURL>https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/SDLCPolicy.html</SAG:SDLCPolicyURL>
+      <SAG:SDLCEvidenceDataURL>https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/SAG-PM_SDLCEvidenceData_COLE.json</SAG:SDLCEvidenceDataURL>
+      <SAG:CommercialStatus>Available</SAG:CommercialStatus>
+      <SAG:SupportStatus>Supported</SAG:SupportStatus>
+      <SAG:LastModifiedDateTimeUTC>2021-12-09T14:36:07</SAG:LastModifiedDateTimeUTC>
+    </SAG:Product>
+  </SAG:Products>
+</SAG:VendorResponse>
