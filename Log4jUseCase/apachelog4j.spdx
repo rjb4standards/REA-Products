@@ -1,0 +1,630 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SAG-PM generated SBOM
+DocumentNamespace: dns:softwareassuranceguardian.com
+Creator: Organization: dns:reliableenergyanalytics.com
+Creator: Tool: SAG-PM Version: 1.1.6
+Created: 2021-12-18T20:03:32Z
+PackageName: apache-log4j-2.15.0-bin.zip
+PackageVersion: 2.15.0
+SPDXID: SPDXRef-Package-fbae1aa9-1056-4838-a0ab-998ac944e990
+PackageSupplier: Organization: Apache Foundation
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageVerificationCode: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseID: LicenseRef-Unlicense
+LicenseName: Unlicense
+FileName: RELEASE-NOTES.md
+SPDXID: SPDXRef-2b58fda4-2710-48c3-889d-4d8817959c19
+FileContributor: Apache Foundation
+FileType: OTHER
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jul-2.15.0.jar
+SPDXID: SPDXRef-bd29d3cd-7f40-47ed-becc-b7c7cf2c7d85
+FileContributor: Apache Foundation
+FileType: OTHER
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-1.2-api-2.15.0-javadoc.jar
+SPDXID: SPDXRef-58922079-8d7a-416b-8bd5-3cfcc86226a3
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: NOTICE.txt
+SPDXID: SPDXRef-9d621145-f0d7-40f0-b199-d667299ff698
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jul-2.15.0-sources.jar
+SPDXID: SPDXRef-d320a300-f5c1-4644-af62-8a9270fdbb5b
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-1.2-api-2.15.0-sources.jar
+SPDXID: SPDXRef-cf490fb5-80f4-4f75-a771-0b4db719b8a4
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-mongodb3-2.15.0.jar
+SPDXID: SPDXRef-93871c3b-7aa9-48c8-8918-b0e7543c5e6b
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-cassandra-2.15.0-sources.jar
+SPDXID: SPDXRef-dfcf6819-74e9-4eb1-b870-b11d63071f89
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jpa-2.15.0.jar
+SPDXID: SPDXRef-db659d03-c77f-4a91-897b-1b72d90042f5
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-docker-2.15.0.jar
+SPDXID: SPDXRef-6146715f-57bb-4e49-bf5c-e158460af980
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-spring-boot-2.15.0-javadoc.jar
+SPDXID: SPDXRef-931f84cd-1147-4a6f-8e48-2908eba93375
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: LICENSE.txt
+SPDXID: SPDXRef-43f103bd-84fc-45c8-ba38-3abf0b4f7c9b
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jul-2.15.0-javadoc.jar
+SPDXID: SPDXRef-a16e4e9c-f209-444c-84d2-1fb2f528c5b1
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jmx-gui-2.15.0-sources.jar
+SPDXID: SPDXRef-430a90fa-3a74-4afc-a1cc-28e79f990397
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-taglib-2.15.0-sources.jar
+SPDXID: SPDXRef-63905e37-491d-4074-8001-3b6b1330065d
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-web-2.15.0-javadoc.jar
+SPDXID: SPDXRef-869a6aaa-c524-45a9-b91d-8a7461efaa98
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-liquibase-2.15.0-sources.jar
+SPDXID: SPDXRef-00f3506a-7e27-48ad-a5bc-4e3bd3a7fad8
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-docker-2.15.0-sources.jar
+SPDXID: SPDXRef-4e45b6e6-b965-4f55-a25b-da3f558c3bdd
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-api-2.15.0.jar
+SPDXID: SPDXRef-c8176b82-7e83-4ea8-a213-367c8477fff3
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-spring-cloud-config-client-2.15.0-javadoc.jar
+SPDXID: SPDXRef-0e112f7f-a4ef-441c-8164-8fffde591f32
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-api-2.15.0-sources.jar
+SPDXID: SPDXRef-a5e28ca5-afb5-47a5-9159-88da17ddb22b
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jpa-2.15.0-sources.jar
+SPDXID: SPDXRef-afbc00b4-d149-4078-93d7-7821a9176718
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-appserver-2.15.0.jar
+SPDXID: SPDXRef-d6556906-5328-43a3-8a38-2986742f50f8
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-spring-boot-2.15.0.jar
+SPDXID: SPDXRef-ddceb790-82a0-4ec6-956a-66c157751528
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-api-2.15.0-javadoc.jar
+SPDXID: SPDXRef-c45ecd07-732e-4631-a788-a1c77b8ee4ef
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-core-2.15.0.jar
+SPDXID: SPDXRef-48e729ba-d94d-4299-95b4-6298089c5425
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-core-2.15.0-sources.jar
+SPDXID: SPDXRef-dbc4896c-aabb-452a-82bd-3b82993eff13
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-core-2.15.0-javadoc.jar
+SPDXID: SPDXRef-2753d2eb-81cc-4779-af8d-0853dfc38fd2
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-core-2.15.0-tests.jar
+SPDXID: SPDXRef-e1a02f36-d7f8-4bf8-a4d9-47d656f0b597
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-iostreams-2.15.0.jar
+SPDXID: SPDXRef-9e5d855a-f6b8-4c58-b058-e799c091349c
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-flume-ng-2.15.0-javadoc.jar
+SPDXID: SPDXRef-9270875d-e4eb-45b1-9742-9ec0046f1885
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jmx-gui-2.15.0.jar
+SPDXID: SPDXRef-56f70a3d-2ca7-4c8e-9766-cecc59e3bbda
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jmx-gui-2.15.0-javadoc.jar
+SPDXID: SPDXRef-3a7c5e3c-1dbb-438f-be90-2f8b55894d7d
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-couchdb-2.15.0-sources.jar
+SPDXID: SPDXRef-01195d42-9d94-4cfd-980b-c0acaafc7d0f
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-mongodb4-2.15.0-javadoc.jar
+SPDXID: SPDXRef-60aa6aa0-638c-4398-a565-90967fd1e617
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jdbc-dbcp2-2.15.0-sources.jar
+SPDXID: SPDXRef-1693dbdd-5f7b-4aa6-9e9c-41c00a8917a6
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-liquibase-2.15.0.jar
+SPDXID: SPDXRef-f5b544a4-f370-44b5-b8fd-3ac9d57e5cd7
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-appserver-2.15.0-javadoc.jar
+SPDXID: SPDXRef-3b741a5c-e30f-48a4-a99d-0e5f1823d124
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-iostreams-2.15.0-sources.jar
+SPDXID: SPDXRef-d01dcbb7-f400-4858-bc62-ffd7ffd2edc5
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-1.2-api-2.15.0.jar
+SPDXID: SPDXRef-3b126cf8-ac80-40f9-b9bf-0d494432213f
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jdbc-dbcp2-2.15.0.jar
+SPDXID: SPDXRef-156d32fa-9457-41f0-b133-2b8b94eff759
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-liquibase-2.15.0-javadoc.jar
+SPDXID: SPDXRef-09765486-5637-4f9a-9434-95f1ec1ca4e2
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-spring-cloud-config-client-2.15.0-sources.jar
+SPDXID: SPDXRef-e008a8f5-7096-4ff1-9166-c5065225c95c
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-iostreams-2.15.0-javadoc.jar
+SPDXID: SPDXRef-a15e38fc-7134-4274-9eca-c306fd7690b7
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-couchdb-2.15.0.jar
+SPDXID: SPDXRef-612c6ddb-383b-482c-8254-5cdbc7319a3e
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-mongodb4-2.15.0-sources.jar
+SPDXID: SPDXRef-0051526d-e3de-4b65-a7b7-649f9a836c79
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-mongodb3-2.15.0-javadoc.jar
+SPDXID: SPDXRef-47a53f84-9518-47d3-a410-71bb8dd2869f
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-appserver-2.15.0-sources.jar
+SPDXID: SPDXRef-22170620-38ff-44a9-af9c-63f5791c7419
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-spring-boot-2.15.0-sources.jar
+SPDXID: SPDXRef-7355b474-7e7c-4242-a659-caa5f49f0ba7
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-spring-cloud-config-client-2.15.0.jar
+SPDXID: SPDXRef-c2eba877-2554-4cee-aa34-c2912183d5e8
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jcl-2.15.0.jar
+SPDXID: SPDXRef-c1a7001d-da79-43f4-adcb-a1957a08b9b7
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-flume-ng-2.15.0.jar
+SPDXID: SPDXRef-90f641d7-32b4-4224-8f9a-4cf55aaa6e35
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-slf4j-impl-2.15.0-javadoc.jar
+SPDXID: SPDXRef-d4d16f21-8e0c-495c-b55a-99120c2e3975
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-taglib-2.15.0-javadoc.jar
+SPDXID: SPDXRef-b61dd69b-6098-4083-977a-847b1c5257dd
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jdbc-dbcp2-2.15.0-javadoc.jar
+SPDXID: SPDXRef-51760007-666e-4f90-b4a0-abd4f00c4fd2
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jcl-2.15.0-sources.jar
+SPDXID: SPDXRef-ae276037-ae4a-44d3-ba43-13d065f01ff8
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-flume-ng-2.15.0-sources.jar
+SPDXID: SPDXRef-81938d32-5dd2-4707-bd2c-c96182789cb5
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-slf4j-impl-2.15.0-sources.jar
+SPDXID: SPDXRef-27f2d4ee-6912-4e5f-82e0-fe145241e6a2
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-slf4j18-impl-2.15.0-sources.jar
+SPDXID: SPDXRef-d3ec0c91-2ff3-4df7-b8b9-88104e3fa1d3
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-to-slf4j-2.15.0.jar
+SPDXID: SPDXRef-199acf43-8bc3-4d82-90f0-cc8a9351d8b9
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-to-slf4j-2.15.0-sources.jar
+SPDXID: SPDXRef-d4344b82-3faa-4fa1-ab7c-ce43c0cc6d09
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-to-slf4j-2.15.0-javadoc.jar
+SPDXID: SPDXRef-d54d1029-5fcd-4656-95ae-a75d4418d8bb
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-web-2.15.0-sources.jar
+SPDXID: SPDXRef-9abdc027-9ed7-4fc0-a1a5-73d4412c13b9
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-couchdb-2.15.0-javadoc.jar
+SPDXID: SPDXRef-69a991a5-a34c-437d-891b-5b1cd138f3a1
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-cassandra-2.15.0-javadoc.jar
+SPDXID: SPDXRef-c6afef85-1ea5-4dd6-bb1b-628f65ccebab
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-docker-2.15.0-javadoc.jar
+SPDXID: SPDXRef-88c8b13e-9ea9-42c1-a005-e549c568ba2a
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jcl-2.15.0-javadoc.jar
+SPDXID: SPDXRef-57258bf9-23d5-4029-aa5e-8e253bb9a4ef
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-slf4j-impl-2.15.0.jar
+SPDXID: SPDXRef-97038937-d1ca-4e6f-8e9a-61aab9228027
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-slf4j18-impl-2.15.0.jar
+SPDXID: SPDXRef-59921d43-b7f2-402f-abff-26ac7f46a209
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-slf4j18-impl-2.15.0-javadoc.jar
+SPDXID: SPDXRef-a877d2d2-e5dd-450b-93b8-8cad42748a53
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-taglib-2.15.0.jar
+SPDXID: SPDXRef-e6245f13-f11e-4f73-b8e1-d6ea1d36ddb8
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-web-2.15.0.jar
+SPDXID: SPDXRef-50d5f5dd-0785-4848-9926-d018f608fc7b
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-mongodb4-2.15.0.jar
+SPDXID: SPDXRef-527d2977-90f8-41b1-92c0-c752c6823b4c
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-mongodb3-2.15.0-sources.jar
+SPDXID: SPDXRef-0f80f892-743b-4c98-9b87-3d1122ce6d93
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-cassandra-2.15.0.jar
+SPDXID: SPDXRef-c02440b2-91b9-48bb-b85a-a6d1be295b63
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: log4j-jpa-2.15.0-javadoc.jar
+SPDXID: SPDXRef-520e2965-d5a7-4fbd-a4b3-c34cd0de3e31
+FileContributor: Apache Foundation
+FileType: BINARY
+FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
