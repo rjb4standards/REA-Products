@@ -1,3 +1,32 @@
+<h2> Intellectual Property Disclosure and Warranty </h2>
+<!-- 
+	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
+	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/  
+DISCLAIMER OF WARRANTIES
+TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
+WARRANTIES, GUARANTEES, AND CONDITIONS OF ANY KIND, ARISING BY LAW OR OTHERWISE, WITH REGARD TO THIS ARTIFACT, 
+INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES, GUARANTEES, AND CONDITIONS OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, AND QUALITY OF SERVICE.
+ 
+REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS, USEFULNESS, RELIABILITY, 
+AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE 
+RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
+	
+--> 
+<!-- 
+	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
+	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/  
+DISCLAIMER OF WARRANTIES
+TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
+WARRANTIES, GUARANTEES, AND CONDITIONS OF ANY KIND, ARISING BY LAW OR OTHERWISE, WITH REGARD TO THIS ARTIFACT, 
+INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES, GUARANTEES, AND CONDITIONS OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, AND QUALITY OF SERVICE.
+ 
+REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS, USEFULNESS, RELIABILITY, 
+AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE 
+RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
+	
+--> 
 <h2>C-SCRM Use Case Materials based on Amazon AWS Client Software</h2>
 <p>
   Ease of Implementation (EoI) is a critical success factor for software vendor and consumer adoption of C-SCRM software supply chain risk assessment practices as part of a comprensive, and effective risk management control capability to meet Executive Order 14028 requirements. We must stop ransomware from causing damages and disruptions to our economy, especially small and medium buinesses, which are frequent targets of these attacks. The Software Assurance Guardian (SAG) (TM) Point Man (SAG-PM) (TM) is designed, and priced, to help small and medium businesses (SMB) achieve best practice protections against harmful software, based on NIST SP 800-161 R2 standards and guidelines, documented in Appendix F, to meet Executive Order 14028 requirements. Frequently, SMB's lack the cybersecurity expertise and skills on staff that are often found in larger organizations. Software consumers need an easy to use (EOU) method to implement effective C-SCRM controls. SAG-PM achieves both EOI and EOU, making it very easy for software consumers to get started on Executive Order 14028 and C-SCRM best practices, found in NIST SP 800-161 R2. 
