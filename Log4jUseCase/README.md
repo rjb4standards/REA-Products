@@ -1,0 +1,1 @@
+These Apache Log4j SBOM files were created from a binary (zip file) distribution of Log4j version 2.15.0. FileChecksums at the SBOM component level should be ignored as they only represent the file hash for teh topmost component, the .zip file.
