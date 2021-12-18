@@ -83,7 +83,7 @@ FileType: BINARY
 FileChecksum: SHA1: AD4FC1C39512E5A131BCFE1CE951DC87F98E4352
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NOASSERTION
-FileCopyrightText: NOASSERTION
+FileCopyrightText: NOASSERTION 
 FileName: log4j-jpa-2.15.0.jar
 SPDXID: SPDXRef-db659d03-c77f-4a91-897b-1b72d90042f5
 FileContributor: Apache Foundation
