@@ -12,7 +12,7 @@ REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS,
 AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE 
 RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
 <h2>Apache Log4j SBOM Materials</h2>
-These Apache Log4j SBOM files were created from a binary (zip file) distribution of Log4j version 2.15.0. FileChecksums at the SBOM component level should be ignored as they only represent the file hash for teh topmost component, the .zip file.
+These Apache Log4j SBOM files were created from a binary (zip file) distribution of Log4j version 2.15.0. <b>FileChecksums at the SBOM component level should be ignored as they only represent the file hash for the primary component, appearing in the Package object</b>.
 <p>
 An SBOM representing the Apache Log4j 2.17.0 CORE classes are also provided as a separate SBOM in SPDX TV and JSON formats and a complete Vulnerability Disclosure Report, open-source format containing FixStatus and Vendor Analysis Findings as placeholder elements. 
 
