@@ -17,4 +17,4 @@ These Apache Log4j SBOM files were created from a binary (zip file) distribution
 An SBOM representing the Apache Log4j 2.17.0 CORE classes are also provided as a separate SBOM in SPDX TV and JSON formats and a complete Vulnerability Disclosure Report, open-source format containing FixStatus and Vendor Analysis Findings as placeholder elements. 
 
 <b>NOTE:
-The VDR clearly shows the need to have SBOM data aligned with NIST NVD data; the Log4j CVE 44228 is not associated with any of the SBOM components listed in the SBOM; this really needs to be addressed. Please promote the alignemnt of SBOM data with NIST NVD data in order to improve vulnerability search results on SBOM's. </b>
+The VDR clearly shows the need to have SBOM data aligned with NIST NVD data; the Log4j CVE 44228 is not associated with any of the SBOM components listed in the SBOM; this really needs to be addressed. Please promote the alignment of SBOM data with NIST NVD data in order to improve vulnerability search results on SBOM's. </b>
