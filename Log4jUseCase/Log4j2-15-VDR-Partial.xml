@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SAG:VulnerabilityDisclosure
+	xmlns:SAG="http://softwareassuranceguardian.com/1_1_4"
+	CVERespository="NIST_NVD" NISTNVDSearchStatus="Aborted"
+	PackageSourceLocation="NOASSERTION"
+	ProductName="apache-log4j-2.15.0-bin.zip" ProductVersion="2.15.0"
+	SBOMAuthor="dns:reliableenergyanalytics.com" SBOMFormat="spdx"
+	SBOMFormatSyntax="TV"
+	SBOMLocation="ReliableEnergyAnalytics\SAG_Output\2021-12-21_14_45_41_938545_ONLINE_1da77c0e-c23a-4d58-813c-e33aca327acb.spdx"
+	SBOMTimestamp="2021-12-21T14:45:53Z" SBOMTotalComponentCount="77"
+	SupplierName="Apache Foundation"
+	VulnDisclosureCreateDate="2021-12-21T14:45:58.406005+00:00"
+	xsi:schemaLocation="http://softwareassuranceguardian.com/1_1_4 SAGVulnDisclosure.xsd "
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=apache-log4j-2.15.0-bin.zip+2.15.0"
+		ComponentID="" ComponentName="apache-log4j-2.15.0-bin.zip"
+		ComponentSupplierName="Apache Foundation" ComponentVersion="2.15.0"
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=RELEASE-NOTES.md"
+		ComponentID="" ComponentName="RELEASE-NOTES.md"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="4">
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2021-22547</SAG:CVEID>
+			<SAG:CVSS>7.8</SAG:CVSS>
+			<SAG:CVEDescription>In IoT Devices SDK, there is an implementation of calloc() that doesn't have a length check. An attacker could pass in memory objects larger than the buffer and wrap around to have a smaller buffer than required, allowing the attacker access to the other parts of the heap. We recommend upgrading the Google Cloud IoT Device SDK for Embedded C used to 1.0.3 or greater.</SAG:CVEDescription>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings />
+		</SAG:CVE>
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2018-17145</SAG:CVEID>
+			<SAG:CVSS>7.5</SAG:CVSS>
+			<SAG:CVEDescription>Bitcoin Core 0.16.x before 0.16.2 and Bitcoin Knots 0.16.x before 0.16.2 allow remote denial of service via a flood of multiple transaction inv messages with random hashes, aka INVDoS. NOTE: this can also affect other cryptocurrencies, e.g., if they were forked from Bitcoin Core after 2017-11-15.</SAG:CVEDescription>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings />
+		</SAG:CVE>
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2018-17144</SAG:CVEID>
+			<SAG:CVSS>7.5</SAG:CVSS>
+			<SAG:CVEDescription>Bitcoin Core 0.14.x before 0.14.3, 0.15.x before 0.15.2, and 0.16.x before 0.16.3 and Bitcoin Knots 0.14.x through 0.16.x before 0.16.3 allow a remote denial of service (application crash) exploitable by miners via duplicate input. An attacker can make bitcoind or Bitcoin-Qt crash.</SAG:CVEDescription>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings />
+		</SAG:CVE>
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2016-8889</SAG:CVEID>
+			<SAG:CVSS>6.2</SAG:CVSS>
+			<SAG:CVEDescription>In Bitcoin Knots v0.11.0.ljr20150711 through v0.13.0.knots20160814 (fixed in v0.13.1.knots20161027), the debug console stores sensitive information including private keys and the wallet passphrase in its persistent command history.</SAG:CVEDescription>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings />
+		</SAG:CVE>
+	</SAG:Component>
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-jul-2.15.0.jar"
+		ComponentID="" ComponentName="log4j-jul-2.15.0.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-1.2-api-2.15.0-javadoc.jar"
+		ComponentID="" ComponentName="log4j-1.2-api-2.15.0-javadoc.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=NOTICE.txt"
+		ComponentID="" ComponentName="NOTICE.txt"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-jul-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-jul-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-1.2-api-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-1.2-api-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-mongodb3-2.15.0.jar"
+		ComponentID="" ComponentName="log4j-mongodb3-2.15.0.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-cassandra-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-cassandra-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-jpa-2.15.0.jar"
+		ComponentID="" ComponentName="log4j-jpa-2.15.0.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-docker-2.15.0.jar"
+		ComponentID="" ComponentName="log4j-docker-2.15.0.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-spring-boot-2.15.0-javadoc.jar"
+		ComponentID="" ComponentName="log4j-spring-boot-2.15.0-javadoc.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=LICENSE.txt"
+		ComponentID="" ComponentName="LICENSE.txt"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="1">
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2007-1874</SAG:CVEID>
+			<SAG:CVSS>7.2</SAG:CVSS>
+			<SAG:CVEDescription>Adobe ColdFusion MX 7 for Linux and Solaris uses insecure permissions for certain scripts and directories, which allows local users to execute arbitrary code or obtain sensitive information via the (1) CFMX7DreamWeaverExtensions.mxp, (2) CFReportBuilderInstaller.exe, (3) .com.zerog.registry.xml, (4) uninstall.lax, (5) license.txt, (6) Readme.htm, (7) .com.zerog.registry.xml, (8) k2adminstop, or (9) k2adminstart files; or (10) certain files in lib/wsconfig/.</SAG:CVEDescription>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings />
+		</SAG:CVE>
+	</SAG:Component>
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-jul-2.15.0-javadoc.jar"
+		ComponentID="" ComponentName="log4j-jul-2.15.0-javadoc.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-jmx-gui-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-jmx-gui-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-taglib-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-taglib-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-web-2.15.0-javadoc.jar"
+		ComponentID="" ComponentName="log4j-web-2.15.0-javadoc.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-liquibase-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-liquibase-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-docker-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-docker-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-api-2.15.0.jar"
+		ComponentID="" ComponentName="log4j-api-2.15.0.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-spring-cloud-config-client-2.15.0-javadoc.jar"
+		ComponentID=""
+		ComponentName="log4j-spring-cloud-config-client-2.15.0-javadoc.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-api-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-api-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-jpa-2.15.0-sources.jar"
+		ComponentID="" ComponentName="log4j-jpa-2.15.0-sources.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-appserver-2.15.0.jar"
+		ComponentID="" ComponentName="log4j-appserver-2.15.0.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+	<SAG:Component
+		CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=log4j-spring-boot-2.15.0.jar"
+		ComponentID="" ComponentName="log4j-spring-boot-2.15.0.jar"
+		ComponentSupplierName="Apache Foundation" ComponentVersion=""
+		NumberVulnsReported="0" />
+</SAG:VulnerabilityDisclosure>
