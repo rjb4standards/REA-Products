@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema elementFormDefault="qualified" targetNamespace="http://softwareassuranceguardian.com/1_1_4" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/1_1_4">
-	<element name="VulnerabilityDisclosure" type="SAG:VulnerabilityDisclosureType" ></element>
+	
 <!-- 
 	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
 	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/  
@@ -16,6 +16,8 @@ AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS
 RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
 	
 --> 
+     <element name="VulnerabilityDisclosure" type="SAG:VulnerabilityDisclosureType" ></element>
+	
      <complexType name="VulnerabilityDisclosureType">
     	<sequence minOccurs="1" maxOccurs="unbounded">
     		<element name="Component" type="SAG:ComponentType" minOccurs="1" maxOccurs="unbounded"></element>
