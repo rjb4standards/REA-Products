@@ -17,7 +17,7 @@ RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-
 	xmlns:SAG="http://softwareassuranceguardian.com/1_1_7"
 	CVERespository="NIST_NVD"
 	NISTNVDSearchStatus="Success"
-	UnresolvedVulnerabilities = "N"
+	UnresolvedVulnerabilities="N"
 	PackageSourceLocation="https://softwareassuranceguardian.com/sag-pm.zip"
 	ProductName="SAG-PM (TM)" ProductVersion="1.1.4"
 	SBOMAuthor="Reliable Energy Analytics LLC" SBOMFormat="cycloneDX"
