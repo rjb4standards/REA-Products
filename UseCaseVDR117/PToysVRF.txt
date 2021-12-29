@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAG:VendorResponse xmlns:SAG="http://softwareassuranceguardian.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://softwareassuranceguardian.com/ SAGVendorSchema.xsd ">
+  <SAG:VendorLegalName>Microsoft</SAG:VendorLegalName>
+  <SAG:SupplierID>dns:microsoft.com</SAG:SupplierID>
+  <SAG:StreetAddress>1 Letterman Dr</SAG:StreetAddress>
+  <SAG:City>San Franciscod</SAG:City>
+  <SAG:StateOrProvince>California</SAG:StateOrProvince>
+  <SAG:ZipCode>94129</SAG:ZipCode>
+  <SAG:Country>USA</SAG:Country>
+  <SAG:WebsiteURL>https://microsoft.com</SAG:WebsiteURL>
+  <SAG:ContactTelephone>978-696-1788</SAG:ContactTelephone>
+  <SAG:ContactEmail>kay@microsot.com</SAG:ContactEmail>
+  <SAG:ContactPerson>Kay Williams</SAG:ContactPerson>
+  <SAG:DUNSNumber>None</SAG:DUNSNumber>
+  <SAG:NAESBEIRID>None</SAG:NAESBEIRID>
+  <SAG:CyberSecPolicyURL>https://softwareassuranceguardian.com/CyberSecPolicy.html</SAG:CyberSecPolicyURL>
+  <SAG:FinancialDataURL>https://softwareassuranceguardian.com/FinancialData.html</SAG:FinancialDataURL>
+  <SAG:CompanyDataURL>https://softwareassuranceguardian.com/CompanyData.html</SAG:CompanyDataURL>
+  <SAG:Products>
+    <SAG:Product>
+      <SAG:LicensorName>Microsoft</SAG:LicensorName>
+      <SAG:ProductName>PowerToys (Preview)</SAG:ProductName>
+      <SAG:Version>0.15.2</SAG:Version>
+      <SAG:SBOM type="spdx" version="2.2" format="TV" DigitalSignatureURL="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/UseCaseVDR117/PToysSBOM.spdx</SAG:SBOM>
+      <SAG:SourceLocationURL>https://github.com/microsoft/PowerToys</SAG:SourceLocationURL>
+      <SAG:DigitallySigned>N</SAG:DigitallySigned>
+      <SAG:UnsolvedVulnerabilities>U</SAG:UnsolvedVulnerabilities>
+      <SAG:KnownVulnInfoURL DigitalSignatureURL="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/UseCaseVDR117/PToysVDR.xml</SAG:KnownVulnInfoURL>
+      <SAG:SDLCPolicyURL>https://softwareassuranceguardian.com/SDLCPolicySAG-PM_V113.html</SAG:SDLCPolicyURL>
+      <SAG:SDLCEvidenceDataURL>https://softwareassuranceguardian.com/SDLCEvidenceDataSAG-PM_V113.html</SAG:SDLCEvidenceDataURL>
+      <SAG:CommercialStatus>Available</SAG:CommercialStatus>
+      <SAG:SupportStatus>Supported</SAG:SupportStatus>
+      <SAG:LastModifiedDateTimeUTC>2021-12-29T18:00:00</SAG:LastModifiedDateTimeUTC>
+    </SAG:Product>
+  </SAG:Products>
+</SAG:VendorResponse>
