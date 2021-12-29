@@ -1,0 +1,318 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SAG-PM generated SBOM
+DocumentNamespace: dns:softwareassuranceguardian.com
+Creator: Organization: dns:reliableenergyanalytics.com
+Creator: Tool: SAG-PM Version: 1.1.7DEV
+Created: 2021-12-29T17:02:21Z
+PackageName: PowerToys (Preview)
+PackageVersion: 0.15.2
+SPDXID: SPDXRef-Package-43c51b08-cc7e-406d-8ad9-34aa292d1157
+PackageSupplier: Organization: Microsoft
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageVerificationCode: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseID: LicenseRef-Unlicense
+LicenseName: Unlicense
+FileName: PowerToys.exe
+SPDXID: SPDXRef-99545d55-933d-4e08-9eb5-9d826111cb79
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: PowerToysSettings.exe
+SPDXID: SPDXRef-5090ea12-e657-4c77-93d1-353c047aa2e9
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: Notifications.dll
+SPDXID: SPDXRef-9c8f1356-a948-4e1a-9e52-31b1c50d3dfc
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: License.rtf
+SPDXID: SPDXRef-00a4830d-a595-44c5-b06f-ac8e50928af8
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 0.svg
+SPDXID: SPDXRef-e94f7cf7-cb3a-442a-8ced-2a8d4bb1f3e3
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: shortcut_guide.dll
+SPDXID: SPDXRef-eaa82519-1eb5-4be9-bbcc-3c81ff356bbb
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: fancyzones.dll
+SPDXID: SPDXRef-e261792e-8daf-4c45-bdc7-ecaa17c0bbbc
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: PowerRenameExt.dll
+SPDXID: SPDXRef-bc682b8f-5aee-450c-8187-5829aa8e6b20
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: index.html
+SPDXID: SPDXRef-e95abcbd-428b-4b54-83af-cf8c7c0768dc
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: index-dark.html
+SPDXID: SPDXRef-37911ba5-f01c-428e-9673-12aecfaa725e
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: bundle.js
+SPDXID: SPDXRef-dd750f7e-247c-4e22-8408-71d710ce4f37
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 1.svg
+SPDXID: SPDXRef-01056281-df3e-4ac3-bcb9-8a0a386d1e46
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 2.svg
+SPDXID: SPDXRef-9a2bffe7-ad10-489d-93d3-522995c3a015
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 3.svg
+SPDXID: SPDXRef-d9ccc54b-288e-4e29-93a8-81e8cefe1b2c
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 4.svg
+SPDXID: SPDXRef-0fc0c9a5-01b9-4322-81c6-3b185c61322d
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 5.svg
+SPDXID: SPDXRef-ef16a7d9-0d7a-4d27-8c29-dd3e6795ab94
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 6.svg
+SPDXID: SPDXRef-2446def2-3f08-49e6-85b3-683d926a5050
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 7.svg
+SPDXID: SPDXRef-6f024460-c3f3-4558-b6c8-a02093f79e94
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 8.svg
+SPDXID: SPDXRef-ce15339c-49a8-456d-a78e-19343d6a6eba
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: 9.svg
+SPDXID: SPDXRef-6a208446-4957-4914-9f37-52b14530ee2c
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: no_active_window.svg
+SPDXID: SPDXRef-3834ad3e-7122-44ef-b832-4349c864dd63
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: overlay.svg
+SPDXID: SPDXRef-e8a68705-e05e-4250-8bb5-f33538e52784
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: overlay_portrait.svg
+SPDXID: SPDXRef-c8307042-d629-4734-b308-909168841654
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: FancyZonesEditor.exe
+SPDXID: SPDXRef-5919b4c1-7933-4aec-a100-83bace78e886
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: ControlzEx.dll
+SPDXID: SPDXRef-d193f3f6-a801-4db6-a530-8575767005f9
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: MahApps.Metro.dll
+SPDXID: SPDXRef-3140e525-2386-47bb-b09c-0177bc4794ce
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: Microsoft.Xaml.Behaviors.dll
+SPDXID: SPDXRef-5bc93d0f-bccf-41c6-b77f-548d5cfbdb0c
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: FancyZonesEditor.exe.config
+SPDXID: SPDXRef-df5f8b93-94fe-4daa-a7f8-5bdc03da00a8
+FileContributor: Microsoft
+FileType: OTHER
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: Microsoft.Bcl.AsyncInterfaces.dll
+SPDXID: SPDXRef-33146e2b-364a-45db-8b83-065df81cb4f9
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.Buffers.dll
+SPDXID: SPDXRef-1c150222-b207-4788-b8dd-400ef9630edf
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.Memory.dll
+SPDXID: SPDXRef-79ef9012-c936-4d6f-970b-ff7ef8c368e7
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.Numerics.Vectors.dll
+SPDXID: SPDXRef-11d36380-d1ec-4998-acfd-da7bcaed7427
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.Runtime.CompilerServices.Unsafe.dll
+SPDXID: SPDXRef-25adc157-25dd-4312-bf6e-a88d5e082b5b
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.Text.Encodings.Web.dll
+SPDXID: SPDXRef-6fa7bb04-e7f8-4afb-b6de-6659f7a2451b
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.Text.Json.dll
+SPDXID: SPDXRef-9b6773b0-369d-4565-82a3-67b5cbbfcc8c
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.Threading.Tasks.Extensions.dll
+SPDXID: SPDXRef-cf4fc100-bd1d-4766-a4fe-0f1de8a947d1
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: System.ValueTuple.dll
+SPDXID: SPDXRef-0edf00ef-b130-4b97-96be-7a05a39b03a7
+FileContributor: Microsoft
+FileType: BINARY
+FileChecksum: SHA1: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
