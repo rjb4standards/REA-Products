@@ -1,0 +1,2 @@
+Vendor_Name,Product_Name,Version,Source_Location_URL,SL_CN_Name,SL_CA_Name,Access_Control,NATF_Response_File_URL,X509SKID,PGPFingerprint,NATF_ResponseDigSigURL
+Microsfoft,PowerToys (Preview),0.15.2,https://github.com/microsoft/PowerToys,awscli.amazonaws.com,Amazon,None,https://raw.githubusercontent.com/rjb4standards/REA-Products/master/UseCaseVDR117/PToysVRF.txt,,,
