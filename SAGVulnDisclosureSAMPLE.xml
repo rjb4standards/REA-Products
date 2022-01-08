@@ -13,7 +13,7 @@ AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS
 RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
 	
 --> 
-<SAG:VulnerabilityDisclosure
+<SAG:SBOMVulnerabilityDisclosure
 	xmlns:SAG="http://softwareassuranceguardian.com/1_1_7"
 	CVERespository="NIST_NVD"
 	NISTNVDSearchStatus="Success"
@@ -75,4 +75,4 @@ RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-
 			<SAG:AnalysisFindings>This vulnerability is exploited when Elliptic curve certificates are used. SAG-PM does not perform any elliptic curve certificate functions from this component and is most likely not vulnerable to this CVE</SAG:AnalysisFindings>
 		</SAG:CVE>
 	</SAG:Component>
-</SAG:VulnerabilityDisclosure>
+</SAG:SBOMVulnerabilityDisclosure>
