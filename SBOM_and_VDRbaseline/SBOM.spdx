@@ -1,0 +1,334 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SAG-PM generated SBOM
+DocumentNamespace: dns:softwareassuranceguardian.com
+Creator: Organization: dns:reliableenergyanalytics.com
+Creator: Tool: SAG-PM Version: 1.1.7DEV
+Created: 2022-01-09T19:05:45Z
+PackageName: Suricata IDS/IPS 4.1.4-1-64bit
+PackageVersion: 4.1.4
+SPDXID: SPDXRef-Package-481d55fc-2ea2-4a1a-80df-5698ba885c71
+PackageSupplier: Organization: Open Information Security Foundation
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageVerificationCode: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseID: LicenseRef-Unlicense
+LicenseName: Unlicense
+FileName: suricata.exe
+SPDXID: SPDXRef-0133ceac-7ac4-45ea-b6cc-62dc16821a65
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: liblzma-5.dll
+SPDXID: SPDXRef-b71e572e-adbc-479b-9a9f-75b5888337cd
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: msvcrt.dll
+SPDXID: SPDXRef-a4fcd0cb-c84d-49f5-abe1-3255054422ed
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libpcre-1.dll
+SPDXID: SPDXRef-01aa25a0-8419-481d-b363-39507754a92c
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: zlib1.dll
+SPDXID: SPDXRef-a1de8f10-8bae-4d54-a62b-22fb935fa7a1
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libwinpthread-1.dll
+SPDXID: SPDXRef-68a9368a-05d7-4d40-b795-e1868cf5f0cb
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: liblz4.dll
+SPDXID: SPDXRef-8491dc1c-2a8e-4a56-bb69-5dc8a5bb5df7
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: WinDivert64.sys
+SPDXID: SPDXRef-adbdf934-0eef-47a6-a8b0-a24a4dfa9711
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: WinDivert.dll
+SPDXID: SPDXRef-2cc70149-0f07-4e60-941a-085de8ece1be
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libGeoIP-1.dll
+SPDXID: SPDXRef-cadc2b37-43e1-46a5-85df-f184533a39f9
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: lua53.dll
+SPDXID: SPDXRef-a53286f9-0ae2-4665-a77d-9b5d094a4368
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libnspr4.dll
+SPDXID: SPDXRef-41bb23ab-2f1e-41aa-af9f-d9dfab02a76a
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: nss3.dll
+SPDXID: SPDXRef-818c0255-bae0-459c-8782-70e3a4106b1c
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: nssutil3.dll
+SPDXID: SPDXRef-033399b5-5dc5-45a4-9e3f-55f88590cb22
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libplc4.dll
+SPDXID: SPDXRef-eee4dd57-97fb-448b-b46b-29c1f5cec6a9
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libyaml-0-2.dll
+SPDXID: SPDXRef-8320e711-8b99-4384-b471-1db65ca609e3
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libplds4.dll
+SPDXID: SPDXRef-6d4074c8-9d94-41cd-95b1-54ea19aea5d9
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: libjansson-4.dll
+SPDXID: SPDXRef-22b74b9c-b253-4499-8faa-4fc84c1887df
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: classification.config
+SPDXID: SPDXRef-a160fda9-5c51-4670-bd10-3a69d5c5db94
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: reference.config
+SPDXID: SPDXRef-453545ec-70a4-4c51-9bda-cc85c45d7c1c
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: suricata.yaml
+SPDXID: SPDXRef-ee5feda6-9417-4b5d-8dc1-de0489fdaacb
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: batch.bat
+SPDXID: SPDXRef-93612df9-c1dd-4772-ae13-66a6ad16679d
+FileContributor: Open Information Security Foundation
+FileType: BINARY
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: LICENSE
+SPDXID: SPDXRef-b6fb6e04-09a3-4378-8a1a-44dc69592f9b
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: magic.mgc
+SPDXID: SPDXRef-589cb955-608a-49bb-b232-4af9c3605312
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: HOW_TO_Windows.pdf
+SPDXID: SPDXRef-6cd07534-b9f9-4ad2-adfa-1318625761bb
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: decoder-events.rules
+SPDXID: SPDXRef-e5932b63-e7c2-4fa3-96de-1b3753e3d152
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: modbus-events.rules
+SPDXID: SPDXRef-15478826-2b2c-480f-b909-25e29f6447fa
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: app-layer-events.rules
+SPDXID: SPDXRef-ab380d74-7133-4b7d-8805-bd74703b59a1
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: files.rules
+SPDXID: SPDXRef-68200b48-6732-4ed2-bb21-b0aba42aa1e7
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: http-events.rules
+SPDXID: SPDXRef-92fe0533-046b-4014-9324-0886beb84e40
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: smtp-events.rules
+SPDXID: SPDXRef-f056022d-9ec6-4b06-bb8f-e1f07211f0b7
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: stream-events.rules
+SPDXID: SPDXRef-a632f7b3-99fc-422e-a4bd-d87cda61836b
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: tls-events.rules
+SPDXID: SPDXRef-ab3f7201-b476-4fbf-b66b-8d1147b722f0
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: dns-events.rules
+SPDXID: SPDXRef-61b2fe07-e261-4544-a512-cf64e14e3949
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: dnp3-events.rules
+SPDXID: SPDXRef-5d4a28ad-dc8e-4b56-b995-5e7f70cb1089
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: ntp-events.rules
+SPDXID: SPDXRef-ab4438be-72ac-424d-bee2-08267b504260
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: ipsec-events.rules
+SPDXID: SPDXRef-2ade8e0b-ce08-4ca9-967f-f42c524e1fbb
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: kerberos-events.rules
+SPDXID: SPDXRef-4e45d7ea-5cb7-44ce-9190-065751938141
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileName: nfs-events.rules
+SPDXID: SPDXRef-72e50cb2-e610-4512-a1f3-74757f1da845
+FileContributor: Open Information Security Foundation
+FileType: OTHER
+FileChecksum: SHA1: 57D2B891BD1EF09237FB35D7316BD49C552EE960
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
