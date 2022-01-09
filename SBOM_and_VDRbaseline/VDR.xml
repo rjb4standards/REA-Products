@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SAG:SBOMVulnerabilityDisclosure xmlns:SAG="http://softwareassuranceguardian.com/1_1_7"
+                                 CVERespository="NIST_NVD"
+                                 NISTNVDSearchStatus="Success"
+                                 UnresolvedVulnerabilities="U"
+                                 PackageSourceLocation="NOASSERTION"
+                                 ProductName="Suricata IDS/IPS 4.1.4-1-64bit"
+                                 ProductVersion="4.1.4"
+                                 SBOMAuthor="dns:reliableenergyanalytics.com"
+                                 SBOMFormat="spdx"
+                                 SBOMFormatSyntax="TV"
+                                 SBOMLocation="\users\dick\ReliableEnergyAnalytics\SAG_Output\2022-01-09_19_05_45_185930_ONLINE_4f87fb1b-d2a4-4c3b-bf9c-7fa9b4272801.spdx"
+                                 SBOMTimestamp="2022-01-09T19:05:45Z"
+                                 SBOMTotalComponentCount="40"
+                                 SupplierName="Open Information Security Foundation"
+                                 VulnDisclosureCreateDate="2022-01-09T19:05:56.354961+00:00"
+                                 xsi:schemaLocation="http://softwareassuranceguardian.com/1_1_7 SAGVulnDisclosure.xsd "
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=Suricata+IDS/IPS+4.1.4-1-64bit+4.1.4"
+	               ComponentID=""
+	               ComponentName="Suricata IDS/IPS 4.1.4-1-64bit"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion="4.1.4"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=suricata.exe"
+	               ComponentID=""
+	               ComponentName="suricata.exe"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=liblzma-5.dll"
+	               ComponentID=""
+	               ComponentName="liblzma-5.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=msvcrt.dll"
+	               ComponentID=""
+	               ComponentName="msvcrt.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="1">
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2012-0150</SAG:CVEID>
+			<SAG:CVSS>9.3</SAG:CVSS>
+			<SAG:CVEDescription>Buffer overflow in msvcrt.dll in Microsoft Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 allows remote attackers to execute arbitrary code via a crafted media file, aka "Msvcrt.dll Buffer Overflow Vulnerability."</SAG:CVEDescription>
+			<SAG:Exploitable>U</SAG:Exploitable>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings>TBD</SAG:AnalysisFindings>
+		</SAG:CVE>
+	</SAG:Component>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libpcre-1.dll"
+	               ComponentID=""
+	               ComponentName="libpcre-1.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=zlib1.dll"
+	               ComponentID=""
+	               ComponentName="zlib1.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="2">
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2021-26807</SAG:CVEID>
+			<SAG:CVSS>7.8</SAG:CVSS>
+			<SAG:CVEDescription>GalaxyClient version 2.0.28.9 loads unsigned DLLs such as zlib1.dll, libgcc_s_dw2-1.dll and libwinpthread-1.dll from PATH, which allows an attacker to potentially run code locally through unsigned DLL loading.</SAG:CVEDescription>
+			<SAG:Exploitable>U</SAG:Exploitable>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings>TBD</SAG:AnalysisFindings>
+		</SAG:CVE>
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2020-11081</SAG:CVEID>
+			<SAG:CVSS>8.2</SAG:CVSS>
+			<SAG:CVEDescription>osquery before version 4.4.0 enables a privilege escalation vulnerability. If a Window system is configured with a PATH that contains a user-writable directory then a local user may write a zlib1.dll DLL, which osquery will attempt to load. Since osquery runs with elevated privileges this enables local escalation. This is fixed in version 4.4.0.</SAG:CVEDescription>
+			<SAG:Exploitable>U</SAG:Exploitable>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings>TBD</SAG:AnalysisFindings>
+		</SAG:CVE>
+	</SAG:Component>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libwinpthread-1.dll"
+	               ComponentID=""
+	               ComponentName="libwinpthread-1.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="1">
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2021-26807</SAG:CVEID>
+			<SAG:CVSS>7.8</SAG:CVSS>
+			<SAG:CVEDescription>GalaxyClient version 2.0.28.9 loads unsigned DLLs such as zlib1.dll, libgcc_s_dw2-1.dll and libwinpthread-1.dll from PATH, which allows an attacker to potentially run code locally through unsigned DLL loading.</SAG:CVEDescription>
+			<SAG:Exploitable>U</SAG:Exploitable>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings>TBD</SAG:AnalysisFindings>
+		</SAG:CVE>
+	</SAG:Component>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=liblz4.dll"
+	               ComponentID=""
+	               ComponentName="liblz4.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=WinDivert64.sys"
+	               ComponentID=""
+	               ComponentName="WinDivert64.sys"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=WinDivert.dll"
+	               ComponentID=""
+	               ComponentName="WinDivert.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libGeoIP-1.dll"
+	               ComponentID=""
+	               ComponentName="libGeoIP-1.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=lua53.dll"
+	               ComponentID=""
+	               ComponentName="lua53.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libnspr4.dll"
+	               ComponentID=""
+	               ComponentName="libnspr4.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=nss3.dll"
+	               ComponentID=""
+	               ComponentName="nss3.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=nssutil3.dll"
+	               ComponentID=""
+	               ComponentName="nssutil3.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libplc4.dll"
+	               ComponentID=""
+	               ComponentName="libplc4.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libyaml-0-2.dll"
+	               ComponentID=""
+	               ComponentName="libyaml-0-2.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libplds4.dll"
+	               ComponentID=""
+	               ComponentName="libplds4.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libjansson-4.dll"
+	               ComponentID=""
+	               ComponentName="libjansson-4.dll"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=classification.config"
+	               ComponentID=""
+	               ComponentName="classification.config"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=reference.config"
+	               ComponentID=""
+	               ComponentName="reference.config"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=suricata.yaml"
+	               ComponentID=""
+	               ComponentName="suricata.yaml"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=batch.bat"
+	               ComponentID=""
+	               ComponentName="batch.bat"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=LICENSE"
+	               ComponentID=""
+	               ComponentName="LICENSE"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="273">
+		<SAG:CVE>
+			<SAG:CVEID>LICENSE : NumberVulnsReported exceeds CVEMax Number: 5; too many to list</SAG:CVEID>
+			<SAG:CVSS>N/A</SAG:CVSS>
+			<SAG:CVEDescription>N/A</SAG:CVEDescription>
+			<SAG:Exploitable>U</SAG:Exploitable>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings>TBD</SAG:AnalysisFindings>
+		</SAG:CVE>
+	</SAG:Component>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=magic.mgc"
+	               ComponentID=""
+	               ComponentName="magic.mgc"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=HOW_TO_Windows.pdf"
+	               ComponentID=""
+	               ComponentName="HOW_TO_Windows.pdf"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=decoder-events.rules"
+	               ComponentID=""
+	               ComponentName="decoder-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=modbus-events.rules"
+	               ComponentID=""
+	               ComponentName="modbus-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=app-layer-events.rules"
+	               ComponentID=""
+	               ComponentName="app-layer-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=files.rules"
+	               ComponentID=""
+	               ComponentName="files.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=http-events.rules"
+	               ComponentID=""
+	               ComponentName="http-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=smtp-events.rules"
+	               ComponentID=""
+	               ComponentName="smtp-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=stream-events.rules"
+	               ComponentID=""
+	               ComponentName="stream-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=tls-events.rules"
+	               ComponentID=""
+	               ComponentName="tls-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=dns-events.rules"
+	               ComponentID=""
+	               ComponentName="dns-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=dnp3-events.rules"
+	               ComponentID=""
+	               ComponentName="dnp3-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=ntp-events.rules"
+	               ComponentID=""
+	               ComponentName="ntp-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=ipsec-events.rules"
+	               ComponentID=""
+	               ComponentName="ipsec-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=kerberos-events.rules"
+	               ComponentID=""
+	               ComponentName="kerberos-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=nfs-events.rules"
+	               ComponentID=""
+	               ComponentName="nfs-events.rules"
+	               ComponentSupplierName="Open Information Security Foundation"
+	               ComponentVersion=""
+	               NumberVulnsReported="0"/>
+</SAG:SBOMVulnerabilityDisclosure>
