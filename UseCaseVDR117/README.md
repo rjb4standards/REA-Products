@@ -1,4 +1,4 @@
-This NIST C-SCRM + NTIA SBOM risk assessment use case for Executive Order 14028 implementations demonstrates use of the <a href="https://spdx.github.io/spdx-spec/">SPDX SBOM format</a> along with <a href="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAGVulnDisclosure.xsd">the open source SBOM Vulnerability Disclosure Report (VDR) with enhancements included in version 1.1.7</a>, including:
+This NIST C-SCRM + NTIA SBOM risk assessment use case for Executive Order 14028 implementations demonstrates use of the <a href="https://spdx.github.io/spdx-spec/">SPDX SBOM format</a> along with <a href="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAGVulnDisclosure.xsd">the open source, free to use, SBOM Vulnerability Disclosure Report (VDR) with enhancements included in version 1.1.7</a>, including:
 
 - Use of UnresolvedVulnerabilities flag to expedite risk assessment when a vendor indicates that a product SBOM contains components with known vulnerabilities
 - Use of the Exploitable Flag to indicate that a particular CVE is exploitable, for a specific SBOM component
