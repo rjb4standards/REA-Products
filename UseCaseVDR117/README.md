@@ -12,7 +12,7 @@ The Vendor Resposne File (VRF) is provided by a software vendor to a software cu
   <li> Company Financial data, e.g., information that would typically be filed with the SEC </li>
   <li> Company Cybersecurity Policies and Practices </li>
   <li> SDLC practices and policies followed when developing a software product </li>
-  <li> SDLC evidence data showing that SDLC practices and policies were followed, e.g., in-toto or SLSA data </li>
+  <li> SDLC evidence data showing that SDLC practices and policies were followed during product development, distribution and maintenance, e.g., in-toto or SLSA data </li>
   <li> SBOM file </li>
   <li> Vulnerability Disclosure Report (VDR); published with SBOM and updated whenever a new vulnerability is reported</li>
   <li> Digital signature files for many of the above items, i.e. SBOM, VDR, etc. </li>
