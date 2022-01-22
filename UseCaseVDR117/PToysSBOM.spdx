@@ -10,7 +10,7 @@ PackageName: PowerToys (Preview)
 PackageVersion: 0.15.2
 SPDXID: SPDXRef-Package-43c51b08-cc7e-406d-8ad9-34aa292d1157
 PackageSupplier: Organization: Microsoft
-PackageDownloadLocation: NOASSERTION
+PackageDownloadLocation: https://github.com/microsoft/PowerToys
 FilesAnalyzed: true
 PackageLicenseInfoFromFiles: NOASSERTION
 PackageVerificationCode: 23460C5559C8D4DE3F6504E0E84E844CAC8B1D95
