@@ -33,12 +33,12 @@ REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS,
       <SAG:SourceLocationURL>https://softwareassuranceguardian.com/REDACTED/REDACTED/</SAG:SourceLocationURL>
       <SAG:DigitallySigned>Y</SAG:DigitallySigned>
       <SAG:UnsolvedVulnerabilities>N</SAG:UnsolvedVulnerabilities>
-      <SAG:KnownVulnInfoURL DocFormat="Word" DigitalSignatureURL="https://softwareassuranceguardian.com/comingsoon.html">https://github.com/rjb4standards/REA-Products/raw/master/KnownVulnDisclosure.docx</SAG:KnownVulnInfoURL>
+      <SAG:KnownVulnInfoURL DocFormat="XML" DigitalSignatureURL="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAGVulnDisclosureSAMPLE.xml</SAG:KnownVulnInfoURL>
       <SAG:SDLCPolicyURL>https://softwareassuranceguardian.com/REDACTED</SAG:SDLCPolicyURL>
       <SAG:SDLCEvidenceDataURL>https://softwareassuranceguardian.com/REDACTED</SAG:SDLCEvidenceDataURL>
       <SAG:CommercialStatus>Available</SAG:CommercialStatus>
       <SAG:SupportStatus>Supported</SAG:SupportStatus>
-      <SAG:LastModifiedDateTimeUTC>2021-09-28T17:34:00</SAG:LastModifiedDateTimeUTC>
+      <SAG:LastModifiedDateTimeUTC>2022-01-26T14:38:00</SAG:LastModifiedDateTimeUTC>
     </SAG:Product>
   </SAG:Products> 
 </SAG:VendorResponse>
