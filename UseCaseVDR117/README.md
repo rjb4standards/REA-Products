@@ -5,7 +5,7 @@ This NIST C-SCRM + NTIA SBOM risk assessment use case for Executive Order 14028 
 
 These elements enable a software consumer to perform a more efficient, rapid risk assessment when new vulnerabilities are reported
 
-The open source, free to use,  <a href="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAGVendorSchema.xsd">Vendor Response File (VRF)</a> is provided by a software vendor to a software customer. The VRF serves as an index to other material that is needed to perfrom a risk assessment following NIST SP 800-161 Appendix F for Executive Order 14028. The list of links to evidence data identified in the VRF includes:
+The open source, free to use,  <a href="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAGVendorSchema.xsd">Vendor Response File (VRF)</a> is provided by a software vendor to a software customer. The VRF serves as an index to other material that is needed to perfrom a risk assessment following NIST SP 800-161 Appendix F for Executive Order 14028 and the recently released <a href="https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity/software-supply-chain-security-guidance">Software Supply Chain Security Guidance Under Executive Order (EO) 14028 Section 4e</a>. The list of links to evidence data identified in the VRF includes:
 <ul>
   <li> Software Supplier identification information </li>
   <li> Company data, e.g., organizational information and other information typically found in a legal filing, i.e. SEC </li>
