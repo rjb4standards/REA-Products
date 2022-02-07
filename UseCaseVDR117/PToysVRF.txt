@@ -25,7 +25,7 @@
       <SAG:SourceLocationURL>https://github.com/microsoft/PowerToys</SAG:SourceLocationURL>
       <SAG:DigitallySigned>N</SAG:DigitallySigned>
       <SAG:UnsolvedVulnerabilities>U</SAG:UnsolvedVulnerabilities>
-      <SAG:KnownVulnInfoURL DigitalSignatureURL="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/UseCaseVDR117/PToysVDR.xml</SAG:KnownVulnInfoURL>
+      <SAG:KnownVulnInfoURL DocFormat="XML" DigitalSignatureURL="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/UseCaseVDR117/PToysVDR.xml</SAG:KnownVulnInfoURL>
       <SAG:SDLCPolicyURL>https://softwareassuranceguardian.com/SDLCPolicySAG-PM_V113.html</SAG:SDLCPolicyURL>
       <SAG:SDLCEvidenceDataURL>https://softwareassuranceguardian.com/SDLCEvidenceDataSAG-PM_V113.html</SAG:SDLCEvidenceDataURL>
       <SAG:CommercialStatus>Available</SAG:CommercialStatus>
