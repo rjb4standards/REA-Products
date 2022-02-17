@@ -82,12 +82,6 @@
             <affects>
                 <target>
                     <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
                 </target>
             </affects>
         </vulnerability>
@@ -164,12 +158,234 @@
             <affects>
                 <target>
                     <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2020-36242</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
+            </source>
+            <ratings>
+                <rating>
+                    <source>
+                        <name>NVD</name>
+                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H&amp;version=3.1</url>
+                    </source>
+                    <score>9.1</score>
+                    <severity>critical</severity>
+                    <method>CVSSv31</method>
+                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H</vector>
+                </rating>
+                <rating>
+                    <source>
+                        <name>Reliable Energy Analytics</name>
+                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&amp;version=3.1</url>
+                    </source>
+                    <score>0.0</score>
+                    <severity>none</severity>
+                    <method>CVSSv31</method>
+                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N</vector>
+                </rating>
+            </ratings>
+            <cwes>
+                <cwe>190</cwe>
+                <cwe>787</cwe>
+            </cwes>
+            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
+            <advisories>
+                <advisory>
+                    <title>Release notes</title>
+                    <url>https://github.com/pyca/cryptography/blob/master/CHANGELOG.rst</url>
+                </advisory>
+                <advisory>
+                    <title>Patch</title>
+                    <url>https://github.com/pyca/cryptography/compare/3.3.1...3.3.2</url>
+                </advisory>
+                <advisory>
+                    <title>GitHub Issue</title>
+                    <url>https://github.com/pyca/cryptography/issues/5615</url>
+                </advisory>
+                <advisory>
+                    <title>Mailing list</title>
+                    <url>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E/</url>
+                </advisory>
+            </advisories>
+            <created>2021-02-07T00:00:00.000Z</created>
+            <published>2021-02-07T00:00:00.000Z</published>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <credits>
+                <individuals>
+                    <individual>
+                        <name>Anders Wenhaug</name>
+                    </individual>
+                </individuals>
+            </credits>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                    <response>update</response>
+                </responses>
+                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
+            </analysis>
+            <affects>
+                <target>
+                	<ref>sag-pm</ref>
+		</target>
+            </affects>
+        </vulnerability>
+        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2020-36242</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
+            </source>
+            <ratings>
+                <rating>
+                    <source>
+                        <name>NVD</name>
+                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H&amp;version=3.1</url>
+                    </source>
+                    <score>9.1</score>
+                    <severity>critical</severity>
+                    <method>CVSSv31</method>
+                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H</vector>
+                </rating>
+                <rating>
+                    <source>
+                        <name>Reliable Energy Analytics</name>
+                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&amp;version=3.1</url>
+                    </source>
+                    <score>0.0</score>
+                    <severity>none</severity>
+                    <method>CVSSv31</method>
+                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N</vector>
+                </rating>
+            </ratings>
+            <cwes>
+                <cwe>190</cwe>
+                <cwe>787</cwe>
+            </cwes>
+            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
+            <advisories>
+                <advisory>
+                    <title>Release notes</title>
+                    <url>https://github.com/pyca/cryptography/blob/master/CHANGELOG.rst</url>
+                </advisory>
+                <advisory>
+                    <title>Patch</title>
+                    <url>https://github.com/pyca/cryptography/compare/3.3.1...3.3.2</url>
+                </advisory>
+                <advisory>
+                    <title>GitHub Issue</title>
+                    <url>https://github.com/pyca/cryptography/issues/5615</url>
+                </advisory>
+                <advisory>
+                    <title>Mailing list</title>
+                    <url>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E/</url>
+                </advisory>
+            </advisories>
+            <created>2021-02-07T00:00:00.000Z</created>
+            <published>2021-02-07T00:00:00.000Z</published>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <credits>
+                <individuals>
+                    <individual>
+                        <name>Anders Wenhaug</name>
+                    </individual>
+                </individuals>
+            </credits>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                    <response>update</response>
+                </responses>
+                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>sag-pm</ref>
+                  </target>
+            </affects>
+        </vulnerability>
+        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2020-36242</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
+            </source>
+            <ratings>
+                <rating>
+                    <source>
+                        <name>NVD</name>
+                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H&amp;version=3.1</url>
+                    </source>
+                    <score>9.1</score>
+                    <severity>critical</severity>
+                    <method>CVSSv31</method>
+                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H</vector>
+                </rating>
+                <rating>
+                    <source>
+                        <name>Reliable Energy Analytics</name>
+                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&amp;version=3.1</url>
+                    </source>
+                    <score>0.0</score>
+                    <severity>none</severity>
+                    <method>CVSSv31</method>
+                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N</vector>
+                </rating>
+            </ratings>
+            <cwes>
+                <cwe>190</cwe>
+                <cwe>787</cwe>
+            </cwes>
+            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
+            <advisories>
+                <advisory>
+                    <title>Release notes</title>
+                    <url>https://github.com/pyca/cryptography/blob/master/CHANGELOG.rst</url>
+                </advisory>
+                <advisory>
+                    <title>Patch</title>
+                    <url>https://github.com/pyca/cryptography/compare/3.3.1...3.3.2</url>
+                </advisory>
+                <advisory>
+                    <title>GitHub Issue</title>
+                    <url>https://github.com/pyca/cryptography/issues/5615</url>
+                </advisory>
+                <advisory>
+                    <title>Mailing list</title>
+                    <url>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E/</url>
+                </advisory>
+            </advisories>
+            <created>2021-02-07T00:00:00.000Z</created>
+            <published>2021-02-07T00:00:00.000Z</published>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <credits>
+                <individuals>
+                    <individual>
+                        <name>Anders Wenhaug</name>
+                    </individual>
+                </individuals>
+            </credits>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                    <response>update</response>
+                </responses>
+                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>sag-pm</ref>
                 </target>
             </affects>
         </vulnerability>
@@ -246,12 +462,6 @@
             <affects>
                 <target>
                     <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
                 </target>
             </affects>
         </vulnerability>
@@ -328,12 +538,6 @@
             <affects>
                 <target>
                     <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
                 </target>
             </affects>
         </vulnerability>
@@ -410,258 +614,6 @@
             <affects>
                 <target>
                     <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
-                </target>
-            </affects>
-        </vulnerability>
-        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
-            <id>CVE-2020-36242</id>
-            <source>
-                <name>NVD</name>
-                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
-            </source>
-            <ratings>
-                <rating>
-                    <source>
-                        <name>NVD</name>
-                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H&amp;version=3.1</url>
-                    </source>
-                    <score>9.1</score>
-                    <severity>critical</severity>
-                    <method>CVSSv31</method>
-                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H</vector>
-                </rating>
-                <rating>
-                    <source>
-                        <name>Reliable Energy Analytics</name>
-                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&amp;version=3.1</url>
-                    </source>
-                    <score>0.0</score>
-                    <severity>none</severity>
-                    <method>CVSSv31</method>
-                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N</vector>
-                </rating>
-            </ratings>
-            <cwes>
-                <cwe>190</cwe>
-                <cwe>787</cwe>
-            </cwes>
-            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
-            <advisories>
-                <advisory>
-                    <title>Release notes</title>
-                    <url>https://github.com/pyca/cryptography/blob/master/CHANGELOG.rst</url>
-                </advisory>
-                <advisory>
-                    <title>Patch</title>
-                    <url>https://github.com/pyca/cryptography/compare/3.3.1...3.3.2</url>
-                </advisory>
-                <advisory>
-                    <title>GitHub Issue</title>
-                    <url>https://github.com/pyca/cryptography/issues/5615</url>
-                </advisory>
-                <advisory>
-                    <title>Mailing list</title>
-                    <url>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E/</url>
-                </advisory>
-            </advisories>
-            <created>2021-02-07T00:00:00.000Z</created>
-            <published>2021-02-07T00:00:00.000Z</published>
-            <updated>2021-07-21T00:00:00.000Z</updated>
-            <credits>
-                <individuals>
-                    <individual>
-                        <name>Anders Wenhaug</name>
-                    </individual>
-                </individuals>
-            </credits>
-            <analysis>
-                <state>not_affected</state>
-                <justification>code_not_reachable</justification>
-                <responses>
-                    <response>will_not_fix</response>
-                    <response>update</response>
-                </responses>
-                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
-            </analysis>
-            <affects>
-                <target>
-                    <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
-                </target>
-            </affects>
-        </vulnerability>
-        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
-            <id>CVE-2020-36242</id>
-            <source>
-                <name>NVD</name>
-                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
-            </source>
-            <ratings>
-                <rating>
-                    <source>
-                        <name>NVD</name>
-                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H&amp;version=3.1</url>
-                    </source>
-                    <score>9.1</score>
-                    <severity>critical</severity>
-                    <method>CVSSv31</method>
-                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H</vector>
-                </rating>
-                <rating>
-                    <source>
-                        <name>Reliable Energy Analytics</name>
-                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&amp;version=3.1</url>
-                    </source>
-                    <score>0.0</score>
-                    <severity>none</severity>
-                    <method>CVSSv31</method>
-                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N</vector>
-                </rating>
-            </ratings>
-            <cwes>
-                <cwe>190</cwe>
-                <cwe>787</cwe>
-            </cwes>
-            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
-            <advisories>
-                <advisory>
-                    <title>Release notes</title>
-                    <url>https://github.com/pyca/cryptography/blob/master/CHANGELOG.rst</url>
-                </advisory>
-                <advisory>
-                    <title>Patch</title>
-                    <url>https://github.com/pyca/cryptography/compare/3.3.1...3.3.2</url>
-                </advisory>
-                <advisory>
-                    <title>GitHub Issue</title>
-                    <url>https://github.com/pyca/cryptography/issues/5615</url>
-                </advisory>
-                <advisory>
-                    <title>Mailing list</title>
-                    <url>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E/</url>
-                </advisory>
-            </advisories>
-            <created>2021-02-07T00:00:00.000Z</created>
-            <published>2021-02-07T00:00:00.000Z</published>
-            <updated>2021-07-21T00:00:00.000Z</updated>
-            <credits>
-                <individuals>
-                    <individual>
-                        <name>Anders Wenhaug</name>
-                    </individual>
-                </individuals>
-            </credits>
-            <analysis>
-                <state>not_affected</state>
-                <justification>code_not_reachable</justification>
-                <responses>
-                    <response>will_not_fix</response>
-                    <response>update</response>
-                </responses>
-                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
-            </analysis>
-            <affects>
-                <target>
-                    <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
-                </target>
-            </affects>
-        </vulnerability>
-        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
-            <id>CVE-2020-36242</id>
-            <source>
-                <name>NVD</name>
-                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
-            </source>
-            <ratings>
-                <rating>
-                    <source>
-                        <name>NVD</name>
-                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H&amp;version=3.1</url>
-                    </source>
-                    <score>9.1</score>
-                    <severity>critical</severity>
-                    <method>CVSSv31</method>
-                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H</vector>
-                </rating>
-                <rating>
-                    <source>
-                        <name>Reliable Energy Analytics</name>
-                        <url>https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&amp;version=3.1</url>
-                    </source>
-                    <score>0.0</score>
-                    <severity>none</severity>
-                    <method>CVSSv31</method>
-                    <vector>AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N</vector>
-                </rating>
-            </ratings>
-            <cwes>
-                <cwe>190</cwe>
-                <cwe>787</cwe>
-            </cwes>
-            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
-            <advisories>
-                <advisory>
-                    <title>Release notes</title>
-                    <url>https://github.com/pyca/cryptography/blob/master/CHANGELOG.rst</url>
-                </advisory>
-                <advisory>
-                    <title>Patch</title>
-                    <url>https://github.com/pyca/cryptography/compare/3.3.1...3.3.2</url>
-                </advisory>
-                <advisory>
-                    <title>GitHub Issue</title>
-                    <url>https://github.com/pyca/cryptography/issues/5615</url>
-                </advisory>
-                <advisory>
-                    <title>Mailing list</title>
-                    <url>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E/</url>
-                </advisory>
-            </advisories>
-            <created>2021-02-07T00:00:00.000Z</created>
-            <published>2021-02-07T00:00:00.000Z</published>
-            <updated>2021-07-21T00:00:00.000Z</updated>
-            <credits>
-                <individuals>
-                    <individual>
-                        <name>Anders Wenhaug</name>
-                    </individual>
-                </individuals>
-            </credits>
-            <analysis>
-                <state>not_affected</state>
-                <justification>code_not_reachable</justification>
-                <responses>
-                    <response>will_not_fix</response>
-                    <response>update</response>
-                </responses>
-                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
-            </analysis>
-            <affects>
-                <target>
-                    <ref>sag-pm</ref>
-                    <versions>
-                        <version>
-                            <range>vers:semver/>=1.0.0</range>
-                            <status>unaffected</status>
-                        </version>
-                    </versions>
                 </target>
             </affects>
         </vulnerability>
