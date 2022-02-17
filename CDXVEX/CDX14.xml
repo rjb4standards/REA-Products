@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <bom serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
-    <!-- This is an example VEX for SAG-PM that is not specific to s single version of SAG-PM. -->
+    <!-- This is an example VEX for SAG-PM that is specific to version of SAG-PM Version 1.1.8. -->
     <metadata>
  		<component type="application">
 			<publisher>Reliable Energy Analytics LLC</publisher>
