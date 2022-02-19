@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<bom serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+     <!--This is an example VEX for SAG-PM that is specific to the SAG-PM SBOM for version 1.1.8. This file updates independently from the SBOM-->
+	 <!--This artifact answers the question: What is the vulnerability status of product P, version V from Supplier S at time(NOW) at the SBOM component level?-->
+    <metadata>
+ 		<component type="application">
+			<publisher>Reliable Energy Analytics LLC</publisher>
+        	<name>SAG-PM (TM)</name>
+        	<version>1.1.8</version>
+      	</component>
+    </metadata>
+    <vulnerabilities>
+        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2020-36242</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>9.1</score>
+                </rating>
+            </ratings>
+            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>cryptography</ref>
+                    <versions>
+                        <version>
+                            <version>3.3.1</version>
+                            <status>unaffected</status>
+                        </version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+    </vulnerabilities>
+</bom>
+
