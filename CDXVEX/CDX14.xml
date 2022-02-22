@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<bom serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+     <!--This is an example VEX for SAG-PM that is specific to the SAG-PM SBOM for version 1.1.8. This file updates independently from the SBOM -->
+	 <!--This artifact answers the question: What is the vulnerability status of product P, version V from Supplier S at time(NOW) at the SBOM component level? -->
+	 
+    <metadata>
+   		<timestamp>2022-02-21T21:46:00Z</timestamp>
+		<authors>
+				<author>
+					<name>Reliable Energy Analytics LLC</name>
+					<email>dick@reliableenergyanalytics.com</email>
+				</author>
+		</authors>
+		<supplier>
+				<name>Reliable Energy Analytics LLC</name>
+				<url>dns:reliableenergyanalytics.com</url>
+		</supplier>
+ 		<component type="application">
+			<publisher>Reliable Energy Analytics LLC</publisher>
+        	<name>SAG-PM (TM)</name>
+        	<version>1.1.8</version>
+      	</component>
+    </metadata>
+    <vulnerabilities>
+        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2020-36242</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-36242</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>9.1</score>
+                </rating>
+            </ratings>
+            <description>In the cryptography package before 3.3.2 for Python, certain sequences of update calls to symmetrically encrypt multi-GB values could result in an integer overflow and buffer overflow, as demonstrated by the Fernet class.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>This vulnerability is exploited during file encryption. SAG-PM does not perform file encryption using this component and is most likely not vulnerable to this CVE.</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>cryptography</ref>
+                    <versions>
+                    	<version>3.3.1</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+        <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2014-8564</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2014-8564</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>5.0</score>
+                </rating>
+            </ratings>
+            <description>The _gnutls_ecc_ansi_x963_export function in gnutls_ecc.c in GnuTLS 3.x before 3.1.28, 3.2.x before 3.2.20, and 3.3.x before 3.3.10 allows remote attackers to cause a denial of service (out-of-bounds write) via a crafted (1) Elliptic Curve Cryptography (ECC) certificate or (2) certificate signing requests (CSR), related to generating key IDs.</description>
+            <updated>2022-02-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>This vulnerability is exploited when Elliptic curve certificates are used. SAG-PM does not perform any elliptic curve certificate functions from this component and is most likely not vulnerable to this CVE</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>idna</ref>
+                    <versions>
+                    	<version>2.10</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+                <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2012-4870</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2012-4870</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>4.3</score>
+                </rating>
+            </ratings>
+            <description>Multiple cross-site scripting (XSS) vulnerabilities in FreePBX 2.9 and earlier allow remote attackers to inject arbitrary web script or HTML via the (1) context parameter to panel/index_amp.php or (2) panel/dhtml/index.php; (3) clid or (4) clidname parameters to panel/flash/mypage.php; (5) PATH_INFO to admin/views/freepbx_reload.php; or (6) login parameter to recordings/index.php.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>False positive returned by NIST NVD matching idna to clidname. The actual component listed in the CVE is not used by SAG-PM </detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>idna</ref>
+                    <versions>
+                    	<version>2.10</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+                <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2006-4346</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2006-4346</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>7.5</score>
+                </rating>
+            </ratings>
+            <description>Asterisk 1.2.10 supports the use of client-controlled variables to determine filenames in the Record function, which allows remote attackers to (1) execute code via format string specifiers or (2) overwrite files via directory traversals involving unspecified vectors, as demonstrated by the CALLERIDNAME variable.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>False positive returned by NIST NVD matching idna to CALLERIDNAME. The actual component listed in the CVE is not used by SAG-PM</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>idna</ref>
+                    <versions>
+                    	<version>2.10</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+                <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2020-12100</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-12100</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>7.5</score>
+                </rating>
+            </ratings>
+            <description>In Dovecot before 2.3.11.3, uncontrolled recursion in submission, lmtp, and lda allows remote attackers to cause a denial of service (resource consumption) via a crafted e-mail message with deeply nested MIME parts.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>False positive returned by NIST NVD matching ply to deeply.The actual component listed in the CVE is not used by SAG-PM</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>ply</ref>
+                    <versions>
+                    	<version>3.11</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+                <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2019-18183</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2019-18183</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>9.8</score>
+                </rating>
+            </ratings>
+            <description>pacman before 5.2 is vulnerable to arbitrary command injection in lib/libalpm/sync.c in the apply_deltas() function. This can be exploited when unsigned databases are used. To exploit the vulnerability, the user must enable the non-default delta feature and retrieve an attacker-controlled crafted database and delta file.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>False positive returned by NIST NVD matching ply to apply.The actual component listed in the CVE is not used by SAG-PM</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>ply</ref>
+                    <versions>
+                    	<version>3.11</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+                <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2011-1487</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2011-1487</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>5.0</score>
+                </rating>
+            </ratings>
+            <description>The (1) lc, (2) lcfirst, (3) uc, and (4) ucfirst functions in Perl 5.10.x, 5.11.x, and 5.12.x through 5.12.3, and 5.13.x through 5.13.11, do not apply the taint attribute to the return value upon processing tainted input, which might allow context-dependent attackers to bypass the taint protection mechanism via a crafted string.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>False positive returned by NIST NVD matching ply to apply.The actual component listed in the CVE is not used by SAG-PM</detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>ply</ref>
+                    <versions>
+                    	<version>3.11</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+                <vulnerability bom-ref="6eee14da-8f42-4cc4-bb65-203235f02415">
+            <id>CVE-2020-1747</id>
+            <source>
+                <name>NVD</name>
+                <url>https://nvd.nist.gov/vuln/detail/CVE-2020-1747</url>
+            </source>
+            <ratings>
+                <rating>
+                     <score>9.8</score>
+                </rating>
+            </ratings>
+            <description>A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor.</description>
+            <updated>2021-07-21T00:00:00.000Z</updated>
+            <analysis>
+                <state>not_affected</state>
+                <justification>code_not_reachable</justification>
+                <responses>
+                    <response>will_not_fix</response>
+                </responses>
+                <detail>No action required as the vulnerability was reported in prior versions of PyYAML than the one used by SAG-PM </detail>
+            </analysis>
+            <affects>
+                <target>
+                    <ref>PyYAML</ref>
+                    <versions>
+                    	<version>5.3.1</version>
+                    </versions>
+                </target>
+            </affects>
+        </vulnerability>
+    </vulnerabilities>
+</bom>
+
