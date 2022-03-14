@@ -16,6 +16,7 @@ It's very easy to associate a "SBOM CARFAX" artifact, like this CDX VEX example 
 
 </bom>
 
+Dependency Track makes it super easy for software vendors to generate a "CARFAX for SBOM" report on the fly so that the most current report is always available at the link listed in an SBOM artifact. Software customers can monitor all of their products for vulnerabilities daily, thanks to the new VEX functionality in CycloneDX version 1.4. 
 
 
 Legal Disclaimer: 
