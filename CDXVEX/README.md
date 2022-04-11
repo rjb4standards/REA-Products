@@ -4,7 +4,7 @@ I think of this CDX VEX artifact as a "CARFAX" for SBOM's listing all the known 
 
 <h3>What is the vulnerability status of product P, version V from Supplier S at time(NOW) at the SBOM component level?</h3>
 
-It's very easy to associate a "SBOM CARFAX" artifact, like this CDX VEX example to a specific CycloneDX SBOM, by including a "hard reference URL" where the updated NOW "CARFAX" CDX VEX document is available for download, place an external reference in your SBOM immediately following the end of components tag, as shown here:
+It's very easy to associate a "SBOM CARFAX" artifact, like this <b>IMPLICIT</b> CDX VEX example to a specific CycloneDX SBOM, by including a "hard reference URL" where the updated NOW "CARFAX" CDX VEX document is available for download, place an external reference in your SBOM immediately following the end of components tag, as shown here:
 
 	<externalReferences>
 		<reference type="advisories">
