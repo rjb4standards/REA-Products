@@ -1,6 +1,6 @@
 Many thanks to the generous help provided by Steve Springett that put me on the right path. This material is still considered a rough draft, but it does pass XML validation using Eclipse, so I'm comfortable the XML is proper. I still have a lot to learn about the semantics of this construct, but it looks very promising as a method to supply automated vulnerability disclosure reports to sw consumers, required to meet Executive Order 14028, including the NTIA minimum elements.
 
-I think of this CDX VEX artifact as a "CARFAX" for SBOM's listing all the known issues and their status, using an implicit reporting model (only compoents with vulnerabilities are listed in the report). This artifact updates independently from an SBOM but is tied directly to a single SBOM document in order to answer the question:
+I think of this CDX VEX artifact as a "CARFAX" for SBOM's listing all the known issues and their status, using an implicit reporting model (only components with vulnerabilities are listed in the report). This artifact updates independently from an SBOM but is tied directly to a single SBOM document in order to answer the question:
 
 <h3>What is the vulnerability status NOW, of product P, version V from Supplier S at the SBOM component level?</h3>
 <a href="https://www.einpresswire.com/article/565091476/automated-software-product-vulnerability-reporting-in-sag-pm">Here is a writeup showing how automated vulnerability reporting can be used before procurement and before installation </a>
