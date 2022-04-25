@@ -8,5 +8,5 @@ XSD's, XML examples and the Known Vulnerabilities Disclosre template are license
 The main difference between the SBOM VDR and CDXVEX reporting formats is that CDXVEX reports on only those software components that have known, reported 
 vulnerabilities, using an <b>implicit</b> model, which means software components that have no reported vulnerabilities are not listed in a CDXVEX report. 
   SBOM VDR reports on the vulnerability status of all software components listed in an SBOM, using an <b>explicit</b> model which provides the vulnerability status for components that have no reported vulnerabilities, and those that do have reported vulnerabilities. 
-Th explicit model provides software consumers with proof that a software vendor did indeed check every component in an SBOM for vulnerabilities, providing a high degree of confidence in the trustworthiness of a software product.
+The explicit model provides software consumers with proof that a software vendor did indeed check every component in an SBOM for vulnerabilities, providing a high degree of confidence in the trustworthiness of a software product.
   </p>  
