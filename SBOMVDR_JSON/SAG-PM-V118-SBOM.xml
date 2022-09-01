@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" version="1">
+	<metadata>
+		<timestamp>2022-01-26T16:56:00Z</timestamp>
+		<authors>
+			<author>
+				<name>Reliable Energy Analytics LLC</name>
+				<email>dick@reliableenergyanalytics.com</email>
+			</author>
+		</authors>
+		<supplier>
+			<name>Reliable Energy Analytics LLC</name>
+			<url>dns:reliableenergyanalytics.com</url>
+		</supplier>
+	</metadata>
+    <components>
+	<component type="application">
+		<publisher>Reliable Energy Analytics LLC</publisher>
+            	<name>SAG-PM (TM)</name>
+            	<version>1.1.8</version>
+            	<licenses>
+                   <license>
+                    <name>Reliable Energy Analytics LLC Commercial License</name>
+                    <text content-type="text/plain">See license file embedded in installation package</text>
+                   </license>
+            	</licenses>
+        </component>
+	<component type="file">
+        	<publisher>Reliable Energy Analytics LLC</publisher>
+            	<name>SAG-PM.msi</name>
+            	<version>1.1.8</version>
+	</component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>SAG-PM.exe</name>
+            <version>1.1.8</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>sag-pm-viewer.exe</name>
+            <version>1.1.8</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>SAGPM_Vendor_Data.csv</name>
+            <version>1.1.8</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>END USER LICENSE AGREEMENT.rtf</name>
+            <version>1.1.8</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>userguide.txt</name>
+            <version>1.1.8</version>
+        </component>
+        <component type="library">
+            <publisher>Certbot Project</publisher>
+            <name>acme</name>
+            <version>1.13.0</version>
+            <description>ACME protocol implementation in Python</description>
+            <hashes>
+                <hash alg="MD5">8bee98a8b1da14233dd2524e6c17fad8</hash>
+                <hash alg="SHA-256">93b6365c9425de03497a6b8aee1107814501d2974499b42e9bcc9a7378771143</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/acme@1.13.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Saúl Ibarra Corretgé</publisher>
+            <name>aiodns</name>
+            <version>2.0.0</version>
+            <description>Simple DNS resolver for asyncio</description>
+            <hashes>
+                <hash alg="MD5">b4af9a69eb23a8c4a99db9b1bdfb2014</hash>
+                <hash alg="SHA-256">aaa5ac584f40fe778013df0aa6544bf157799bd3f608364b451840ed2c8688de</hash>
+            </hashes>
+            <purl>pkg:pypi/aiodns@2.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Nikolay Kim</publisher>
+            <name>aiohttp</name>
+            <version>3.7.3</version>
+            <description>Async http client/server framework (asyncio)</description>
+            <hashes>
+                <hash alg="MD5">72f40c3f537db283d10e91109b849262</hash>
+                <hash alg="SHA-256">e1b95972a0ae3f248a899cdbac92ba2e01d731225f566569311043ce2226f5e7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/aiohttp@3.7.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ronald Oussoren</publisher>
+            <name>altgraph</name>
+            <version>0.17</version>
+            <description>Python graph (network) package</description>
+            <hashes>
+                <hash alg="MD5">2a7bb1bfc1d9aa1615006fd02e66ae70</hash>
+                <hash alg="SHA-256">c623e5f3408ca61d4016f23a681b9adb100802ca3e3da5e718915a9e4052cebe</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/altgraph@0.17</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Eric Vergnaud, Terence Parr, Sam Harwell</publisher>
+            <name>antlr4-python3-runtime</name>
+            <version>4.8</version>
+            <description>ANTLR 4.8 runtime for Python 3.7</description>
+            <hashes>
+                <hash alg="MD5">4772bfb76af9ca5a87873746b5d5cef0</hash>
+                <hash alg="SHA-256">15793f5d0512a372b4e7d2284058ad32ce7dd27126b105fb0b2245130445db33</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/antlr4-python3-runtime@4.8</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Svetlov</publisher>
+            <name>async-timeout</name>
+            <version>3.0.1</version>
+            <description>Timeout context manager for asyncio programs</description>
+            <hashes>
+                <hash alg="MD5">17e95b1778c2c32036bcc5664e815ab8</hash>
+                <hash alg="SHA-256">4291ca197d287d274d0b6cb5d6f8f8f82d434ed288f962539ff18cc9012f9ea3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/async-timeout@3.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Hynek Schlawack</publisher>
+            <name>attrs</name>
+            <version>20.3.0</version>
+            <description>Classes Without Boilerplate</description>
+            <hashes>
+                <hash alg="MD5">e8156a6d3ff4d7c6362c40451cddc897</hash>
+                <hash alg="SHA-256">31b2eced602aa8423c2aea9c76a724617ed67cf9513173fd3a4f03e3a929c7e6</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/attrs@20.3.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Amazon Web Services</publisher>
+            <name>boto3</name>
+            <version>1.16.51</version>
+            <description>The AWS SDK for Python</description>
+            <hashes>
+                <hash alg="MD5">d39d3542b186ce01c546ebad3e1f62dc</hash>
+                <hash alg="SHA-256">ca97e1d591fe4214bac09cf347a8425061d9eecc456c147692749e383a0f3dfe</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/boto3@1.16.51</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Amazon Web Services</publisher>
+            <name>botocore</name>
+            <version>1.19.51</version>
+            <description>Low-level, data-driven core of boto 3.</description>
+            <hashes>
+                <hash alg="MD5">402b10cc88856f91194d06b79196e77c</hash>
+                <hash alg="SHA-256">76c0ce78fd2a7e9e08d038f2bba2ce10bee08e04546c7812a9654edb2dc4d496</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/botocore@1.19.51</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Certbot Project</publisher>
+            <name>certbot</name>
+            <version>1.13.0</version>
+            <description>ACME client</description>
+            <hashes>
+                <hash alg="MD5">e9c2cc17ee8f3e02b985c8e6e4c1a1d2</hash>
+                <hash alg="SHA-256">082eb732e1318bb9605afa7aea8db2c2f4c5029d523c73f24c6aa98f03caff76</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/certbot@1.13.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kenneth Reitz</publisher>
+            <name>certifi</name>
+            <version>2021.5.30</version>
+            <description>Python package for providing Mozilla's CA Bundle.</description>
+            <hashes>
+                <hash alg="MD5">ee66fb12729b9e8ea4bb5b4b92f5ce2d</hash>
+                <hash alg="SHA-256">50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MPL-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/certifi@2021.5.30</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Armin Rigo, Maciej Fijalkowski</publisher>
+            <name>cffi</name>
+            <version>1.14.4</version>
+            <description>Foreign Function Interface for Python calling C code.</description>
+            <hashes>
+                <hash alg="MD5">eb8cfd749ba16f5955893a45e4093d94</hash>
+                <hash alg="SHA-256">f032b34669220030f905152045dfa27741ce1a6db3324a5bc0b96b6c7420c87b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cffi@1.14.4</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Daniel Blanchard</publisher>
+            <name>chardet</name>
+            <version>3.0.4</version>
+            <description>Universal encoding detector for Python 2 and 3</description>
+            <hashes>
+                <hash alg="MD5">0004b00caff7bb543a1d0d0bd0185a03</hash>
+                <hash alg="SHA-256">fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>LGPL</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/chardet@3.0.4</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <name>ConfigArgParse</name>
+            <version>1.4</version>
+            <description>A drop-in replacement for argparse that allows options to also be set via config files and/or environment variables.</description>
+            <hashes>
+                <hash alg="MD5">237b76876efaf3d6d51b3cc4b97c30ca</hash>
+                <hash alg="SHA-256">abef9ff44fb0091f0e3bb2ee7e5b26a02b5b62d45408a5272a9bd461f5b59b4b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/configargparse@1.4</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Rob Dennis, Eli Courtwright (Michael Foord &amp; Nicola Larosa original maintainers)</publisher>
+            <name>configobj</name>
+            <version>5.0.6</version>
+            <description>Config file reading, writing and validation.</description>
+            <hashes>
+                <hash alg="MD5">e472a3a1c2a67bb0ec9b5d54c13a47d6</hash>
+                <hash alg="SHA-256">a2f5650770e1c87fb335af19a9b7eb73fc05ccf22144eb68db7d00cd2bcb0902</hash>
+            </hashes>
+            <purl>pkg:pypi/configobj@5.0.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>The cryptography developers</publisher>
+            <name>cryptography</name>
+            <version>3.3.1</version>
+            <description>cryptography is a package which provides cryptographic recipes and primitives to Python developers.</description>
+            <hashes>
+                <hash alg="MD5">0edede6db58aba9bf7de44c0337f24dc</hash>
+                <hash alg="SHA-256">0e85aaae861d0485eb5a79d33226dd6248d2a9f133b81532c8f5aae37de10ff7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD or Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cryptography@3.3.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Steve Springett</publisher>
+            <name>cyclonedx-bom</name>
+            <version>0.4.3</version>
+            <description>CycloneDX software bill-of-material (SBOM) generation utility</description>
+            <hashes>
+                <hash alg="MD5">e316ecb3f8581e568560e4b2df669939</hash>
+                <hash alg="SHA-256">2d0c7998c14a218a52399d955bd0c4a0dfe49befb76a065d03da7b44f4ba3998</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cyclonedx-bom@0.4.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Paul Horton</publisher>
+            <name>cyclonedx-python-lib</name>
+            <version>0.4.0</version>
+            <description>A library for producing CycloneDX SBOM (Software Bill of Materials) files.</description>
+            <hashes>
+                <hash alg="MD5">9072e5c066fac7d1058efbcc3cd974ea</hash>
+                <hash alg="SHA-256">c2c5830adbad18865dfa91cc2611a2d596df047e58d9c26434cc69e70c025666</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cyclonedx-python-lib@0.4.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Aymeric Augustin</publisher>
+            <name>datedelta</name>
+            <version>1.3</version>
+            <description>Like datetime.timedelta, for date arithmetic.</description>
+            <hashes>
+                <hash alg="MD5">713ee5b86b9c59d9b4df4046b153c7d2</hash>
+                <hash alg="SHA-256">eaf2b332582a083e0db7baab36ab37d5fe98b9de3cfd46a75c45247c59b2f117</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/datedelta@1.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Nir Cohen</publisher>
+            <name>distro</name>
+            <version>1.5.0</version>
+            <description>Distro - an OS platform information API</description>
+            <hashes>
+                <hash alg="MD5">97e69f92dbcc411c5ae974610794afad</hash>
+                <hash alg="SHA-256">df74eed763e18d10d0da624258524ae80486432cd17392d9c3d96f5e83cd2799</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/distro@1.5.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Bob Halley</publisher>
+            <name>dnspython</name>
+            <version>2.0.0</version>
+            <description>DNS toolkit</description>
+            <hashes>
+                <hash alg="MD5">eeff47259f60783cb12c9a852c445eba</hash>
+                <hash alg="SHA-256">40bb3c24b9d4ec12500f0124288a65df232a3aa749bb0c39734b782873a2544d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>ISC</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/dnspython@2.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>David Goodger</publisher>
+            <name>docutils</name>
+            <version>0.16</version>
+            <description>Docutils -- Python Documentation Utilities</description>
+            <hashes>
+                <hash alg="MD5">de3600f5400e8a8264db17277a69179a</hash>
+                <hash alg="SHA-256">0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/docutils@0.16</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Davide Brunato</publisher>
+            <name>elementpath</name>
+            <version>2.1.1</version>
+            <description>XPath 1.0/2.0 parsers and selectors for ElementTree and lxml</description>
+            <hashes>
+                <hash alg="MD5">7afed0a39e4b71eb44c901e0abab99f8</hash>
+                <hash alg="SHA-256">02e84b490b97bd932be8dee20d2f7583d8b4983c97b08e0a12efcbba85f043fe</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/elementpath@2.1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>See ATUHORS.txt</publisher>
+            <name>et-xmlfile</name>
+            <version>1.0.1</version>
+            <description>An implementation of lxml.xmlfile for the standard library</description>
+            <hashes>
+                <hash alg="MD5">f47940fd9d556375420b2e276476cfaf</hash>
+                <hash alg="SHA-256">614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/et-xmlfile@1.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ed Schofield</publisher>
+            <name>future</name>
+            <version>0.18.2</version>
+            <description>Clean single-source support for Python 3 and 2</description>
+            <hashes>
+                <hash alg="MD5">e4579c836b9c025872efe230f6270349</hash>
+                <hash alg="SHA-256">b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/future@0.18.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gregory Oschwald</publisher>
+            <name>geoip2</name>
+            <version>4.1.0</version>
+            <description>MaxMind GeoIP2 API</description>
+            <hashes>
+                <hash alg="MD5">c940b5a6b27c98b34140c4364a2982d2</hash>
+                <hash alg="SHA-256">707025542ef076bd8fd80e97138bebdb7812527b2a007d141a27ad98b0370fff</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/geoip2@4.1.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kim Davies</publisher>
+            <name>idna</name>
+            <version>2.10</version>
+            <description>Internationalized Domain Names in Applications (IDNA)</description>
+            <hashes>
+                <hash alg="MD5">8f7d13f63706aa265d31ffedc8aa3053</hash>
+                <hash alg="SHA-256">b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD-like</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/idna@2.10</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Jason R. Coombs</publisher>
+            <name>importlib-metadata</name>
+            <version>4.8.1</version>
+            <description>Read metadata from Python packages</description>
+            <hashes>
+                <hash alg="MD5">542a9a2b61f9f61122b95d1dac782ba2</hash>
+                <hash alg="SHA-256">b618b6d2d5ffa2f16add5697cf57a46c76a56229b0ed1c438322e4e95645bd15</hash>
+            </hashes>
+            <purl>pkg:pypi/importlib-metadata@4.8.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Philip Hane</publisher>
+            <name>ipwhois</name>
+            <version>1.2.0</version>
+            <description>Retrieve and parse whois data for IPv4 and IPv6 addresses.</description>
+            <hashes>
+                <hash alg="MD5">c90402ee7a25a2d55860c18bfb433f54</hash>
+                <hash alg="SHA-256">9f14dfafb5d9eb7c7f56ab34cfad9868b5e453ab4161a90d69fb714fe712056a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/ipwhois@1.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gerhard Weis</publisher>
+            <name>isodate</name>
+            <version>0.6.0</version>
+            <description>An ISO 8601 date/time/duration parser and formatter</description>
+            <hashes>
+                <hash alg="MD5">d993beffb0b78627721d9ef1dda4df87</hash>
+                <hash alg="SHA-256">aa4d33c06640f5352aca96e4b81afd8ab3b47337cc12089822d6f322ac772c81</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/isodate@0.6.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Armin Ronacher</publisher>
+            <name>Jinja2</name>
+            <version>2.11.2</version>
+            <description>A very fast and expressive template engine.</description>
+            <hashes>
+                <hash alg="MD5">e36888c21cb0f6716b9987be2972744d</hash>
+                <hash alg="SHA-256">f0a4641d3cf955324a89c04f3d94663aa4d638abe8f733ecd3582848e1c37035</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/jinja2@2.11.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>James Saryerwinnie</publisher>
+            <name>jmespath</name>
+            <version>0.10.0</version>
+            <description>JSON Matching Expressions</description>
+            <hashes>
+                <hash alg="MD5">a066efd76c72debc36775316e34a70bc</hash>
+                <hash alg="SHA-256">cdf6525904cc597730141d61b36f2e4b8ecc257c420fa2f4549bac2c2d0cb72f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/jmespath@0.10.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Certbot Project</publisher>
+            <name>josepy</name>
+            <version>1.8.0</version>
+            <description>JOSE protocol implementation in Python</description>
+            <hashes>
+                <hash alg="MD5">90219a9f9df032b8ae8ef0a8e0d392af</hash>
+                <hash alg="SHA-256">6d632fcdaf0bed09e33f81f13b10575d4f0b7c37319350b725454e04a41e6a49</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/josepy@1.8.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Julian Berman</publisher>
+            <name>jsonschema</name>
+            <version>3.2.0</version>
+            <description>An implementation of JSON Schema validation for Python</description>
+            <hashes>
+                <hash alg="MD5">7617cd8e4a79ba49cfd602eb921b08d8</hash>
+                <hash alg="SHA-256">4e5b3cf8216f577bee9ce139cbe72eca3ea4f292ec60928ff24758ce626cd163</hash>
+            </hashes>
+            <purl>pkg:pypi/jsonschema@3.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>lxml dev team</publisher>
+            <name>lxml</name>
+            <version>4.6.2</version>
+            <description>Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.</description>
+            <hashes>
+                <hash alg="MD5">b431cd10e9233bb0ba5a14d1321c385f</hash>
+                <hash alg="SHA-256">535332fe9d00c3cd455bd3dd7d4bacab86e2d564bdf7606079160fa6251caacf</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/lxml@4.6.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Armin Ronacher</publisher>
+            <name>MarkupSafe</name>
+            <version>1.1.1</version>
+            <description>Safely add untrusted strings to HTML/XML markup.</description>
+            <hashes>
+                <hash alg="MD5">bd858ff978ecd9437229a655ebfb33af</hash>
+                <hash alg="SHA-256">b7d644ddb4dbd407d31ffb699f1d140bc35478da613b441c582aeb7c43838dd8</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/markupsafe@1.1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gregory Oschwald</publisher>
+            <name>maxminddb</name>
+            <version>2.0.3</version>
+            <description>Reader for the MaxMind DB format</description>
+            <hashes>
+                <hash alg="MD5">b420790cfc43670bfff48e058a49bcca</hash>
+                <hash alg="SHA-256">47e86a084dd814fac88c99ea34ba3278a74bc9de5a25f4b815b608798747c7dc</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/maxminddb@2.0.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Svetlov</publisher>
+            <name>multidict</name>
+            <version>5.1.0</version>
+            <description>multidict implementation</description>
+            <hashes>
+                <hash alg="MD5">44d1a321924f10d2cc4005d590b2f638</hash>
+                <hash alg="SHA-256">7df80d07818b385f3129180369079bd6934cf70469f99daaebfac89dca288359</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/multidict@5.1.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Travis E. Oliphant et al.</publisher>
+            <name>numpy</name>
+            <version>1.19.5</version>
+            <description>NumPy is the fundamental package for array computing with Python.</description>
+            <hashes>
+                <hash alg="MD5">c9b5c30dc035aa7bd9c1ebf6771939c3</hash>
+                <hash alg="SHA-256">a0d53e51a6cb6f0d9082decb7a4cb6dfb33055308c4c44f53103c073f649af73</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/numpy@1.19.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>the purl authors</publisher>
+            <name>packageurl-python</name>
+            <version>0.9.3</version>
+            <description>A "purl" aka. Package URL parser and builder</description>
+            <hashes>
+                <hash alg="MD5">d051230d016990f856c14ceb6ec7836c</hash>
+                <hash alg="SHA-256">0682b2eddab16151da5bd4ef38081e9b27f8eb33cd29baf41f4996d4e88e6e70</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/packageurl-python@0.9.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Donald Stufft and individual contributors</publisher>
+            <name>packaging</name>
+            <version>20.7</version>
+            <description>Core utilities for Python packages</description>
+            <hashes>
+                <hash alg="MD5">da81732f29c8f3d3bd3ff16f85c42b7c</hash>
+                <hash alg="SHA-256">eb41423378682dadb7166144a4926e443093863024de508ca5c9737d6bc08376</hash>
+            </hashes>
+            <purl>pkg:pypi/packaging@20.7</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <name>pandas</name>
+            <version>1.2.0</version>
+            <description>Powerful data structures for data analysis, time series, and statistics</description>
+            <hashes>
+                <hash alg="MD5">91ba3b85e867459da6ff5beeb16b880e</hash>
+                <hash alg="SHA-256">616478c1bd8fe1e600f521ae2da434e021c11e7a4e5da3451d02906143d3629a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pandas@1.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Mike Taylor</publisher>
+            <name>parsedatetime</name>
+            <version>2.6</version>
+            <description>Parse human-readable date/time text.</description>
+            <hashes>
+                <hash alg="MD5">6ef722742c51574923426015f9a1abcf</hash>
+                <hash alg="SHA-256">cb96edd7016872f58479e35879294258c71437195760746faffedb692aef000b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/parsedatetime@2.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ero Carrera</publisher>
+            <name>pefile</name>
+            <version>2019.4.18</version>
+            <description>Python PE parsing module</description>
+            <hashes>
+                <hash alg="MD5">e328272bc82ddc3170316250e37027ad</hash>
+                <hash alg="SHA-256">a5d6e8305c6b210849b47a6174ddf9c452b2888340b8177874b862ba6c207645</hash>
+            </hashes>
+            <purl>pkg:pypi/pefile@2019.4.18</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>David Beazley</publisher>
+            <name>ply</name>
+            <version>3.11</version>
+            <description>Python Lex &amp; Yacc</description>
+            <hashes>
+                <hash alg="MD5">62b6ad5affddc9926ab5571f390cc840</hash>
+                <hash alg="SHA-256">096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/ply@3.11</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Federico Di Gregorio</publisher>
+            <name>psycopg2</name>
+            <version>2.8.6</version>
+            <description>psycopg2 - Python-PostgreSQL Database Adapter</description>
+            <hashes>
+                <hash alg="MD5">3e522b5e97ac2be9dd3871de0d4b0917</hash>
+                <hash alg="SHA-256">d5062ae50b222da28253059880a871dc87e099c25cb68acf613d9d227413d6f7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>LGPL with exceptions</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/psycopg2@2.8.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Saúl Ibarra Corretgé</publisher>
+            <name>pycares</name>
+            <version>3.1.1</version>
+            <description>Python interface for c-ares</description>
+            <hashes>
+                <hash alg="MD5">8db68ae7f09afbdd2545914da01c032e</hash>
+                <hash alg="SHA-256">7e2d7effd08d2e5a3cb95d98a7286ebab71ab2fbce84fa93cc2dd56caf7240dd</hash>
+            </hashes>
+            <purl>pkg:pypi/pycares@3.1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Eli Bendersky</publisher>
+            <name>pycparser</name>
+            <version>2.20</version>
+            <description>C parser in Python</description>
+            <hashes>
+                <hash alg="MD5">61112f106163fef25a95b73ad471c4cc</hash>
+                <hash alg="SHA-256">7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pycparser@2.20</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kjetil Jacobsen, Markus F.X.J. Oberhumer, Oleg Pudeyev</publisher>
+            <name>pycurl</name>
+            <version>7.43.0.6</version>
+            <description>PycURL -- A Python Interface To The cURL library</description>
+            <hashes>
+                <hash alg="MD5">3e121d895101022c30619e1bbf97eb97</hash>
+                <hash alg="SHA-256">8301518689daefa53726b59ded6b48f33751c383cf987b0ccfbbc4ed40281325</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>LGPL/MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pycurl@7.43.0.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Dmitry ippolitov</publisher>
+            <name>pydnsbl</name>
+            <version>1.1.2</version>
+            <description>Async dnsbl lists checker based on asyncio/aiodns.</description>
+            <hashes>
+                <hash alg="MD5">fa3c9a4ce914f694d91821744dc82264</hash>
+                <hash alg="SHA-256">072151808cbb5bdb10ed2a5b3be3c2b7d657dab28dfe1f59e20f90df7d36d395</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pydnsbl@1.1.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky</publisher>
+            <name>pyinstaller</name>
+            <version>4.1</version>
+            <description>PyInstaller bundles a Python application and all its dependencies into a single package.</description>
+            <hashes>
+                <hash alg="MD5">460df9d5125df109a23cd7be8d0e1a3a</hash>
+                <hash alg="SHA-256">954ae81de9a4bc096ff02433b3e245b9272fe53f27cac319e71fe7540952bd3d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyinstaller@4.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <name>pyinstaller-hooks-contrib</name>
+            <version>2020.11</version>
+            <description>Community maintained hooks for PyInstaller</description>
+            <hashes>
+                <hash alg="MD5">91eb69a422a170006b67f06cbb485702</hash>
+                <hash alg="SHA-256">fa8280b79d8a2b267a2e43ff44f73b3e4a68fc8d205b8d34e8e06c960f7c2fcf</hash>
+            </hashes>
+            <purl>pkg:pypi/pyinstaller-hooks-contrib@2020.11</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>The pyOpenSSL developers</publisher>
+            <name>pyOpenSSL</name>
+            <version>20.0.1</version>
+            <description>Python wrapper module around the OpenSSL library</description>
+            <hashes>
+                <hash alg="MD5">f879ef152818a28d79ded1c7cf600e20</hash>
+                <hash alg="SHA-256">818ae18e06922c066f777a33f1fca45786d85edfe71cd043de6379337a7f274b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyopenssl@20.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Paul McGuire</publisher>
+            <name>pyparsing</name>
+            <version>2.4.7</version>
+            <description>Python parsing module</description>
+            <hashes>
+                <hash alg="MD5">dbfd0a241aad2595f43377ec7f1836ea</hash>
+                <hash alg="SHA-256">ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyparsing@2.4.7</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kurt Raschke</publisher>
+            <name>pyRFC3339</name>
+            <version>1.1</version>
+            <description>Generate and parse RFC 3339 timestamps</description>
+            <hashes>
+                <hash alg="MD5">f7c737b0b484c76bfd5e5b3a962db2ce</hash>
+                <hash alg="SHA-256">67196cb83b470709c580bb4738b83165e67c6cc60e1f2e4f286cfcb402a926f4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyrfc3339@1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Tobias Gustafsson</publisher>
+            <name>pyrsistent</name>
+            <version>0.17.3</version>
+            <description>Persistent/Functional/Immutable data structures</description>
+            <hashes>
+                <hash alg="MD5">cd38658ea772a7f9b12b6f9485a7018b</hash>
+                <hash alg="SHA-256">2e636185d9eb976a18a8a8e96efce62f2905fea90041958d8cc2a189756ebf3e</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyrsistent@0.17.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gustavo Niemeyer</publisher>
+            <name>python-dateutil</name>
+            <version>2.8.1</version>
+            <description>Extensions to the standard Python datetime module</description>
+            <hashes>
+                <hash alg="MD5">36ae406e144ce50dfa6950a6db17b1d9</hash>
+                <hash alg="SHA-256">75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Dual License</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/python-dateutil@2.8.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Vinay Sajip</publisher>
+            <name>python-gnupg</name>
+            <version>0.4.7</version>
+            <description>A wrapper for the Gnu Privacy Guard (GPG or GnuPG)</description>
+            <hashes>
+                <hash alg="MD5">1f894399c561969875d7d303aaa7c727</hash>
+                <hash alg="SHA-256">3ff5b1bf5e397de6e1fe41a7c0f403dad4e242ac92b345f440eaecfb72a7ebae</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Copyright (C) 2008-2021 by Vinay Sajip. All Rights Reserved. See LICENSE.txt for license.</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/python-gnupg@0.4.7</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Dunham</publisher>
+            <name>python-multipart</name>
+            <version>0.0.5</version>
+            <description>A streaming multipart parser for Python</description>
+            <hashes>
+                <hash alg="MD5">4c0f8475a23eb5f28704bb3cbce9253a</hash>
+                <hash alg="SHA-256">f7bb5f611fc600d15fa47b3974c8aa16e93724513b49b5f95c81e6624c83fa43</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/python-multipart@0.0.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Stuart Bishop</publisher>
+            <name>pytz</name>
+            <version>2020.5</version>
+            <description>World timezone definitions, modern and historical</description>
+            <hashes>
+                <hash alg="MD5">6aead685b020e49867313ae3a423b458</hash>
+                <hash alg="SHA-256">16962c5fb8db4a8f63a26646d8886e9d769b6c511543557bc84e9569fb9a9cb4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pytz@2020.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Mark Hammond (et al)</publisher>
+            <name>pywin32</name>
+            <version>300</version>
+            <description>Python for Window Extensions</description>
+            <hashes>
+                <hash alg="MD5">0c55e2c5ebd3a0bc915514ecdb6c1340</hash>
+                <hash alg="SHA-256">b1609ce9bd5c411b81f941b246d683d6508992093203d4eb7f278f4ed1085c3f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>PSF</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pywin32@300</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Enthought Inc</publisher>
+            <name>pywin32-ctypes</name>
+            <version>0.2.0</version>
+            <hashes>
+                <hash alg="MD5">e6ff10d64162ba7658d6bf86c110d7f0</hash>
+                <hash alg="SHA-256">9dc2d991b3479cc2df15930958b674a48a227d5361d413827a4cfd0b5876fc98</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pywin32-ctypes@0.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kirill Simonov</publisher>
+            <name>PyYAML</name>
+            <version>5.3.1</version>
+            <description>YAML parser and emitter for Python</description>
+            <hashes>
+                <hash alg="MD5">7a5d2419898a6d4783b9694da7757670</hash>
+                <hash alg="SHA-256">6034f55dab5fea9e53f436aa68fa3ace2634918e8b5994d82f3621c04ff5ed2e</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyyaml@5.3.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Daniel 'eikeon' Krech</publisher>
+            <name>rdflib</name>
+            <version>5.0.0</version>
+            <description>RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.</description>
+            <hashes>
+                <hash alg="MD5">8ad1eb4d67ade138370fb45ce1cb3412</hash>
+                <hash alg="SHA-256">88208ea971a87886d60ae2b1a4b2cdc263527af0454c422118d43fe64b357877</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/rdflib@5.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kenneth Reitz</publisher>
+            <name>requests</name>
+            <version>2.25.0</version>
+            <description>Python HTTP for Humans.</description>
+            <hashes>
+                <hash alg="MD5">2966d68a5a4e6832d967763d41f48d04</hash>
+                <hash alg="SHA-256">e786fa28d8c9154e6a4de5d46a1d921b8749f8b74e28bde23768e5e16eece998</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/requests@2.25.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ian Cordasco, Cory Benfield</publisher>
+            <name>requests-toolbelt</name>
+            <version>0.9.1</version>
+            <description>A utility belt for advanced users of python-requests</description>
+            <hashes>
+                <hash alg="MD5">f3c670220285a4cf8c5cbf1033090461</hash>
+                <hash alg="SHA-256">380606e1d10dc85c3bd47bf5a6095f815ec007be7a8b69c878507068df059e6f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/requests-toolbelt@0.9.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>David Fischer</publisher>
+            <name>requirements-parser</name>
+            <version>0.2.0</version>
+            <description>Parses Pip requirement files</description>
+            <hashes>
+                <hash alg="MD5">611b0cab139e9a35363ec4ffa1fe6c8c</hash>
+                <hash alg="SHA-256">76650b4a9d98fc65edf008a7920c076bb2a76c08eaae230ce4cfc6f51ea6a773</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/requirements-parser@0.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Amazon Web Services</publisher>
+            <name>s3transfer</name>
+            <version>0.3.3</version>
+            <description>An Amazon S3 Transfer Manager</description>
+            <hashes>
+                <hash alg="MD5">5d350ec84e81d3e392ee933868103467</hash>
+                <hash alg="SHA-256">2482b4259524933a022d59da830f51bd746db62f047d6eb213f2f8855dcb8a13</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/s3transfer@0.3.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Bob Ippolito</publisher>
+            <name>simplejson</name>
+            <version>3.17.2</version>
+            <description>Simple, fast, extensible JSON encoder/decoder for Python</description>
+            <hashes>
+                <hash alg="MD5">2a50a0859ad3008f1814fac27348132d</hash>
+                <hash alg="SHA-256">55d65f9cc1b733d85ef95ab11f559cce55c7649a2160da2ac7a078534da676c8</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/simplejson@3.17.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Benjamin Peterson</publisher>
+            <name>six</name>
+            <version>1.15.0</version>
+            <description>Python 2 and 3 compatibility utilities</description>
+            <hashes>
+                <hash alg="MD5">16dc2d0f87a1ed05579ad7c4965cf0ef</hash>
+                <hash alg="SHA-256">8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/six@1.15.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>OASIS Cyber Threat Intelligence Technical Committee</publisher>
+            <name>stix2</name>
+            <version>2.1.0</version>
+            <description>Produce and consume STIX 2 JSON content</description>
+            <hashes>
+                <hash alg="MD5">535dfc8b3f0ee05f6b5e031a7fe95998</hash>
+                <hash alg="SHA-256">3ab60082e4bffb39f75ea9ddc338b64126ff1cd086e6173d39b860191ac26ff4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/stix2@2.1.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>OASIS Cyber Threat Intelligence Technical Committee</publisher>
+            <name>stix2-patterns</name>
+            <version>1.3.2</version>
+            <description>Validate STIX 2 Patterns.</description>
+            <hashes>
+                <hash alg="MD5">ab8a3b5243889431d08c1af60f7fd1e1</hash>
+                <hash alg="SHA-256">bc46cc4eba44b76a17eab7a3ff67f35203543cdb918ab24c1ebd58403fa27992</hash>
+            </hashes>
+            <purl>pkg:pypi/stix2-patterns@1.3.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>OASIS Cyber Threat Intelligence Technical Committee</publisher>
+            <name>taxii2-client</name>
+            <version>2.2.2</version>
+            <description>TAXII 2 Client Library</description>
+            <hashes>
+                <hash alg="MD5">693fb69c08e001a936aa05194a7b0585</hash>
+                <hash alg="SHA-256">432d630755b968bd200e8318f01c5361400a401b11900856279c158c88bc7f27</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/taxii2-client@2.2.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>William Pearson</publisher>
+            <name>toml</name>
+            <version>0.10.2</version>
+            <description>Python Library for Tom's Obvious, Minimal Language</description>
+            <hashes>
+                <hash alg="MD5">dc26cd71b80d6757139f38156a43c545</hash>
+                <hash alg="SHA-256">806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/toml@0.10.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee</publisher>
+            <name>typing-extensions</name>
+            <version>3.7.4.3</version>
+            <description>Backported and Experimental Type Hints for Python 3.5+</description>
+            <hashes>
+                <hash alg="MD5">cbf20d17c294eb6a2d5e98669cfe67a6</hash>
+                <hash alg="SHA-256">7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>PSF</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/typing-extensions@3.7.4.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrey Petrov</publisher>
+            <name>urllib3</name>
+            <version>1.26.2</version>
+            <description>HTTP library with thread-safe connection pooling, file post, and more.</description>
+            <hashes>
+                <hash alg="MD5">bc8ab29becd464382bacbb195c6bd368</hash>
+                <hash alg="SHA-256">d8ff90d979214d7b4f8ce956e80f4028fc6860e4431f731ea4a8c08f23f99473</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/urllib3@1.26.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Christian Heimes</publisher>
+            <name>wincertstore</name>
+            <version>0.2</version>
+            <description>Python module to extract CA and CRL certs from Windows' cert store (ctypes based).</description>
+            <hashes>
+                <hash alg="MD5">03510657cf5ed292c9debe22c16edbe0</hash>
+                <hash alg="SHA-256">22d5eebb52df88a8d4014d5cf6d1b6c3a5d469e6c3b2e2854f3a003e48872356</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>PSFL</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/wincertstore@0.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Davide Brunato</publisher>
+            <name>xmlschema</name>
+            <version>1.2.5</version>
+            <description>An XML Schema validator and decoder</description>
+            <hashes>
+                <hash alg="MD5">7a5623bbe80f43d96b1a77a8cdd95619</hash>
+                <hash alg="SHA-256">7c528e0ec3eac97276491e7657d843f6090cbc2ea9216eb4398553623859a23f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/xmlschema@1.2.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Martin Blech</publisher>
+            <name>xmltodict</name>
+            <version>0.12.0</version>
+            <description>Makes working with XML feel like you are working with JSON</description>
+            <hashes>
+                <hash alg="MD5">553f9bfdafceecfc2ccdbab80d17b451</hash>
+                <hash alg="SHA-256">8bbcb45cc982f48b2ca8fe7e7827c5d792f217ecf1792626f808bf41c3b86051</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/xmltodict@0.12.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Svetlov</publisher>
+            <name>yarl</name>
+            <version>1.6.3</version>
+            <description>Yet another URL library</description>
+            <hashes>
+                <hash alg="MD5">fac2b952bd69849f766e068f8b94a727</hash>
+                <hash alg="SHA-256">4953fb0b4fdb7e08b2f3b3be80a00d28c5c8a2056bb066169de00e6501b986b6</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/yarl@1.6.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Jason R. Coombs</publisher>
+            <name>zipp</name>
+            <version>3.5.0</version>
+            <description>Backport of pathlib-compatible object wrapper for zip files</description>
+            <hashes>
+                <hash alg="MD5">0ec47fbf522751f6c5fa904cb33f1f59</hash>
+                <hash alg="SHA-256">957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3</hash>
+            </hashes>
+            <purl>pkg:pypi/zipp@3.5.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.component</name>
+            <version>5.0.0</version>
+            <description>Zope Component Architecture</description>
+            <hashes>
+                <hash alg="MD5">95067b8c3cca92026e2c380958192b7c</hash>
+                <hash alg="SHA-256">aee9a753acbe5ad5816cc349287d0d5a0d9e7472797088c7891d283cbf6afb72</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.component@5.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.event</name>
+            <version>4.5.0</version>
+            <description>Very basic event publishing system</description>
+            <hashes>
+                <hash alg="MD5">93b6aa6a0528e970677fe156f56319bf</hash>
+                <hash alg="SHA-256">2666401939cdaa5f4e0c08cf7f20c9b21423b95e88f4675b1443973bdb080c42</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.event@4.5.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.hookable</name>
+            <version>5.0.1</version>
+            <description>Zope hookable</description>
+            <hashes>
+                <hash alg="MD5">6c881e4351fa49eca52400f90956cdae</hash>
+                <hash alg="SHA-256">bd89e0e2c67bf4ac3aca2a19702b1a37269fb1923827f68324ac2e7afd6e3406</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.hookable@5.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.interface</name>
+            <version>5.3.0</version>
+            <description>Interfaces for Python</description>
+            <hashes>
+                <hash alg="MD5">a46703b8f893964b3d9983a8662be1ae</hash>
+                <hash alg="SHA-256">a38c10423a475a1658e2cb8f52cf84ec20a4c0adff724dd43a6b45183f499bc1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.interface@5.3.0</purl>
+            <modified>false</modified>
+        </component>
+    </components>
+</bom>
+
