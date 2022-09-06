@@ -1,0 +1,652 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SAG-PM generated SBOM
+DocumentNamespace: dns:softwareassuranceguardian.com
+Creator: Organization: dns:reliableenergyanalytics.com
+Creator: Tool: SAG-PM Version: 1.1.9DEV
+Created: 2022-09-06T15:40:28Z
+PackageName: SAG-PM (TM)
+PrimaryPackagePurpose: INSTALL
+PackageVersion: 1.1.8
+SPDXID: SPDXRef-Package-5823f25a-2a73-458f-a388-34e28aa95218
+PackageSupplier: Organization: Reliable Energy Analytics LLC
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: SAG-PM.msi
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.8
+SPDXID: SPDXRef-Package-355e98b9-ccb4-4c2e-9e28-5e8bb92d7e2a
+PackageSupplier: Organization: Reliable Energy Analytics LLC
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: SAG-PM.exe
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.8
+SPDXID: SPDXRef-Package-8e0bc220-43b6-47d2-ba1c-5e9d5acbb964
+PackageSupplier: Organization: Reliable Energy Analytics LLC
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: sag-pm-viewer.exe
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.8
+SPDXID: SPDXRef-Package-68e3aa21-6f7a-49fb-9ea2-ffad6a70be5e
+PackageSupplier: Organization: Reliable Energy Analytics LLC
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: SAGPM_Vendor_Data.csv
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.8
+SPDXID: SPDXRef-Package-9c77d3e2-4780-4557-87a0-6c9e91474d1c
+PackageSupplier: Organization: Reliable Energy Analytics LLC
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: END USER LICENSE AGREEMENT.rtf
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.8
+SPDXID: SPDXRef-Package-910396fb-0746-4632-aaf4-f3b6422943b1
+PackageSupplier: Organization: Reliable Energy Analytics LLC
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: userguide.txt
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.8
+SPDXID: SPDXRef-Package-e014b1ee-7a6a-45a7-a123-a31bbf8bed67
+PackageSupplier: Organization: Reliable Energy Analytics LLC
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: acme
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.13.0
+SPDXID: SPDXRef-Package-98b507fa-fd28-425e-9208-77b3bd184b1c
+PackageSupplier: Organization: Certbot Project
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: aiodns
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.0.0
+SPDXID: SPDXRef-Package-fc19ecac-1c1c-47ba-8547-8ba2614c427f
+PackageSupplier: Organization: Saúl Ibarra Corretgé
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: aiohttp
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.7.3
+SPDXID: SPDXRef-Package-81eba422-5c41-4554-886e-04301fce6831
+PackageSupplier: Organization: Nikolay Kim
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: altgraph
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.17
+SPDXID: SPDXRef-Package-5bdf657f-0784-4acf-922b-73a28ab6c410
+PackageSupplier: Organization: Ronald Oussoren
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: antlr4-python3-runtime
+PrimaryPackagePurpose: FILE
+PackageVersion: 4.8
+SPDXID: SPDXRef-Package-3ba6af15-d4fb-465c-a261-649612cb53e5
+PackageSupplier: Organization: Eric Vergnaud, Terence Parr, Sam Harwell
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: async-timeout
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.0.1
+SPDXID: SPDXRef-Package-54948a28-fcb3-468c-9aaf-204b1b9d809f
+PackageSupplier: Organization: Andrew Svetlov
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: attrs
+PrimaryPackagePurpose: FILE
+PackageVersion: 20.3.0
+SPDXID: SPDXRef-Package-4eeec05b-68bb-459d-b74f-f7e0b4e1bc5c
+PackageSupplier: Organization: Hynek Schlawack
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: boto3
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.16.51
+SPDXID: SPDXRef-Package-39e731b3-96da-4ad3-b286-a0e28a9aad96
+PackageSupplier: Organization: Amazon Web Services
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: botocore
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.19.51
+SPDXID: SPDXRef-Package-1375fc23-9f23-4b32-95d2-5a02d155ca07
+PackageSupplier: Organization: Amazon Web Services
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: certbot
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.13.0
+SPDXID: SPDXRef-Package-0f988812-b07d-4ea8-a864-eac523d28915
+PackageSupplier: Organization: Certbot Project
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: certifi
+PrimaryPackagePurpose: FILE
+PackageVersion: 2021.5.30
+SPDXID: SPDXRef-Package-41110e37-2895-44bb-afd3-19dcb0d4aefa
+PackageSupplier: Organization: Kenneth Reitz
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: cffi
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.14.4
+SPDXID: SPDXRef-Package-d2578807-5bbb-4ab3-9479-56ab0dea6ac2
+PackageSupplier: Organization: Armin Rigo, Maciej Fijalkowski
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: chardet
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.0.4
+SPDXID: SPDXRef-Package-7412dadd-d2ec-4704-83e0-276d2194087d
+PackageSupplier: Organization: Daniel Blanchard
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: ConfigArgParse
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.4
+SPDXID: SPDXRef-Package-c27d1d1c-f002-4294-879b-d8d4645305af
+PackageSupplier: Organization: None
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: configobj
+PrimaryPackagePurpose: FILE
+PackageVersion: 5.0.6
+SPDXID: SPDXRef-Package-6a9b9779-c49c-4eb0-80f6-2da1d92cd086
+PackageSupplier: Organization: Rob Dennis, Eli Courtwright (Michael Foord & Nicola Larosa original maintainers)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: cryptography
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.3.1
+SPDXID: SPDXRef-Package-cf4184c8-1985-4d54-9264-78a6a488babc
+PackageSupplier: Organization: The cryptography developers
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: cyclonedx-bom
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.4.3
+SPDXID: SPDXRef-Package-dc899d2e-bf35-4e14-9763-d535d1cc9dd5
+PackageSupplier: Organization: Steve Springett
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: cyclonedx-python-lib
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.4.0
+SPDXID: SPDXRef-Package-b7172ec2-9977-4bdb-afcc-6acf3c8062e9
+PackageSupplier: Organization: Paul Horton
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: datedelta
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.3
+SPDXID: SPDXRef-Package-626f6aa0-5158-4cce-9fb4-369359ae38e4
+PackageSupplier: Organization: Aymeric Augustin
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: distro
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.5.0
+SPDXID: SPDXRef-Package-35c806b0-d7bc-4135-a1e4-9b48eba454cb
+PackageSupplier: Organization: Nir Cohen
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: dnspython
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.0.0
+SPDXID: SPDXRef-Package-94a888e3-4922-47f3-bc11-702532ec85ee
+PackageSupplier: Organization: Bob Halley
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: docutils
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.16
+SPDXID: SPDXRef-Package-8819b031-7a70-410c-8ccb-0fc729c41fe5
+PackageSupplier: Organization: David Goodger
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: elementpath
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.1.1
+SPDXID: SPDXRef-Package-b7899dbe-3e62-4b09-ae75-31f60f165c68
+PackageSupplier: Organization: Davide Brunato
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: et-xmlfile
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.0.1
+SPDXID: SPDXRef-Package-ff2307fa-a06e-42fd-af8e-2ab916a517d3
+PackageSupplier: Organization: See ATUHORS.txt
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: future
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.18.2
+SPDXID: SPDXRef-Package-9feb26d7-c09e-4aa7-8bcf-3bdd0618ee71
+PackageSupplier: Organization: Ed Schofield
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: geoip2
+PrimaryPackagePurpose: FILE
+PackageVersion: 4.1.0
+SPDXID: SPDXRef-Package-4775d20d-b351-4942-b7f3-018699a98a93
+PackageSupplier: Organization: Gregory Oschwald
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: idna
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.10
+SPDXID: SPDXRef-Package-6fefd44f-172a-4225-a2ad-5357c99c96c5
+PackageSupplier: Organization: Kim Davies
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: importlib-metadata
+PrimaryPackagePurpose: FILE
+PackageVersion: 4.8.1
+SPDXID: SPDXRef-Package-a4a9c568-182d-4708-a9d8-7a3f3b22b821
+PackageSupplier: Organization: Jason R. Coombs
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: ipwhois
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.2.0
+SPDXID: SPDXRef-Package-00e1df5a-eff4-4407-b3ca-5e02c81b6219
+PackageSupplier: Organization: Philip Hane
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: isodate
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.6.0
+SPDXID: SPDXRef-Package-a068aec0-7b7e-40ad-b681-86720eadda9e
+PackageSupplier: Organization: Gerhard Weis
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: Jinja2
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.11.2
+SPDXID: SPDXRef-Package-199468c8-c468-495a-853f-f739e0f2e88b
+PackageSupplier: Organization: Armin Ronacher
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: jmespath
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.10.0
+SPDXID: SPDXRef-Package-e00a21ba-e742-4db0-ac00-4f21bb89aefb
+PackageSupplier: Organization: James Saryerwinnie
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: josepy
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.8.0
+SPDXID: SPDXRef-Package-58057c26-7483-42c4-bb28-f9d1ec3772c2
+PackageSupplier: Organization: Certbot Project
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: jsonschema
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.2.0
+SPDXID: SPDXRef-Package-a38a4293-8529-4776-827b-6f91df77c3ee
+PackageSupplier: Organization: Julian Berman
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: lxml
+PrimaryPackagePurpose: FILE
+PackageVersion: 4.6.2
+SPDXID: SPDXRef-Package-ba5e14b0-ccb6-4cdf-b68a-e0ee592ef150
+PackageSupplier: Organization: lxml dev team
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: MarkupSafe
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.1
+SPDXID: SPDXRef-Package-5cea1340-9fa5-4295-8cdc-7621651fc0f1
+PackageSupplier: Organization: Armin Ronacher
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: maxminddb
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.0.3
+SPDXID: SPDXRef-Package-19283f25-34d9-40c6-9948-75d5d3b67908
+PackageSupplier: Organization: Gregory Oschwald
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: multidict
+PrimaryPackagePurpose: FILE
+PackageVersion: 5.1.0
+SPDXID: SPDXRef-Package-7c7d10b0-10b2-4d84-bc85-1197a9f28fb5
+PackageSupplier: Organization: Andrew Svetlov
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: numpy
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.19.5
+SPDXID: SPDXRef-Package-fe739304-b5fe-4f02-87c1-3b7dd4f2f262
+PackageSupplier: Organization: Travis E. Oliphant et al.
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: packageurl-python
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.9.3
+SPDXID: SPDXRef-Package-f5a024f5-6f3f-4abf-adc5-1915aabbfac3
+PackageSupplier: Organization: the purl authors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: packaging
+PrimaryPackagePurpose: FILE
+PackageVersion: 20.7
+SPDXID: SPDXRef-Package-b37c6ad7-726e-4597-8812-516bbcd8b2f6
+PackageSupplier: Organization: Donald Stufft and individual contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pandas
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.2.0
+SPDXID: SPDXRef-Package-fda9aa0b-ceb5-486f-8bb6-0ec20f7ebf53
+PackageSupplier: Organization: None
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: parsedatetime
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.6
+SPDXID: SPDXRef-Package-01e676bb-ac8a-4d22-a309-49128fc72c46
+PackageSupplier: Organization: Mike Taylor
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pefile
+PrimaryPackagePurpose: FILE
+PackageVersion: 2019.4.18
+SPDXID: SPDXRef-Package-fb61f36e-181c-4e4b-b26d-353cec30e434
+PackageSupplier: Organization: Ero Carrera
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: ply
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.11
+SPDXID: SPDXRef-Package-51cbbc3e-ed29-4af5-943b-31d014c9e839
+PackageSupplier: Organization: David Beazley
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: psycopg2
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.8.6
+SPDXID: SPDXRef-Package-917e6e1b-375b-4b69-8fb4-ad4d688a7378
+PackageSupplier: Organization: Federico Di Gregorio
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pycares
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.1.1
+SPDXID: SPDXRef-Package-83df7490-d458-409c-a92f-6b46b05e6940
+PackageSupplier: Organization: Saúl Ibarra Corretgé
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pycparser
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.20
+SPDXID: SPDXRef-Package-088097eb-53f1-4fec-943e-bcf96d67443d
+PackageSupplier: Organization: Eli Bendersky
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pycurl
+PrimaryPackagePurpose: FILE
+PackageVersion: 7.43.0.6
+SPDXID: SPDXRef-Package-d79b2767-53b6-4c8b-8300-f2b7a62c5683
+PackageSupplier: Organization: Kjetil Jacobsen, Markus F.X.J. Oberhumer, Oleg Pudeyev
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pydnsbl
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1.2
+SPDXID: SPDXRef-Package-2dcf6ea1-72c5-4458-80f6-d8c80f24ce4e
+PackageSupplier: Organization: Dmitry ippolitov
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pyinstaller
+PrimaryPackagePurpose: FILE
+PackageVersion: 4.1
+SPDXID: SPDXRef-Package-406190b6-b5b2-46ae-ad72-63f4f81d885c
+PackageSupplier: Organization: Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pyinstaller-hooks-contrib
+PrimaryPackagePurpose: FILE
+PackageVersion: 2020.11
+SPDXID: SPDXRef-Package-74254c8e-e84d-445c-9d6e-f6ded3280c84
+PackageSupplier: Organization: None
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pyOpenSSL
+PrimaryPackagePurpose: FILE
+PackageVersion: 20.0.1
+SPDXID: SPDXRef-Package-6f8d672e-6078-442e-b474-aef3fb161cca
+PackageSupplier: Organization: The pyOpenSSL developers
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pyparsing
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.4.7
+SPDXID: SPDXRef-Package-37856cec-eb9b-4c8d-9f20-9d3b8a7eb64e
+PackageSupplier: Organization: Paul McGuire
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pyRFC3339
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.1
+SPDXID: SPDXRef-Package-05e7e85f-2a39-4ed2-a4b5-9fc4f9e2f29a
+PackageSupplier: Organization: Kurt Raschke
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pyrsistent
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.17.3
+SPDXID: SPDXRef-Package-265a3cc3-79b6-4f3b-a330-8ddca9d0f089
+PackageSupplier: Organization: Tobias Gustafsson
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: python-dateutil
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.8.1
+SPDXID: SPDXRef-Package-63b30062-03d7-449d-90f2-07121c52b745
+PackageSupplier: Organization: Gustavo Niemeyer
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: python-gnupg
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.4.7
+SPDXID: SPDXRef-Package-18e10493-727b-4d90-9cc0-23b83f1d3b5b
+PackageSupplier: Organization: Vinay Sajip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: python-multipart
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.0.5
+SPDXID: SPDXRef-Package-ca7d28e3-d38e-4acb-a2fb-f9dad0d2144e
+PackageSupplier: Organization: Andrew Dunham
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pytz
+PrimaryPackagePurpose: FILE
+PackageVersion: 2020.5
+SPDXID: SPDXRef-Package-c51efb31-666b-48f7-b938-8610abbfb686
+PackageSupplier: Organization: Stuart Bishop
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pywin32
+PrimaryPackagePurpose: FILE
+PackageVersion: 300
+SPDXID: SPDXRef-Package-2bda35a6-90a7-41a5-ab05-0cfd1907a6b5
+PackageSupplier: Organization: Mark Hammond (et al)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: pywin32-ctypes
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.2.0
+SPDXID: SPDXRef-Package-25ab427b-4a7d-4aa5-b692-ffcc29632fb7
+PackageSupplier: Organization: Enthought Inc
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: PyYAML
+PrimaryPackagePurpose: FILE
+PackageVersion: 5.3.1
+SPDXID: SPDXRef-Package-62c917c1-f8fa-45e7-b114-1a9fb51c2e4f
+PackageSupplier: Organization: Kirill Simonov
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: rdflib
+PrimaryPackagePurpose: FILE
+PackageVersion: 5.0.0
+SPDXID: SPDXRef-Package-c4e520b9-4492-40dd-a495-975ebeb9dc98
+PackageSupplier: Organization: Daniel 'eikeon' Krech
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: requests
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.25.0
+SPDXID: SPDXRef-Package-48a3a518-7310-466f-8648-8386826d8506
+PackageSupplier: Organization: Kenneth Reitz
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: requests-toolbelt
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.9.1
+SPDXID: SPDXRef-Package-b44f0104-35c2-420a-853e-07ebdfd09d1d
+PackageSupplier: Organization: Ian Cordasco, Cory Benfield
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: requirements-parser
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.2.0
+SPDXID: SPDXRef-Package-fde79c70-3b6e-478a-a471-62d11a41009f
+PackageSupplier: Organization: David Fischer
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: s3transfer
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.3.3
+SPDXID: SPDXRef-Package-9225e061-fa14-44f1-9068-3ff0341b9c55
+PackageSupplier: Organization: Amazon Web Services
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: simplejson
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.17.2
+SPDXID: SPDXRef-Package-661e3b52-ae5f-41b2-8b78-35c4eb946b48
+PackageSupplier: Organization: Bob Ippolito
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: six
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.15.0
+SPDXID: SPDXRef-Package-d5373ddc-e892-40d2-8141-c39f9b71a55a
+PackageSupplier: Organization: Benjamin Peterson
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: stix2
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.1.0
+SPDXID: SPDXRef-Package-780590ae-2ae5-41e0-862e-9dcba473b2f1
+PackageSupplier: Organization: OASIS Cyber Threat Intelligence Technical Committee
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: stix2-patterns
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.3.2
+SPDXID: SPDXRef-Package-728881de-3d65-4196-9166-824c38e9e586
+PackageSupplier: Organization: OASIS Cyber Threat Intelligence Technical Committee
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: taxii2-client
+PrimaryPackagePurpose: FILE
+PackageVersion: 2.2.2
+SPDXID: SPDXRef-Package-3da9a3cf-af9f-4873-aadf-939146aa731f
+PackageSupplier: Organization: OASIS Cyber Threat Intelligence Technical Committee
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: toml
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.10.2
+SPDXID: SPDXRef-Package-84a06a3f-dae6-4e8d-9c81-8b0e5eadae91
+PackageSupplier: Organization: William Pearson
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: typing-extensions
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.7.4.3
+SPDXID: SPDXRef-Package-0e3f7d69-51ba-46cc-9e55-ce261460287b
+PackageSupplier: Organization: Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: urllib3
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.26.2
+SPDXID: SPDXRef-Package-844cc73f-b827-45e5-99aa-d44149c008c7
+PackageSupplier: Organization: Andrey Petrov
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: wincertstore
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.2
+SPDXID: SPDXRef-Package-cf2fbe1a-fe71-42a2-aa2c-801c30fe75bd
+PackageSupplier: Organization: Christian Heimes
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: xmlschema
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.2.5
+SPDXID: SPDXRef-Package-fd638c76-17cb-479d-99c5-ed7c0b6476a6
+PackageSupplier: Organization: Davide Brunato
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: xmltodict
+PrimaryPackagePurpose: FILE
+PackageVersion: 0.12.0
+SPDXID: SPDXRef-Package-4dd241ba-2b42-4644-bac2-b6287e31a3c5
+PackageSupplier: Organization: Martin Blech
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: yarl
+PrimaryPackagePurpose: FILE
+PackageVersion: 1.6.3
+SPDXID: SPDXRef-Package-9a1ed0c8-e248-4c12-8c03-5f8b62c97d33
+PackageSupplier: Organization: Andrew Svetlov
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: zipp
+PrimaryPackagePurpose: FILE
+PackageVersion: 3.5.0
+SPDXID: SPDXRef-Package-ed5f7768-4f24-4fea-8661-d2d67d207c91
+PackageSupplier: Organization: Jason R. Coombs
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: zope.component
+PrimaryPackagePurpose: FILE
+PackageVersion: 5.0.0
+SPDXID: SPDXRef-Package-20bfd1d0-ed83-4d89-83b6-af5b15256c00
+PackageSupplier: Organization: Zope Foundation and Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: zope.event
+PrimaryPackagePurpose: FILE
+PackageVersion: 4.5.0
+SPDXID: SPDXRef-Package-0d036d64-3563-41f4-9170-849af5411bdc
+PackageSupplier: Organization: Zope Foundation and Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: zope.hookable
+PrimaryPackagePurpose: FILE
+PackageVersion: 5.0.1
+SPDXID: SPDXRef-Package-a3b1cc09-05a5-4909-b203-c2c6135678d2
+PackageSupplier: Organization: Zope Foundation and Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageName: zope.interface
+PrimaryPackagePurpose: FILE
+PackageVersion: 5.3.0
+SPDXID: SPDXRef-Package-ea560e8e-90bb-453f-abdc-2585801899f5
+PackageSupplier: Organization: Zope Foundation and Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
