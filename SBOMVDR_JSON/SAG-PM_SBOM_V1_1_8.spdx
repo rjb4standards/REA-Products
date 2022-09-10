@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-5823f25a-2a73-458f-a388-34e28aa95218
 PackageSupplier: Organization: Reliable Energy Analytics LLC
 PackageDownloadLocation: NOASSERTION
 FilesAnalyzed: false
+ExternalRef: SECURITY advisory https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SBOMVDR_JSON/SAG-PM_VulnDisclosure_V1_1_8.xml
 PackageName: SAG-PM.msi
 PrimaryPackagePurpose: FILE
 PackageVersion: 1.1.8
