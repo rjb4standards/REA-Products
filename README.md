@@ -7,6 +7,9 @@ https://reliableenergyanalytics.com/contact-us
 Presentation slides from the OWASP BSides CT conference held on 11/14/2020 are available here: 
 https://github.com/rjb4standards/REA-Products/blob/master/SAG-PM-V1-1-CybersecWebinar.pdf 
 
+An overview presentation of the SAG-PM (TM) software is available here:
+https://github.com/rjb4standards/Presentations/blob/master/2022-0417-SAGPM-BoD-Presentation.pdf 
+
 The SAG-PM™  software supply chain risk assessment best practices webinar presentation held on 8/12/2020 is available on demand at Energy Central, https://energycentral.com/o/energy-central/demand-energy-central-powersession-series-cybersecurity-us-power-grid-software and the OWASP BSides CT 11/14/2020 conference recording is available on Youtube: https://www.youtube.com/watch?v=5OKYVWcJ2ps 
 
 Please use GitHubs Issues function on the toolbar above to provide all feedback or questions pertaining to the open source XML Vendor Response Schema, example Vendor Response XML file, and Known Vulnerability Disclosure Report (VDR) Schema and sample VDR artifacts and other materials available on this site.
