@@ -1,0 +1,172 @@
+{
+	"VendorResponse": {
+		"VendorLegalName": "Reliable Energy Analytics LLC",
+		"SupplierID": "dns:reliableenergyanalytics.com",
+		"StreetAddress": "23 Linda Drive",
+		"City": "Westfield",
+		"StateOrProvince": "Massachusetts",
+		"ZipCode": "01085",
+		"Country": "USA",
+		"WebsiteURL": "https://reliableenergyanalytics.com/",
+		"ContactTelephone": "978-696-1788",
+		"ContactEmail": "dick@reliableenergyanalytics.com",
+		"ContactPerson": "Dick Brooks",
+		"DUNSNumber": "111509681",
+		"NAESBEIRID": "REAL",
+		"CyberSecPolicyURL": "https://softwareassuranceguardian.com/CyberSecPolicy.html",
+		"FinancialDataURL": "https://softwareassuranceguardian.com/FinancialData.html",
+		"CompanyDataURL": "https://softwareassuranceguardian.com/CompanyData.html",
+		"Products": [
+			{
+				"LicensorName": "Reliable Energy Analytics LLC",
+				"ProductName": "SAG-PM (TM)",
+				"Version": "1.1.3",
+				"SBOM": {
+					"type": "cycloneDX",
+					"version": "1.2",
+					"format": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM-1_1_3-cycloneDX.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM-1_1_3-cycloneDX.xml"
+				},
+				"SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "HTML",
+					"DigitalSignatureURL": "",
+					"URL": "https://softwareassuranceguardian.com/comingsoon.html"
+				},
+				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SDLCPolicyURL_V1_1_3.html",
+				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SDLCEvidenceData_V1_1_3.html",
+				"CommercialStatus": "Retired",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2021-08-21T15:05:00"
+			},
+			{
+				"LicensorName": "Reliable Energy Analytics LLC",
+				"ProductName": "SAG-PM (TM)",
+				"Version": "1.1.4",
+				"SBOM": {
+					"type": "cycloneDX",
+					"version": "1.2",
+					"format": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM-1_1_4-cycloneDX.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM-1_1_4-cycloneDX.xml"
+				},
+				"SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/comingsoon.html",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_4.xml"
+				},
+				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SDLCPolicy_V1_1_4.html",
+				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SDLCEvidence_V1_1_4.html",
+				"CommercialStatus": "Retired",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2021-10-05T22:04:00"
+			},
+			{
+				"LicensorName": "Reliable Energy Analytics LLC",
+				"ProductName": "SAG-PM (TM)",
+				"Version": "1.1.5",
+				"SBOM": {
+					"type": "cycloneDX",
+					"version": "1.2",
+					"format": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_5.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_5.xml"
+				},
+				"SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_5.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_5.xml"
+				},
+				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCPolicy_V1_1_5.html",
+				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCEvidenceData_V1_1_5.html",
+				"CommercialStatus": "Retired",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2021-11-02T15:13:00"
+			},
+			{
+				"LicensorName": "Reliable Energy Analytics LLC",
+				"ProductName": "SAG-PM (TM)",
+				"Version": "1.1.6",
+				"SBOM": {
+					"type": "cycloneDX",
+					"version": "1.2",
+					"format": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_6.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_6.xml"
+				},
+				"SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_6.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_6.xml"
+				},
+				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCPolicy_V1_1_6.html",
+				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCEvidenceData_V1_1_6.html",
+				"CommercialStatus": "Retired",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2021-11-22T20:39:00"
+			},
+			{
+				"LicensorName": "Reliable Energy Analytics LLC",
+				"ProductName": "SAG-PM (TM)",
+				"Version": "1.1.7",
+				"SBOM": {
+					"type": "cycloneDX",
+					"version": "1.2",
+					"format": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_7.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_7.xml"
+				},
+				"SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_7.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_7.xml"
+				},
+				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCPolicy_V1_1_7.html",
+				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCEvidenceData_V1_1_7.html",
+				"CommercialStatus": "Retired",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2022-01-09T20:19:00"
+			},
+			{
+				"LicensorName": "Reliable Energy Analytics LLC",
+				"ProductName": "SAG-PM (TM)",
+				"Version": "1.1.8",
+				"SBOM": {
+					"type": "cycloneDX",
+					"version": "1.2",
+					"format": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_8.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_1_8.xml"
+				},
+				"SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_8.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_1_8.xml"
+				},
+				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCPolicy_V1_1_8.html",
+				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCEvidenceData_V1_1_8.html",
+				"CommercialStatus": "Available",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2022-01-26T17:00:00"
+			}
+		]
+	}
+}
