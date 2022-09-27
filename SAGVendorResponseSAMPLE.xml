@@ -35,7 +35,7 @@ REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS,
       <SAG:UnsolvedVulnerabilities>N</SAG:UnsolvedVulnerabilities>
       <SAG:KnownVulnInfoURL DocFormat="XML" DigitalSignatureURL="">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/SAGVulnDisclosureSAMPLE.xml</SAG:KnownVulnInfoURL>
       <SAG:SDLCPolicyURL>https://softwareassuranceguardian.com/REDACTED</SAG:SDLCPolicyURL>
-      <SAG:SDLCEvidenceDataURL>https://softwareassuranceguardian.com/REDACTED</SAG:SDLCEvidenceDataURL>
+      <SAG:SDLCEvidenceDataURL>https://softwareassuranceguardian.com/CISA_Attestation_CommonForm.json</SAG:SDLCEvidenceDataURL>
       <SAG:CommercialStatus>Available</SAG:CommercialStatus>
       <SAG:SupportStatus>Supported</SAG:SupportStatus>
       <SAG:LastModifiedDateTimeUTC>2022-01-26T14:38:00</SAG:LastModifiedDateTimeUTC>
