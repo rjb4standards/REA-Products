@@ -1,6 +1,7 @@
 # REA-Products
 <a href="https://reliableenergyanalytics.com/">Reliable Energy Analytics LLC</a>
-Copyright and all other rights reserved by Reliable Energy Analytics LLC (REA) 2018-2022
+
+All of the materials in this repository are subject to Copyright and all other rights reserved by Reliable Energy Analytics LLC (REA) 2018-2022
 
 The <a href="https://reliableenergyanalytics.com/products">SAG-PM™ software</a> release has been moved to its secure download location. Please submit your request to download and install the Software Assurance Guardian™ (SAG™) Point Man™ SAG-PM™ software through the contact form located here: 
 https://reliableenergyanalytics.com/contact-us
