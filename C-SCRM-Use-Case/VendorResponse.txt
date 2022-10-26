@@ -25,7 +25,7 @@
       <SAG:SourceLocationURL>https://awscli.amazonaws.com/AWSCLIV2.msi</SAG:SourceLocationURL>
       <SAG:DigitallySigned>Y</SAG:DigitallySigned>
       <SAG:UnsolvedVulnerabilities>Y</SAG:UnsolvedVulnerabilities>
-      <SAG:KnownVulnInfoURL DigitalSignatureURL="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWSCLIVDR.xml.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWSCLIVDR.xml</SAG:KnownVulnInfoURL>
+      <SAG:KnownVulnInfoURL DocFormat="XML" DigitalSignatureURL="https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWSCLIVDR.xml.sig">https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/AWSCLIVDR.xml</SAG:KnownVulnInfoURL>
       <SAG:SDLCPolicyURL>https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/SDLCPolicy.html</SAG:SDLCPolicyURL>
       <SAG:SDLCEvidenceDataURL>https://raw.githubusercontent.com/rjb4standards/REA-Products/master/C-SCRM-Use-Case/SAG-PM_SDLCEvidenceData_COLE.json</SAG:SDLCEvidenceDataURL>
       <SAG:CommercialStatus>Available</SAG:CommercialStatus>
