@@ -1,0 +1,372 @@
+{
+	"SBOMVulnerabilityDisclosure": {
+		"CVERespository": "NIST_NVD",
+		"NISTNVDSearchStatus": "Success",
+		"UnresolvedVulnerabilities": "U",
+		"PackageSourceLocation": "NOASSERTION",
+		"ProductName": "DaggerBoard",
+		"ProductVersion": "1.0",
+		"SBOMAuthor": "NewYork-Presbyterian Hospital",
+		"SBOMFormat": "spdx",
+		"SBOMFormatSyntax": "TV",
+		"SBOMLocation": "file:///c:/users/dick/SPDX-DAGGERBOARD-1-0-SBOM-20-5-2022-23-40.spdx",
+		"SBOMTimestamp": "2022-05-20T16:00:00Z",
+		"SBOMTotalComponentCount": "36",
+		"SupplierName": "NewYork-Presbyterian Hospital",
+		"VulnDisclosureCreateDate": "2022-12-23T20:28:32.153367+00:00"
+	},
+	"Components": [
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=DaggerBoard+1.0",
+			"ComponentID": "",
+			"ComponentName": "DaggerBoard",
+			"ComponentSupplierName": "NewYork-Presbyterian Hospital",
+			"ComponentVersion": "1.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=asgiref+3.4.1",
+			"ComponentID": "",
+			"ComponentName": "asgiref",
+			"ComponentSupplierName": "Django Software Foundation",
+			"ComponentVersion": "3.4.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=beautifulsoup4+4.10.0",
+			"ComponentID": "",
+			"ComponentName": "beautifulsoup4",
+			"ComponentSupplierName": "Leonard Richardson",
+			"ComponentVersion": "4.10.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=certifi+2021.5.30",
+			"ComponentID": "",
+			"ComponentName": "certifi",
+			"ComponentSupplierName": "Kenneth Reitz",
+			"ComponentVersion": "2021.5.30",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=charset-normalizer+2.0.6",
+			"ComponentID": "",
+			"ComponentName": "charset-normalizer",
+			"ComponentSupplierName": "Ahmed TAHRI @Ousret",
+			"ComponentVersion": "2.0.6",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-appconf+1.0.4",
+			"ComponentID": "",
+			"ComponentName": "django-appconf",
+			"ComponentSupplierName": "Jannis Leidel",
+			"ComponentVersion": "1.0.4",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-auth-ldap+3.0.0",
+			"ComponentID": "",
+			"ComponentName": "django-auth-ldap",
+			"ComponentSupplierName": "Peter Sagerson",
+			"ComponentVersion": "3.0.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-compressor+2.4.1",
+			"ComponentID": "",
+			"ComponentName": "django-compressor",
+			"ComponentSupplierName": "Jannis Leidel",
+			"ComponentVersion": "2.4.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-cors-headers+3.11.0",
+			"ComponentID": "",
+			"ComponentName": "django-cors-headers",
+			"ComponentSupplierName": "Otto Yiu",
+			"ComponentVersion": "3.11.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-csp+3.7",
+			"ComponentID": "",
+			"ComponentName": "django-csp",
+			"ComponentSupplierName": "James Socol",
+			"ComponentVersion": "3.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-env+0.2.1",
+			"ComponentID": "",
+			"ComponentName": "django-env",
+			"ComponentSupplierName": "Tomek CzyÅ¼",
+			"ComponentVersion": "0.2.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-environ+0.8.1",
+			"ComponentID": "",
+			"ComponentName": "django-environ",
+			"ComponentSupplierName": "Daniele Faraglia",
+			"ComponentVersion": "0.8.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-libsass+0.9",
+			"ComponentID": "",
+			"ComponentName": "django-libsass",
+			"ComponentSupplierName": "Matt Westcott",
+			"ComponentVersion": "0.9",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=django-rq+2.5.1",
+			"ComponentID": "",
+			"ComponentName": "django-rq",
+			"ComponentSupplierName": "Selwin Ong",
+			"ComponentVersion": "2.5.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=Django+3.2.10",
+			"ComponentID": "",
+			"ComponentName": "Django",
+			"ComponentSupplierName": "Django Software Foundation",
+			"ComponentVersion": "3.2.10",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2021-44420",
+					"CVSS": "7.3",
+					"CVEDescription": "In Django 2.2 before 2.2.25, 3.1 before 3.1.14, and 3.2 before 3.2.10, HTTP requests for URLs with trailing newlines could bypass upstream access control based on URL paths.",
+					"Exploitable": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=idna+3.2",
+			"ComponentID": "",
+			"ComponentName": "idna",
+			"ComponentSupplierName": "Kim Davies",
+			"ComponentVersion": "3.2",
+			"NumberVulnsReported": "2",
+			"CVE": [
+				{
+					"CVEID": "CVE-2019-9937",
+					"CVSS": "7.5",
+					"CVEDescription": "In SQLite 3.27.2, interleaving reads and writes in a single transaction with an fts5 virtual table will lead to a NULL Pointer Dereference in fts5ChunkIterate in sqlite3.c. This is related to ext/fts5/fts5_hash.c and ext/fts5/fts5_index.c.",
+					"Exploitable": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD"
+				},
+				{
+					"CVEID": "CVE-2019-9936",
+					"CVSS": "7.5",
+					"CVEDescription": "In SQLite 3.27.2, running fts5 prefix queries inside a transaction could trigger a heap-based buffer over-read in fts5HashEntrySort in sqlite3.c, which may lead to an information leak. This is related to ext/fts5/fts5_hash.c.",
+					"Exploitable": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=libsass+0.21.0",
+			"ComponentID": "",
+			"ComponentName": "libsass",
+			"ComponentSupplierName": "Hong Minhee",
+			"ComponentVersion": "0.21.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=lxml+4.7.1",
+			"ComponentID": "",
+			"ComponentName": "lxml",
+			"ComponentSupplierName": "lxml dev team",
+			"ComponentVersion": "4.7.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=mariadb+1.0.9",
+			"ComponentID": "",
+			"ComponentName": "mariadb",
+			"ComponentSupplierName": "Georg Richter",
+			"ComponentVersion": "1.0.9",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=mysqlclient+2.0.3",
+			"ComponentID": "",
+			"ComponentName": "mysqlclient",
+			"ComponentSupplierName": "Inada Naoki",
+			"ComponentVersion": "2.0.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=numpy+1.21.3",
+			"ComponentID": "",
+			"ComponentName": "numpy",
+			"ComponentSupplierName": "Travis E. Oliphant et al.",
+			"ComponentVersion": "1.21.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=pandas+1.3.4",
+			"ComponentID": "",
+			"ComponentName": "pandas",
+			"ComponentSupplierName": "The Pandas Development Team",
+			"ComponentVersion": "1.3.4",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=pdfkit+1.0.0",
+			"ComponentID": "",
+			"ComponentName": "pdfkit",
+			"ComponentSupplierName": "Golovanov Stanislav",
+			"ComponentVersion": "1.0.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=Pillow+9.0.0",
+			"ComponentID": "",
+			"ComponentName": "Pillow",
+			"ComponentSupplierName": "Alex Clark (PIL Fork Author)",
+			"ComponentVersion": "9.0.0",
+			"NumberVulnsReported": "3",
+			"CVE": [
+				{
+					"CVEID": "CVE-2022-22817",
+					"CVSS": "9.8",
+					"CVEDescription": "PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A lambda expression could also be used,",
+					"Exploitable": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD"
+				},
+				{
+					"CVEID": "CVE-2022-22816",
+					"CVSS": "6.5",
+					"CVEDescription": "path_getbbox in path.c in Pillow before 9.0.0 has a buffer over-read during initialization of ImagePath.Path.",
+					"Exploitable": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD"
+				},
+				{
+					"CVEID": "CVE-2022-22815",
+					"CVSS": "6.5",
+					"CVEDescription": "path_getbbox in path.c in Pillow before 9.0.0 improperly initializes ImagePath.Path.",
+					"Exploitable": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=pyaes+1.6.1",
+			"ComponentID": "",
+			"ComponentName": "pyaes",
+			"ComponentSupplierName": "Richard Moore",
+			"ComponentVersion": "1.6.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=python-dateutil+2.8.2",
+			"ComponentID": "",
+			"ComponentName": "python-dateutil",
+			"ComponentSupplierName": "Gustavo Niemeyer",
+			"ComponentVersion": "2.8.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=pytz+2021.1",
+			"ComponentID": "",
+			"ComponentName": "pytz",
+			"ComponentSupplierName": "Stuart Bishop",
+			"ComponentVersion": "2021.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=rcssmin+1.0.6",
+			"ComponentID": "",
+			"ComponentName": "rcssmin",
+			"ComponentSupplierName": "AndrÃ© Malo",
+			"ComponentVersion": "1.0.6",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=redis+4.1.2",
+			"ComponentID": "",
+			"ComponentName": "redis",
+			"ComponentSupplierName": "Redis Inc.",
+			"ComponentVersion": "4.1.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=reportlab+3.6.5",
+			"ComponentID": "",
+			"ComponentName": "reportlab",
+			"ComponentSupplierName": "Andy Robinson, Robin Becker, the ReportLab team and the community",
+			"ComponentVersion": "3.6.5",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=requests+2.26.0",
+			"ComponentID": "",
+			"ComponentName": "requests",
+			"ComponentSupplierName": "Kenneth Reitz",
+			"ComponentVersion": "2.26.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=rjsmin+1.1.0",
+			"ComponentID": "",
+			"ComponentName": "rjsmin",
+			"ComponentSupplierName": "AndrÃ© Malo",
+			"ComponentVersion": "1.1.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=rq+1.10.1",
+			"ComponentID": "",
+			"ComponentName": "rq",
+			"ComponentSupplierName": "Vincent Driessen",
+			"ComponentVersion": "1.10.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=six+1.16.0",
+			"ComponentID": "",
+			"ComponentName": "six",
+			"ComponentSupplierName": "Benjamin Peterson",
+			"ComponentVersion": "1.16.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=soupsieve+2.3",
+			"ComponentID": "",
+			"ComponentName": "soupsieve",
+			"ComponentSupplierName": "Isaac Muse",
+			"ComponentVersion": "2.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/1.0?keyword=sqlparse+0.4.2",
+			"ComponentID": "",
+			"ComponentName": "sqlparse",
+			"ComponentSupplierName": "Andi Albrecht",
+			"ComponentVersion": "0.4.2",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2021-32839",
+					"CVSS": "7.5",
+					"CVEDescription": "sqlparse is a non-validating SQL parser module for Python. In sqlparse versions 0.4.0 and 0.4.1 there is a regular Expression Denial of Service in sqlparse vulnerability. The regular expression may cause exponential backtracking on strings containing many repetitions of '\\r\\n' in SQL comments. Only the formatting feature that removes comments from SQL statements is affected by this regular expression. As a workaround don't use the sqlformat.format function with keyword strip_comments=True or the --strip-comments command line flag when using the sqlformat command line tool. The issues has been fixed in sqlparse 0.4.2.",
+					"Exploitable": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD"
+				}
+			]
+		}
+	]
+}
