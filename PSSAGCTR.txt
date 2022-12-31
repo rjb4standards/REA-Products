@@ -1,0 +1,3 @@
+$hash = Get-FileHash \Windows\System32\drivers\winverbs.sys
+$url = "https://softwareassuranceguardian.com/SAGCTR_inquiry/getSAGScore?FileHash=" +$hash.Hash
+Start-Process -FilePath $url
