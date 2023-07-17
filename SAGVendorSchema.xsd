@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema elementFormDefault="qualified" 
 		targetNamespace="http://softwareassuranceguardian.com/" 
-		version="1.1.4" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/">
+		version="1.1.5" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/">
 <!-- 
 	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
-	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/  
+	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/
+	
+	GIFTED to the Internet Engineering Task Force Supply Chain Integrity, Transparency and Trust work group on July 17, 2023  
 
 DISCLAIMER OF WARRANTIES
 TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
@@ -115,13 +117,16 @@ RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-
     				</restriction>
     			</simpleType>
     		</element>
-    		<element name="KnownVulnInfoURL" type="SAG:KnownVulnType" maxOccurs="1" minOccurs="1"></element>
+    		<element name="KnownVulnInfoURL" type="SAG:KnownVulnType"
+    			maxOccurs="1" minOccurs="1">
+    		</element>
     		<element name="SDLCPolicyURL" type="string" maxOccurs="1"
     			minOccurs="1">
     		</element>
     		<element name="SDLCEvidenceDataURL" type="string"
     			maxOccurs="1" minOccurs="1">
     		</element>
+    		<element name="CyberSecLabelURL" type="string" minOccurs="1" maxOccurs="1"></element>
     		<element name="CommercialStatus" maxOccurs="1"
     			minOccurs="1">
     			<simpleType>
