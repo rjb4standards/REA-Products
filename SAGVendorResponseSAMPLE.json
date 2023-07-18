@@ -1,1 +1,48 @@
-{"VendorResponse": {"VendorLegalName": "Reliable Energy Analytics LLC", "SupplierID": "dns:reliableenergyanalytics.com", "StreetAddress": "23 Linda Drive", "City": "Westfield", "StateOrProvince": "Massachusetts", "ZipCode": "01085", "Country": "USA", "WebsiteURL": "https://reliableenergyanalytics.com/", "ContactTelephone": "978-696-1788", "ContactEmail": "dick@reliableenergyanalytics.com", "ContactPerson": "Dick Brooks", "DUNSNumber": "111509681", "NAESBEIRID": "REAL", "CyberSecPolicyURL": "https://softwareassuranceguardian.com/CyberSecPolicy.html", "FinancialDataURL": "https://softwareassuranceguardian.com/FinancialData.html", "CompanyDataURL": "https://softwareassuranceguardian.com/CompanyData.html", "Products": [{"LicensorName": "Reliable Energy Analytics LLC", "ProductName": "SAG-PM (TM)", "Version": "1.2", "SBOM": {"type": "cycloneDX", "version": "1.4", "format": "XML", "DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_2.xml.sig", "URL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_2.xml"}, "SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip", "DigitallySigned": "Y", "UnsolvedVulnerabilities": "N", "KnownVulnInfoURL": {"DocFormat": "XML", "DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_2.xml.sig", "URL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_2.xml"}, "SDLCPolicyURL": "https://softwareassuranceguardian.com/SAG-PM-V1_2_SDLC-POLICY-NIST.SP.800-218.SSDF-table.pdf", "SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCEvidenceData_V1_2.html", "CyberSecLabelURL": "https://softwareassuranceguardian.com/SAGCTR_inquiry/getSAGScore?FileHash=94EDB27E1995370E9003EE0A0A12D0A7DE2E8DA5EB663C31A97CB4215AB171B6", "CommercialStatus": "Available", "SupportStatus": "Supported", "LastModifiedDateTimeUTC": "2022-09-22T16:23:00"}]}}
+{
+	"VendorResponse": {
+		"VendorLegalName": "Reliable Energy Analytics LLC",
+		"SupplierID": "dns:reliableenergyanalytics.com",
+		"StreetAddress": "23 Linda Drive",
+		"City": "Westfield",
+		"StateOrProvince": "Massachusetts",
+		"ZipCode": "01085",
+		"Country": "USA",
+		"WebsiteURL": "https://reliableenergyanalytics.com/",
+		"ContactTelephone": "978-696-1788",
+		"ContactEmail": "dick@reliableenergyanalytics.com",
+		"ContactPerson": "Dick Brooks",
+		"DUNSNumber": "111509681",
+		"NAESBEIRID": "REAL",
+		"CyberSecPolicyURL": "https://softwareassuranceguardian.com/CyberSecPolicy.html",
+		"FinancialDataURL": "https://softwareassuranceguardian.com/FinancialData.html",
+		"CompanyDataURL": "https://softwareassuranceguardian.com/CompanyData.html",
+		"Products": [
+			{
+				"LicensorName": "Reliable Energy Analytics LLC",
+				"ProductName": "SAG-PM (TM)",
+				"Version": "1.2",
+				"SBOM": {
+					"type": "cycloneDX",
+					"version": "1.4",
+					"format": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_2.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_SBOM_V1_2.xml"
+				},
+				"SourceLocationURL": "https://softwareassuranceguardian.com/sag-pm.zip",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "XML",
+					"DigitalSignatureURL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_2.xml.sig",
+					"URL": "https://softwareassuranceguardian.com/SAG-PM_VulnDisclosure_V1_2.xml"
+				},
+				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SAG-PM-V1_2_SDLC-POLICY-NIST.SP.800-218.SSDF-table.pdf",
+				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SAG-PM_SDLCEvidenceData_V1_2.html",
+				"CyberSecLabelURL": "https://softwareassuranceguardian.com/SAGCTR_inquiry/getSAGScore?FileHash=94EDB27E1995370E9003EE0A0A12D0A7DE2E8DA5EB663C31A97CB4215AB171B6",
+				"CommercialStatus": "Available",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2022-09-22T16:23:00"
+			}
+		]
+	}
+}
