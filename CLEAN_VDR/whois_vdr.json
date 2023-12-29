@@ -1,0 +1,60 @@
+{
+	"SBOMVulnerabilityDisclosure": {
+		"CVERespository": "NIST_NVD",
+		"NISTNVDSearchStatus": "Success",
+		"UnresolvedVulnerabilities": "N",
+		"PackageSourceLocation": "https://download.sysinternals.com/files/WhoIs.zip/",
+		"ProductName": "WhoIs.zip",
+		"ProductVersion": "1.21",
+		"SBOMAuthor": "dns:reliableenergyanalytics.com",
+		"SBOMFormat": "spdx",
+		"SBOMFormatSyntax": "TV",
+		"SBOMLocation": "file:///C:\\\\Users\\\\dick\\\\Evidence\\\\2023-12-29_18_35_43_554051_ONLINE_4d93e312-f51c-4d92-82c8-5422dfaaaa7e.spdx",
+		"SBOMTimestamp": "2023-12-29T18:37:41Z",
+		"SBOMTotalComponentCount": "5",
+		"SupplierName": "Mark Russinovich / SysInternals",
+		"VulnDisclosureCreateDate": "2023-12-29T19:04:40.420056+00:00"
+	},
+	"Components": [
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=WhoIs.zip+1.21",
+			"ComponentID": "",
+			"ComponentName": "WhoIs.zip",
+			"ComponentSupplierName": "Mark Russinovich / SysInternals",
+			"ComponentVersion": "1.21",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=whois.exe",
+			"ComponentID": "",
+			"ComponentName": "whois.exe",
+			"ComponentSupplierName": "Mark Russinovich / SysInternals",
+			"ComponentVersion": "",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=whois64.exe",
+			"ComponentID": "",
+			"ComponentName": "whois64.exe",
+			"ComponentSupplierName": "Mark Russinovich / SysInternals",
+			"ComponentVersion": "",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=whois64a.exe",
+			"ComponentID": "",
+			"ComponentName": "whois64a.exe",
+			"ComponentSupplierName": "Mark Russinovich / SysInternals",
+			"ComponentVersion": "",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Eula.txt",
+			"ComponentID": "",
+			"ComponentName": "Eula.txt",
+			"ComponentSupplierName": "Mark Russinovich / SysInternals",
+			"ComponentVersion": "",
+			"NumberVulnsReported": "0"
+		}
+	]
+}
