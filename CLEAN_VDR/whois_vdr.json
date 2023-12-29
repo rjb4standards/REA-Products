@@ -3,7 +3,7 @@
 		"CVERespository": "NIST_NVD",
 		"NISTNVDSearchStatus": "Success",
 		"UnresolvedVulnerabilities": "N",
-		"PackageSourceLocation": "https://download.sysinternals.com/files/WhoIs.zip/",
+		"PackageSourceLocation": "https://download.sysinternals.com/files/WhoIs.zip",
 		"ProductName": "WhoIs.zip",
 		"ProductVersion": "1.21",
 		"SBOMAuthor": "dns:reliableenergyanalytics.com",
