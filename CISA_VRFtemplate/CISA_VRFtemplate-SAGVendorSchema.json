@@ -1,0 +1,47 @@
+{
+	"VendorResponse": {
+		"VendorLegalName": "SAG:VendorLegalName",
+		"SupplierID": "SAG:SupplierID - SAM.gov UEI code",
+		"StreetAddress": "SAG:StreetAddress",
+		"City": "SAG:City",
+		"StateOrProvince": "SAG:StateOrProvince",
+		"ZipCode": "SAG:ZipCode",
+		"Country": "SAG:Country",
+		"WebsiteURL": "SAG:WebsiteURL",
+		"ContactTelephone": "SAG:ContactTelephone",
+		"ContactEmail": "SAG:ContactEmail",
+		"ContactPerson": "SAG:ContactPerson",
+		"DUNSNumber": "NOT NEEDED FOR CISA",
+		"NAESBEIRID": "NOT NEEDED FOR CISA",
+		"CyberSecPolicyURL": "SAG:CyberSecPolicyURL",
+		"FinancialDataURL": "SAG:FinancialDataURL",
+		"CompanyDataURL": "SAG:CompanyDataURL",
+		"Products": [
+			{
+				"LicensorName": "Software Producer Legal Name per OMB M-22-18",
+				"ProductName": "SAG:ProductName",
+				"Version": "SAG:Version",
+				"SBOM": {
+					"type": "spdx",
+					"version": "",
+					"format": "JSON",
+					"DigitalSignatureURL": "",
+					"URL": "SAG:SBOM"
+				},
+				"SourceLocationURL": "SAG:SourceLocationURL",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "Y",
+				"KnownVulnInfoURL": {
+					"DocFormat": "Word",
+					"DigitalSignatureURL": "",
+					"URL": "SAG:KnownVulnInfoURL"
+				},
+				"SDLCPolicyURL": "SAG:SDLCPolicyURL",
+				"SDLCEvidenceDataURL": "SAG:SDLCEvidenceDataURL",
+				"CommercialStatus": "Available",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2024-03-24T12:00:00"
+			}
+		]
+	}
+}

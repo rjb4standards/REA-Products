@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Instructions for completing this VRF are available online at https://energycentral.com/c/pip/advice-software-vendors-prepare-omb-m-22-18-requirements -->
+<!-- 
+	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2023. 
+	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/
+	
+	GIFTED to the Internet Engineering Task Force Supply Chain Integrity, Transparency and Trust (IETF SCITT) work group on July 17, 2023
+	
+	A sample template for use by software producers to manage artifacts that may be required to satisfy CISA/OMB self attestation form processing
+	is also available online at https://github.com/rjb4standards/REA-Products/tree/master/CISA_VRFtemplate   
+
+DISCLAIMER OF WARRANTIES
+TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
+WARRANTIES, GUARANTEES, AND CONDITIONS OF ANY KIND, ARISING BY LAW OR OTHERWISE, WITH REGARD TO THIS ARTIFACT, 
+INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES, GUARANTEES, AND CONDITIONS OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, AND QUALITY OF SERVICE.
+ 
+REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS, USEFULNESS, RELIABILITY, 
+AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE 
+RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
+	
+--> 
+<SAG:VendorResponse xmlns:SAG="http://softwareassuranceguardian.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://softwareassuranceguardian.com/ SAGVendorSchema.xsd ">
+  <SAG:VendorLegalName>SAG:VendorLegalName</SAG:VendorLegalName>
+  <SAG:SupplierID>SAG:SupplierID - SAM.gov UEI code</SAG:SupplierID>
+  <SAG:StreetAddress>SAG:StreetAddress</SAG:StreetAddress>
+  <SAG:City>SAG:City</SAG:City>
+  <SAG:StateOrProvince>SAG:StateOrProvince</SAG:StateOrProvince>
+  <SAG:ZipCode>SAG:ZipCode</SAG:ZipCode>
+  <SAG:Country>SAG:Country</SAG:Country>
+  <SAG:WebsiteURL>SAG:WebsiteURL</SAG:WebsiteURL>
+  <SAG:ContactTelephone>SAG:ContactTelephone</SAG:ContactTelephone>
+  <SAG:ContactEmail>SAG:ContactEmail</SAG:ContactEmail>
+  <SAG:ContactPerson>SAG:ContactPerson</SAG:ContactPerson>
+  <SAG:DUNSNumber>NOT NEEDED FOR CISA</SAG:DUNSNumber>
+  <SAG:NAESBEIRID>NOT NEEDED FOR CISA</SAG:NAESBEIRID>
+  <SAG:CyberSecPolicyURL>SAG:CyberSecPolicyURL</SAG:CyberSecPolicyURL>
+  <SAG:FinancialDataURL>SAG:FinancialDataURL</SAG:FinancialDataURL>
+  <SAG:CompanyDataURL>SAG:CompanyDataURL</SAG:CompanyDataURL>
+  <SAG:Products>
+    <SAG:Product>
+      <SAG:LicensorName>Software Producer Legal Name per OMB M-22-18</SAG:LicensorName>
+      <SAG:ProductName>SAG:ProductName</SAG:ProductName>
+      <SAG:Version>SAG:Version</SAG:Version>
+      <SAG:SBOM DigitalSignatureURL="" format="JSON" type="spdx" version="">SAG:SBOM</SAG:SBOM>
+      <SAG:SourceLocationURL>SAG:SourceLocationURL</SAG:SourceLocationURL>
+      <SAG:DigitallySigned>Y</SAG:DigitallySigned>
+      <SAG:UnsolvedVulnerabilities>Y</SAG:UnsolvedVulnerabilities>
+      <SAG:KnownVulnInfoURL DigitalSignatureURL="" DocFormat="Word">SAG:KnownVulnInfoURL</SAG:KnownVulnInfoURL>
+      <SAG:SDLCPolicyURL>SAG:SDLCPolicyURL</SAG:SDLCPolicyURL>
+      <SAG:SDLCEvidenceDataURL>SAG:SDLCEvidenceDataURL</SAG:SDLCEvidenceDataURL>
+      <SAG:CyberSecLabelURL>SAG:CyberSecLabelURL URL to SAG-CTR Trusted Product Label Registry Entry - NOT NEEDED FOR CISA </SAG:CyberSecLabelURL>
+      <SAG:CommercialStatus>Available</SAG:CommercialStatus>
+      <SAG:SupportStatus>Supported</SAG:SupportStatus>
+      <SAG:LastModifiedDateTimeUTC>2024-03-24T12:00:00</SAG:LastModifiedDateTimeUTC>
+    </SAG:Product>
+  </SAG:Products>
+</SAG:VendorResponse>
