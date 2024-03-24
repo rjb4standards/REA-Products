@@ -1,5 +1,5 @@
-<!-- Instructions for completing this VRF are available online at https://energycentral.com/c/pip/advice-software-vendors-prepare-omb-m-22-18-requirements -->
-<!-- 
+<h1> Instructions for completing this VRF are available online at https://energycentral.com/c/pip/advice-software-vendors-prepare-omb-m-22-18-requirements </h1>
+<p> 
 	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2023. 
 	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/
 	
@@ -18,5 +18,5 @@ REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS,
 AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE 
 RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
 	
---> 
+</p> 
 
