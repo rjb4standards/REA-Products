@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema elementFormDefault="qualified" 
 		targetNamespace="http://softwareassuranceguardian.com/" 
-		version="1.1.5" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/">
+		version="1.2.2" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/">
 <!-- 
-	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
+	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2023. 
 	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/
 	
-	GIFTED to the Internet Engineering Task Force Supply Chain Integrity, Transparency and Trust work group on July 17, 2023  
+	GIFTED to the Internet Engineering Task Force Supply Chain Integrity, Transparency and Trust (IETF SCITT) work group on July 17, 2023
+	
+	A sample template for use by software producers to manage artifacts that may be required to satisfy CISA/OMB self attestation form processing
+	is also available online at https://github.com/rjb4standards/REA-Products/tree/master/CISA_VRFtemplate   
 
 DISCLAIMER OF WARRANTIES
 TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
@@ -88,6 +91,9 @@ RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-
     			minOccurs="1">
     		</element>
     		<element name="ProductName" type="string" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="DescriptionURL" type="string" maxOccurs="1"
     			minOccurs="1">
     		</element>
     		<element name="Version" type="string" maxOccurs="1"
