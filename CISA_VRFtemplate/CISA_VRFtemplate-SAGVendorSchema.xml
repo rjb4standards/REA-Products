@@ -41,6 +41,7 @@ RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-
     <SAG:Product>
       <SAG:LicensorName>Software Producer Legal Name per OMB M-22-18</SAG:LicensorName>
       <SAG:ProductName>SAG:ProductName</SAG:ProductName>
+      <SAG:DescriptionURL>Link to Product Description </SAG:DescriptionURL>
       <SAG:Version>SAG:Version</SAG:Version>
       <SAG:SBOM DigitalSignatureURL="" format="JSON" type="spdx" version="">SAG:SBOM</SAG:SBOM>
       <SAG:SourceLocationURL>SAG:SourceLocationURL</SAG:SourceLocationURL>
