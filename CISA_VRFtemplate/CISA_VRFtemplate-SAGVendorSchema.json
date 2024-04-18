@@ -20,6 +20,7 @@
 			{
 				"LicensorName": "Software Producer Legal Name per OMB M-22-18",
 				"ProductName": "SAG:ProductName",
+				"DescriptionURL": "Link to Product Description",
 				"Version": "SAG:Version",
 				"SBOM": {
 					"type": "spdx",
