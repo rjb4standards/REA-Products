@@ -39,6 +39,7 @@
 				},
 				"SDLCPolicyURL": "SAG:SDLCPolicyURL",
 				"SDLCEvidenceDataURL": "SAG:SDLCEvidenceDataURL",
+				"CyberSecLabelURL": "link to cybersec label",
 				"CommercialStatus": "Available",
 				"SupportStatus": "Supported",
 				"LastModifiedDateTimeUTC": "2024-03-24T12:00:00"
