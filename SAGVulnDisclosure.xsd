@@ -2,8 +2,9 @@
 <schema elementFormDefault="qualified" targetNamespace="http://softwareassuranceguardian.com/1_1_7" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/1_1_7">
 
 <!-- 
-	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2021. 
-	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/  
+	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2024. 
+	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/
+	Update: May 4, 2024 to include CISAKEV wit ha yes.no response within CVE stricture  
 
 DISCLAIMER OF WARRANTIES
 TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
@@ -68,6 +69,22 @@ U: Unsure if a vulnerability is exploitable</documentation>
     				</restriction>
     			</simpleType>
     		</element>
+            <element name="CISAKEV" maxOccurs="1" minOccurs="1">
+                <annotation>
+                	<documentation>A flag containing one of the following:
+Y: listed in the CISA KEV catalog
+N: not listed in the CISA KEV catalog
+U: Unsure if a vulnerability is exploitable</documentation>
+                </annotation>
+                <simpleType>
+                	<restriction base="string">
+                		<enumeration value="Y"></enumeration>
+                		<enumeration value="N"></enumeration>
+                		<enumeration value="value"></enumeration>
+                	</restriction>
+                </simpleType>
+            </element>
+
             <element name="FixStatus" minOccurs="1" maxOccurs="1">
                 <annotation>
                 	<documentation>An enumerated set of statuses, see constraints for list of possible values:
