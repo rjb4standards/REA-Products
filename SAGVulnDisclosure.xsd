@@ -44,7 +44,7 @@ of each reported vulnerability.
     	<sequence>
     		<element name="CVEID" type="string" minOccurs="1" maxOccurs="1">
     			<annotation>
-    				<documentation>Identifier assigned by an authorized party i.e. Software producer using CVE-private-nnnn or a public CVE-YYYY-NNNNN to identify a CVE</documentation>
+    				<documentation>Identifier assigned by an authorized party i.e. CVE Numbering Authority to identify a CVE OR a private CVEID indicated by CVE-private-nnnnnnn</documentation>
     			</annotation></element>
     		<element name="CVSS" type="string" minOccurs="1" maxOccurs="1">
     			<annotation>
@@ -238,8 +238,7 @@ are provided in this material along with any other information that will assist 
     				<enumeration value="Aborted"></enumeration>
     			</restriction>
     		</simpleType>
-    	</attribute>
-        <attribute name="UnresolvedVulnerabilities" use="required">
+    	</attribute>        <attribute name="UnresolvedVulnerabilities" use="required">
             <annotation>
             	<documentation>High level flag used to inform consumers that a known, unresolved vulnerability is present: 
 Y: indicates the presence of unresolved vulnerabilities in the VDR, where FixStatus is not equal "Fix Available" and Exploitable equals "Y"
@@ -283,7 +282,7 @@ U: Unsure - some vulnerabilities may still be under investigation and have not b
     		</annotation></attribute>
     	<attribute name="CVESearchString" type="string" use="required">
     		<annotation>
-    			<documentation>Keyword search string submitted to NIST NVD that produced the CVE's Listed. </documentation>
+    			<documentation>Keyword search string submitted to NIST NVD that produced the CVE's Listed OR a URL to a vendor proprietary security advisory if the CVEID is "private"</documentation>
     		</annotation></attribute>
     	<attribute name="NumberVulnsReported" type="int" use="required">
     		<annotation>
