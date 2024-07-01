@@ -1,0 +1,2215 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"spdxVersion": "SPDX-2.3",
+	"creationInfo": {
+		"created": "2024-06-19T19:41:08Z",
+		"creators": [
+			"Organization:dns:reliableenergyanalytics.com",
+			"Tool:SAG-PM Version 2.0.0"
+		]
+	},
+	"name": "SAG-PM generated SBOM",
+	"dataLicense": "CC0-1.0",
+	"hasExtractedLicensingInfos": [
+		{
+			"licenseId": "LicenseRef-Unlicense",
+			"extractedText": "WARNING: TEXT IS REQUIRED",
+			"name": "Unlicense"
+		}
+	],
+	"documentNamespace": "dns:softwareassuranceguardian.com",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-2de91388-b40d-4d5d-a09e-807a076eaabb",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "SAG-PM (TM)",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "INSTALL",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-2b698769-5250-41ed-89e3-0630615e8cc8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "SAG-PM.msi",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-a6c93dc7-b186-44eb-b651-ebd2a00c8c15",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "SAG-PM.exe",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-540e8f12-b650-4630-952c-0f4937d2077c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "sag-pm-viewer.exe",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-b5a6b2bf-7f66-4c16-a872-edde88b3b997",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "SAGPM_Vendor_Data.csv",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-83e306d2-0f6f-49ca-8fd2-6275ca7863ca",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "END USER LICENSE AGREEMENT.rtf",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-fabd3e31-13d6-4908-a703-9607b5cf277a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "userguide.txt",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-a49c7168-8bb6-499e-86e6-80cc6468be81",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "SAGScore-BASE.jpg",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-c2fcac78-ae6f-4e10-ab88-e4b727df477b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "addcust.csv",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Reliable Energy Analytics LLC",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-f637d2aa-be4e-423a-a28f-f99351802a4b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "acme",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Certbot Project",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.13.0"
+		},
+		{
+			"SPDXID": "SPDXRef-a6784170-2a55-4490-9c74-bc7e4ed94f3c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "aiodns",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:SaÃºl Ibarra CorretgÃ©",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-3be2928e-c4b3-4065-9ad0-5463ee360c19",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "aiohttp",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Nikolay Kim",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.7.3"
+		},
+		{
+			"SPDXID": "SPDXRef-588e88d4-5791-4f42-b11d-c348ce067d1e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "altgraph",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Ronald Oussoren",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.17"
+		},
+		{
+			"SPDXID": "SPDXRef-8d7bbdc9-5aac-4199-9136-8b88c0d23a40",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "antlr4-python3-runtime",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Eric Vergnaud, Terence Parr, Sam Harwell",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "4.8"
+		},
+		{
+			"SPDXID": "SPDXRef-a58d0f56-9be9-4c30-896a-b6ef69699f9a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "async-timeout",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Andrew Svetlov",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-57e0e9cb-5bc3-4b2a-b7dc-b7c983c78509",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "attrs",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Hynek Schlawack",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "20.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-8f987cff-8f50-4527-91c3-18c095cbc811",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "boto3",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Amazon Web Services",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.16.51"
+		},
+		{
+			"SPDXID": "SPDXRef-637f3035-b4bf-459c-adb2-cea0d8606de6",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "botocore",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Amazon Web Services",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.19.51"
+		},
+		{
+			"SPDXID": "SPDXRef-251f3a51-4a9b-4976-bf36-1cd3aa4061d9",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "certbot",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Certbot Project",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.13.0"
+		},
+		{
+			"SPDXID": "SPDXRef-9d14bba9-8364-4737-8419-e180808d8e34",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "certifi",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Kenneth Reitz",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2021.5.30"
+		},
+		{
+			"SPDXID": "SPDXRef-0fa50d01-bd94-4055-a6be-327c77e1978c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "cffi",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Armin Rigo, Maciej Fijalkowski",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.14.4"
+		},
+		{
+			"SPDXID": "SPDXRef-6f43039b-7b2f-4f3d-9da1-fb4aec33db7a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "chardet",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Daniel Blanchard",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.0.4"
+		},
+		{
+			"SPDXID": "SPDXRef-0e9fa133-3c10-4c53-9540-ee0f36aa940e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "ConfigArgParse",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:None",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.4"
+		},
+		{
+			"SPDXID": "SPDXRef-7e350c9c-b7aa-4fbf-82ad-be4214042f73",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "configobj",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Rob Dennis, Eli Courtwright (Michael Foord & Nicola Larosa original maintainers)",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "5.0.6"
+		},
+		{
+			"SPDXID": "SPDXRef-24f8b7e3-50a4-482d-8123-f8ce99657b76",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "cryptography",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:The cryptography developers",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-747e2eb3-6907-47cf-867a-d0f3dc5f5c59",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "cyclonedx-bom",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Steve Springett",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.4.3"
+		},
+		{
+			"SPDXID": "SPDXRef-de6fd2ee-b0f0-4b80-a6db-f34c8446f9c0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "cyclonedx-python-lib",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Paul Horton",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-3d759a47-d0a2-4286-b13c-62ef762ff24e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "datedelta",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Aymeric Augustin",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.3"
+		},
+		{
+			"SPDXID": "SPDXRef-8023f2b9-7405-4f73-aebb-cc0e6cb97fd8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "distro",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Nir Cohen",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.5.0"
+		},
+		{
+			"SPDXID": "SPDXRef-7d138e50-e64b-435c-b776-03f8792382db",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "dnspython",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Bob Halley",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-563bd93c-41a6-40ed-87d3-b8d1590396e6",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "docutils",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:David Goodger",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.16"
+		},
+		{
+			"SPDXID": "SPDXRef-a7cc3b68-91c1-4b7e-89c1-8f61ebb20231",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "elementpath",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Davide Brunato",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-df0128b8-5bb1-47aa-9ee2-297ddf903827",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "et-xmlfile",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:See ATUHORS.txt",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-a9cd026d-f184-4d13-b559-e1f1eae14e86",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "future",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Ed Schofield",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.18.2"
+		},
+		{
+			"SPDXID": "SPDXRef-2c4bed09-4286-46f5-bb38-a305c033171d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "geoip2",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Gregory Oschwald",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "4.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-e6597d33-2ae5-469f-987e-dd4a6fba115b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "idna",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Kim Davies",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.10"
+		},
+		{
+			"SPDXID": "SPDXRef-cebc6feb-6cb2-456b-8bcb-5b84e0be0d51",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "importlib-metadata",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Jason R. Coombs",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "4.8.1"
+		},
+		{
+			"SPDXID": "SPDXRef-04227d7b-8567-4b8d-86e3-d3343e1bb209",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "ipwhois",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Philip Hane",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-640df8c9-3086-4b39-a647-2128c9b797f9",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "isodate",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Gerhard Weis",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-accdf7c8-7e3a-43a1-9c3e-6eae06fc34f0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "Jinja2",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Armin Ronacher",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.11.2"
+		},
+		{
+			"SPDXID": "SPDXRef-15905251-3ec2-48e5-bf6f-6e602a583a36",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "jmespath",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:James Saryerwinnie",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.10.0"
+		},
+		{
+			"SPDXID": "SPDXRef-85e3d6c5-0fe3-4deb-8fea-1effb0cf553a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "josepy",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Certbot Project",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.8.0"
+		},
+		{
+			"SPDXID": "SPDXRef-14a4d21b-8c7d-4102-bfee-84762d6f3fb5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "jsonschema",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Julian Berman",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-b0c38653-d1d5-4978-842b-1deee20feaa3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "lxml",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:lxml dev team",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "4.6.2"
+		},
+		{
+			"SPDXID": "SPDXRef-c461c283-70ad-4e0f-8f93-a99b1acc2f4d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "MarkupSafe",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Armin Ronacher",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-8b300507-f1d4-4f1d-9e34-224d5ac55f43",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "maxminddb",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Gregory Oschwald",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.0.3"
+		},
+		{
+			"SPDXID": "SPDXRef-3f2b52a0-dc92-492c-a89c-c21e649f928c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "multidict",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Andrew Svetlov",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "5.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-c7c29811-d198-4996-bfa4-ec92d299c617",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "numpy",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Travis E. Oliphant et al.",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.19.5"
+		},
+		{
+			"SPDXID": "SPDXRef-1edbb8ea-cabd-4449-a686-0b292f9cc5b4",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "packageurl-python",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:the purl authors",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.9.3"
+		},
+		{
+			"SPDXID": "SPDXRef-02926ba7-518e-45d0-8d06-80b1124756a7",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "packaging",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Donald Stufft and individual contributors",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "20.7"
+		},
+		{
+			"SPDXID": "SPDXRef-c34cb6fe-e532-4e7a-8c0b-8a07d7eae20e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pandas",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:None",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-8a953a42-af32-4a4b-a87e-88f27bffec1f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "parsedatetime",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Mike Taylor",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.6"
+		},
+		{
+			"SPDXID": "SPDXRef-3b433075-0bba-48f7-bf85-824b1d45e6ed",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pefile",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Ero Carrera",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2019.4.18"
+		},
+		{
+			"SPDXID": "SPDXRef-fe3961bd-9d83-4eb4-8040-26e79b3d01d5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "Pillow",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Alex Clark (PIL Fork Author)",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "9.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-c75d8008-e94b-491f-a8b5-f671459cfdc4",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "ply",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:David Beazley",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.11"
+		},
+		{
+			"SPDXID": "SPDXRef-8832170f-bfd8-4fdf-b328-e5491b37a555",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "psycopg2",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Federico Di Gregorio",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.8.6"
+		},
+		{
+			"SPDXID": "SPDXRef-c4ea79a7-b644-4376-b74d-82b4d5846922",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pycares",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:SaÃºl Ibarra CorretgÃ©",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-bac88067-b85d-4f25-9cca-c54989b6e906",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pycparser",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Eli Bendersky",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.20"
+		},
+		{
+			"SPDXID": "SPDXRef-ac408440-cae5-4044-9604-bca4dbafdcd5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pycurl",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Kjetil Jacobsen, Markus F.X.J. Oberhumer, Oleg Pudeyev",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "7.43.0.6"
+		},
+		{
+			"SPDXID": "SPDXRef-ba4a78ae-13fe-493f-bedf-da36c7d5383b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pydnsbl",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Dmitry ippolitov",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.1.2"
+		},
+		{
+			"SPDXID": "SPDXRef-49d21ce4-c330-4e71-8929-d57d19dec790",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pyinstaller",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "4.1"
+		},
+		{
+			"SPDXID": "SPDXRef-7e0fd162-1cd9-4a3f-b2a4-646ca134688b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pyinstaller-hooks-contrib",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:None",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2020.11"
+		},
+		{
+			"SPDXID": "SPDXRef-0b9b6c8b-f822-45af-97c0-c8946b7742e8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pyOpenSSL",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:The pyOpenSSL developers",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "20.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-f6c1acc7-386e-45ac-9179-c2fccac77993",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pyparsing",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Paul McGuire",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.4.7"
+		},
+		{
+			"SPDXID": "SPDXRef-e1d8454c-8559-4992-bfbb-af8be5ede9e8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pyRFC3339",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Kurt Raschke",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-264a8d91-5bef-4e74-b9de-67012a3db511",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pyrsistent",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Tobias Gustafsson",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.17.3"
+		},
+		{
+			"SPDXID": "SPDXRef-9bc4cdd9-32ac-4b47-b01d-94d779c15928",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "python-dateutil",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Gustavo Niemeyer",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.8.1"
+		},
+		{
+			"SPDXID": "SPDXRef-ffd8c2e8-8c3f-46c2-9266-2cdbc6995d76",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "python-gnupg",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Vinay Sajip",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.4.7"
+		},
+		{
+			"SPDXID": "SPDXRef-b334b79e-f443-4e98-9a35-cf62c69b8bf7",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "python-multipart",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Andrew Dunham",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.0.5"
+		},
+		{
+			"SPDXID": "SPDXRef-5924b680-bb1a-43e1-beb0-2cd4f599c559",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pytz",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Stuart Bishop",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2020.5"
+		},
+		{
+			"SPDXID": "SPDXRef-09217a5a-b5a0-4803-bf10-01fcb8eccb3c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pywin32",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Mark Hammond (et al)",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "300"
+		},
+		{
+			"SPDXID": "SPDXRef-a7c8e4e5-1bec-4f33-9d19-b157b48f0cad",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "pywin32-ctypes",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Enthought Inc",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-a493290a-2672-4e5a-8635-9489a59c0890",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "PyYAML",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Kirill Simonov",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "5.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-2aec14fd-38fe-43ba-9d6c-c4ec84d02fec",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "rdflib",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Daniel 'eikeon' Krech",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "5.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-edea524a-74ad-449b-8921-a29f8af96377",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "requests",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Kenneth Reitz",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.25.0"
+		},
+		{
+			"SPDXID": "SPDXRef-1fb5b6c9-2b45-4c23-a571-99be83989299",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "requests-toolbelt",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Ian Cordasco, Cory Benfield",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.9.1"
+		},
+		{
+			"SPDXID": "SPDXRef-fac67ec2-6f35-4875-b94c-eab0a7df6659",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "requirements-parser",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:David Fischer",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-ea3ff69c-4797-4138-9b9f-5541090e7b62",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "s3transfer",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Amazon Web Services",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.3.3"
+		},
+		{
+			"SPDXID": "SPDXRef-85018737-d45b-4bcd-9f8b-d87d15795e24",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "simplejson",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Bob Ippolito",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.17.2"
+		},
+		{
+			"SPDXID": "SPDXRef-08854083-6b63-4e5f-9390-11e11d624940",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "six",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Benjamin Peterson",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.15.0"
+		},
+		{
+			"SPDXID": "SPDXRef-96cf6852-33be-4e47-b442-970ddc7e68a8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "stix2",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:OASIS Cyber Threat Intelligence Technical Committee",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-dab1192e-a112-4709-b31a-216b205b6053",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "stix2-patterns",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:OASIS Cyber Threat Intelligence Technical Committee",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.3.2"
+		},
+		{
+			"SPDXID": "SPDXRef-e3d4a13e-6c2c-4e49-93e3-77ff77f4f724",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "taxii2-client",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:OASIS Cyber Threat Intelligence Technical Committee",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "2.2.2"
+		},
+		{
+			"SPDXID": "SPDXRef-bc1042b8-2d21-4669-af91-0e7369c83d07",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "toml",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:William Pearson",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.10.2"
+		},
+		{
+			"SPDXID": "SPDXRef-b4245656-9de7-4401-9bb0-7c8d8087d910",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "typing-extensions",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.7.4.3"
+		},
+		{
+			"SPDXID": "SPDXRef-900c7312-9a31-4b34-9b64-8b58128e6bb4",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "urllib3",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Andrey Petrov",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.26.2"
+		},
+		{
+			"SPDXID": "SPDXRef-c5cd58ad-5466-4fb8-acb1-09b035f9c372",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "wincertstore",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Christian Heimes",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.2"
+		},
+		{
+			"SPDXID": "SPDXRef-3df9441b-ab02-475c-ad7a-09d9b1be0a0f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "xmlschema",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Davide Brunato",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.2.5"
+		},
+		{
+			"SPDXID": "SPDXRef-2c89eb35-12c2-4f2b-96dd-259c17cff34d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "xmltodict",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Martin Blech",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "0.12.0"
+		},
+		{
+			"SPDXID": "SPDXRef-efcd0157-1424-4282-ad2a-8d30873a8538",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "yarl",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Andrew Svetlov",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "1.6.3"
+		},
+		{
+			"SPDXID": "SPDXRef-a2ada1ff-5dd7-46c8-8ca5-8a8ffeab8dc0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "zipp",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Jason R. Coombs",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "3.5.0"
+		},
+		{
+			"SPDXID": "SPDXRef-ef7eb2ed-28ba-4da2-aaf0-31635d1969a0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "zope.component",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Zope Foundation and Contributors",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "5.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-c5f13083-8cba-4ba8-8ccd-87939ac7d724",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "zope.event",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Zope Foundation and Contributors",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "4.5.0"
+		},
+		{
+			"SPDXID": "SPDXRef-e76b499a-883f-4232-917a-c26feb25cd24",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "zope.hookable",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Zope Foundation and Contributors",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "5.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-1fae18f5-3705-4aa0-8070-138ae5ddfc99",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "zope.interface",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Zope Foundation and Contributors",
+			"primaryPackagePurpose": "FILE",
+			"versionInfo": "5.3.0"
+		}
+	],
+	"relationships": [
+		{
+			"spdxElementId": "SPDXRef-DOCUMENT",
+			"relatedSpdxElement": "SPDXRef-2de91388-b40d-4d5d-a09e-807a076eaabb",
+			"relationshipType": "DESCRIBES"
+		}
+	]
+}

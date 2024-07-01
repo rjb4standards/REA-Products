@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1">
+	<metadata>
+		<timestamp>2024-06-19T12:24:00Z</timestamp>
+		<authors>
+			<author>
+				<name>Reliable Energy Analytics LLC</name>
+				<email>dick@businesscyberguardian.com</email>
+			</author>
+		</authors>
+		<supplier>
+			<name>Reliable Energy Analytics LLC</name>
+			<url>dns:businesscyberguardian.com</url>
+		</supplier>
+	</metadata>
+    <components>
+	<component type="application">
+		<publisher>Reliable Energy Analytics LLC</publisher>
+            	<name>SAG-PM (TM)</name>
+            	<version>2.0.0</version>
+            	<licenses>
+                   <license>
+                    <name>Reliable Energy Analytics LLC Commercial License</name>
+                    <text content-type="text/plain">See license file embedded in installation package</text>
+                   </license>
+            	</licenses>
+        </component>
+	<component type="file">
+        	<publisher>Reliable Energy Analytics LLC</publisher>
+            	<name>SAG-PM.msi</name>
+            	<version>2.0.0</version>
+	</component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>SAG-PM.exe</name>
+            <version>2.0.0</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>sag-pm-viewer.exe</name>
+            <version>2.0.0</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>SAGPM_Vendor_Data.csv</name>
+            <version>2.0.0</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>END USER LICENSE AGREEMENT.rtf</name>
+            <version>2.0.0</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>userguide.txt</name>
+            <version>2.0.0</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>SAGScore-BASE.jpg</name>
+            <version>2.0.0</version>
+        </component>
+        <component type="file">
+            <publisher>Reliable Energy Analytics LLC</publisher>
+            <name>addcust.csv</name>
+            <version>2.0.0</version>
+        </component>
+        <component type="library">
+            <publisher>Certbot Project</publisher>
+            <name>acme</name>
+            <version>1.13.0</version>
+            <description>ACME protocol implementation in Python</description>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/acme@1.13.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Saúl Ibarra Corretgé</publisher>
+            <name>aiodns</name>
+            <version>2.0.0</version>
+            <description>Simple DNS resolver for asyncio</description>
+            <purl>pkg:pypi/aiodns@2.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Nikolay Kim</publisher>
+            <name>aiohttp</name>
+            <version>3.7.3</version>
+            <description>Async http client/server framework (asyncio)</description>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/aiohttp@3.7.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ronald Oussoren</publisher>
+            <name>altgraph</name>
+            <version>0.17</version>
+            <description>Python graph (network) package</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/altgraph@0.17</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Eric Vergnaud, Terence Parr, Sam Harwell</publisher>
+            <name>antlr4-python3-runtime</name>
+            <version>4.8</version>
+            <description>ANTLR 4.8 runtime for Python 3.7</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/antlr4-python3-runtime@4.8</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Svetlov</publisher>
+            <name>async-timeout</name>
+            <version>3.0.1</version>
+            <description>Timeout context manager for asyncio programs</description>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/async-timeout@3.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Hynek Schlawack</publisher>
+            <name>attrs</name>
+            <version>20.3.0</version>
+            <description>Classes Without Boilerplate</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/attrs@20.3.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Amazon Web Services</publisher>
+            <name>boto3</name>
+            <version>1.16.51</version>
+            <description>The AWS SDK for Python</description>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/boto3@1.16.51</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Amazon Web Services</publisher>
+            <name>botocore</name>
+            <version>1.19.51</version>
+            <description>Low-level, data-driven core of boto 3.</description>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/botocore@1.19.51</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Certbot Project</publisher>
+            <name>certbot</name>
+            <version>1.13.0</version>
+            <description>ACME client</description>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/certbot@1.13.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kenneth Reitz</publisher>
+            <name>certifi</name>
+            <version>2021.5.30</version>
+            <description>Python package for providing Mozilla's CA Bundle.</description>
+            <licenses>
+                <license>
+                    <name>MPL-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/certifi@2021.5.30</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Armin Rigo, Maciej Fijalkowski</publisher>
+            <name>cffi</name>
+            <version>1.14.4</version>
+            <description>Foreign Function Interface for Python calling C code.</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cffi@1.14.4</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Daniel Blanchard</publisher>
+            <name>chardet</name>
+            <version>3.0.4</version>
+            <description>Universal encoding detector for Python 2 and 3</description>
+            <licenses>
+                <license>
+                    <name>LGPL</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/chardet@3.0.4</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <name>ConfigArgParse</name>
+            <version>1.4</version>
+            <description>A drop-in replacement for argparse that allows options to also be set via config files and/or environment variables.</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/configargparse@1.4</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Rob Dennis, Eli Courtwright (Michael Foord &amp; Nicola Larosa original maintainers)</publisher>
+            <name>configobj</name>
+            <version>5.0.6</version>
+            <description>Config file reading, writing and validation.</description>
+            <purl>pkg:pypi/configobj@5.0.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>The cryptography developers</publisher>
+            <name>cryptography</name>
+            <version>3.3.1</version>
+            <description>cryptography is a package which provides cryptographic recipes and primitives to Python developers.</description>
+            <licenses>
+                <license>
+                    <name>BSD or Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cryptography@3.3.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Steve Springett</publisher>
+            <name>cyclonedx-bom</name>
+            <version>0.4.3</version>
+            <description>CycloneDX software bill-of-material (SBOM) generation utility</description>
+            <licenses>
+                <license>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cyclonedx-bom@0.4.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Paul Horton</publisher>
+            <name>cyclonedx-python-lib</name>
+            <version>0.4.0</version>
+            <description>A library for producing CycloneDX SBOM (Software Bill of Materials) files.</description>
+            <licenses>
+                <license>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/cyclonedx-python-lib@0.4.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Aymeric Augustin</publisher>
+            <name>datedelta</name>
+            <version>1.3</version>
+            <description>Like datetime.timedelta, for date arithmetic.</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/datedelta@1.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Nir Cohen</publisher>
+            <name>distro</name>
+            <version>1.5.0</version>
+            <description>Distro - an OS platform information API</description>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/distro@1.5.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Bob Halley</publisher>
+            <name>dnspython</name>
+            <version>2.0.0</version>
+            <description>DNS toolkit</description>
+            <licenses>
+                <license>
+                    <name>ISC</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/dnspython@2.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>David Goodger</publisher>
+            <name>docutils</name>
+            <version>0.16</version>
+            <description>Docutils -- Python Documentation Utilities</description>
+            <licenses>
+                <license>
+                    <name>public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/docutils@0.16</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Davide Brunato</publisher>
+            <name>elementpath</name>
+            <version>2.1.1</version>
+            <description>XPath 1.0/2.0 parsers and selectors for ElementTree and lxml</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/elementpath@2.1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>See ATUHORS.txt</publisher>
+            <name>et-xmlfile</name>
+            <version>1.0.1</version>
+            <description>An implementation of lxml.xmlfile for the standard library</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/et-xmlfile@1.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ed Schofield</publisher>
+            <name>future</name>
+            <version>0.18.2</version>
+            <description>Clean single-source support for Python 3 and 2</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/future@0.18.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gregory Oschwald</publisher>
+            <name>geoip2</name>
+            <version>4.1.0</version>
+            <description>MaxMind GeoIP2 API</description>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/geoip2@4.1.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kim Davies</publisher>
+            <name>idna</name>
+            <version>2.10</version>
+            <description>Internationalized Domain Names in Applications (IDNA)</description>
+            <licenses>
+                <license>
+                    <name>BSD-like</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/idna@2.10</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Jason R. Coombs</publisher>
+            <name>importlib-metadata</name>
+            <version>4.8.1</version>
+            <description>Read metadata from Python packages</description>
+            <purl>pkg:pypi/importlib-metadata@4.8.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Philip Hane</publisher>
+            <name>ipwhois</name>
+            <version>1.2.0</version>
+            <description>Retrieve and parse whois data for IPv4 and IPv6 addresses.</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/ipwhois@1.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gerhard Weis</publisher>
+            <name>isodate</name>
+            <version>0.6.0</version>
+            <description>An ISO 8601 date/time/duration parser and formatter</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/isodate@0.6.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Armin Ronacher</publisher>
+            <name>Jinja2</name>
+            <version>2.11.2</version>
+            <description>A very fast and expressive template engine.</description>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/jinja2@2.11.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>James Saryerwinnie</publisher>
+            <name>jmespath</name>
+            <version>0.10.0</version>
+            <description>JSON Matching Expressions</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/jmespath@0.10.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Certbot Project</publisher>
+            <name>josepy</name>
+            <version>1.8.0</version>
+            <description>JOSE protocol implementation in Python</description>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/josepy@1.8.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Julian Berman</publisher>
+            <name>jsonschema</name>
+            <version>3.2.0</version>
+            <description>An implementation of JSON Schema validation for Python</description>
+            <purl>pkg:pypi/jsonschema@3.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>lxml dev team</publisher>
+            <name>lxml</name>
+            <version>4.6.2</version>
+            <description>Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/lxml@4.6.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Armin Ronacher</publisher>
+            <name>MarkupSafe</name>
+            <version>1.1.1</version>
+            <description>Safely add untrusted strings to HTML/XML markup.</description>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/markupsafe@1.1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gregory Oschwald</publisher>
+            <name>maxminddb</name>
+            <version>2.0.3</version>
+            <description>Reader for the MaxMind DB format</description>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/maxminddb@2.0.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Svetlov</publisher>
+            <name>multidict</name>
+            <version>5.1.0</version>
+            <description>multidict implementation</description>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/multidict@5.1.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Travis E. Oliphant et al.</publisher>
+            <name>numpy</name>
+            <version>1.19.5</version>
+            <description>NumPy is the fundamental package for array computing with Python.</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/numpy@1.19.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>the purl authors</publisher>
+            <name>packageurl-python</name>
+            <version>0.9.3</version>
+            <description>A "purl" aka. Package URL parser and builder</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/packageurl-python@0.9.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Donald Stufft and individual contributors</publisher>
+            <name>packaging</name>
+            <version>20.7</version>
+            <description>Core utilities for Python packages</description>
+            <purl>pkg:pypi/packaging@20.7</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <name>pandas</name>
+            <version>1.2.0</version>
+            <description>Powerful data structures for data analysis, time series, and statistics</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pandas@1.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Mike Taylor</publisher>
+            <name>parsedatetime</name>
+            <version>2.6</version>
+            <description>Parse human-readable date/time text.</description>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/parsedatetime@2.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ero Carrera</publisher>
+            <name>pefile</name>
+            <version>2019.4.18</version>
+            <description>Python PE parsing module</description>
+            <purl>pkg:pypi/pefile@2019.4.18</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Alex Clark (PIL Fork Author)</publisher>
+            <name>Pillow</name>
+            <version>9.2.0</version>
+            <description>Python Imaging Library (Fork)</description>
+            <licenses>
+                <license>
+                    <name>HPND</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pillow@9.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>David Beazley</publisher>
+            <name>ply</name>
+            <version>3.11</version>
+            <description>Python Lex &amp; Yacc</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/ply@3.11</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Federico Di Gregorio</publisher>
+            <name>psycopg2</name>
+            <version>2.8.6</version>
+            <description>psycopg2 - Python-PostgreSQL Database Adapter</description>
+            <licenses>
+                <license>
+                    <name>LGPL with exceptions</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/psycopg2@2.8.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Saúl Ibarra Corretgé</publisher>
+            <name>pycares</name>
+            <version>3.1.1</version>
+            <description>Python interface for c-ares</description>
+            <purl>pkg:pypi/pycares@3.1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Eli Bendersky</publisher>
+            <name>pycparser</name>
+            <version>2.20</version>
+            <description>C parser in Python</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pycparser@2.20</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kjetil Jacobsen, Markus F.X.J. Oberhumer, Oleg Pudeyev</publisher>
+            <name>pycurl</name>
+            <version>7.43.0.6</version>
+            <description>PycURL -- A Python Interface To The cURL library</description>
+            <licenses>
+                <license>
+                    <name>LGPL/MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pycurl@7.43.0.6</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Dmitry ippolitov</publisher>
+            <name>pydnsbl</name>
+            <version>1.1.2</version>
+            <description>Async dnsbl lists checker based on asyncio/aiodns.</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pydnsbl@1.1.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky</publisher>
+            <name>pyinstaller</name>
+            <version>4.1</version>
+            <description>PyInstaller bundles a Python application and all its dependencies into a single package.</description>
+            <licenses>
+                <license>
+                    <name>GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyinstaller@4.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <name>pyinstaller-hooks-contrib</name>
+            <version>2020.11</version>
+            <description>Community maintained hooks for PyInstaller</description>
+            <purl>pkg:pypi/pyinstaller-hooks-contrib@2020.11</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>The pyOpenSSL developers</publisher>
+            <name>pyOpenSSL</name>
+            <version>20.0.1</version>
+            <description>Python wrapper module around the OpenSSL library</description>
+            <licenses>
+                <license>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyopenssl@20.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Paul McGuire</publisher>
+            <name>pyparsing</name>
+            <version>2.4.7</version>
+            <description>Python parsing module</description>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyparsing@2.4.7</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kurt Raschke</publisher>
+            <name>pyRFC3339</name>
+            <version>1.1</version>
+            <description>Generate and parse RFC 3339 timestamps</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyrfc3339@1.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Tobias Gustafsson</publisher>
+            <name>pyrsistent</name>
+            <version>0.17.3</version>
+            <description>Persistent/Functional/Immutable data structures</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyrsistent@0.17.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Gustavo Niemeyer</publisher>
+            <name>python-dateutil</name>
+            <version>2.8.1</version>
+            <description>Extensions to the standard Python datetime module</description>
+            <licenses>
+                <license>
+                    <name>Dual License</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/python-dateutil@2.8.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Vinay Sajip</publisher>
+            <name>python-gnupg</name>
+            <version>0.4.7</version>
+            <description>A wrapper for the Gnu Privacy Guard (GPG or GnuPG)</description>
+            <licenses>
+                <license>
+                    <name>Copyright (C) 2008-2021 by Vinay Sajip. All Rights Reserved. See LICENSE.txt for license.</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/python-gnupg@0.4.7</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Dunham</publisher>
+            <name>python-multipart</name>
+            <version>0.0.5</version>
+            <description>A streaming multipart parser for Python</description>
+            <licenses>
+                <license>
+                    <name>Apache</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/python-multipart@0.0.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Stuart Bishop</publisher>
+            <name>pytz</name>
+            <version>2020.5</version>
+            <description>World timezone definitions, modern and historical</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pytz@2020.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Mark Hammond (et al)</publisher>
+            <name>pywin32</name>
+            <version>300</version>
+            <description>Python for Window Extensions</description>
+            <licenses>
+                <license>
+                    <name>PSF</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pywin32@300</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Enthought Inc</publisher>
+            <name>pywin32-ctypes</name>
+            <version>0.2.0</version>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pywin32-ctypes@0.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kirill Simonov</publisher>
+            <name>PyYAML</name>
+            <version>5.3.1</version>
+            <description>YAML parser and emitter for Python</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/pyyaml@5.3.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Daniel 'eikeon' Krech</publisher>
+            <name>rdflib</name>
+            <version>5.0.0</version>
+            <description>RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.</description>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/rdflib@5.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Kenneth Reitz</publisher>
+            <name>requests</name>
+            <version>2.25.0</version>
+            <description>Python HTTP for Humans.</description>
+            <licenses>
+                <license>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/requests@2.25.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Ian Cordasco, Cory Benfield</publisher>
+            <name>requests-toolbelt</name>
+            <version>0.9.1</version>
+            <description>A utility belt for advanced users of python-requests</description>
+            <licenses>
+                <license>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/requests-toolbelt@0.9.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>David Fischer</publisher>
+            <name>requirements-parser</name>
+            <version>0.2.0</version>
+            <description>Parses Pip requirement files</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/requirements-parser@0.2.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Amazon Web Services</publisher>
+            <name>s3transfer</name>
+            <version>0.3.3</version>
+            <description>An Amazon S3 Transfer Manager</description>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/s3transfer@0.3.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Bob Ippolito</publisher>
+            <name>simplejson</name>
+            <version>3.17.2</version>
+            <description>Simple, fast, extensible JSON encoder/decoder for Python</description>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/simplejson@3.17.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Benjamin Peterson</publisher>
+            <name>six</name>
+            <version>1.15.0</version>
+            <description>Python 2 and 3 compatibility utilities</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/six@1.15.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>OASIS Cyber Threat Intelligence Technical Committee</publisher>
+            <name>stix2</name>
+            <version>2.1.0</version>
+            <description>Produce and consume STIX 2 JSON content</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/stix2@2.1.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>OASIS Cyber Threat Intelligence Technical Committee</publisher>
+            <name>stix2-patterns</name>
+            <version>1.3.2</version>
+            <description>Validate STIX 2 Patterns.</description>
+            <purl>pkg:pypi/stix2-patterns@1.3.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>OASIS Cyber Threat Intelligence Technical Committee</publisher>
+            <name>taxii2-client</name>
+            <version>2.2.2</version>
+            <description>TAXII 2 Client Library</description>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/taxii2-client@2.2.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>William Pearson</publisher>
+            <name>toml</name>
+            <version>0.10.2</version>
+            <description>Python Library for Tom's Obvious, Minimal Language</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/toml@0.10.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee</publisher>
+            <name>typing-extensions</name>
+            <version>3.7.4.3</version>
+            <description>Backported and Experimental Type Hints for Python 3.5+</description>
+            <licenses>
+                <license>
+                    <name>PSF</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/typing-extensions@3.7.4.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrey Petrov</publisher>
+            <name>urllib3</name>
+            <version>1.26.2</version>
+            <description>HTTP library with thread-safe connection pooling, file post, and more.</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/urllib3@1.26.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Christian Heimes</publisher>
+            <name>wincertstore</name>
+            <version>0.2</version>
+            <description>Python module to extract CA and CRL certs from Windows' cert store (ctypes based).</description>
+            <licenses>
+                <license>
+                    <name>PSFL</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/wincertstore@0.2</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Davide Brunato</publisher>
+            <name>xmlschema</name>
+            <version>1.2.5</version>
+            <description>An XML Schema validator and decoder</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/xmlschema@1.2.5</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Martin Blech</publisher>
+            <name>xmltodict</name>
+            <version>0.12.0</version>
+            <description>Makes working with XML feel like you are working with JSON</description>
+            <licenses>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/xmltodict@0.12.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Andrew Svetlov</publisher>
+            <name>yarl</name>
+            <version>1.6.3</version>
+            <description>Yet another URL library</description>
+            <licenses>
+                <license>
+                    <name>Apache 2</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/yarl@1.6.3</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Jason R. Coombs</publisher>
+            <name>zipp</name>
+            <version>3.5.0</version>
+            <description>Backport of pathlib-compatible object wrapper for zip files</description>
+            <purl>pkg:pypi/zipp@3.5.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.component</name>
+            <version>5.0.0</version>
+            <description>Zope Component Architecture</description>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.component@5.0.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.event</name>
+            <version>4.5.0</version>
+            <description>Very basic event publishing system</description>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.event@4.5.0</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.hookable</name>
+            <version>5.0.1</version>
+            <description>Zope hookable</description>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.hookable@5.0.1</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>Zope Foundation and Contributors</publisher>
+            <name>zope.interface</name>
+            <version>5.3.0</version>
+            <description>Interfaces for Python</description>
+            <licenses>
+                <license>
+                    <name>ZPL 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:pypi/zope.interface@5.3.0</purl>
+            <modified>false</modified>
+        </component>
+    </components>
+</bom>
