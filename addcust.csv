@@ -1,0 +1,2 @@
+Vendor_Name,Product_Name,Version,Source_Location_URL,SL_CN_Name,SL_CA_Name,Access_Control,NATF_Response_File_URL,X509SKID,PGPFingerprint,NATF_ResponseDigSigURL
+BUSINESS CYBER GUARDIAN,SAG-PM (TM),2.1.0,https://softwareassuranceguardian.com/sag-pm.zip,softwareassuranceguardian.com,Go Daddy Secure Certificate Authority - G2,BasicAuth,https://softwareassuranceguardian.com/SAG-PM_VendorResponse_V2_1_0.json,DBA3D46F97F18B4C18B8711098B0D13BF00A130E,2C17B5D1A50EA9144AAF8DD6D4EB22CCB8A6A3AB,https://softwareassuranceguardian.com/SAG-PM_VendorResponse_V2_1_0.json.sig
