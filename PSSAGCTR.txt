@@ -1,3 +1,3 @@
 $hash = Get-FileHash -Algorithm SHA256 \Windows\System32\drivers\winverbs.sys
-$url = "https://softwareassuranceguardian.com/SAGCTR_inquiry/getSAGScore?FileHash=" +$hash.Hash
+$url = "https://softwareassuranceguardian.com/SAGCTR_inquiry/getSAGScore?FileHash=" +$hash.Hash+"&html=1"
 Start-Process -FilePath $url
