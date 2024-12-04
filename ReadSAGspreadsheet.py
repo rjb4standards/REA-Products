@@ -6,5 +6,5 @@ df = pd.read_excel("https://www.cisa.gov/sites/default/files/2024-08/PDM24064%20
 # df = pd.read_excel("SAG-SPREADSHEET-SAG-PM_V2_1_1.xls", sheet_name="Governance", usecols="A,B, C", skiprows=11) 
 for row in df.itertuples():
     if isinstance(row[1], str):
-        print(row[1], " Response: ", row[3], "\n", "\t", row[2])
+        print(row[1], " Response: ", row[3], "\n", "\t", row[2], "\n")
 
