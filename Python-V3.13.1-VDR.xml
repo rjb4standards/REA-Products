@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SAG:SBOMVulnerabilityDisclosure xmlns:SAG="http://softwareassuranceguardian.com/2_1_1"
+                                 CVERespository="NIST_NVD"
+                                 NISTNVDSearchStatus="Success"
+                                 UnresolvedVulnerabilities="U"
+                                 PackageSourceLocation="https://files.pythonhosted.org/packages/a3/a9/7d331fec593a4b2953338df33e954aac6ff79eb5a073bca2783766bc7722/cachecontrol-0.14.0-py3-none-any.whl"
+                                 ProductName="cachecontrol"
+                                 ProductVersion="0.14.0"
+                                 SBOMAuthor="['Person: Python Release Managers', 'Tool: ReleaseTools-95a854f20d69e489d12c3ab601431e32f4094b1a']"
+                                 SBOMFormat="spdx"
+                                 SBOMFormatSyntax="JSON"
+                                 SBOMLocation="https://www.python.org/ftp/python/3.13.1/Python-3.13.1.tgz.spdx.json"
+                                 SBOMTimestamp="2024-12-03T23:41:41Z"
+                                 SBOMTotalComponentCount="25"
+                                 SupplierName="Organization: Python Software Foundation"
+                                 VulnDisclosureCreateDate="2024-12-21T14:09:02.841517+00:00"
+                                 xsi:schemaLocation="http://softwareassuranceguardian.com/2_1_1 SAGVulnDisclosure.xsd "
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cachecontrol+0.14.0"
+	               ComponentID=""
+	               ComponentName="cachecontrol"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="0.14.0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=certifi+2024.8.30"
+	               ComponentID=""
+	               ComponentName="certifi"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="2024.8.30"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CPython+3.13.1"
+	               ComponentID=""
+	               ComponentName="CPython"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="3.13.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=distlib+0.3.9"
+	               ComponentID=""
+	               ComponentName="distlib"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="0.3.9"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=distro+1.9.0"
+	               ComponentID=""
+	               ComponentName="distro"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="1.9.0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=expat+2.6.3"
+	               ComponentID=""
+	               ComponentName="expat"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="2.6.3"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=hacl-star+bb3d0dc8d9d15a5cd51094d5b69e70aa09005ff0"
+	               ComponentID=""
+	               ComponentName="hacl-star"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="bb3d0dc8d9d15a5cd51094d5b69e70aa09005ff0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=idna+3.7"
+	               ComponentID=""
+	               ComponentName="idna"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="3.7"
+	               NumberVulnsReported="1">
+		<SAG:CVE>
+			<SAG:CVEID>CVE-2022-45061</SAG:CVEID>
+			<SAG:CVSS>7.5</SAG:CVSS>
+			<SAG:CVEDescription>An issue was discovered in Python before 3.11.1. An unnecessary quadratic algorithm exists in one path when processing some inputs to the IDNA (RFC 3490) decoder, such that a crafted, unreasonably long name being presented to the decoder could lead to a CPU denial of service. Hostnames are often supplied by remote servers that could be controlled by a malicious actor; in such a scenario, they could trigger excessive CPU consumption on the client attempting to make use of an attacker-supplied supposed hostname. For example, the attack payload could be placed in the Location header of an HTTP response with status code 302. A fix is planned in 3.11.1, 3.10.9, 3.9.16, 3.8.16, and 3.7.16.</SAG:CVEDescription>
+			<SAG:Exploitable>U</SAG:Exploitable>
+			<SAG:CISAKEV>--NOT CISA KEV--</SAG:CISAKEV>
+			<SAG:DisruptionImpact>U</SAG:DisruptionImpact>
+			<SAG:FixStatus>Unknown</SAG:FixStatus>
+			<SAG:AnalysisFindings>TBD</SAG:AnalysisFindings>
+		</SAG:CVE>
+	</SAG:Component>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=libb2+0.98.1"
+	               ComponentID=""
+	               ComponentName="libb2"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="0.98.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=macholib+1.0"
+	               ComponentID=""
+	               ComponentName="macholib"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="1.0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=mpdecimal+2.5.1"
+	               ComponentID=""
+	               ComponentName="mpdecimal"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="2.5.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=msgpack+1.0.8"
+	               ComponentID=""
+	               ComponentName="msgpack"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="1.0.8"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=packaging+24.1"
+	               ComponentID=""
+	               ComponentName="packaging"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="24.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pip+24.3.1"
+	               ComponentID=""
+	               ComponentName="pip"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="24.3.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=platformdirs+4.2.2"
+	               ComponentID=""
+	               ComponentName="platformdirs"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="4.2.2"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pygments+2.18.0"
+	               ComponentID=""
+	               ComponentName="pygments"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="2.18.0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pyproject-hooks+1.0.0"
+	               ComponentID=""
+	               ComponentName="pyproject-hooks"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="1.0.0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=requests+2.32.3"
+	               ComponentID=""
+	               ComponentName="requests"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="2.32.3"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=resolvelib+1.0.1"
+	               ComponentID=""
+	               ComponentName="resolvelib"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="1.0.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=rich+13.7.1"
+	               ComponentID=""
+	               ComponentName="rich"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="13.7.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=setuptools+70.3.0"
+	               ComponentID=""
+	               ComponentName="setuptools"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="70.3.0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=tomli+2.0.1"
+	               ComponentID=""
+	               ComponentName="tomli"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="2.0.1"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=truststore+0.10.0"
+	               ComponentID=""
+	               ComponentName="truststore"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="0.10.0"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=typing_extensions+4.12.2"
+	               ComponentID=""
+	               ComponentName="typing_extensions"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="4.12.2"
+	               NumberVulnsReported="0"/>
+	<SAG:Component CVESearchString="https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=urllib3+1.26.20"
+	               ComponentID=""
+	               ComponentName="urllib3"
+	               ComponentSupplierName="Organization: Python Software Foundation"
+	               ComponentVersion="1.26.20"
+	               NumberVulnsReported="0"/>
+</SAG:SBOMVulnerabilityDisclosure>
