@@ -1,0 +1,821 @@
+{
+	"SBOMVulnerabilityDisclosure": {
+		"CVERespository": "NIST_NVD",
+		"NISTNVDSearchStatus": "Success",
+		"UnresolvedVulnerabilities": "U",
+		"PackageSourceLocation": "NOASSERTION",
+		"ProductName": "SAG-PM (TM)",
+		"ProductVersion": "1.1.7",
+		"SBOMAuthor": "Reliable Energy Analytics LLC",
+		"SBOMFormat": "cycloneDX",
+		"SBOMFormatSyntax": "XML",
+		"SBOMLocation": "file:///C:/Users/dick/ReliableEnergyAnalytics/PATENTS/SAG/SAGMVP/SAG-PM/DEV/SAG-PM_SBOM_V1_1_7.xml",
+		"SBOMTimestamp": " 2022-01-09T20:00:00Z",
+		"SBOMTotalComponentCount": "92",
+		"SupplierName": "Reliable Energy Analytics LLC",
+		"VulnDisclosureCreateDate": "2025-06-30T16:38:43.209356+00:00"
+	},
+	"Components": [
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=SAG-PM+(TM)+1.1.7",
+			"ComponentID": "None",
+			"ComponentName": "SAG-PM (TM)",
+			"ComponentSupplierName": "Reliable Energy Analytics LLC",
+			"ComponentVersion": "1.1.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=SAG-PM.msi+1.1.7",
+			"ComponentID": "None",
+			"ComponentName": "SAG-PM.msi",
+			"ComponentSupplierName": "Reliable Energy Analytics LLC",
+			"ComponentVersion": "1.1.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=SAG-PM.exe+1.1.7",
+			"ComponentID": "None",
+			"ComponentName": "SAG-PM.exe",
+			"ComponentSupplierName": "Reliable Energy Analytics LLC",
+			"ComponentVersion": "1.1.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=sag-pm-viewer.exe+1.1.7",
+			"ComponentID": "None",
+			"ComponentName": "sag-pm-viewer.exe",
+			"ComponentSupplierName": "Reliable Energy Analytics LLC",
+			"ComponentVersion": "1.1.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=SAGPM_Vendor_Data.csv+1.1.7",
+			"ComponentID": "None",
+			"ComponentName": "SAGPM_Vendor_Data.csv",
+			"ComponentSupplierName": "Reliable Energy Analytics LLC",
+			"ComponentVersion": "1.1.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=END+USER+LICENSE+AGREEMENT.rtf+1.1.7",
+			"ComponentID": "None",
+			"ComponentName": "END USER LICENSE AGREEMENT.rtf",
+			"ComponentSupplierName": "Reliable Energy Analytics LLC",
+			"ComponentVersion": "1.1.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=userguide.txt+1.1.7",
+			"ComponentID": "None",
+			"ComponentName": "userguide.txt",
+			"ComponentSupplierName": "Reliable Energy Analytics LLC",
+			"ComponentVersion": "1.1.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=acme+1.13.0",
+			"ComponentID": "pkg:pypi/acme@1.13.0",
+			"ComponentName": "acme",
+			"ComponentSupplierName": "Certbot Project",
+			"ComponentVersion": "1.13.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=aiodns+2.0.0",
+			"ComponentID": "pkg:pypi/aiodns@2.0.0",
+			"ComponentName": "aiodns",
+			"ComponentSupplierName": "SaÃƒÂºl Ibarra CorretgÃƒÂ©",
+			"ComponentVersion": "2.0.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=aiohttp+3.7.3",
+			"ComponentID": "pkg:pypi/aiohttp@3.7.3",
+			"ComponentName": "aiohttp",
+			"ComponentSupplierName": "Nikolay Kim",
+			"ComponentVersion": "3.7.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=altgraph+0.17",
+			"ComponentID": "pkg:pypi/altgraph@0.17",
+			"ComponentName": "altgraph",
+			"ComponentSupplierName": "Ronald Oussoren",
+			"ComponentVersion": "0.17",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antlr4-python3-runtime+4.8",
+			"ComponentID": "pkg:pypi/antlr4-python3-runtime@4.8",
+			"ComponentName": "antlr4-python3-runtime",
+			"ComponentSupplierName": "Eric Vergnaud, Terence Parr, Sam Harwell",
+			"ComponentVersion": "4.8",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=async-timeout+3.0.1",
+			"ComponentID": "pkg:pypi/async-timeout@3.0.1",
+			"ComponentName": "async-timeout",
+			"ComponentSupplierName": "Andrew Svetlov",
+			"ComponentVersion": "3.0.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=attrs+20.3.0",
+			"ComponentID": "pkg:pypi/attrs@20.3.0",
+			"ComponentName": "attrs",
+			"ComponentSupplierName": "Hynek Schlawack",
+			"ComponentVersion": "20.3.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=boto3+1.16.51",
+			"ComponentID": "pkg:pypi/boto3@1.16.51",
+			"ComponentName": "boto3",
+			"ComponentSupplierName": "Amazon Web Services",
+			"ComponentVersion": "1.16.51",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=botocore+1.19.51",
+			"ComponentID": "pkg:pypi/botocore@1.19.51",
+			"ComponentName": "botocore",
+			"ComponentSupplierName": "Amazon Web Services",
+			"ComponentVersion": "1.19.51",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=certbot+1.13.0",
+			"ComponentID": "pkg:pypi/certbot@1.13.0",
+			"ComponentName": "certbot",
+			"ComponentSupplierName": "Certbot Project",
+			"ComponentVersion": "1.13.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=certifi+2021.5.30",
+			"ComponentID": "pkg:pypi/certifi@2021.5.30",
+			"ComponentName": "certifi",
+			"ComponentSupplierName": "Kenneth Reitz",
+			"ComponentVersion": "2021.5.30",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2024-39689",
+					"CVSS": "7.5",
+					"CVEDescription": "Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi starting in 2021.5.30 and prior to 2024.7.4 recognized root certificates from GLOBALTRUST. Certifi 2024.7.04 removes root certificates from GLOBALTRUST from the root store. These are in the process of being removed from Mozillas trust store. GLOBALTRUSTs root certificates are being removed pursuant to an investigation which identified long-running and unresolved compliance issues.",
+					"Exploitable": "U",
+					"CISAKEV": "--NOT CISA KEV--",
+					"DisruptionImpact": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD",
+					"SecurityAdvisoryURL": "Unknown"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cffi+1.14.4",
+			"ComponentID": "pkg:pypi/cffi@1.14.4",
+			"ComponentName": "cffi",
+			"ComponentSupplierName": "Armin Rigo, Maciej Fijalkowski",
+			"ComponentVersion": "1.14.4",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=chardet+3.0.4",
+			"ComponentID": "pkg:pypi/chardet@3.0.4",
+			"ComponentName": "chardet",
+			"ComponentSupplierName": "Daniel Blanchard",
+			"ComponentVersion": "3.0.4",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ConfigArgParse+1.4",
+			"ComponentID": "pkg:pypi/configargparse@1.4",
+			"ComponentName": "ConfigArgParse",
+			"ComponentSupplierName": "None",
+			"ComponentVersion": "1.4",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=configobj+5.0.6",
+			"ComponentID": "pkg:pypi/configobj@5.0.6",
+			"ComponentName": "configobj",
+			"ComponentSupplierName": "Rob Dennis, Eli Courtwright (Michael Foord & Nicola Larosa original maintainers)",
+			"ComponentVersion": "5.0.6",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cryptography+3.3.1",
+			"ComponentID": "pkg:pypi/cryptography@3.3.1",
+			"ComponentName": "cryptography",
+			"ComponentSupplierName": "The cryptography developers",
+			"ComponentVersion": "3.3.1",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2014-8564",
+					"CVSS": "5.0",
+					"CVEDescription": "The _gnutls_ecc_ansi_x963_export function in gnutls_ecc.c in GnuTLS 3.x before 3.1.28, 3.2.x before 3.2.20, and 3.3.x before 3.3.10 allows remote attackers to cause a denial of service out-of-bounds write via a crafted 1 Elliptic Curve Cryptography ECC certificate or 2 certificate signing requests CSR, related to generating key IDs.",
+					"Exploitable": "U",
+					"CISAKEV": "--NOT CISA KEV--",
+					"DisruptionImpact": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD",
+					"SecurityAdvisoryURL": "Unknown"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cyclonedx-bom+0.4.3",
+			"ComponentID": "pkg:pypi/cyclonedx-bom@0.4.3",
+			"ComponentName": "cyclonedx-bom",
+			"ComponentSupplierName": "Steve Springett",
+			"ComponentVersion": "0.4.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cyclonedx-python-lib+0.4.0",
+			"ComponentID": "pkg:pypi/cyclonedx-python-lib@0.4.0",
+			"ComponentName": "cyclonedx-python-lib",
+			"ComponentSupplierName": "Paul Horton",
+			"ComponentVersion": "0.4.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=datedelta+1.3",
+			"ComponentID": "pkg:pypi/datedelta@1.3",
+			"ComponentName": "datedelta",
+			"ComponentSupplierName": "Aymeric Augustin",
+			"ComponentVersion": "1.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=distro+1.5.0",
+			"ComponentID": "pkg:pypi/distro@1.5.0",
+			"ComponentName": "distro",
+			"ComponentSupplierName": "Nir Cohen",
+			"ComponentVersion": "1.5.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dnspython+2.0.0",
+			"ComponentID": "pkg:pypi/dnspython@2.0.0",
+			"ComponentName": "dnspython",
+			"ComponentSupplierName": "Bob Halley",
+			"ComponentVersion": "2.0.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=docutils+0.16",
+			"ComponentID": "pkg:pypi/docutils@0.16",
+			"ComponentName": "docutils",
+			"ComponentSupplierName": "David Goodger",
+			"ComponentVersion": "0.16",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=elementpath+2.1.1",
+			"ComponentID": "pkg:pypi/elementpath@2.1.1",
+			"ComponentName": "elementpath",
+			"ComponentSupplierName": "Davide Brunato",
+			"ComponentVersion": "2.1.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=et-xmlfile+1.0.1",
+			"ComponentID": "pkg:pypi/et-xmlfile@1.0.1",
+			"ComponentName": "et-xmlfile",
+			"ComponentSupplierName": "See ATUHORS.txt",
+			"ComponentVersion": "1.0.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=future+0.18.2",
+			"ComponentID": "pkg:pypi/future@0.18.2",
+			"ComponentName": "future",
+			"ComponentSupplierName": "Ed Schofield",
+			"ComponentVersion": "0.18.2",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2022-40899",
+					"CVSS": "7.5",
+					"CVEDescription": "An issue discovered in Python Charmers Future 0.18.2 and earlier allows remote attackers to cause a denial of service via crafted Set-Cookie header from malicious web server.",
+					"Exploitable": "U",
+					"CISAKEV": "--NOT CISA KEV--",
+					"DisruptionImpact": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD",
+					"SecurityAdvisoryURL": "Unknown"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=geoip2+4.1.0",
+			"ComponentID": "pkg:pypi/geoip2@4.1.0",
+			"ComponentName": "geoip2",
+			"ComponentSupplierName": "Gregory Oschwald",
+			"ComponentVersion": "4.1.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=idna+2.10",
+			"ComponentID": "pkg:pypi/idna@2.10",
+			"ComponentName": "idna",
+			"ComponentSupplierName": "Kim Davies",
+			"ComponentVersion": "2.10",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=importlib-metadata+4.8.1",
+			"ComponentID": "pkg:pypi/importlib-metadata@4.8.1",
+			"ComponentName": "importlib-metadata",
+			"ComponentSupplierName": "Jason R. Coombs",
+			"ComponentVersion": "4.8.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ipwhois+1.2.0",
+			"ComponentID": "pkg:pypi/ipwhois@1.2.0",
+			"ComponentName": "ipwhois",
+			"ComponentSupplierName": "Philip Hane",
+			"ComponentVersion": "1.2.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=isodate+0.6.0",
+			"ComponentID": "pkg:pypi/isodate@0.6.0",
+			"ComponentName": "isodate",
+			"ComponentSupplierName": "Gerhard Weis",
+			"ComponentVersion": "0.6.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Jinja2+2.11.2",
+			"ComponentID": "pkg:pypi/jinja2@2.11.2",
+			"ComponentName": "Jinja2",
+			"ComponentSupplierName": "Armin Ronacher",
+			"ComponentVersion": "2.11.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=jmespath+0.10.0",
+			"ComponentID": "pkg:pypi/jmespath@0.10.0",
+			"ComponentName": "jmespath",
+			"ComponentSupplierName": "James Saryerwinnie",
+			"ComponentVersion": "0.10.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=josepy+1.8.0",
+			"ComponentID": "pkg:pypi/josepy@1.8.0",
+			"ComponentName": "josepy",
+			"ComponentSupplierName": "Certbot Project",
+			"ComponentVersion": "1.8.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=jsonschema+3.2.0",
+			"ComponentID": "pkg:pypi/jsonschema@3.2.0",
+			"ComponentName": "jsonschema",
+			"ComponentSupplierName": "Julian Berman",
+			"ComponentVersion": "3.2.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=lxml+4.6.2",
+			"ComponentID": "pkg:pypi/lxml@4.6.2",
+			"ComponentName": "lxml",
+			"ComponentSupplierName": "lxml dev team",
+			"ComponentVersion": "4.6.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=MarkupSafe+1.1.1",
+			"ComponentID": "pkg:pypi/markupsafe@1.1.1",
+			"ComponentName": "MarkupSafe",
+			"ComponentSupplierName": "Armin Ronacher",
+			"ComponentVersion": "1.1.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=maxminddb+2.0.3",
+			"ComponentID": "pkg:pypi/maxminddb@2.0.3",
+			"ComponentName": "maxminddb",
+			"ComponentSupplierName": "Gregory Oschwald",
+			"ComponentVersion": "2.0.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=multidict+5.1.0",
+			"ComponentID": "pkg:pypi/multidict@5.1.0",
+			"ComponentName": "multidict",
+			"ComponentSupplierName": "Andrew Svetlov",
+			"ComponentVersion": "5.1.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=numpy+1.19.5",
+			"ComponentID": "pkg:pypi/numpy@1.19.5",
+			"ComponentName": "numpy",
+			"ComponentSupplierName": "Travis E. Oliphant et al.",
+			"ComponentVersion": "1.19.5",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=packageurl-python+0.9.3",
+			"ComponentID": "pkg:pypi/packageurl-python@0.9.3",
+			"ComponentName": "packageurl-python",
+			"ComponentSupplierName": "the purl authors",
+			"ComponentVersion": "0.9.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=packaging+20.7",
+			"ComponentID": "pkg:pypi/packaging@20.7",
+			"ComponentName": "packaging",
+			"ComponentSupplierName": "Donald Stufft and individual contributors",
+			"ComponentVersion": "20.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pandas+1.2.0",
+			"ComponentID": "pkg:pypi/pandas@1.2.0",
+			"ComponentName": "pandas",
+			"ComponentSupplierName": "None",
+			"ComponentVersion": "1.2.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=parsedatetime+2.6",
+			"ComponentID": "pkg:pypi/parsedatetime@2.6",
+			"ComponentName": "parsedatetime",
+			"ComponentSupplierName": "Mike Taylor",
+			"ComponentVersion": "2.6",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pefile+2019.4.18",
+			"ComponentID": "pkg:pypi/pefile@2019.4.18",
+			"ComponentName": "pefile",
+			"ComponentSupplierName": "Ero Carrera",
+			"ComponentVersion": "2019.4.18",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ply+3.11",
+			"ComponentID": "pkg:pypi/ply@3.11",
+			"ComponentName": "ply",
+			"ComponentSupplierName": "David Beazley",
+			"ComponentVersion": "3.11",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=psycopg2+2.8.6",
+			"ComponentID": "pkg:pypi/psycopg2@2.8.6",
+			"ComponentName": "psycopg2",
+			"ComponentSupplierName": "Federico Di Gregorio",
+			"ComponentVersion": "2.8.6",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pycares+3.1.1",
+			"ComponentID": "pkg:pypi/pycares@3.1.1",
+			"ComponentName": "pycares",
+			"ComponentSupplierName": "SaÃƒÂºl Ibarra CorretgÃƒÂ©",
+			"ComponentVersion": "3.1.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pycparser+2.20",
+			"ComponentID": "pkg:pypi/pycparser@2.20",
+			"ComponentName": "pycparser",
+			"ComponentSupplierName": "Eli Bendersky",
+			"ComponentVersion": "2.20",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pycurl+7.43.0.6",
+			"ComponentID": "pkg:pypi/pycurl@7.43.0.6",
+			"ComponentName": "pycurl",
+			"ComponentSupplierName": "Kjetil Jacobsen, Markus F.X.J. Oberhumer, Oleg Pudeyev",
+			"ComponentVersion": "7.43.0.6",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pydnsbl+1.1.2",
+			"ComponentID": "pkg:pypi/pydnsbl@1.1.2",
+			"ComponentName": "pydnsbl",
+			"ComponentSupplierName": "Dmitry ippolitov",
+			"ComponentVersion": "1.1.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pyinstaller+4.1",
+			"ComponentID": "pkg:pypi/pyinstaller@4.1",
+			"ComponentName": "pyinstaller",
+			"ComponentSupplierName": "Hartmut Goebel, Giovanni Bajo, David Vierra, David Cortesi, Martin Zibricky",
+			"ComponentVersion": "4.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pyinstaller-hooks-contrib+2020.11",
+			"ComponentID": "pkg:pypi/pyinstaller-hooks-contrib@2020.11",
+			"ComponentName": "pyinstaller-hooks-contrib",
+			"ComponentSupplierName": "None",
+			"ComponentVersion": "2020.11",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pyOpenSSL+20.0.1",
+			"ComponentID": "pkg:pypi/pyopenssl@20.0.1",
+			"ComponentName": "pyOpenSSL",
+			"ComponentSupplierName": "The pyOpenSSL developers",
+			"ComponentVersion": "20.0.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pyparsing+2.4.7",
+			"ComponentID": "pkg:pypi/pyparsing@2.4.7",
+			"ComponentName": "pyparsing",
+			"ComponentSupplierName": "Paul McGuire",
+			"ComponentVersion": "2.4.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pyRFC3339+1.1",
+			"ComponentID": "pkg:pypi/pyrfc3339@1.1",
+			"ComponentName": "pyRFC3339",
+			"ComponentSupplierName": "Kurt Raschke",
+			"ComponentVersion": "1.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pyrsistent+0.17.3",
+			"ComponentID": "pkg:pypi/pyrsistent@0.17.3",
+			"ComponentName": "pyrsistent",
+			"ComponentSupplierName": "Tobias Gustafsson",
+			"ComponentVersion": "0.17.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=python-dateutil+2.8.1",
+			"ComponentID": "pkg:pypi/python-dateutil@2.8.1",
+			"ComponentName": "python-dateutil",
+			"ComponentSupplierName": "Gustavo Niemeyer",
+			"ComponentVersion": "2.8.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=python-gnupg+0.4.7",
+			"ComponentID": "pkg:pypi/python-gnupg@0.4.7",
+			"ComponentName": "python-gnupg",
+			"ComponentSupplierName": "Vinay Sajip",
+			"ComponentVersion": "0.4.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=python-multipart+0.0.5",
+			"ComponentID": "pkg:pypi/python-multipart@0.0.5",
+			"ComponentName": "python-multipart",
+			"ComponentSupplierName": "Andrew Dunham",
+			"ComponentVersion": "0.0.5",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pytz+2020.5",
+			"ComponentID": "pkg:pypi/pytz@2020.5",
+			"ComponentName": "pytz",
+			"ComponentSupplierName": "Stuart Bishop",
+			"ComponentVersion": "2020.5",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pywin32+300",
+			"ComponentID": "pkg:pypi/pywin32@300",
+			"ComponentName": "pywin32",
+			"ComponentSupplierName": "Mark Hammond (et al)",
+			"ComponentVersion": "300",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pywin32-ctypes+0.2.0",
+			"ComponentID": "pkg:pypi/pywin32-ctypes@0.2.0",
+			"ComponentName": "pywin32-ctypes",
+			"ComponentSupplierName": "Enthought Inc",
+			"ComponentVersion": "0.2.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=PyYAML+5.3.1",
+			"ComponentID": "pkg:pypi/pyyaml@5.3.1",
+			"ComponentName": "PyYAML",
+			"ComponentSupplierName": "Kirill Simonov",
+			"ComponentVersion": "5.3.1",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2020-1747",
+					"CVSS": "9.8",
+					"CVEDescription": "A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the pythonobjectnew constructor.",
+					"Exploitable": "U",
+					"CISAKEV": "--NOT CISA KEV--",
+					"DisruptionImpact": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD",
+					"SecurityAdvisoryURL": "Unknown"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=rdflib+5.0.0",
+			"ComponentID": "pkg:pypi/rdflib@5.0.0",
+			"ComponentName": "rdflib",
+			"ComponentSupplierName": "Daniel 'eikeon' Krech",
+			"ComponentVersion": "5.0.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=requests+2.25.0",
+			"ComponentID": "pkg:pypi/requests@2.25.0",
+			"ComponentName": "requests",
+			"ComponentSupplierName": "Kenneth Reitz",
+			"ComponentVersion": "2.25.0",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2023-29530",
+					"CVSS": "7.5",
+					"CVEDescription": "Laminas Diactoros provides PSR HTTP Message implementations. In versions 2.18.0 and prior, 2.19.0, 2.20.0, 2.21.0, 2.22.0, 2.23.0, 2.24.0, and 2.25.0, users who create HTTP requests or responses using laminaslaminas-diactoros, when providing a newline at the start or end of a header key or value, can cause an invalid message. This can lead to denial of service vectors or application errors. The problem has been patched in following versions 2.18.1, 2.19.1, 2.20.1, 2.21.1, 2.22.1, 2.23.1, 2.24.1, and 2.25.1. As a workaround, validate HTTP header keys andor values, and if using user-supplied values, filter them to strip off leading or trailing newline characters before calling withHeader.",
+					"Exploitable": "U",
+					"CISAKEV": "--NOT CISA KEV--",
+					"DisruptionImpact": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD",
+					"SecurityAdvisoryURL": "Unknown"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=requests-toolbelt+0.9.1",
+			"ComponentID": "pkg:pypi/requests-toolbelt@0.9.1",
+			"ComponentName": "requests-toolbelt",
+			"ComponentSupplierName": "Ian Cordasco, Cory Benfield",
+			"ComponentVersion": "0.9.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=requirements-parser+0.2.0",
+			"ComponentID": "pkg:pypi/requirements-parser@0.2.0",
+			"ComponentName": "requirements-parser",
+			"ComponentSupplierName": "David Fischer",
+			"ComponentVersion": "0.2.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=s3transfer+0.3.3",
+			"ComponentID": "pkg:pypi/s3transfer@0.3.3",
+			"ComponentName": "s3transfer",
+			"ComponentSupplierName": "Amazon Web Services",
+			"ComponentVersion": "0.3.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=simplejson+3.17.2",
+			"ComponentID": "pkg:pypi/simplejson@3.17.2",
+			"ComponentName": "simplejson",
+			"ComponentSupplierName": "Bob Ippolito",
+			"ComponentVersion": "3.17.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=six+1.15.0",
+			"ComponentID": "pkg:pypi/six@1.15.0",
+			"ComponentName": "six",
+			"ComponentSupplierName": "Benjamin Peterson",
+			"ComponentVersion": "1.15.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=stix2+2.1.0",
+			"ComponentID": "pkg:pypi/stix2@2.1.0",
+			"ComponentName": "stix2",
+			"ComponentSupplierName": "OASIS Cyber Threat Intelligence Technical Committee",
+			"ComponentVersion": "2.1.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=stix2-patterns+1.3.2",
+			"ComponentID": "pkg:pypi/stix2-patterns@1.3.2",
+			"ComponentName": "stix2-patterns",
+			"ComponentSupplierName": "OASIS Cyber Threat Intelligence Technical Committee",
+			"ComponentVersion": "1.3.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=taxii2-client+2.2.2",
+			"ComponentID": "pkg:pypi/taxii2-client@2.2.2",
+			"ComponentName": "taxii2-client",
+			"ComponentSupplierName": "OASIS Cyber Threat Intelligence Technical Committee",
+			"ComponentVersion": "2.2.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=toml+0.10.2",
+			"ComponentID": "pkg:pypi/toml@0.10.2",
+			"ComponentName": "toml",
+			"ComponentSupplierName": "William Pearson",
+			"ComponentVersion": "0.10.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=typing-extensions+3.7.4.3",
+			"ComponentID": "pkg:pypi/typing-extensions@3.7.4.3",
+			"ComponentName": "typing-extensions",
+			"ComponentSupplierName": "Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee",
+			"ComponentVersion": "3.7.4.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=urllib3+1.26.2",
+			"ComponentID": "pkg:pypi/urllib3@1.26.2",
+			"ComponentName": "urllib3",
+			"ComponentSupplierName": "Andrey Petrov",
+			"ComponentVersion": "1.26.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=wincertstore+0.2",
+			"ComponentID": "pkg:pypi/wincertstore@0.2",
+			"ComponentName": "wincertstore",
+			"ComponentSupplierName": "Christian Heimes",
+			"ComponentVersion": "0.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=xmlschema+1.2.5",
+			"ComponentID": "pkg:pypi/xmlschema@1.2.5",
+			"ComponentName": "xmlschema",
+			"ComponentSupplierName": "Davide Brunato",
+			"ComponentVersion": "1.2.5",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=xmltodict+0.12.0",
+			"ComponentID": "pkg:pypi/xmltodict@0.12.0",
+			"ComponentName": "xmltodict",
+			"ComponentSupplierName": "Martin Blech",
+			"ComponentVersion": "0.12.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=yarl+1.6.3",
+			"ComponentID": "pkg:pypi/yarl@1.6.3",
+			"ComponentName": "yarl",
+			"ComponentSupplierName": "Andrew Svetlov",
+			"ComponentVersion": "1.6.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=zipp+3.5.0",
+			"ComponentID": "pkg:pypi/zipp@3.5.0",
+			"ComponentName": "zipp",
+			"ComponentSupplierName": "Jason R. Coombs",
+			"ComponentVersion": "3.5.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=zope.component+5.0.0",
+			"ComponentID": "pkg:pypi/zope.component@5.0.0",
+			"ComponentName": "zope.component",
+			"ComponentSupplierName": "Zope Foundation and Contributors",
+			"ComponentVersion": "5.0.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=zope.event+4.5.0",
+			"ComponentID": "pkg:pypi/zope.event@4.5.0",
+			"ComponentName": "zope.event",
+			"ComponentSupplierName": "Zope Foundation and Contributors",
+			"ComponentVersion": "4.5.0",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=zope.hookable+5.0.1",
+			"ComponentID": "pkg:pypi/zope.hookable@5.0.1",
+			"ComponentName": "zope.hookable",
+			"ComponentSupplierName": "Zope Foundation and Contributors",
+			"ComponentVersion": "5.0.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=zope.interface+5.3.0",
+			"ComponentID": "pkg:pypi/zope.interface@5.3.0",
+			"ComponentName": "zope.interface",
+			"ComponentSupplierName": "Zope Foundation and Contributors",
+			"ComponentVersion": "5.3.0",
+			"NumberVulnsReported": "0"
+		}
+	]
+}
