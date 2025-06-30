@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema elementFormDefault="qualified" targetNamespace="http://softwareassuranceguardian.com/1_1_7" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/1_1_7">
+<schema elementFormDefault="qualified" targetNamespace="http://softwareassuranceguardian.com/2_1_4" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/2_1_4">
 
 <!-- 
-	Copyright and all other rights reserved by Reliable Energy Analytics, LLC (REA) 2018-2024. 
-	Licensed under Creative Commons 4.0 https://creativecommons.org/licenses/by/4.0/
-	Update: May 4, 2024 to include CISAKEV wit ha yes.no response within CVE stricture  
+	Copyright and all other rights reserved by Business Cyber Guardian (TM) (BCG) a Reliable Energy Analytics, LLC (REA) Company 2018-2024. 
 
-DISCLAIMER OF WARRANTIES
-TO THE EXTENT NOT PROHIBITED BY LAW, REA HEREBY DISCLAIMS ALL EXPRESS OR IMPLIED REPRESENTATIONS, 
-WARRANTIES, GUARANTEES, AND CONDITIONS OF ANY KIND, ARISING BY LAW OR OTHERWISE, WITH REGARD TO THIS ARTIFACT, 
-INCLUDING BUT NOT LIMITED TO REPRESENTATIONS, WARRANTIES, GUARANTEES, AND CONDITIONS OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, AND QUALITY OF SERVICE.
- 
-REA MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE CONTENT, EFFECTIVENESS, USEFULNESS, RELIABILITY, 
-AVAILABILITY, TIMELINESS, QUALITY, SUITABILITY, ACCURACY OR COMPLETENESS OF THIS ARTIFACT OR THE 
-RESULTS YOU MAY OBTAIN BY USING THE ARTIFACT OR THAT THE ARTIFACT WILL BE ERROR-FREE.
-	
+MIT License
+
+Copyright (c) 2024 Business Cyber Guardian a Reliable Energy Analytics LLC Company
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.	
 --> 
     <annotation>
     	<documentation>Open Source SBOM Vulnerability Disclosure Report listing known vulnerabilities for each SBOM component 
@@ -42,26 +51,45 @@ of each reported vulnerability.
 
     <complexType name="CVEType">
     	<sequence>
-    		<element name="CVEID" type="string" minOccurs="1" maxOccurs="1">
+    		<element name="CVEID" type="string" minOccurs="1"
+    			maxOccurs="1">
     			<annotation>
-    				<documentation>Identifier assigned by an authorized party i.e. CVE Numbering Authority to identify a CVE OR a private CVEID indicated by CVE-private-nnnnnnn</documentation>
-    			</annotation></element>
-    		<element name="CVSS" type="string" minOccurs="1" maxOccurs="1">
+    				<documentation>
+    					Identifier assigned by an authorized party i.e.
+    					CVE Numbering Authority to identify a CVE OR a
+    					private CVEID indicated by CVE-private-nnnnnnn
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="CVSS" type="string" minOccurs="1"
+    			maxOccurs="1">
     			<annotation>
-    				<documentation>Vulnerability Score calculated by an authorized entity</documentation>
-    			</annotation></element>
-    		<element name="CVEDescription" type="string" minOccurs="1" maxOccurs="1">
+    				<documentation>
+    					Vulnerability Score calculated by an authorized
+    					entity
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="CVEDescription" type="string" minOccurs="1"
+    			maxOccurs="1">
     			<annotation>
-    				<documentation>Description of the vulnerability including any information regarding availability of known exploits</documentation>
-    			</annotation></element>
-            <element name="Exploitable" maxOccurs="1" minOccurs="1">
-                <annotation>
-                	<documentation>A flag containing one of the following:
-Y: known to exploitable with live exploits in the wild
-N: known to not be exploitable
-U: Unsure if a vulnerability is exploitable</documentation>
-                </annotation>
-                <simpleType>
+    				<documentation>
+    					Description of the vulnerability including any
+    					information regarding availability of known
+    					exploits
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="Exploitable" maxOccurs="1" minOccurs="1">
+    			<annotation>
+    				<documentation>
+    					A flag containing one of the following: Y: known
+    					to be exploitable with live exploits in the wild
+    					N: known to not be exploitable U: Unsure if a
+    					vulnerability is exploitable
+    				</documentation>
+    			</annotation>
+    			<simpleType>
     				<restriction base="string">
     					<enumeration value="Y"></enumeration>
     					<enumeration value="N"></enumeration>
@@ -69,31 +97,60 @@ U: Unsure if a vulnerability is exploitable</documentation>
     				</restriction>
     			</simpleType>
     		</element>
-            <element name="CISAKEV" maxOccurs="1" minOccurs="1">
-                <annotation>
-                	<documentation>A flag containing one of the following:
-Y: listed in the CISA KEV catalog
-N: not listed in the CISA KEV catalog
-U: Unsure if a vulnerability is exploitable</documentation>
-                </annotation>
-                <simpleType>
-                	<restriction base="string">
-                		<enumeration value="Y"></enumeration>
-                		<enumeration value="N"></enumeration>
-                		<enumeration value="value"></enumeration>
-                	</restriction>
-                </simpleType>
-            </element>
+    		<element name="CISAKEV" maxOccurs="1" minOccurs="1">
+    			<annotation>
+    				<documentation>
+    					A flag containing one of the following: Y:
+    					listed in the CISA KEV catalog N: not listed in
+    					the CISA KEV catalog U: Unsure if a
+    					vulnerability is exploitable
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="Y"></enumeration>
+    					<enumeration value="N"></enumeration>
+    					<enumeration value="U"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="DisruptionImpact" maxOccurs="1"
+    			minOccurs="1">
+    			<annotation>
+    				<documentation>
+    					An indicator of possible disrptions containing
+    					one of the following: None: No disruption to
+    					operations Low: Low probability of disruption to
+    					operations High: High probability of disruption
+    					to operations Fatal: Fatal to operational
+    					integrity and operations Unknown: No clear
+    					indiczation of disruptive impact
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction  base="string">
+    					<enumeration value="None"></enumeration>
+    					<enumeration value="Low"></enumeration>
+    					<enumeration value="High"></enumeration>
+    					<enumeration value="Fatal"></enumeration>
+    					<enumeration value="Unknown"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
 
-            <element name="FixStatus" minOccurs="1" maxOccurs="1">
-                <annotation>
-                	<documentation>An enumerated set of statuses, see constraints for list of possible values:
-Fix Status meaning for certain, not so obvious values:
-N/A: means that a Fix is not needed, see AnalysisFindings for further details
-Unknown: Vendor has not made a determination as to their plans; should be replaced when vendor completes investigation
-</documentation>
-                </annotation>
-                <simpleType>
+    		<element name="FixStatus" minOccurs="1" maxOccurs="1">
+    			<annotation>
+    				<documentation>
+    					An enumerated set of statuses, see constraints
+    					for list of possible values: Fix Status meaning
+    					for certain, not so obvious values: N/A: means
+    					that a Fix is not needed, see AnalysisFindings
+    					for further details Unknown: Vendor has not made
+    					a determination as to their plans; should be
+    					replaced when vendor completes investigation
+    				</documentation>
+    			</annotation>
+    			<simpleType>
     				<restriction base="string">
     					<enumeration value="N/A"></enumeration>
     					<enumeration value="Fix Available"></enumeration>
@@ -110,11 +167,20 @@ Unknown: Vendor has not made a determination as to their plans; should be replac
     				</restriction>
     			</simpleType>
     		</element>
-    		<element name="AnalysisFindings" type="string" minOccurs="1" maxOccurs="1">
+    		<element name="AnalysisFindings" type="string" minOccurs="1"
+    			maxOccurs="1">
     			<annotation>
-    				<documentation>Vendor provided information containing their analysis and findings regarding the vulnerability, Instructions of mitigating measures 
-are provided in this material along with any other information that will assist a customer with their risk management actions.</documentation>
-    			</annotation></element>
+    				<documentation>
+    					Vendor provided information containing their
+    					analysis and findings regarding the
+    					vulnerability, Instructions of mitigating
+    					measures are provided in this material along
+    					with any other information that will assist a
+    					customer with their risk management actions.
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="SecurityAdvisoryURL" type="string" minOccurs="1" maxOccurs="1" nillable="true"></element>
     	</sequence>
     </complexType>
     

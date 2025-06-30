@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAG:SBOMVulnerabilityDisclosure CVERespository="" NISTNVDSearchStatus="Success" PackageSourceLocation="" ProductName="" ProductVersion="" SBOMAuthor="" SBOMFormat="spdx" SBOMFormatSyntax="TV" SBOMLocation="" SBOMTimestamp="2001-12-31T12:00:00" SBOMTotalComponentCount="0" SupplierName="" UnresolvedVulnerabilities="Y" VulnDisclosureCreateDate="2001-12-31T12:00:00" xmlns:SAG="http://softwareassuranceguardian.com/2_1_4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://softwareassuranceguardian.com/2_1_4 SAGVulnDisclosure.xsd ">
+  <SAG:Component CVESearchString="" ComponentID="" ComponentName="" ComponentSupplierName="" ComponentVersion="" NumberVulnsReported="0">
+    <SAG:CVE>
+      <SAG:CVEID>SAG:CVEID</SAG:CVEID>
+      <SAG:CVSS>SAG:CVSS</SAG:CVSS>
+      <SAG:CVEDescription>SAG:CVEDescription</SAG:CVEDescription>
+      <SAG:Exploitable>Y</SAG:Exploitable>
+      <SAG:CISAKEV>Y</SAG:CISAKEV>
+      <SAG:DisruptionImpact>None</SAG:DisruptionImpact>
+      <SAG:FixStatus>N/A</SAG:FixStatus>
+      <SAG:AnalysisFindings>SAG:AnalysisFindings</SAG:AnalysisFindings>
+      <SAG:SecurityAdvisoryURL>SAG:SecurityAdvisoryURL</SAG:SecurityAdvisoryURL>
+    </SAG:CVE>
+  </SAG:Component>
+</SAG:SBOMVulnerabilityDisclosure>
