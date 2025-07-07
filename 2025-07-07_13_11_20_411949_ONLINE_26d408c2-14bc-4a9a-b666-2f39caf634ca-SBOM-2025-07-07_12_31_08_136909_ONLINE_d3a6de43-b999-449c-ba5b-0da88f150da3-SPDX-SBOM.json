@@ -1,0 +1,94 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"spdxVersion": "SPDX-2.2",
+	"creationInfo": {
+		"created": "2025-07-07T12:34:05Z",
+		"creators": [
+			"Organization:dns:businesscyberguardian.com",
+			"Tool:SAG-PM Version 2.1.4"
+		]
+	},
+	"name": "SAG-PM generated SBOM",
+	"dataLicense": "CC0-1.0",
+	"hasExtractedLicensingInfos": [
+		{
+			"licenseId": "LicenseRef-NOASSERTION",
+			"extractedText": "WARNING: TEXT IS REQUIRED",
+			"name": "NOASSERTION"
+		}
+	],
+	"documentNamespace": "dns:softwareassuranceguardian.com",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-a6ba62b9-f6ec-40a7-82aa-378459ec2d60",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"filesAnalyzed": true,
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"LicenseRef-NOASSERTION"
+			],
+			"name": "whois.exe",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Stanford Research Institute",
+			"versionInfo": "2.2.7"
+		}
+	],
+	"files": [
+		{
+			"SPDXID": "SPDXRef-80a0a90f-932a-4dd5-9e37-7a69b9d04635",
+			"fileContributors": [
+				"Stanford Research Institute"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "whois64.exe"
+		},
+		{
+			"SPDXID": "SPDXRef-652a1ebb-e1f7-43b4-a38a-e560890f252c",
+			"fileContributors": [
+				"Stanford Research Institute"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "whois64a.exe"
+		},
+		{
+			"SPDXID": "SPDXRef-ba130faf-abb5-4ff0-ad97-ce67cb3ef61a",
+			"fileContributors": [
+				"Stanford Research Institute"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Eula.txt"
+		}
+	],
+	"relationships": [
+		{
+			"spdxElementId": "SPDXRef-DOCUMENT",
+			"relatedSpdxElement": "SPDXRef-a6ba62b9-f6ec-40a7-82aa-378459ec2d60",
+			"relationshipType": "DESCRIBES"
+		}
+	]
+}

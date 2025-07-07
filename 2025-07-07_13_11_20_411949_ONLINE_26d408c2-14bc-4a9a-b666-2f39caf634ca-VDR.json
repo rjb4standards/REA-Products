@@ -1,0 +1,52 @@
+{
+	"SBOMVulnerabilityDisclosure": {
+		"CVERespository": "NIST_NVD",
+		"NISTNVDSearchStatus": "Success",
+		"UnresolvedVulnerabilities": "N",
+		"PackageSourceLocation": "NOASSERTION",
+		"ProductName": "whois.exe",
+		"ProductVersion": "2.2.7",
+		"SBOMAuthor": "['Organization:dns:businesscyberguardian.com', 'Tool:SAG-PM Version 2.1.4']",
+		"SBOMFormat": "spdx",
+		"SBOMFormatSyntax": "JSON",
+		"SBOMLocation": "file:///C:\\Users\\dick\\Evidence\\2025-07-07_12_31_08_136909_ONLINE_d3a6de43-b999-449c-ba5b-0da88f150da3-SPDX-SBOM.json",
+		"SBOMTimestamp": "2025-07-07T12:34:05Z",
+		"SBOMTotalComponentCount": "4",
+		"SupplierName": "Organization:Stanford Research Institute",
+		"VulnDisclosureCreateDate": "2025-07-07T13:11:24.862780+00:00"
+	},
+	"Components": [
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=whois.exe+2.2.7",
+			"ComponentID": "",
+			"ComponentName": "whois.exe",
+			"ComponentSupplierName": "Organization:Stanford Research Institute",
+			"ComponentVersion": "2.2.7",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=whois64.exe",
+			"ComponentID": "",
+			"ComponentName": "whois64.exe",
+			"ComponentSupplierName": "['Stanford Research Institute']",
+			"ComponentVersion": "",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=whois64a.exe",
+			"ComponentID": "",
+			"ComponentName": "whois64a.exe",
+			"ComponentSupplierName": "['Stanford Research Institute']",
+			"ComponentVersion": "",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Eula.txt",
+			"ComponentID": "",
+			"ComponentName": "Eula.txt",
+			"ComponentSupplierName": "['Stanford Research Institute']",
+			"ComponentVersion": "",
+			"NumberVulnsReported": "0"
+		}
+	]
+}
