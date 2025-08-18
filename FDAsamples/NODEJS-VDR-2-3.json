@@ -1,0 +1,4401 @@
+{
+	"SBOMVulnerabilityDisclosure": {
+		"CVERespository": "NIST_NVD",
+		"NISTNVDSearchStatus": "Abort",
+		"UnresolvedVulnerabilities": "U",
+		"PackageSourceLocation": "NOASSERTION",
+		"ProductName": "node-v16.13.2",
+		"ProductVersion": "16.13.2",
+		"SBOMAuthor": "['Organization:dns:businesscyberguardian.com', 'Tool:SAG-PM Version 2.1.4']",
+		"SBOMFormat": "spdx",
+		"SBOMFormatSyntax": "JSON",
+		"SBOMLocation": "file:///C:\\Users\\dick\\Evidence\\CUSTDATA\\NODEJS-SBOM-SPDX-2-3.json",
+		"SBOMTimestamp": "2025-08-09T15:35:32Z",
+		"SBOMTotalComponentCount": "20269",
+		"SupplierName": "Organization:NODEJS Team",
+		"VulnDisclosureCreateDate": "2025-08-09T15:38:12.895985+00:00"
+	},
+	"Components": [
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=node-v16.13.2+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "node-v16.13.2",
+			"ComponentSupplierName": "Organization:NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.clang-format+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".clang-format",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.cpplint+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".cpplint",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.flake8+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".flake8",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.nycrc+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".nycrc",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.yamllint.yaml+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".yamllint.yaml",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=BSDmakefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "BSDmakefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=BUILDING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "BUILDING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CODE_OF_CONDUCT.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CODE_OF_CONDUCT.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=GOVERNANCE.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "GOVERNANCE.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=SECURITY.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "SECURITY.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=android-configure+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "android-configure",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=benchmark+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "benchmark",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=_benchmark_progress.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "_benchmark_progress.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=_cli.R+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "_cli.R",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=_cli.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "_cli.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=_http-benchmarkers.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "_http-benchmarkers.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=_test-double-benchmarker.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "_test-double-benchmarker.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=assert+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "assert",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deepequal-buffer.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "deepequal-buffer.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deepequal-map.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "deepequal-map.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deepequal-object.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "deepequal-object.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deepequal-prims-and-objs-big-array-set.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "deepequal-prims-and-objs-big-array-set.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deepequal-prims-and-objs-big-loop.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "deepequal-prims-and-objs-big-loop.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deepequal-set.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "deepequal-set.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deepequal-typedarrays.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "deepequal-typedarrays.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ok.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "ok.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=throws.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "throws.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=async_hooks+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "async_hooks",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=async-local-storage-run.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "async-local-storage-run.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=async-resource-vs-destroy.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "async-resource-vs-destroy.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=gc-tracking.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "gc-tracking.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=http-server.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "http-server.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffers+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffers",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-base64-decode-wrapped.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-base64-decode-wrapped.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-base64-decode.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-base64-decode.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-base64-encode.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-base64-encode.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-bytelength.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-bytelength.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-compare-instance-method.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-compare-instance-method.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-compare-offset.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-compare-offset.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-compare.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-compare.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-concat-fill.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-concat-fill.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-concat.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-concat.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-copy.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-copy.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-creation.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-creation.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-equals.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-equals.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-fill.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-fill.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-from.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-from.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-hex.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-hex.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-indexof-number.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-indexof-number.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-indexof.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-indexof.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-iterate.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-iterate.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-normalize-encoding.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-normalize-encoding.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-read-float.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-read-float.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-read-with-byteLength.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-read-with-byteLength.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-read.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-read.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-slice.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-slice.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-swap.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-swap.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-tojson.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-tojson.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-tostring.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-tostring.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-write-string.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-write-string.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-write.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-write.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buffer-zero.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "buffer-zero.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dataview-set.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "dataview-set.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=child_process+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "child_process",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=child-process-exec-stdout.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "child-process-exec-stdout.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=child-process-params.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "child-process-params.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=child-process-read-ipc.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "child-process-read-ipc.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=child-process-read.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "child-process-read.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=spawn-echo.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "spawn-echo.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cluster+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "cluster",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=echo.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "echo.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=common.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "common.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=compare.R+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "compare.R",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=compare.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "compare.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=aes-gcm-throughput.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "aes-gcm-throughput.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cipher-stream.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "cipher-stream.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=get-ciphers.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "get-ciphers.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=hash-stream-creation.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "hash-stream-creation.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=hash-stream-throughput.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "hash-stream-throughput.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=hkdf.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "hkdf.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=keygen.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "keygen.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=oneshot-sign-verify.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "oneshot-sign-verify.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=randomBytes.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "randomBytes.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=randomInt.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "randomInt.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=randomUUID.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "randomUUID.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=rsa-encrypt-decrypt-throughput.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "rsa-encrypt-decrypt-throughput.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=rsa-sign-verify-throughput.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "rsa-sign-verify-throughput.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=webcrypto-digest.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "webcrypto-digest.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dgram+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "dgram",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=array-vs-concat.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "array-vs-concat.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=bind-params.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "bind-params.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=multi-buffer.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "multi-buffer.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=offset-length.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "offset-length.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=single-buffer.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "single-buffer.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=diagnostics_channel+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "diagnostics_channel",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=http.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "http.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=publish.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "publish.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=subscribe.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "subscribe.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dns+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "dns",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=lookup-promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "lookup-promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=lookup.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "lookup.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=domain+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "domain",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=domain-fn-args.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "domain-fn-args.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=es+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "es",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "1",
+			"CVE": [
+				{
+					"CVEID": "CVE-2021-44532",
+					"CVSS": "5.3",
+					"CVEDescription": "Node.js  12.22.9,  14.18.3,  16.13.2, and  17.3.1 converts SANs Subject Alternative Names to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints.Versions of Node.js with the fix for this escape SANs containing the problematic characters in order to prevent the injection. This behavior can be reverted through the --security-revert command-line option.",
+					"Exploitable": "U",
+					"CISAKEV": "--NOT CISA KEV--",
+					"DisruptionImpact": "U",
+					"FixStatus": "Unknown",
+					"AnalysisFindings": "TBD",
+					"SecurityAdvisoryURL": "Unknown"
+				}
+			]
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=defaultparams-bench.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "defaultparams-bench.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=destructuring-bench.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "destructuring-bench.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=destructuring-object-bench.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "destructuring-object-bench.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=foreach-bench.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "foreach-bench.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=map-bench.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "map-bench.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=restparams-bench.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "restparams-bench.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=spread-assign.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "spread-assign.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=spread-bench.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "spread-bench.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=string-concatenations.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "string-concatenations.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=string-repeat.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "string-repeat.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=esm+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "esm",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cjs-parse.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "cjs-parse.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=events+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "events",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ee-add-remove.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "ee-add-remove.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ee-emit.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "ee-emit.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ee-listener-count-on-prototype.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "ee-listener-count-on-prototype.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ee-listeners.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "ee-listeners.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ee-once.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "ee-once.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=eventtarget.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "eventtarget.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fixtures+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "fixtures",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=alice.html+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "alice.html",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=coverage-many-branches.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "coverage-many-branches.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=echo.worker.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "echo.worker.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=echo.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "echo.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=SECURITY.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "SECURITY.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.clang-format+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".clang-format",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=publish.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "publish.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=common.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "common.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=common.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "common.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fixtures+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "fixtures",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=publish.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "publish.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.flake8+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".flake8",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CODE_OF_CONDUCT.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CODE_OF_CONDUCT.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=common.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "common.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fixtures+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "fixtures",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=GOVERNANCE.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "GOVERNANCE.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=common.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "common.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=compare.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "compare.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fixtures+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "fixtures",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=publish.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "publish.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.clang-format+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".clang-format",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.flake8+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".flake8",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CODE_OF_CONDUCT.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CODE_OF_CONDUCT.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.clang-format+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".clang-format",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=common.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "common.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=assert+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "assert",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dns+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "dns",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=http.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "http.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=assert+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "assert",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=child_process+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "child_process",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cluster+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "cluster",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=hkdf.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "hkdf.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=keygen.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "keygen.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dns+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "dns",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=http.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "http.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=esm+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "esm",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=promises.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "promises.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=benchmark+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "benchmark",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fixtures+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "fixtures",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=crypto+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "crypto",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=echo.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "echo.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=hkdf.js+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "hkdf.js",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=Makefile+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "Makefile",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.flake8+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".flake8",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CHANGELOG.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CHANGELOG.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CODE_OF_CONDUCT.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CODE_OF_CONDUCT.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTING.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "CONTRIBUTING.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=.clang-format+16.13.2",
+			"ComponentID": "",
+			"ComponentName": ".clang-format",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=AUTHORS+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "AUTHORS",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "LICENSE",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README.md+16.13.2",
+			"ComponentID": "",
+			"ComponentName": "README.md",
+			"ComponentSupplierName": "Organization: NODEJS Team",
+			"ComponentVersion": "16.13.2",
+			"NumberVulnsReported": "0"
+		}
+	]
+}
