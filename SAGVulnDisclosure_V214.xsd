@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema elementFormDefault="qualified" targetNamespace="http://softwareassuranceguardian.com/2_1_4" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SAG="http://softwareassuranceguardian.com/2_1_4">
+
+<!-- 
+	Copyright and all other rights reserved by Business Cyber Guardian (TM) (BCG) a Reliable Energy Analytics, LLC (REA) Company 2018-2024. 
+
+MIT License
+
+Copyright (c) 2024 Business Cyber Guardian a Reliable Energy Analytics LLC Company
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.	
+--> 
+    <annotation>
+    	<documentation>Open Source SBOM Vulnerability Disclosure Report listing known vulnerabilities for each SBOM component 
+along with a Fix Status, Exploitable Flag and a Description instructing the software consumer in the handling 
+of each reported vulnerability.
+</documentation></annotation>
+    <element name="SBOMVulnerabilityDisclosure" type="SAG:VulnerabilityDisclosureType" >
+    	<annotation>
+    		<documentation>Root element of the open source SBOM Vulnerability Disclosure Report (VDR)</documentation>
+    	</annotation></element>
+     <complexType name="VulnerabilityDisclosureType">
+    	<sequence minOccurs="1" maxOccurs="unbounded">
+    		<element name="Component" type="SAG:ComponentType" minOccurs="1" maxOccurs="unbounded"></element>
+    	</sequence>
+        <attributeGroup ref="SAG:VulnDisclosureAttrGrp"></attributeGroup>
+    </complexType>
+
+    <complexType name="ComponentType">
+    	<sequence>
+    		<element name="CVE" type="SAG:CVEType" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+        <attributeGroup ref="SAG:ComponentAttrGrp"></attributeGroup>
+    </complexType>
+
+    <complexType name="CVEType">
+    	<sequence>
+    		<element name="CVEID" type="string" minOccurs="1"
+    			maxOccurs="1">
+    			<annotation>
+    				<documentation>
+    					Identifier assigned by an authorized party i.e.
+    					CVE Numbering Authority to identify a CVE OR a
+    					private CVEID indicated by CVE-private-nnnnnnn
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="CVSS" type="string" minOccurs="1"
+    			maxOccurs="1">
+    			<annotation>
+    				<documentation>
+    					Vulnerability Score calculated by an authorized
+    					entity
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="CVEDescription" type="string" minOccurs="1"
+    			maxOccurs="1">
+    			<annotation>
+    				<documentation>
+    					Description of the vulnerability including any
+    					information regarding availability of known
+    					exploits
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="Exploitable" maxOccurs="1" minOccurs="1">
+    			<annotation>
+    				<documentation>
+    					A flag containing one of the following: Y: known
+    					to be exploitable with live exploits in the wild
+    					N: known to not be exploitable U: Unsure if a
+    					vulnerability is exploitable
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="Y"></enumeration>
+    					<enumeration value="N"></enumeration>
+    					<enumeration value="U"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="CISAKEV" maxOccurs="1" minOccurs="1">
+    			<annotation>
+    				<documentation>
+    					A flag containing one of the following: Y:
+    					listed in the CISA KEV catalog N: not listed in
+    					the CISA KEV catalog U: Unsure if a
+    					vulnerability is exploitable
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="Y"></enumeration>
+    					<enumeration value="N"></enumeration>
+    					<enumeration value="U"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="DisruptionImpact" maxOccurs="1"
+    			minOccurs="1">
+    			<annotation>
+    				<documentation>
+    					An indicator of possible disrptions containing
+    					one of the following: None: No disruption to
+    					operations Low: Low probability of disruption to
+    					operations High: High probability of disruption
+    					to operations Fatal: Fatal to operational
+    					integrity and operations Unknown: No clear
+    					indiczation of disruptive impact
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction  base="string">
+    					<enumeration value="None"></enumeration>
+    					<enumeration value="Low"></enumeration>
+    					<enumeration value="High"></enumeration>
+    					<enumeration value="Fatal"></enumeration>
+    					<enumeration value="Unknown"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+
+    		<element name="FixStatus" minOccurs="1" maxOccurs="1">
+    			<annotation>
+    				<documentation>
+    					An enumerated set of statuses, see constraints
+    					for list of possible values: Fix Status meaning
+    					for certain, not so obvious values: N/A: means
+    					that a Fix is not needed, see AnalysisFindings
+    					for further details Unknown: Vendor has not made
+    					a determination as to their plans; should be
+    					replaced when vendor completes investigation
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="N/A"></enumeration>
+    					<enumeration value="Fix Available"></enumeration>
+    					<enumeration value="Not Fixed"></enumeration>
+    					<enumeration value="No Plans to Fix"></enumeration>
+    					<enumeration value="Pending Development"></enumeration>
+    					<enumeration value="In Development"></enumeration>
+    					<enumeration value="In Test"></enumeration>
+    					<enumeration value="Planned Fix this Year"></enumeration>
+    					<enumeration value="Planned Future Fix"></enumeration>
+    					<enumeration value="Investigating"></enumeration>
+    					<enumeration value="Confirmed Issue"></enumeration>
+    					<enumeration value="Unknown"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="AnalysisFindings" type="string" minOccurs="1"
+    			maxOccurs="1">
+    			<annotation>
+    				<documentation>
+    					Vendor provided information containing their
+    					analysis and findings regarding the
+    					vulnerability, Instructions of mitigating
+    					measures are provided in this material along
+    					with any other information that will assist a
+    					customer with their risk management actions.
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="SecurityAdvisoryURL" type="string" minOccurs="1" maxOccurs="1" nillable="true"></element>
+    	</sequence>
+    </complexType>
+    
+    <attributeGroup name="VulnDisclosureAttrGrp">
+    	<attribute name="SBOMAuthor" type="string" use="required">
+    		<annotation>
+    			<documentation>
+    				Party that authored the specific SBOM to which this
+    				vulnerability disclsoure report pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="SBOMTimestamp" type="dateTime" use="required">
+    		<annotation>
+    			<documentation>
+    				Timestamp when the specific SBOM to which this
+    				vulnerability disclsoure report pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="SBOMLocation" type="string" use="required">
+    		<annotation>
+    			<documentation>
+    				Location of the specific SBOM to which this
+    				vulnerability disclsoure report pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="SBOMFormat" use="required">
+    		<annotation>
+    			<documentation>
+    				NTIA supported SBOM format (spdx or cycloneDX) the
+    				specific SBOM to which this vulnerability disclsoure
+    				report pertains
+    			</documentation>
+    		</annotation>
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="spdx"></enumeration>
+    				<enumeration value="cycloneDX"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="SBOMFormatSyntax" use="required">
+    		<annotation>
+    			<documentation>
+    				Particular format (see constraints) the specific
+    				SBOM to which this vulnerability disclsoure report
+    				pertains
+    			</documentation>
+    		</annotation>
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="TV"></enumeration>
+    				<enumeration value="XML"></enumeration>
+    				<enumeration value="JSON"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="SBOMTotalComponentCount" type="int" use="required">
+    		<annotation>
+    			<documentation>
+    				Total number of components listed in the specific
+    				SBOM to which this vulnerability disclsoure report
+    				pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="CVERespository" type="string" use="required">
+    		<annotation>
+    			<documentation>
+    				Identifies the specific CVE repository tht was
+    				searched to produce the CVE results
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="SupplierName" type="string" use="required">
+    		<annotation>
+    			<documentation>
+    				Authorized licensor of the software product SBOM to
+    				which this vulnerability disclsoure report pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="ProductName" type="string" use="required">
+    		<annotation>
+    			<documentation>
+    				Product Name as assigned by the authorized Licensor
+    				for the specific SBOM to which this vulnerability
+    				disclsoure report pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="ProductVersion" type="string" use="required">
+    		<annotation>
+    			<documentation>
+    				Version identifier assigned by teh authorized
+    				licensor of the software product SBOM to which this
+    				vulnerability disclsoure report pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="PackageSourceLocation" type="string" use="required">
+    		<annotation>
+    			<documentation>
+    				URL showing download location for the product
+    				installation package which the specific SBOM
+    				vulnerability disclsoure report pertains
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="NISTNVDSearchStatus" use="required">
+    		<annotation>
+    			<documentation>
+    				Results of NIST NVD search, Success or Aborted
+    			</documentation>
+    		</annotation>
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="Success"></enumeration>
+    				<enumeration value="Aborted"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>        <attribute name="UnresolvedVulnerabilities" use="required">
+            <annotation>
+            	<documentation>High level flag used to inform consumers that a known, unresolved vulnerability is present: 
+Y: indicates the presence of unresolved vulnerabilities in the VDR, where FixStatus is not equal "Fix Available" and Exploitable equals "Y"
+N: indicates there are no unresolved vulnerabilities in the VDR, where Expolitable equals "N" and FixStatus is not equal "Unknown"
+U: Unsure - some vulnerabilities may still be under investigation and have not been decided</documentation>
+            </annotation>
+            <simpleType>
+            	<restriction base="string">
+            		<enumeration value="Y"></enumeration>
+            		<enumeration value="N"></enumeration>
+            		<enumeration value="U"></enumeration>
+            	</restriction>
+            </simpleType>
+        </attribute>
+        <attribute name="VulnDisclosureCreateDate" type="dateTime" use="required">
+    		<annotation>
+    			<documentation>
+    				Timestamp when this vulnerability disclosure report
+    				was created by the authoirzed party, i.e. Licensor
+    			</documentation>
+    		</annotation>
+    	</attribute>
+    </attributeGroup>
+
+    <attributeGroup name="ComponentAttrGrp">
+    	<attribute name="ComponentSupplierName" type="string" use="required">
+    		<annotation>
+    			<documentation>Legal Name of Software Supplier - this is the authorized Licensor of the software object</documentation>
+    		</annotation></attribute>
+    	<attribute name="ComponentName" type="string" use="required">
+    		<annotation>
+    			<documentation>Name of the component, assigned by the authorized Licensor </documentation>
+    		</annotation></attribute>
+    	<attribute name="ComponentVersion" type="string" use="required">
+    		<annotation>
+    			<documentation>Componet Version assigned by the authorized Licensor</documentation>
+    		</annotation></attribute>
+    	<attribute name="ComponentID" type="string" use="required">
+    		<annotation>
+    			<documentation>Could be a purl URI or some other identifier</documentation>
+    		</annotation></attribute>
+    	<attribute name="CVESearchString" type="string" use="required">
+    		<annotation>
+    			<documentation>Keyword search string submitted to NIST NVD that produced the CVE's Listed OR a URL to a vendor proprietary security advisory if the CVEID is "private"</documentation>
+    		</annotation></attribute>
+    	<attribute name="NumberVulnsReported" type="int" use="required">
+    		<annotation>
+    			<documentation>Total number of vulnerabilities reported by NIST NVD for teh search string supplied. </documentation>
+    		</annotation></attribute>
+    </attributeGroup>
+</schema>
