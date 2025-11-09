@@ -1,0 +1,49 @@
+{
+	"VendorResponse": {
+		"VendorLegalName": "YOUR LEGAL NAME",
+		"SupplierID": "YOUR DOMAIN NAME URI, ie. dns:foo.com",
+		"StreetAddress": "YOUR ADDRESS",
+		"City": "YOUR CITY",
+		"StateOrProvince": "YOUR STATE/PROVINCE",
+		"ZipCode": "YOUR POSTAL CODE",
+		"Country": "USA",
+		"WebsiteURL": "https://reliableenergyanalytics.com/blank",
+		"ContactTelephone": "YOUR CONTACT PERSON TELEPHONE NUMBER WITH COUNTRY DESIGNATOR",
+		"ContactEmail": "YOUR CONTACT PERSON EMAIL",
+		"ContactPerson": "YOUR CONTACT PERSON NAME",
+		"DUNSNumber": "YOUR DUNS NUMBER",
+		"NAESBEIRID": "YOUR NAESB EIR ID IF KNOWN",
+		"CyberSecPolicyURL": "https://reliableenergyanalytics.com/blank",
+		"FinancialDataURL": "https://reliableenergyanalytics.com/blank",
+		"CompanyDataURL": "https://reliableenergyanalytics.com/blank",
+		"Products": [
+			{
+				"LicensorName": "BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+				"ProductName": "SAG-PM (TM)",
+				"DescriptionURL": "https://reliableenergyanalytics.com/blank",
+				"Version": "2.1.4",
+				"SBOM": {
+					"type": "spdx",
+					"version": "2.3",
+					"format": "JSON",
+					"DigitalSignatureURL": "",
+					"URL": "https://reliableenergyanalytics.com/blank"
+				},
+				"SourceLocationURL": "https://reliableenergyanalytics.com/blank",
+				"DigitallySigned": "Y",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "JSON",
+					"DigitalSignatureURL": "",
+					"URL": "https://reliableenergyanalytics.com/blank"
+				},
+				"SDLCPolicyURL": "https://reliableenergyanalytics.com/blank",
+				"SDLCEvidenceDataURL": "https://reliableenergyanalytics.com/blank",
+				"CyberSecLabelURL": "https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=SHA256HASHOFINPUTFILE&html=1",
+				"CommercialStatus": "Available",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2025-07-05T15:38:00"
+			}
+		]
+	}
+}
