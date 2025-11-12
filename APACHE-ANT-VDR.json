@@ -1,0 +1,1464 @@
+{
+    "SBOMVulnerabilityDisclosure": {
+        "CVERespository": "NIST_NVD",
+        "NISTNVDSearchStatus": "Abort",
+        "UnresolvedVulnerabilities": "U",
+        "PackageSourceLocation": "NOASSERTION",
+        "ProductName": "Apache Ant",
+        "ProductVersion": "1.10.14",
+        "SBOMAuthor": "['Organization:dns:businesscyberguardian.com', 'Tool:SAG-PM Version 2.1.6']",
+        "SBOMFormat": "spdx",
+        "SBOMFormatSyntax": "JSON",
+        "SBOMLocation": "file:///C:\\Users\\dick\\APACHE-ANT-SBOM.json",
+        "SBOMTimestamp": "2025-11-12T21:25:34Z",
+        "SBOMTotalComponentCount": "1661",
+        "SupplierName": "Organization:Apache Software Foundation",
+        "VulnDisclosureCreateDate": "2025-11-12T21:37:22.533223+00:00"
+    },
+    "Components": [
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=APACHE+Ant+1.10.14",
+            "ComponentID": "",
+            "ComponentName": "Apache Ant",
+            "ComponentSupplierName": "Organization:Apache Software Foundation",
+            "ComponentVersion": "1.10.14",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=apache-ant-1.10.14-bin.zip",
+            "ComponentID": "",
+            "ComponentName": "apache-ant-1.10.14-bin.zip",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant",
+            "ComponentID": "",
+            "ComponentName": "ant",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "1322",
+            "CVE": [
+                {
+                    "CVEID": "ant : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antRun",
+            "ComponentID": "",
+            "ComponentName": "antRun",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antRun.pl",
+            "ComponentID": "",
+            "ComponentName": "antRun.pl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=complete-ant-cmd.pl",
+            "ComponentID": "",
+            "ComponentName": "complete-ant-cmd.pl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=runant.pl",
+            "ComponentID": "",
+            "ComponentName": "runant.pl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=runant.py",
+            "ComponentID": "",
+            "ComponentName": "runant.py",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=CONTRIBUTORS",
+            "ComponentID": "",
+            "ComponentName": "CONTRIBUTORS",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "76",
+            "CVE": [
+                {
+                    "CVEID": "CONTRIBUTORS : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=INSTALL",
+            "ComponentID": "",
+            "ComponentName": "INSTALL",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "9757",
+            "CVE": [
+                {
+                    "CVEID": "INSTALL : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=KEYS",
+            "ComponentID": "",
+            "ComponentName": "KEYS",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "1579",
+            "CVE": [
+                {
+                    "CVEID": "KEYS : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE",
+            "ComponentID": "",
+            "ComponentName": "LICENSE",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "482",
+            "CVE": [
+                {
+                    "CVEID": "LICENSE : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=NOTICE",
+            "ComponentID": "",
+            "ComponentName": "NOTICE",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "241",
+            "CVE": [
+                {
+                    "CVEID": "NOTICE : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README",
+            "ComponentID": "",
+            "ComponentName": "README",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "41",
+            "CVE": [
+                {
+                    "CVEID": "README : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=WHATSNEW",
+            "ComponentID": "",
+            "ComponentName": "WHATSNEW",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "1",
+            "CVE": [
+                {
+                    "CVEID": "CVE-2006-4477",
+                    "CVSS": "7.5",
+                    "CVEDescription": "Multiple PHP remote file inclusion vulnerabilities in Visual Shapers ezContents 2.0.3 allow remote attackers to execute arbitrary PHP code via an empty GLOBALSrootdp parameter and an ftps URL in the 1 GLOBALSadmin_home parameter in a diaryevent_list.php, b gallerygallery_summary.php, c guestbookshowguestbook.php, d linksshowlinks.php, and e reviewsreview_summary.php and the 2 GLOBALSlanguage_home parameter in f calendarcalendar.php, g newsshownews.php, h pollshowpoll.php, i searchsearch.php, j topratedtoprated.php, and k whatsnewwhatsnew.php.",
+                    "Exploitable": "U",
+                    "CISAKEV": "--NOT CISA KEV--",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant.bat",
+            "ComponentID": "",
+            "ComponentName": "ant.bat",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant.cmd",
+            "ComponentID": "",
+            "ComponentName": "ant.cmd",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antRun.bat",
+            "ComponentID": "",
+            "ComponentName": "antRun.bat",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antenv.cmd",
+            "ComponentID": "",
+            "ComponentName": "antenv.cmd",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=envset.cmd",
+            "ComponentID": "",
+            "ComponentName": "envset.cmd",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=lcp.bat",
+            "ComponentID": "",
+            "ComponentName": "lcp.bat",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=runrc.cmd",
+            "ComponentID": "",
+            "ComponentName": "runrc.cmd",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=contributors.xml",
+            "ComponentID": "",
+            "ComponentName": "contributors.xml",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-bootstrap.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-bootstrap.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=changelog.xsl",
+            "ComponentID": "",
+            "ComponentName": "changelog.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=checkstyle-frames-sortby-check.xsl",
+            "ComponentID": "",
+            "ComponentName": "checkstyle-frames-sortby-check.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=checkstyle-frames.xsl",
+            "ComponentID": "",
+            "ComponentName": "checkstyle-frames.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=checkstyle-text.xsl",
+            "ComponentID": "",
+            "ComponentName": "checkstyle-text.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=checkstyle-xdoc.xsl",
+            "ComponentID": "",
+            "ComponentName": "checkstyle-xdoc.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=coverage-frames.xsl",
+            "ComponentID": "",
+            "ComponentName": "coverage-frames.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=jdepend-frames.xsl",
+            "ComponentID": "",
+            "ComponentName": "jdepend-frames.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=jdepend.xsl",
+            "ComponentID": "",
+            "ComponentName": "jdepend.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=junit-frames-xalan1.xsl",
+            "ComponentID": "",
+            "ComponentName": "junit-frames-xalan1.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=junit-frames.xsl",
+            "ComponentID": "",
+            "ComponentName": "junit-frames.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=junit-noframes.xsl",
+            "ComponentID": "",
+            "ComponentName": "junit-noframes.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=log.xsl",
+            "ComponentID": "",
+            "ComponentName": "log.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=maudit-frames.xsl",
+            "ComponentID": "",
+            "ComponentName": "maudit-frames.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=mmetrics-frames.xsl",
+            "ComponentID": "",
+            "ComponentName": "mmetrics-frames.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=tagdiff.xsl",
+            "ComponentID": "",
+            "ComponentName": "tagdiff.xsl",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fetch.xml",
+            "ComponentID": "",
+            "ComponentName": "fetch.xml",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=get-m2.xml",
+            "ComponentID": "",
+            "ComponentName": "get-m2.xml",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=README",
+            "ComponentID": "",
+            "ComponentName": "README",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "41",
+            "CVE": [
+                {
+                    "CVEID": "README : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-antlr.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-antlr.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-antlr.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-antlr.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-bcel.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-bcel.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-bcel.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-bcel.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-bsf.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-bsf.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-bsf.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-bsf.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-log4j.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-log4j.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-log4j.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-log4j.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-oro.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-oro.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-oro.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-oro.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-regexp.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-regexp.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-regexp.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-regexp.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-resolver.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-resolver.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-resolver.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-resolver.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-xalan2.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-xalan2.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-apache-xalan2.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-apache-xalan2.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-commons-logging.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-commons-logging.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-commons-logging.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-commons-logging.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-commons-net.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-commons-net.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-commons-net.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-commons-net.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-imageio.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-imageio.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-imageio.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-imageio.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jai.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-jai.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jai.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-jai.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jakartamail.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-jakartamail.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jakartamail.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-jakartamail.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-javamail.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-javamail.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-javamail.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-javamail.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jdepend.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-jdepend.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jdepend.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-jdepend.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jmf.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-jmf.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jmf.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-jmf.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jsch.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-jsch.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-jsch.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-jsch.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-junit.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-junit.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-junit.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-junit.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-junit4.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-junit4.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-junit4.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-junit4.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-junitlauncher.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-junitlauncher.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-junitlauncher.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-junitlauncher.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-launcher.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-launcher.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-launcher.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-launcher.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-netrexx.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-netrexx.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-netrexx.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-netrexx.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-parent.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-parent.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-swing.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-swing.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-swing.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-swing.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-testutil.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-testutil.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-testutil.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-testutil.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-xz.jar",
+            "ComponentID": "",
+            "ComponentName": "ant-xz.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant-xz.pom",
+            "ComponentID": "",
+            "ComponentName": "ant-xz.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant.jar",
+            "ComponentID": "",
+            "ComponentName": "ant.jar",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant.pom",
+            "ComponentID": "",
+            "ComponentName": "ant.pom",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=libraries.properties",
+            "ComponentID": "",
+            "ComponentName": "libraries.properties",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=anttool1.gif",
+            "ComponentID": "",
+            "ComponentName": "anttool1.gif",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=jext-plugin.html",
+            "ComponentID": "",
+            "ComponentName": "jext-plugin.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=remacc.gif",
+            "ComponentID": "",
+            "ComponentName": "remacc.gif",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=toolmenu.gif",
+            "ComponentID": "",
+            "ComponentName": "toolmenu.gif",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE",
+            "ComponentID": "",
+            "ComponentName": "LICENSE",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "482",
+            "CVE": [
+                {
+                    "CVEID": "LICENSE : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=BorlandEJBTasks.html",
+            "ComponentID": "",
+            "ComponentName": "BorlandEJBTasks.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=BorlandGenerateClient.html",
+            "ComponentID": "",
+            "ComponentName": "BorlandGenerateClient.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ant.html",
+            "ComponentID": "",
+            "ComponentName": "ant.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antcall.html",
+            "ComponentID": "",
+            "ComponentName": "antcall.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antlr.html",
+            "ComponentID": "",
+            "ComponentName": "antlr.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antstructure.html",
+            "ComponentID": "",
+            "ComponentName": "antstructure.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=antversion.html",
+            "ComponentID": "",
+            "ComponentName": "antversion.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=apply.html",
+            "ComponentID": "",
+            "ComponentName": "apply.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=attrib.html",
+            "ComponentID": "",
+            "ComponentName": "attrib.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=augment.html",
+            "ComponentID": "",
+            "ComponentName": "augment.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=available.html",
+            "ComponentID": "",
+            "ComponentName": "available.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=basename.html",
+            "ComponentID": "",
+            "ComponentName": "basename.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=bindtargets.html",
+            "ComponentID": "",
+            "ComponentName": "bindtargets.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=buildnumber.html",
+            "ComponentID": "",
+            "ComponentName": "buildnumber.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cab.html",
+            "ComponentID": "",
+            "ComponentName": "cab.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ccm.html",
+            "ComponentID": "",
+            "ComponentName": "ccm.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=changelog.html",
+            "ComponentID": "",
+            "ComponentName": "changelog.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=checksum.html",
+            "ComponentID": "",
+            "ComponentName": "checksum.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=chgrp.html",
+            "ComponentID": "",
+            "ComponentName": "chgrp.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=chmod.html",
+            "ComponentID": "",
+            "ComponentName": "chmod.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=chown.html",
+            "ComponentID": "",
+            "ComponentName": "chown.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=clearcase.html",
+            "ComponentID": "",
+            "ComponentName": "clearcase.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=common.html",
+            "ComponentID": "",
+            "ComponentName": "common.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=componentdef.html",
+            "ComponentID": "",
+            "ComponentName": "componentdef.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=concat.html",
+            "ComponentID": "",
+            "ComponentName": "concat.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=condition.html",
+            "ComponentID": "",
+            "ComponentName": "condition.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=conditions.html",
+            "ComponentID": "",
+            "ComponentName": "conditions.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=copy.html",
+            "ComponentID": "",
+            "ComponentName": "copy.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=copydir.html",
+            "ComponentID": "",
+            "ComponentName": "copydir.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=copyfile.html",
+            "ComponentID": "",
+            "ComponentName": "copyfile.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cvs.html",
+            "ComponentID": "",
+            "ComponentName": "cvs.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cvspass.html",
+            "ComponentID": "",
+            "ComponentName": "cvspass.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cvstagdiff.html",
+            "ComponentID": "",
+            "ComponentName": "cvstagdiff.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=cvsversion.html",
+            "ComponentID": "",
+            "ComponentName": "cvsversion.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=defaultexcludes.html",
+            "ComponentID": "",
+            "ComponentName": "defaultexcludes.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=delete.html",
+            "ComponentID": "",
+            "ComponentName": "delete.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "1",
+            "CVE": [
+                {
+                    "CVEID": "CVE-2022-4349",
+                    "CVSS": "4.3",
+                    "CVEDescription": "A vulnerability classified as problematic has been found in CTF-hacker pwn. This affects an unknown part of the file delete.html. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-215109 was assigned to this vulnerability.",
+                    "Exploitable": "U",
+                    "CISAKEV": "--NOT CISA KEV--",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=deltree.html",
+            "ComponentID": "",
+            "ComponentName": "deltree.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=depend.html",
+            "ComponentID": "",
+            "ComponentName": "depend.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dependset.html",
+            "ComponentID": "",
+            "ComponentName": "dependset.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=diagnostics.html",
+            "ComponentID": "",
+            "ComponentName": "diagnostics.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=dirname.html",
+            "ComponentID": "",
+            "ComponentName": "dirname.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ear.html",
+            "ComponentID": "",
+            "ComponentName": "ear.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=echo.html",
+            "ComponentID": "",
+            "ComponentName": "echo.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=echoproperties.html",
+            "ComponentID": "",
+            "ComponentName": "echoproperties.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=echoxml.html",
+            "ComponentID": "",
+            "ComponentName": "echoxml.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ejb.html",
+            "ComponentID": "",
+            "ComponentName": "ejb.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=exec.html",
+            "ComponentID": "",
+            "ComponentName": "exec.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fail.html",
+            "ComponentID": "",
+            "ComponentName": "fail.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=filter.html",
+            "ComponentID": "",
+            "ComponentName": "filter.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=fixcrlf.html",
+            "ComponentID": "",
+            "ComponentName": "fixcrlf.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=ftp.html",
+            "ComponentID": "",
+            "ComponentName": "ftp.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=genkey.html",
+            "ComponentID": "",
+            "ComponentName": "genkey.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=get.html",
+            "ComponentID": "",
+            "ComponentName": "get.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=gunzip.html",
+            "ComponentID": "",
+            "ComponentName": "gunzip.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=gzip.html",
+            "ComponentID": "",
+            "ComponentName": "gzip.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=hostinfo.html",
+            "ComponentID": "",
+            "ComponentName": "hostinfo.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=image-classdiagram.gif",
+            "ComponentID": "",
+            "ComponentName": "image-classdiagram.gif",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=image.graphml",
+            "ComponentID": "",
+            "ComponentName": "image.graphml",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=LICENSE",
+            "ComponentID": "",
+            "ComponentName": "LICENSE",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "482",
+            "CVE": [
+                {
+                    "CVEID": "LICENSE : NumberVulnsReported exceeds CVEMax Number: 5; too many to list",
+                    "CVSS": "N/A",
+                    "CVEDescription": "N/A",
+                    "Exploitable": "U",
+                    "CISAKEV": "U",
+                    "DisruptionImpact": "U",
+                    "FixStatus": "Unknown",
+                    "AnalysisFindings": "TBD",
+                    "SecurityAdvisoryURL": "Unknown"
+                }
+            ]
+        },
+        {
+            "CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=BorlandGenerateClient.html",
+            "ComponentID": "",
+            "ComponentName": "BorlandGenerateClient.html",
+            "ComponentSupplierName": "['Apache Software Foundation']",
+            "ComponentVersion": "",
+            "NumberVulnsReported": "0"
+        }
+    ]
+}
