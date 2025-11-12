@@ -27,7 +27,7 @@
 					"version": "2.3",
 					"format": "JSON",
 					"DigitalSignatureURL": "",
-					"URL": "https://reliableenergyanalytics.com/blank"
+					"URL": "https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/APACHE-ANT-SBOM.json"
 				},
 				"SourceLocationURL": "https://reliableenergyanalytics.com/blank",
 				"DigitallySigned": "Y",
@@ -35,11 +35,11 @@
 				"KnownVulnInfoURL": {
 					"DocFormat": "JSON",
 					"DigitalSignatureURL": "",
-					"URL": "https://reliableenergyanalytics.com/blank"
+					"URL": "https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/APACHE-ANT-VDR.json"
 				},
 				"SDLCPolicyURL": "https://reliableenergyanalytics.com/blank",
 				"SDLCEvidenceDataURL": "https://reliableenergyanalytics.com/blank",
-				"CyberSecLabelURL": "https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=SHA256HASHOFINPUTFILE&html=1",
+				"CyberSecLabelURL": "https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=34468FA049E7101E7D1A19979DF04681DEE093ACE1E462B244D9896C41338EF4&html=1",
 				"CommercialStatus": "Available",
 				"SupportStatus": "Supported",
 				"LastModifiedDateTimeUTC": "2025-07-05T15:38:00"
