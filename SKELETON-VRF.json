@@ -18,10 +18,10 @@
 		"CompanyDataURL": "https://reliableenergyanalytics.com/blank",
 		"Products": [
 			{
-				"LicensorName": "BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
-				"ProductName": "SAG-PM (TM)",
+				"LicensorName": "Apache Software Foundation",
+				"ProductName": "Apache Ant",
 				"DescriptionURL": "https://reliableenergyanalytics.com/blank",
-				"Version": "2.1.4",
+				"Version": "1.10.14",
 				"SBOM": {
 					"type": "spdx",
 					"version": "2.3",
