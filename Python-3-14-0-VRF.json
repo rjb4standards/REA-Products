@@ -1,0 +1,49 @@
+{
+	"VendorResponse": {
+		"VendorLegalName": "Python Software Foundation",
+		"SupplierID": "dns:python.org",
+		"StreetAddress": "YOUR ADDRESS",
+		"City": "YOUR CITY",
+		"StateOrProvince": "YOUR STATE/PROVINCE",
+		"ZipCode": "YOUR POSTAL CODE",
+		"Country": "USA",
+		"WebsiteURL": "https://www.python.org/",
+		"ContactTelephone": "YOUR CONTACT PERSON TELEPHONE NUMBER WITH COUNTRY DESIGNATOR",
+		"ContactEmail": "YOUR CONTACT PERSON EMAIL",
+		"ContactPerson": "YOUR CONTACT PERSON NAME",
+		"DUNSNumber": "YOUR DUNS NUMBER",
+		"NAESBEIRID": "YOUR NAESB EIR ID IF KNOWN",
+		"CyberSecPolicyURL": "https://reliableenergyanalytics.com/blank",
+		"FinancialDataURL": "https://reliableenergyanalytics.com/blank",
+		"CompanyDataURL": "https://reliableenergyanalytics.com/blank",
+		"Products": [
+			{
+				"LicensorName": "Python Software Foundation",
+				"ProductName": "CPython",
+				"DescriptionURL": "https://reliableenergyanalytics.com/blank",
+				"Version": "3.14.0",
+				"SBOM": {
+					"type": "spdx",
+					"version": "2.3",
+					"format": "JSON",
+					"DigitalSignatureURL": "",
+					"URL": "https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/Python-3-14-0-SBOM.json"
+				},
+				"SourceLocationURL": "https://www.python.org/ftp/python/3.14.0/python-3.14.0-amd64.exe",
+				"DigitallySigned": "N",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "JSON",
+					"DigitalSignatureURL": "",
+					"URL": "https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/Python-3-VDR.json"
+				},
+				"SDLCPolicyURL": "https://reliableenergyanalytics.com/blank",
+				"SDLCEvidenceDataURL": "https://reliableenergyanalytics.com/blank",
+				"CyberSecLabelURL": "https://reliableenergyanalytics.com/blank",
+				"CommercialStatus": "Available",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2025-11-26T20:25:00"
+			}
+		]
+	}
+}
