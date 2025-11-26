@@ -35,7 +35,7 @@
 				"KnownVulnInfoURL": {
 					"DocFormat": "JSON",
 					"DigitalSignatureURL": "",
-					"URL": "https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/Python-3-VDR.json"
+					"URL": "https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/Python-3-14-0-VDR.json"
 				},
 				"SDLCPolicyURL": "https://reliableenergyanalytics.com/blank",
 				"SDLCEvidenceDataURL": "https://reliableenergyanalytics.com/blank",
