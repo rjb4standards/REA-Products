@@ -1,0 +1,303 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "SAG-PM Vulnerability Disclosure Report (VDR) Schema",
+    "description": "JSON Schema for SPDX SBOM Vulnerability Disclosure Report format",
+    "type": "object",
+    "required": [
+        "SBOMVulnerabilityDisclosure",
+        "Components"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "SBOMVulnerabilityDisclosure": {
+            "type": "object",
+            "description": "Top-level metadata about the SBOM and vulnerability scan",
+            "additionalProperties": false,
+            "required": [
+                "CVERespository",
+                "NISTNVDSearchStatus",
+                "UnresolvedVulnerabilities",
+                "PackageSourceLocation",
+                "ProductName",
+                "ProductVersion",
+                "SBOMAuthor",
+                "SBOMFormat",
+                "SBOMFormatSyntax",
+                "SBOMLocation",
+                "SBOMTimestamp",
+                "SBOMTotalComponentCount",
+                "SupplierName",
+                "VulnDisclosureCreateDate"
+            ],
+            "properties": {
+                "CVERespository": {
+                    "type": "string",
+                    "description": "The CVE repository used for vulnerability lookup (e.g., NIST_NVD)",
+                    "examples": [
+                        "NIST_NVD"
+                    ]
+                },
+                "NISTNVDSearchStatus": {
+                    "type": "string",
+                    "description": "Status of the NIST NVD search operation",
+                    "enum": [
+                        "Success",
+                        "Partial",
+                        "Failed",
+                        "Timeout"
+                    ]
+                },
+                "UnresolvedVulnerabilities": {
+                    "type": "string",
+                    "description": "Whether there are unresolved vulnerabilities",
+                    "enum": [
+                        "Y",
+                        "N"
+                    ]
+                },
+                "PackageSourceLocation": {
+                    "type": "string",
+                    "description": "Source location of the package or NOASSERTION",
+                    "examples": [
+                        "NOASSERTION",
+                        "https://example.com/source"
+                    ]
+                },
+                "ProductName": {
+                    "type": "string",
+                    "description": "Name of the product being analyzed",
+                    "examples": [
+                        "SAG-PM.EXE"
+                    ]
+                },
+                "ProductVersion": {
+                    "type": "string",
+                    "description": "Version of the product",
+                    "examples": [
+                        "2.1.4"
+                    ]
+                },
+                "SBOMAuthor": {
+                    "type": "string",
+                    "description": "Author(s) of the SBOM (can be string representation of list)",
+                    "examples": [
+                        "['Organization:dns:businesscyberguardian.com', 'Tool:SAG-PM Version 2.1.4']"
+                    ]
+                },
+                "SBOMFormat": {
+                    "type": "string",
+                    "description": "Format specification used (e.g., spdx, cyclonedx)",
+                    "enum": [
+                        "spdx",
+                        "cyclonedx",
+                        "other"
+                    ]
+                },
+                "SBOMFormatSyntax": {
+                    "type": "string",
+                    "description": "Syntax format of the SBOM (e.g., JSON, XML)",
+                    "enum": [
+                        "JSON",
+                        "XML",
+                        "YAML",
+                        "RDF",
+                        "Text"
+                    ]
+                },
+                "SBOMLocation": {
+                    "type": "string",
+                    "description": "File path or URL to the SBOM document",
+                    "examples": [
+                        "file:///C:\\Users\\dick\\ReliableEnergyAnalytics\\...\\SAG-PM-V2_1_4-SBOM.json"
+                    ]
+                },
+                "SBOMTimestamp": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "ISO 8601 timestamp when the SBOM was created"
+                },
+                "SBOMTotalComponentCount": {
+                    "type": "string",
+                    "description": "Total number of components in the SBOM",
+                    "examples": [
+                        "112"
+                    ]
+                },
+                "SupplierName": {
+                    "type": "string",
+                    "description": "Name and type of the supplier/organization",
+                    "examples": [
+                        "Organization:BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)"
+                    ]
+                },
+                "VulnDisclosureCreateDate": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "ISO 8601 timestamp when the vulnerability disclosure report was created"
+                }
+            }
+        },
+        "Components": {
+            "type": "array",
+            "description": "Array of software components analyzed for vulnerabilities",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "CVESearchString",
+                    "ComponentID",
+                    "ComponentName",
+                    "ComponentSupplierName",
+                    "ComponentVersion",
+                    "NumberVulnsReported"
+                ],
+                "properties": {
+                    "CVESearchString": {
+                        "type": "string",
+                        "format": "uri",
+                        "description": "URL to search NIST NVD for vulnerabilities of this component",
+                        "examples": [
+                            "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=SAG-PM.EXE+2.1.4"
+                        ]
+                    },
+                    "ComponentID": {
+                        "type": "string",
+                        "description": "Unique identifier for the component (often empty or UUID)",
+                        "examples": [
+                            "",
+                            "123e4567-e89b-12d3-a456-426614174000"
+                        ]
+                    },
+                    "ComponentName": {
+                        "type": "string",
+                        "description": "Human-readable name of the component",
+                        "examples": [
+                            "SAG-PM.EXE",
+                            "requests",
+                            "numpy"
+                        ]
+                    },
+                    "ComponentSupplierName": {
+                        "type": "string",
+                        "description": "Organization or person who supplied/created the component",
+                        "examples": [
+                            "Organization:BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+                            "Person: Python Software Foundation",
+                            "NOASSERTION"
+                        ]
+                    },
+                    "ComponentVersion": {
+                        "type": "string",
+                        "description": "Version number of the component",
+                        "examples": [
+                            "2.1.4",
+                            "1.13.0",
+                            "2.2.1",
+                            ""
+                        ]
+                    },
+                    "NumberVulnsReported": {
+                        "type": "string",
+                        "description": "Count of reported CVEs for this component",
+                        "examples": [
+                            "0",
+                            "1",
+                            "5"
+                        ]
+                    },
+                    "CVE": {
+                        "type": "array",
+                        "description": "Array of CVE details for vulnerabilities found in this component",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": [
+                                "CVEID",
+                                "CVSS",
+                                "CVEDescription",
+                                "Exploitable",
+                                "CISAKEV",
+                                "DisruptionImpact",
+                                "FixStatus",
+                                "AnalysisFindings",
+                                "SecurityAdvisoryURL"
+                            ],
+                            "properties": {
+                                "CVEID": {
+                                    "type": "string",
+                                    "pattern": "^CVE-\\d{4}-\\d{4,}$",
+                                    "description": "CVE Identifier (Common Vulnerabilities and Exposures)",
+                                    "examples": [
+                                        "CVE-2014-8564",
+                                        "CVE-2023-29530"
+                                    ]
+                                },
+                                "CVSS": {
+                                    "type": "string",
+                                    "description": "CVSS score (Common Vulnerability Scoring System)",
+                                    "examples": [
+                                        "5.0",
+                                        "7.5",
+                                        "9.8"
+                                    ]
+                                },
+                                "CVEDescription": {
+                                    "type": "string",
+                                    "description": "Detailed description of the vulnerability"
+                                },
+                                "Exploitable": {
+                                    "type": "string",
+                                    "description": "Whether the vulnerability is exploitable in this context",
+                                    "enum": [
+                                        "Y",
+                                        "N"
+                                    ]
+                                },
+                                "CISAKEV": {
+                                    "type": "string",
+                                    "description": "CISA Known Exploited Vulnerabilities (KEV) status",
+                                    "examples": [
+                                        "--NOT CISA KEV--",
+                                        "**ACTIVE CISA KEV**"
+                                    ]
+                                },
+                                "DisruptionImpact": {
+                                    "type": "string",
+                                    "description": "Impact of the vulnerability on operations",
+                                    "examples": [
+                                        "None",
+                                        "Low",
+                                        "Medium",
+                                        "High"
+                                    ]
+                                },
+                                "FixStatus": {
+                                    "type": "string",
+                                    "description": "Status of the fix for this vulnerability",
+                                    "enum": [
+                                        "Available",
+                                        "N/A",
+                                        "In Progress",
+                                        "Unknown"
+                                    ]
+                                },
+                                "AnalysisFindings": {
+                                    "type": "string",
+                                    "description": "Analysis and findings about the vulnerability (e.g., false positive explanation)"
+                                },
+                                "SecurityAdvisoryURL": {
+                                    "type": "string",
+                                    "description": "URL to the security advisory or N/A",
+                                    "examples": [
+                                        "N/A",
+                                        "https://nvd.nist.gov/vuln/detail/CVE-2014-8564"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
