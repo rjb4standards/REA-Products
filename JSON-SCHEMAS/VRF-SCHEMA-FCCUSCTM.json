@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://softwareassuranceguardian.com/VRF.schema.json",
+  "title": "VendorResponse",
+  "type": "object",
+
+  "properties": {
+    "VendorResponse": {
+      "type": "object",
+      "properties": {
+        "VendorLegalName": { "type": "string" },
+        "SupplierID": { "type": "string" },
+        "StreetAddress": { "type": "string" },
+        "City": { "type": "string" },
+        "StateOrProvince": { "type": "string" },
+        "ZipCode": { "type": "string" },
+        "Country": { "type": "string" },
+        "WebsiteURL": { "type": "string" },
+        "ContactTelephone": { "type": "string" },
+        "ContactEmail": { "type": "string" },
+        "ContactPerson": { "type": "string" },
+        "DUNSNumber": { "type": "string" },
+        "NAESBEIRID": { "type": "string" },
+
+        "CyberSecPolicyURL": { "type": "string" },
+        "FinancialDataURL": { "type": "string" },
+        "CompanyDataURL": { "type": "string" },
+
+        "Products": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/ProductType" }
+        }
+      },
+
+      "required": [
+        "VendorLegalName",
+        "SupplierID",
+        "StreetAddress",
+        "City",
+        "StateOrProvince",
+        "ZipCode",
+        "Country",
+        "WebsiteURL",
+        "ContactTelephone",
+        "ContactEmail",
+        "ContactPerson",
+        "DUNSNumber",
+        "NAESBEIRID",
+        "CyberSecPolicyURL",
+        "FinancialDataURL",
+        "CompanyDataURL",
+        "Products"
+      ]
+    }
+  },
+
+  "required": ["VendorResponse"],
+
+  "$defs": {
+
+    "ProductType": {
+      "type": "object",
+      "properties": {
+        "LicensorName": { "type": "string" },
+        "ProductName": { "type": "string" },
+        "DescriptionURL": { "type": "string" },
+        "Version": { "type": "string" },
+
+        "SBOM": {
+          "type": "object",
+          "properties": {
+            "URL": { "type": "string" },
+            "type": {
+              "type": "string",
+              "enum": ["spdx", "cycloneDX"]
+            },
+            "version": { "type": "string" },
+            "format": {
+              "type": "string",
+              "enum": ["JSON", "XML", "TV"]
+            },
+            "DigitalSignatureURL": { "type": "string" }
+          },
+          "required": ["URL", "type", "format"]
+        },
+
+        "SourceLocationURL": { "type": "string" },
+
+        "DigitallySigned": {
+          "type": "string",
+          "enum": ["Y", "N"]
+        },
+
+        "UnsolvedVulnerabilities": {
+          "type": "string",
+          "enum": ["Y", "N"]
+        },
+
+        "KnownVulnInfoURL": {
+          "type": "object",
+          "properties": {
+            "URL": { "type": "string" },
+            "DocFormat": {
+              "type": "string",
+              "enum": [
+                "Word",
+                "PDF",
+                "XML",
+                "JSON",
+                "HTML",
+                "Text",
+                "CDXVEX"
+              ]
+            },
+            "DigitalSignatureURL": { "type": "string" }
+          },
+          "required": ["URL", "DocFormat"]
+        },
+
+        "SDLCPolicyURL": { "type": "string" },
+        "SDLCEvidenceDataURL": { "type": "string" },
+        "CyberSecLabelURL": { "type": "string" },
+
+        "CommercialStatus": {
+          "type": "string",
+          "enum": [
+            "Available",
+            "Retired",
+            "EOL",
+            "BetaTest",
+            "Pilot",
+            "Abandoned"
+          ]
+        },
+
+        "SupportStatus": {
+          "type": "string",
+          "enum": ["Supported", "Unsupported", "Community"]
+        },
+
+        "LastModifiedDateTimeUTC": {
+          "type": "string"
+        }
+      },
+
+      "required": [
+        "LicensorName",
+        "ProductName",
+        "DescriptionURL",
+        "Version",
+        "SBOM",
+        "SourceLocationURL",
+        "DigitallySigned",
+        "UnsolvedVulnerabilities",
+        "KnownVulnInfoURL",
+        "SDLCPolicyURL",
+        "SDLCEvidenceDataURL",
+        "CyberSecLabelURL",
+        "CommercialStatus",
+        "SupportStatus",
+        "LastModifiedDateTimeUTC"
+      ]
+    }
+  }
+}
