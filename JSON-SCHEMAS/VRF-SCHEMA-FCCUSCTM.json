@@ -1,5 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "All rights reserved by Business Cyber Guardian (TM), this artifact is licensed for use under MIT licensing terms; MIT License: Permission is granted to use, copy, modify, and distribute this software, provided the copyright notice and permission notice are included.",
   "$id": "http://softwareassuranceguardian.com/VRF.schema.json",
   "title": "VendorResponse",
   "type": "object",

@@ -1,5 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
+	"$comment": "All rights reserved by Business Cyber Guardian (TM), this artifact is licensed for use under MIT licensing terms; MIT License: Permission is granted to use, copy, modify, and distribute this software, provided the copyright notice and permission notice are included.",
     "title": "SAG-PM Vulnerability Disclosure Report (VDR) Schema",
     "description": "JSON Schema for SPDX SBOM Vulnerability Disclosure Report format",
     "type": "object",
