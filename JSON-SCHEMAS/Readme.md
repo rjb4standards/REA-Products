@@ -11,3 +11,5 @@ How to use these materials to create and register a product trust label in SAG-C
 
 The ViewVRF.py tool is available to verify and view VRF contents, based on the open source VRF schema
 Usage: python ViewVRF.py --url (Location of VRF file) - requires prerequisites to be installed
+Example: 
+python ViewVRF.py --url https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/JSON-SCHEMAS/SAMPLEVRF-final.json
