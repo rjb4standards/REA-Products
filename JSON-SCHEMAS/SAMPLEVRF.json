@@ -22,7 +22,7 @@
         "ProductName": "Acme Secure Gateway",
         "Version": "5.4.2",
         "SBOM": {
-          "type": "CycloneDX",
+          "type": "cycloneDX",
           "version": "1.5",
           "format": "JSON",
           "DigitalSignatureURL": "https://sbom.acmecyber.com/sg-5.4.2/sbom.sig",
