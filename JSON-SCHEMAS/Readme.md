@@ -14,3 +14,6 @@ The ViewVRF.py tool is available to verify and view VRF contents, based on the o
 Usage: python ViewVRF.py --url (Location of VRF file) - requires prerequisites to be installed
 Example: 
 python ViewVRF.py --url https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/JSON-SCHEMAS/SAMPLEVRF-final.json
+
+Additional VRF Guidance is available here: https://github.com/rjb4standards/REA-Products/tree/master/CISA_VRFtemplate
+
