@@ -1,0 +1,49 @@
+{
+	"VendorResponse": {
+		"VendorLegalName": "T-Mobile USA",
+		"SupplierID": "dns:businesscyberguardian.com",
+		"StreetAddress": "23 Linda Drive",
+		"City": "Westfield",
+		"StateOrProvince": "Massachusetts",
+		"ZipCode": "01085",
+		"Country": "USA",
+		"WebsiteURL": "https://businesscyberguardian.com/",
+		"ContactTelephone": "978-696-1788",
+		"ContactEmail": "dick@businesscyberguardian.com",
+		"ContactPerson": "Dick Brooks",
+		"DUNSNumber": "111509681",
+		"NAESBEIRID": "REAL",
+		"CyberSecPolicyURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CyberSecPolicy.html",
+		"FinancialDataURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/FinancialData.html",
+		"CompanyDataURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CompanyData.html",
+		"Products": [
+			{
+				"LicensorName": "T-Mobile USA",
+				"ProductName": "5G Home Internet Gateway Model G4AR",
+				"DescriptionURL": "https://github.com/rjb4standards/CISASAGReader",
+				"Version": "1.0",
+				"SBOM": {
+					"type": "spdx",
+					"version": "2.3",
+					"format": "JSON",
+					"DigitalSignatureURL": "",
+					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-1_0_2-SBOM.json"
+				},
+				"SourceLocationURL": "https://pypi.org/manage/project/sag-reader/release/1.0.2/",
+				"DigitallySigned": "N",
+				"UnsolvedVulnerabilities": "N",
+				"KnownVulnInfoURL": {
+					"DocFormat": "JSON",
+					"DigitalSignatureURL": "",
+					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_2-VDR.json"
+				},
+				"SDLCPolicyURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx",
+				"SDLCEvidenceDataURL": "https://pypi.org/manage/project/sag-reader/release/1.0.2/",
+				"CyberSecLabelURL": "https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=9429e05df9dda377f4cf0359904ed020b2aa67c54e945c8f0dad84b6ffdf3ab1&html=1",
+				"CommercialStatus": "Retired",
+				"SupportStatus": "Supported",
+				"LastModifiedDateTimeUTC": "2024-12-07T16:00:00"
+			}
+		]
+	}
+}
