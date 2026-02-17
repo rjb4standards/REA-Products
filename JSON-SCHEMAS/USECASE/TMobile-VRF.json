@@ -39,11 +39,12 @@
 				},
 				"SDLCPolicyURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx",
 				"SDLCEvidenceDataURL": "https://pypi.org/manage/project/sag-reader/release/1.0.2/",
-				"CyberSecLabelURL": "https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=9429e05df9dda377f4cf0359904ed020b2aa67c54e945c8f0dad84b6ffdf3ab1&html=1",
-				"CommercialStatus": "Retired",
+				"CyberSecLabelURL": "https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=9429e05df9dda377f4cf0359904ed020b2aa67c54e945c8f0dad84b6ffdf3ab1&html=1",
+				"CommercialStatus": "Available",
 				"SupportStatus": "Supported",
-				"LastModifiedDateTimeUTC": "2024-12-07T16:00:00"
+				"LastModifiedDateTimeUTC": "2026-02-17T13:00:00"
 			}
 		]
 	}
 }
+
