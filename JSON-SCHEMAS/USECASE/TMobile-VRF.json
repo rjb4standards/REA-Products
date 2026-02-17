@@ -26,7 +26,7 @@
 					"type": "spdx",
 					"version": "2.3",
 					"format": "JSON",
-					"DigitalSignatureURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-1_0_4-SBOM.json.sig",
+					"DigitalSignatureURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json.sig",
 					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-1_0_4-SBOM.json"
 				},
 				"SourceLocationURL": "https://pypi.org/manage/project/sag-reader/release/1.0.4/",
@@ -34,7 +34,7 @@
 				"UnsolvedVulnerabilities": "N",
 				"KnownVulnInfoURL": {
 					"DocFormat": "JSON",
-					"DigitalSignatureURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json.sig",
+					"DigitalSignatureURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-V1_0_4-VDR.json.sig",
 					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json"
 				},
 				"SDLCPolicyURL": "https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf",
@@ -47,5 +47,6 @@
 		]
 	}
 }
+
 
 
