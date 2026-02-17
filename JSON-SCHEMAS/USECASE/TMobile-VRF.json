@@ -26,19 +26,19 @@
 					"type": "spdx",
 					"version": "2.3",
 					"format": "JSON",
-					"DigitalSignatureURL": "",
-					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-1_0_2-SBOM.json"
+					"DigitalSignatureURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-1_0_4-SBOM.json.sig",
+					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-1_0_4-SBOM.json"
 				},
-				"SourceLocationURL": "https://pypi.org/manage/project/sag-reader/release/1.0.2/",
+				"SourceLocationURL": "https://pypi.org/manage/project/sag-reader/release/1.0.4/",
 				"DigitallySigned": "N",
 				"UnsolvedVulnerabilities": "N",
 				"KnownVulnInfoURL": {
 					"DocFormat": "JSON",
-					"DigitalSignatureURL": "",
-					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_2-VDR.json"
+					"DigitalSignatureURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json.sig",
+					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json"
 				},
-				"SDLCPolicyURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx",
-				"SDLCEvidenceDataURL": "https://pypi.org/manage/project/sag-reader/release/1.0.2/",
+				"SDLCPolicyURL": "https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf",
+				"SDLCEvidenceDataURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx",
 				"CyberSecLabelURL": "https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=9429e05df9dda377f4cf0359904ed020b2aa67c54e945c8f0dad84b6ffdf3ab1&html=1",
 				"CommercialStatus": "Available",
 				"SupportStatus": "Supported",
@@ -47,4 +47,5 @@
 		]
 	}
 }
+
 
