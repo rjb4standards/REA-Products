@@ -259,7 +259,7 @@
                                     "description": "CISA Known Exploited Vulnerabilities (KEV) status",
                                     "examples": [
                                         "--NOT CISA KEV--",
-                                        "CISA_KEV_ACTIVE"
+                                        "**ACTIVE CISA KEV**"
                                     ]
                                 },
                                 "DisruptionImpact": {
@@ -302,4 +302,5 @@
         }
     }
 }
+
 
