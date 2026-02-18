@@ -1,7 +1,7 @@
 All materials in this folder are available under open source MIT licensing terms
 
 How to use these materials to create and register a product trust label in SAG-CTR:
-1. Create the product.PDS file containing 3 data items, separated by a delimeter, i.e. /, SupplierName/ProductNamne/ProductVersion - see Product.pds example, https://github.com/rjb4standards/REA-Products/blob/master/JSON-SCHEMAS/Product.pds 
+1. Create the product.PDS file containing 3 data items, separated by a delimeter, i.e. /, SupplierName/ProductName/ProductVersion - see Product.pds example, https://github.com/rjb4standards/REA-Products/blob/master/JSON-SCHEMAS/Product.pds 
 2. You will need to create a product VRF file and make it available online, following the SAMPLE VRF and JSON VRF Schema format. Use this link in the addMe.csv file under the NATF Response File column heading [see example addMe.csv file for details(https://github.com/rjb4standards/REA-Products/blob/master/JSON-SCHEMAS/SAG-PM-addme.csv)
 3. Create the "addMe.csv" file that add product information into the SAG-PM database then use sag-pm to add the product to the database (this identifies the VRF file URL JSON artifact following the VRF Schema defiition in the repository), https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/JSON-SCHEMAS/SAMPLEVRF-final.json
 4. Perform a sag-pm comprehensive risk assessment on the PDS file after adding the addme.csv file to the SAGPM database (i.e. sag-pm addProduct addme.csv evidence")
