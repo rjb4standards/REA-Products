@@ -38,8 +38,8 @@
         },
         "SDLCPolicyURL": "https://www.acmecyber.com/sdlc-policy",
         "SDLCEvidenceDataURL": "https://evidence.acmecyber.com/sg-5.4.2/sdlc-evidence.zip",
-        "CommercialStatus": "Available",
-        "SupportStatus": "Supported",
+        "CommercialStatus": "Available through 2029",
+        "SupportStatus": "Supported through 2029",
         "LastModifiedDateTimeUTC": "2025-12-15T14:22:00Z"
       },
       {
@@ -63,10 +63,11 @@
         },
         "SDLCPolicyURL": "https://www.acmecyber.com/sdlc-policy",
         "SDLCEvidenceDataURL": "https://evidence.acmecyber.com/aim-3.1.0/sdlc-evidence.zip",
-        "CommercialStatus": "Available",
-        "SupportStatus": "Supported",
+        "CommercialStatus": "EOL",
+        "SupportStatus": "Supported through 2026",
         "LastModifiedDateTimeUTC": "2026-01-10T09:45:00Z"
       }
     ]
   }
+
 }
