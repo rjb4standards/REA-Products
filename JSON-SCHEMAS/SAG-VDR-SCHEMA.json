@@ -33,14 +33,15 @@
             "properties": {
                 "CVERespository": {
                     "type": "string",
-                    "description": "The CVE repository used for vulnerability lookup (e.g., NIST_NVD)",
+                    "description": "The CVE repository used for vulnerability lookup (e.g., NIST_NVD, GCVE, etc.)",
                     "examples": [
-                        "NIST_NVD"
+                        "NIST_NVD",
+						"GCVE"
                     ]
                 },
                 "NISTNVDSearchStatus": {
                     "type": "string",
-                    "description": "Status of the NIST NVD search operation",
+                    "description": "Status of the NVD search operation regardless of which CVE database repository is used",
                     "enum": [
                         "Success",
                         "Partial",
@@ -302,5 +303,6 @@
         }
     }
 }
+
 
 
