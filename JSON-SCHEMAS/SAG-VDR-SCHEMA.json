@@ -127,9 +127,10 @@
                 },
                 "SupplierName": {
                     "type": "string",
-                    "description": "Name and type of the supplier/organization",
+                    "description": "Name and type of the supplier/organization that produced the named product and version",
                     "examples": [
-                        "Organization:BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)"
+                        "Organization:BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+						"Person: Dick Brooks <d.brooks@ieee.org>"
                     ]
                 },
                 "VulnDisclosureCreateDate": {
@@ -303,6 +304,7 @@
         }
     }
 }
+
 
 
 
