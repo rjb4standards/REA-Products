@@ -70,7 +70,7 @@
 			},
 			"supplier": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"primaryPackagePurpose": "FILE",
-			"versionInfo": ""
+			"versionInfo": "2.1.4"
 		},
 		{
 			"SPDXID": "SPDXRef-110a13fd-aaba-46c3-bb4c-ff2aeedd6675",
@@ -93,7 +93,7 @@
 			},
 			"supplier": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"primaryPackagePurpose": "FILE",
-			"versionInfo": ""
+			"versionInfo": "2.1.4"
 		},
 		{
 			"SPDXID": "SPDXRef-637aa862-87eb-46c2-9a55-756f731c1a5f",
@@ -116,7 +116,7 @@
 			},
 			"supplier": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"primaryPackagePurpose": "FILE",
-			"versionInfo": ""
+			"versionInfo": "2.1.4"
 		},
 		{
 			"SPDXID": "SPDXRef-dd4c070f-8c7e-4bcc-b47a-a7b5b5788a6c",
@@ -139,7 +139,7 @@
 			},
 			"supplier": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"primaryPackagePurpose": "FILE",
-			"versionInfo": ""
+			"versionInfo": "2.1.4"
 		},
 		{
 			"SPDXID": "SPDXRef-08290d3d-be39-4669-90df-6cc388531a53",
@@ -162,7 +162,7 @@
 			},
 			"supplier": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"primaryPackagePurpose": "FILE",
-			"versionInfo": ""
+			"versionInfo": "2.1.4"
 		},
 		{
 			"SPDXID": "SPDXRef-474d7d1e-0f55-44b2-8f8c-387d435f7ad2",
@@ -185,7 +185,7 @@
 			},
 			"supplier": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"primaryPackagePurpose": "FILE",
-			"versionInfo": ""
+			"versionInfo": "2.1.4"
 		},
 		{
 			"SPDXID": "SPDXRef-dcd09910-6c4e-41a5-91d8-6d9fa49d3715",
@@ -208,7 +208,7 @@
 			},
 			"supplier": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"primaryPackagePurpose": "FILE",
-			"versionInfo": ""
+			"versionInfo": "2.1.4"
 		},
 		{
 			"SPDXID": "SPDXRef-1-acme",
@@ -3930,4 +3930,5 @@
 			"relationshipType": "DESCRIBES"
 		}
 	]
+
 }
