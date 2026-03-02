@@ -302,7 +302,7 @@
                     "DisruptionImpact": "None",
                     "FixStatus": "N/A",
                     "AnalysisFindings": "FALSE POSITIVE: SAG-PM does not use this component for header processing including Set-Cookie",
-                    "SecurityAdvisoryURL": "Unknown"
+                    "SecurityAdvisoryURL": "N/A"
                 }
             ]
         },
@@ -965,4 +965,5 @@
             "NumberVulnsReported": "0"
         }
     ]
+
 }
