@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "QR_code_url": "https://example.com/usctm/product123",
+  "sensor_data_collection": [
+    {
+      "description": "Captures audio for voice commands",
+      "has": false,
+      "icons": {
+      },
+      "sensing": "audio"
+    },
+    {
+      "description": "Captures images for video functionality",
+      "has": false,
+      "icons": {
+      },
+      "sensing": "images"
+    }
+  ],
+  "product_name": "SAG-PM (TM)",
+  "manufacturer_name": "BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+  "authorization_date": "2025-07-01",
+  "authorized_by": {
+    "name": "USCTM Lead CyberLab (CLA)",
+    "contact": "cert-authority@example.org"
+  },
+  "tested_by": {
+    "name": "USCTM Trusted Lab LLC",
+    "contact": "testing@example.org"
+  },
+  "access_control": {
+    "password_options": ["password", "MFA"],
+    "password_change": {
+      "text": "Instructions for changing your password",
+      "url": "https://reliableenergyanalytics.com/products"
+    },
+    "password_factory_default": "password"
+  },
+  "securing_this_product": {
+    "text": "Security guidance for this product",
+    "url": "https://reliableenergyanalytics.com/products"
+  },
+  "security_update_information": {
+    "update_default": "Automatic - may opt out",
+    "update_options": [
+      "Automatic - may opt out",
+      "Manual"
+    ]
+  },
+  "support_date": "2030-12-31",
+  "version_and_model_numbers": "v2.1.4",
+  "delete_data": {
+    "text": "How to delete your data",
+    "url": "https://reliableenergyanalytics.com/products"
+  },
+  "account_deactivation": {
+    "text": "How to deactivate your account",
+    "url": "https://reliableenergyanalytics.com/products"
+  },
+  "encryption_and_key_management": {
+    "text": "Encryption and key management details",
+    "url": "https://softwareassuranceguardian.com/CyberSecPolicy.html"
+  },
+  "general_user_information": {
+    "text": "General user information",
+    "url": "https://reliableenergyanalytics.com/products"
+  },
+  "security_contact": "security@example.com",
+  "created": "2025-12-01T10:00:00Z",
+  "modified": "2026-01-10T15:30:00Z",
+  "sbom_hbom_available": "https://softwareassuranceguardian.com/SAG-PM-V2_1_3-SBOM.json",
+  "sbom_hbom_maintained": {
+    "hbom_maintained": false,
+    "sbom_maintained": true
+  }
+}
