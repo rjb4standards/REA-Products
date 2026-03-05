@@ -65,11 +65,11 @@
 					"URL": "https://softwareassuranceguardian.com/SAG-PM-V2_1_4-VDR.json"
 				},
 				"SDLCPolicyURL": "https://softwareassuranceguardian.com/SDLC-POLICY-BCG.pdf",
-				"SDLCEvidenceDataURL": "https://softwareassuranceguardian.com/SAG-SPREADSHEET-SAG-PM-V2_1_4.xls",
-				"CyberSecLabelURL": "https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=294B721ADC349C7BBCB2DE163688479743765334C84459EDBCD93A584447E864&html=1",
-				"CommercialStatus": "Available",
-				"SupportStatus": "Supported",
-				"LastModifiedDateTimeUTC": "2025-07-01T20:19:00"
+				"SDLCEvidenceDataURL": "https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/USCTM/BCGSAGPMV2-1-4-CTA.json",
+				"CyberSecLabelURL": "https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=D345FB1E990FAAA7B0F4E9FC27291AE5E7896CC966B6786138BB813B58272216&html=1", 
+				"CommercialStatus": "End of Life effective January 1, 2026",
+				"SupportStatus": "Supported through 12/31/2027",
+				"LastModifiedDateTimeUTC": "2026-03-05T18:00:00"
 			}
 		]
 	}
