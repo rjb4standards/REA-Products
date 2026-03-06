@@ -17,7 +17,7 @@
       "sensing": "images"
     }
   ],
-  "product_name": "SAG-PM (TM)",
+  "product_name": "SAG-PM (TM) Version 2.1.4",
   "manufacturer_name": "BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
   "authorization_date": "2025-07-01",
   "authorized_by": {
@@ -73,4 +73,5 @@
     "hbom_maintained": false,
     "sbom_maintained": true
   }
+
 }
