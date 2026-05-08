@@ -1,6 +1,6 @@
 Three PDS files are created that are used to produc three unique DNAID record in SAG-CTR:
 1. Entity Information PDS containing Company Name/Entity Name/Entity IDentifier (Business Cyber Guardian/Richard Brooks/Badge Number 1
-2. Resource information in PDS containing Company Name/Resource Name/Resource Identifier ((Business Cyber Guardian/SAG-CTR Database/SAGDB)
+2. Resource information in PDS containing ZeroTrustDomainName/Resource Name/Resource Identifier (Business Cyber Guardian AWS-RDS/SAG-CTR Database/SAGDB)
 3. A Zero Trust Bond PDS that represents a Zero Trust Bond record with a unique DNAID using a Zero Trust DomainName/EntityDNAID/ResourceDNAID)
 
 
