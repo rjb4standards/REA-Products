@@ -26,6 +26,8 @@ resulting in the ZTBOND DNAID for:
 
 This ZTBOND DNAID is then used to performa lookup in SAG-CTR, using the SAG-CTR Lookup URL.
 A True response indicate an Entity ZTDNAID is trusted to access the reuqest Resource ZTDNAID.
+i.e.  url = f"{ZTBcfg.get_sag_ctr_lookup_url()}{ztbond_dnaid}"
+
 
 Additional examples are provided in the [ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-00.txt)
 
