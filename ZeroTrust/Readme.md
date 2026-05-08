@@ -25,3 +25,4 @@ resulting in the ZTBOND DNAID for:
 "MYZTdomainName"|"ENTITY ZTDNAID HEX VALUE ONLY"|"RESOURCE ZTDNAID HEX VALUE ONLY"
 
 Additional examples are provided in the [ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-00.txt)
+
