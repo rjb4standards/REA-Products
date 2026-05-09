@@ -11,4 +11,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     input_text = sys.argv[1]
-    print(sha256_from_string(input_text))
+    print(sha256_from_string(input_text).upper())
