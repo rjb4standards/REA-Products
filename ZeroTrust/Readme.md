@@ -1,4 +1,4 @@
-Three PDS files are created that are used to produc three unique DNAID record in SAG-CTR:
+Three PDS files are created that are used to produc three unique ZTDNAID record in SAG-CTR:
 1. Entity Information PDS containing Company Name/Entity Name/Entity IDentifier (Business Cyber Guardian/Richard Brooks/Badge Number 1
 2. Resource information in PDS containing ZeroTrustDomainName/Resource Name/Resource Identifier (Business Cyber Guardian AWS-RDS/SAG-CTR Database/SAGDB)
 3. A Zero Trust Bond PDS that represents a Zero Trust Bond record with a unique DNAID using a Zero Trust DomainName/EntityDNAID/ResourceDNAID)
@@ -16,7 +16,7 @@ Its very easily to implement a checktrust() function in python useing the exampl
 checktrust(ZTTrustDomain, ZTEntityDNAID, ZTResourceDNAID, delimeter)
 
 Refer to ztdnaid URI scheme Internet Draft for details describing ZTDANIDs;
-[ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-00.txt)
+[ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-01.txt)
 
 Example usage:
 checktrust("MYZTdomainName", "ENTITY ZTDNAID HEX VALUE ONLY", "RESOURCE ZTDNAID HEX VALUE ONLY", "|")
@@ -29,5 +29,5 @@ A True response indicate an Entity ZTDNAID is trusted to access the reuqest Reso
 i.e.  url = f"{ZTBcfg.get_sag_ctr_lookup_url()}{ztbond_dnaid}"
 
 
-Additional examples are provided in the [ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-00.txt)
+Additional examples are provided in the [ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-01.txt)
 
