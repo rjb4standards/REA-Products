@@ -12,7 +12,7 @@ The SAG-CTR Gatekeeper applies Registration Policies provided the by policy owne
 
 The Zero Trust Bouncer (ZTB) Gateway that frontends a resoruce performs a checktrust lookup in SAG-CTR using the Zero Trust Bond DNAID to verify trust before allowing access to a resource.
 
-Its very easily to implement a checktrust() function in python useing the example checktrust.py code which can be called using:
+Its very easily to implement a checktrust() function in python using the example checktrust.py code which can be called using:
 checktrust(ZTTrustDomain, ZTEntityDNAID, ZTResourceDNAID, delimeter)
 [checktrust.py Function Source Code](https://github.com/rjb4standards/REA-Products/blob/master/ZeroTrust/checktrust.py)
 
