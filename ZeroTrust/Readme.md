@@ -14,9 +14,10 @@ The Zero Trust Bouncer (ZTB) Gateway that frontends a resoruce performs a checkt
 
 Its very easily to implement a checktrust() function in python useing the example checktrust.py code which can be called using:
 checktrust(ZTTrustDomain, ZTEntityDNAID, ZTResourceDNAID, delimeter)
+[checktrust.py Function Source Code](https://github.com/rjb4standards/REA-Products/blob/master/ZeroTrust/checktrust.py)
 
 Refer to ztdnaid URI scheme Internet Draft for details describing ZTDANIDs;
-[ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-01.txt)
+[ZTDNAID Internet Draft](https://www.ietf.org/archive/id/draft-brooks-ztdnaid-new-02.txt)
 
 Example usage:
 checktrust("MYZTdomainName", "ENTITY ZTDNAID HEX VALUE ONLY", "RESOURCE ZTDNAID HEX VALUE ONLY", "|")
