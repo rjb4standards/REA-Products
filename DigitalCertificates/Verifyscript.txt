@@ -1,4 +1,9 @@
-curl "https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer" -o "BCG-SIGNING-KEY-2030.cer"
-$DNAID = (Get-FileHash .\Downloads\BCG-SIGNING-KEY-2030.cer).Hash
+param(
+    [string]$LOC
+)
+
+Write-Host "LOC: $LOC"
+curl $LOC -o "keyfile.cer"
+$DNAID = (Get-FileHash .\keyfile.cer).Hash
 $URL="https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID="+$DNAID
 Start-Process $URL
