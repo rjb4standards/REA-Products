@@ -8,5 +8,7 @@ Execute the sagverify.ps1 script using the LOC parameter to locate and download 
 powershell -c "& './sagverify.ps1' -LOC 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-CODE-SIGNING-KEY-2026.cer'"
 
 How do I register a self-signed public certificate into the SAG-CTR Trust Registry?
+
+
 Run sag-pm on the cer file and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
 
