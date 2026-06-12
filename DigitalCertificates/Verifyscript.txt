@@ -3,7 +3,6 @@ param(
     [string]$OFILE
 )
 
-Write-Host "LOC: $LOC"
 curl $LOC -o $OFILE
 $DNAID = (Get-FileHash .\$OFILE).Hash
 $URL="https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID="+$DNAID+"&html=1"
