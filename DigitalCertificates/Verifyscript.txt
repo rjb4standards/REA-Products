@@ -1,9 +1,11 @@
 param(
-    [string]$LOC
+    [string]$LOC,
+    [string]$OFILE
 )
 
 Write-Host "LOC: $LOC"
-curl $LOC -o "keyfile.cer"
-$DNAID = (Get-FileHash .\keyfile.cer).Hash
+curl $LOC -o $OFILE
+$DNAID = (Get-FileHash .\$OFILE).Hash
 $URL="https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID="+$DNAID
 Start-Process $URL
+
