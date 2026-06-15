@@ -7,6 +7,8 @@ Execute the sagverify.ps1 script using the LOC parameter to locate and download 
 
 powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer' -OFile test.fil}"
 
+NOTE: Placeholder to SCITT Receipt URL that resolved a SCITT registration receipt on the Microsoft SCITT Transparency Log (Merkle Tree).
+
 A SAGScore return value of -1 indicates there are no trust declaration for the object in SAG-CTR - meaning it's not trusted.
 
 How do I register a self-signed public certificate into the SAG-CTR Trust Registry?
