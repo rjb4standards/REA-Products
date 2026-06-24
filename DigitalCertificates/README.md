@@ -14,7 +14,7 @@ A SAGScore return value of -1 indicates there are no trust declarations for the 
 How do I register a self-signed public certificate into the SAG-CTR Trust Registry and the Microsoft SCITT Ledger?
 
 
-Run sag-pm on the cer file and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
+Run sag-pm on the digital certificate (cer) file and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
 
-The SAG-CTR Gatekeeper will evaluate the submitted evidence against SAG-CTR Label Owner Registration Policies and, if all checks pass, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger.
+The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies and, if all checks pass, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger.
 
