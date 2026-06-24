@@ -7,12 +7,14 @@ Execute the sagverify.ps1 script using the LOC parameter to locate and download 
 
 powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer' -OFile test.fil}"
 
-NOTE: Placeholder to SCITT Receipt URL that resolved a SCITT registration receipt on the Microsoft SCITT Transparency Log (Merkle Tree).
+NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receipt stored on the Microsoft SCITT Transparency Log (Merkle Tree), showing inclusion path on the tree.
 
-A SAGScore return value of -1 indicates there are no trust declaration for the object in SAG-CTR - meaning it's not trusted.
+A SAGScore return value of -1 indicates there are no trust declarations for the object in SAG-CTR identified by this SHA256 hash value- meaning it's not trusted.
 
-How do I register a self-signed public certificate into the SAG-CTR Trust Registry?
+How do I register a self-signed public certificate into the SAG-CTR Trust Registry and the Microsoft SCITT Ledger?
 
 
 Run sag-pm on the cer file and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
+
+The SAG-CTR Gatekeeper will evaluate the submitted evidence against SAG-CTR Label Owner Registration Policies and, if all checks pass, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger.
 
