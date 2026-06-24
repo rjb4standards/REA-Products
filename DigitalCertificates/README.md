@@ -11,7 +11,7 @@ NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receip
 
 A SAGScore return value of -1 indicates there are no trust declarations for the object in SAG-CTR identified by this SHA256 hash value- meaning it's not trusted.
 
-How do I register a self-signed public certificate into the SAG-CTR Trust Registry and the Microsoft SCITT Ledger?
+How do I register a X.509 public digital certificate into the SAG-CTR Trust Registry and the Microsoft SCITT Ledger?
 
 
 Run sag-pm on the digital certificate (cer) file and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
