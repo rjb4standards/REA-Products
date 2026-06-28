@@ -11,6 +11,10 @@ NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receip
 
 A SAGScore return value of -1 indicates there are no trust declarations for the object in SAG-CTR identified by this SHA256 hash value- meaning it's not trusted.
 
+Here is how to check a certificat that is not trusted (SAGScore: -1)
+powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/Cruell-De-Vil-Pubkey.cer' -OFile test.fil}"
+
+
 How do I register a X.509 digital certificate in the SAG-CTR Trust Registry and the Microsoft SCITT Ledger?
 
 
