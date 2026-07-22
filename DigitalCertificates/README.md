@@ -7,7 +7,8 @@ This shows how to check if a digital certificate is listed in a PTI Trust Regist
 
 - Execute the sagverify.ps1 script using the LOC parameter to locate and download the X.509 public key certificate file and -OFile parameter to name output file:
 
-- Run this in a command line window on Microsfot Windows; powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer' -OFile test.fil}"
+- Run this in a command line window on Microsfot Windows;
+    - powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer' -OFile test.fil}"
 
 - *View the results showing a trusted object label*
 -  *NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receipt stored on the Microsoft SCITT Transparency Log (Merkle Tree), showing inclusion path on the tree*.
