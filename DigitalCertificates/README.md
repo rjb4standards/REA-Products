@@ -1,17 +1,21 @@
 This folder contains the public certificate (.cer) files used to verify digital objects, i.e. software apps, signed by Business Cyber Guardian.
 https://businesscyberguardian.com/
 
-Download Verifyscript.txt and save as a powershell script with the name sagverify.ps1
+This shows how to check if a digital certificate is listed in a PTI Trust Registry:
 
-Execute the sagverify.ps1 script using the LOC parameter to locate and download the X.509 public key certificate file and -OFile parameter to name output file:
+- Download Verifyscript.txt and save as a powershell script with the name sagverify.ps1
 
-powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer' -OFile test.fil}"
+- Execute the sagverify.ps1 script using the LOC parameter to locate and download the X.509 public key certificate file and -OFile parameter to name output file:
 
+- Run this in a command line window on Microsfot Windows; powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer' -OFile test.fil}"
+
+- *View the results showing a trusted object label*
+- 
 NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receipt stored on the Microsoft SCITT Transparency Log (Merkle Tree), showing inclusion path on the tree.
 
 A SAGScore return value of -1 indicates there are no trust declarations for the object in SAG-CTR identified by this SHA256 hash value- meaning it's not trusted.
 
-Here is how to check a certificate that is not trusted (SAGScore: -1)
+Here is how to check a certificate that is *NOT trusted* (SAGScore: -1)
 
 
 powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/Cruell-De-Vil-Pubkey.cer' -OFile test.fil}"
