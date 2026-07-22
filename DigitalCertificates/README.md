@@ -13,7 +13,7 @@ This shows how to check if a digital certificate is listed in a PTI Trust Regist
 - 
 NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receipt stored on the Microsoft SCITT Transparency Log (Merkle Tree), showing inclusion path on the tree.
 
-A SAGScore return value of -1 indicates there are no trust declarations for the object in SAG-CTR identified by this SHA256 hash value- meaning it's not trusted.
+A SAGScore return value of -1 indicates there are no trust declarations for the object in SAG-CTR Trust Registry identified by this SHA256 hash (Digital DNA ID) value- meaning it's not trusted.
 
 Here is how to check a certificate that is *NOT trusted* (SAGScore: -1)
 
