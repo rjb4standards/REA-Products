@@ -10,8 +10,7 @@ This shows how to check if a digital certificate is listed in a PTI Trust Regist
 - Run this in a command line window on Microsfot Windows; powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/BCG-SIGNING-KEY-2030.cer' -OFile test.fil}"
 
 - *View the results showing a trusted object label*
-- 
-NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receipt stored on the Microsoft SCITT Transparency Log (Merkle Tree), showing inclusion path on the tree.
+-  *NOTE: Placeholder to SCITT Receipt URL that resolves a SCITT registration receipt stored on the Microsoft SCITT Transparency Log (Merkle Tree), showing inclusion path on the tree*.
 
 A SAGScore return value of -1 indicates there are no trust declarations for the object in SAG-CTR Trust Registry identified by this SHA256 hash (Digital DNA ID) value- meaning it's not trusted.
 
