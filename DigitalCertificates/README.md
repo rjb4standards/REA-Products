@@ -20,10 +20,10 @@ Here is how to check a certificate that is *NOT trusted* (SAGScore: -1)
 powershell -c "& { ./sagverify.ps1 -Loc 'https://github.com/rjb4standards/REA-Products/raw/refs/heads/master/DigitalCertificates/Cruell-De-Vil-Pubkey.cer' -OFile test.fil}"
 
 
-How do I register a X.509 digital certificate in the SAG-CTR Trust Registry and the Microsoft SCITT Ledger?
+**How do I register a X.509 digital certificate in the SAG-CTR Trust Registry and the Microsoft SCITT Ledger?**
 
 
-Run sag-pm on the digital certificate (cer) file and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
+Run sag-pm on the digital certificate (cer) file you wish to register as trusted and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
 
-The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies and, if all checks pass, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger.
+The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies (see SCITT spec for Registration Policy details) and, **if all checks pass**, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger.
 
