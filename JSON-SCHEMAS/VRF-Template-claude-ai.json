@@ -1,0 +1,76 @@
+{
+  "VendorResponse": {
+    "VendorLegalName": "Acme Software Solutions, Inc.",
+    "SupplierID": "ACME-SW-00417",
+    "StreetAddress": "125 Innovation Drive, Suite 300",
+    "City": "Westfield",
+    "StateOrProvince": "MA",
+    "ZipCode": "01085",
+    "Country": "USA",
+    "WebsiteURL": "https://www.acmesoftwaresolutions.example.com",
+    "ContactTelephone": "+1-413-555-0142",
+    "ContactEmail": "compliance@acmesoftwaresolutions.example.com",
+    "ContactPerson": "Jane Doe, VP of Product Security",
+    "DUNSNumber": "078654321",
+    "NAESBEIRID": "NAESB-EIR-99231",
+    "CyberSecPolicyURL": "https://www.acmesoftwaresolutions.example.com/security/cyber-policy.pdf",
+    "FinancialDataURL": "https://www.acmesoftwaresolutions.example.com/investors/financials.pdf",
+    "CompanyDataURL": "https://www.acmesoftwaresolutions.example.com/about/company-profile.pdf",
+    "Products": [
+      {
+        "LicensorName": "Acme Software Solutions, Inc.",
+        "ProductName": "AcmeGrid SCADA Manager",
+        "DescriptionURL": "https://www.acmesoftwaresolutions.example.com/products/acmegrid",
+        "Version": "4.2.1",
+        "SBOM": {
+          "URL": "https://www.acmesoftwaresolutions.example.com/sbom/acmegrid-4.2.1.spdx.json",
+          "type": "spdx",
+          "version": "2.3",
+          "format": "JSON",
+          "DigitalSignatureURL": "https://www.acmesoftwaresolutions.example.com/sbom/acmegrid-4.2.1.spdx.json.sig"
+        },
+        "SourceLocationURL": "https://github.com/acmesoftwaresolutions/acmegrid",
+        "DigitallySigned": "Y",
+        "UnsolvedVulnerabilities": "N",
+        "KnownVulnInfoURL": {
+          "URL": "https://www.acmesoftwaresolutions.example.com/security/vex/acmegrid-4.2.1.json",
+          "DocFormat": "CDXVEX",
+          "DigitalSignatureURL": "https://www.acmesoftwaresolutions.example.com/security/vex/acmegrid-4.2.1.json.sig"
+        },
+        "SDLCPolicyURL": "https://www.acmesoftwaresolutions.example.com/security/sdlc-policy.pdf",
+        "SDLCEvidenceDataURL": "https://www.acmesoftwaresolutions.example.com/security/sdlc-evidence.pdf",
+        "CyberSecLabelURL": "https://www.acmesoftwaresolutions.example.com/security/cyber-label-acmegrid.json",
+        "CommercialStatus": "Available",
+        "SupportStatus": "Supported",
+        "LastModifiedDateTimeUTC": "2026-07-15T14:32:00Z"
+      },
+      {
+        "LicensorName": "Acme Software Solutions, Inc.",
+        "ProductName": "AcmeGrid Historian Module",
+        "DescriptionURL": "https://www.acmesoftwaresolutions.example.com/products/historian",
+        "Version": "1.9.0",
+        "SBOM": {
+          "URL": "https://www.acmesoftwaresolutions.example.com/sbom/historian-1.9.0.cdx.json",
+          "type": "cycloneDX",
+          "version": "1.5",
+          "format": "JSON",
+          "DigitalSignatureURL": "https://www.acmesoftwaresolutions.example.com/sbom/historian-1.9.0.cdx.json.sig"
+        },
+        "SourceLocationURL": "https://github.com/acmesoftwaresolutions/acmegrid-historian",
+        "DigitallySigned": "Y",
+        "UnsolvedVulnerabilities": "Y",
+        "KnownVulnInfoURL": {
+          "URL": "https://www.acmesoftwaresolutions.example.com/security/vex/historian-1.9.0.json",
+          "DocFormat": "CDXVEX",
+          "DigitalSignatureURL": "https://www.acmesoftwaresolutions.example.com/security/vex/historian-1.9.0.json.sig"
+        },
+        "SDLCPolicyURL": "https://www.acmesoftwaresolutions.example.com/security/sdlc-policy.pdf",
+        "SDLCEvidenceDataURL": "https://www.acmesoftwaresolutions.example.com/security/sdlc-evidence.pdf",
+        "CyberSecLabelURL": "https://www.acmesoftwaresolutions.example.com/security/cyber-label-historian.json",
+        "CommercialStatus": "Available",
+        "SupportStatus": "Supported",
+        "LastModifiedDateTimeUTC": "2026-06-30T09:10:22Z"
+      }
+    ]
+  }
+}
