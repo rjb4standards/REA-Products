@@ -42,7 +42,7 @@
         "CyberSecLabelURL": "https://www.acmesoftwaresolutions.example.com/security/cyber-label-acmegrid.json",
         "CommercialStatus": "Available",
         "SupportStatus": "Supported",
-        "LastModifiedDateTimeUTC": "2026-07-15T14:32:00Z"
+        "LastModifiedDateTimeUTC": "2026-07-15T14:32:00"
       },
       {
         "LicensorName": "Acme Software Solutions, Inc.",
@@ -69,7 +69,7 @@
         "CyberSecLabelURL": "https://www.acmesoftwaresolutions.example.com/security/cyber-label-historian.json",
         "CommercialStatus": "Available",
         "SupportStatus": "Supported",
-        "LastModifiedDateTimeUTC": "2026-06-30T09:10:22Z"
+        "LastModifiedDateTimeUTC": "2026-06-30T09:10:22"
       }
     ]
   }
