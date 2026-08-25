@@ -181,7 +181,8 @@
 					},
 					"required": [
 						"URL",
-						"DocFormat"
+						"DocFormat",
+						"DigitalSignatureURL"
 					]
 				},
 				"SDLCPolicyURL": {
