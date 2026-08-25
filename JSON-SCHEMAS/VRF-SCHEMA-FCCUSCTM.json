@@ -135,7 +135,9 @@
 					"required": [
 						"URL",
 						"type",
-						"format"
+						"version",
+						"format",
+						"DigitalSignatureURL"
 					]
 				},
 				"SourceLocationURL": {
