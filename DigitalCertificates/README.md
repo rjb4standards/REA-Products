@@ -26,5 +26,21 @@ __How do I register a X.509 digital certificate in the SAG-CTR Trust Registry an
 
 Run sag-pm on the digital certificate (cer) file you wish to register as trusted and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
 
-The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies (see SCITT spec for Registration Policy details) and, **if all checks pass**, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger.
+The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies (see SCITT spec for Registration Policy details) and, **if all checks pass**, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger. Here is the SCITT Signed Statement Payload to register a digital certificate:
+```JSON
+{
+	"Metadata": {
+		"subjectType": "https://softwareassuranceguardian.com/object-type/PUBCERT", (Product catalog SName)
+		"subject": "ztdnaid: AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5 ",
+		"statementType": "https://softwareassuranceguardian.com/statement-type/trustDeclaration",
+		"statementVersion": "1.0"
+	},
+	"Statement": {
+		"ObjectDNAID": "AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5",
+		"EvidenceFileHash": "5c0a3524e46ef74b1b9c37aa485e76e3bc3cfa03a2d625500ab1386ecd534753",
+		"EvidenceFileName": "2026-06-04_00_00_11_700505_ONLINE_c951e105-dd77-4cba-b469-8f73c29320bc_BCGSIGNINGKEY2030cer_5938862e737ae3ac4819d9e89c321f52.txt"
+	}
+}
+
+```
 
