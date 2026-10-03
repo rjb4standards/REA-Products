@@ -44,3 +44,6 @@ The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declara
 
 ```
 
+Parties can perform a Trust Registry lookup to view details of this digital certificate stored in the Trust Registry. A SCITT Receipt returns the registered payload along with an inclusion proof showing its location in the Merkle Tree Ledger.
+
+https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5&html=1 
