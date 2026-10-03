@@ -26,7 +26,7 @@ __How do I register a X.509 digital certificate in the SAG-CTR Trust Registry an
 
 Run sag-pm on the digital certificate (cer) file you wish to register as trusted and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
 
-The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies (see SCITT spec for Registration Policy details) and, **if all checks pass**, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger. Here is the SCITT Signed Statement Payload to register a digital certificate:
+The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies (see SCITT spec for Registration Policy details) and, **if all checks pass**, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger. Here is the SCITT Signed Statement Payload to register a digital certificate in the SCITT Merkle Tree Ledger:
 ```JSON
 {
 	"Metadata": {
