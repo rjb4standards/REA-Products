@@ -30,7 +30,7 @@ The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declara
 ```JSON
 {
 	"Metadata": {
-		"subjectType": "https://softwareassuranceguardian.com/object-type/PUBCERT", (Product catalog SName)
+		"subjectType": "https://softwareassuranceguardian.com/object-type/PUBCERT", 
 		"subject": "ztdnaid: AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5 ",
 		"statementType": "https://softwareassuranceguardian.com/statement-type/trustDeclaration",
 		"statementVersion": "1.0"
