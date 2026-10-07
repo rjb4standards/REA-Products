@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://softwareassuranceguardian.com/schema/trustDeclaration.schema.json",
+  "title": "Trust Declaration",
+  "type": "object",
+  "required": [
+    "Metadata",
+    "Statement"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "Metadata": {
+      "type": "object",
+      "required": [
+        "subjectType",
+        "subject",
+        "statementType",
+        "statementVersion"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "subjectType": {
+          "type": "string",
+          "const": "https://softwareassuranceguardian.com/object-type/PUBCERT",
+          "description": "Registered object type identifier."
+        },
+        "subject": {
+          "type": "string",
+          "pattern": "^ztdnaid:\\s[0-9A-F]{64}\\s*$",
+          "description": "ZTDNA identifier containing a SHA-256 DNA ID."
+        },
+        "statementType": {
+          "type": "string",
+          "const": "https://softwareassuranceguardian.com/statement-type/trustDeclaration",
+          "description": "Statement type URI."
+        },
+        "statementVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$",
+          "examples": [
+            "1.0"
+          ]
+        }
+      }
+    },
+    "Statement": {
+      "type": "object",
+      "required": [
+        "ObjectDNAID",
+        "EvidenceFileHash",
+        "EvidenceFileName"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ObjectDNAID": {
+          "type": "string",
+          "pattern": "^[A-F0-9]{64}$",
+          "description": "SHA-256 Digital DNA identifier."
+        },
+        "EvidenceFileHash": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$",
+          "description": "SHA-256 hash of the evidence file."
+        },
+        "EvidenceFileName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Original evidence file name."
+        }
+      }
+    }
+  }
+}
