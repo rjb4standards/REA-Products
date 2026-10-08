@@ -1,0 +1,14 @@
+{
+  "Metadata": {
+    "subjectType": "https://softwareassuranceguardian.com/object-type/PUBCERT",
+    "subject": "ztdnaid: 7A5E3A0F83A90734B2FDD8D3A90BDB5A5E8B8B5F82D5F6D83B7B0A63D4E8F123",
+    "RegPolicy": "ztdnaid: 1F9D89436A6C7E1B7D9A3F29B18A40C9C03D784B58A90E6F8A2B7D4E9F6C1234",
+    "statementType": "https://softwareassuranceguardian.com/statement-type/vnd.BCG.TrustDeclaration",
+    "statementVersion": "1.0"
+  },
+  "Statement": {
+    "ObjectDNAID": "7A5E3A0F83A90734B2FDD8D3A90BDB5A5E8B8B5F82D5F6D83B7B0A63D4E8F123",
+    "EvidenceFileHash": "c5f91e64f6a6a7e9c3f1a4b8d9e2f7c6b5a4d3c2e1f09876543210abcdef1234",
+    "EvidenceFileName": "BCG-SIGNING-KEY-2030-Evidence.txt"
+  }
+}
