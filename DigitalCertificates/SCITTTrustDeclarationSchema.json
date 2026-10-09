@@ -22,8 +22,7 @@
       "properties": {
         "subjectType": {
           "type": "string",
-          "const": "https://softwareassuranceguardian.com/object-type/PUBCERT",
-          "description": "Registered object type identifier."
+          "description": "URL of registered object type identifier."
         },
         "subject": {
           "type": "string",
@@ -37,7 +36,7 @@
         },
         "statementType": {
           "type": "string",
-          "const": "https://softwareassuranceguardian.com/statement-type/trustDeclaration",
+          "const": "https://softwareassuranceguardian.com/statement-type/vnd.BCG.TrustDeclaration",
           "description": "Statement type URI."
         },
         "statementVersion": {
