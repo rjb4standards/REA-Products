@@ -14,7 +14,7 @@
       "required": [
         "subjectType",
         "subject",
-		"RegPolicy",
+        "RegPolicy",
         "statementType",
         "statementVersion"
       ],
@@ -30,7 +30,7 @@
           "pattern": "^ztdnaid:\\s[0-9A-F]{64}\\s*$",
           "description": "ZTDNA identifier containing a SHA-256 DNA ID."
         },
-		"RegPolicy": {
+        "RegPolicy": {
           "type": "string",
           "pattern": "^ztdnaid:\\s[0-9A-F]{64}\\s*$",
           "description": "Registration Policy Document identifier containing a SHA-256 DNA ID."
