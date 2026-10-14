@@ -27,20 +27,21 @@ __How do I register a X.509 digital certificate in the SAG-CTR Trust Registry an
 
 Run sag-pm on the digital certificate (cer) file you wish to register as trusted and submit evidence data to SAG-CTR when asked to submit a trust declaration answer Y
 
-The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies (see SCITT spec for Registration Policy details) and, **if all checks pass**, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger. Here is the SCITT Signed Statement Payload to register a digital certificate in the SCITT Merkle Tree Ledger:
+The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declarations Queue against SAG-CTR Label Owner Registration Policies (see SCITT spec for Registration Policy details) and, **if all checks pass**, the information will be registered in SAG-CTR Trust Registry and Microsoft SCITT Ledger. Here is the SCITT Signed Statement Payload to register a digital certificate TrustDeclaration in the SCITT Merkle Tree Ledger:
 ```JSON
 {
-	"Metadata": {
-		"subjectType": "https://softwareassuranceguardian.com/object-type/PUBCERT", 
-		"subject": "ztdnaid: AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5 ",
-		"statementType": "https://softwareassuranceguardian.com/statement-type/trustDeclaration",
-		"statementVersion": "1.0"
-	},
-	"Statement": {
-		"ObjectDNAID": "AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5",
-		"EvidenceFileHash": "5c0a3524e46ef74b1b9c37aa485e76e3bc3cfa03a2d625500ab1386ecd534753",
-		"EvidenceFileName": "2026-06-04_00_00_11_700505_ONLINE_c951e105-dd77-4cba-b469-8f73c29320bc_BCGSIGNINGKEY2030cer_5938862e737ae3ac4819d9e89c321f52.txt"
-	}
+  "Metadata": {
+    "subjectType": "https://softwareassuranceguardian.com/object-type/PUBCERT",
+    "subject": "ztdnaid: 7A5E3A0F83A90734B2FDD8D3A90BDB5A5E8B8B5F82D5F6D83B7B0A63D4E8F123",
+    "RegPolicy": "ztdnaid: 1F9D89436A6C7E1B7D9A3F29B18A40C9C03D784B58A90E6F8A2B7D4E9F6C1234",
+    "statementType": "https://softwareassuranceguardian.com/statement-type/vnd.BCG.TrustDeclaration",
+    "statementVersion": "1.0"
+  },
+  "Statement": {
+    "ObjectDNAID": "7A5E3A0F83A90734B2FDD8D3A90BDB5A5E8B8B5F82D5F6D83B7B0A63D4E8F123",
+    "EvidenceFileHash": "c5f91e64f6a6a7e9c3f1a4b8d9e2f7c6b5a4d3c2e1f09876543210abcdef1234",
+    "EvidenceFileName": "BCG-SIGNING-KEY-2030-Evidence.txt"
+  }
 }
 
 ```
