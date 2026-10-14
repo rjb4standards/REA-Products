@@ -1,16 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://softwareassuranceguardian.com/schema/trustDeclaration.schema.json",
-  "title": "Trust Declaration",
+  "$id": "https://softwareassuranceguardian.com/schema/TrustDeclaration.schema.json",
+  "title": "Trust Declaration Artifact",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "Metadata",
     "Statement"
   ],
-  "additionalProperties": false,
   "properties": {
     "Metadata": {
       "type": "object",
+      "additionalProperties": false,
       "required": [
         "subjectType",
         "subject",
@@ -18,59 +19,65 @@
         "statementType",
         "statementVersion"
       ],
-      "additionalProperties": false,
       "properties": {
         "subjectType": {
           "type": "string",
-          "description": "URL of registered object type identifier."
+          "format": "uri",
+          "const": "https://softwareassuranceguardian.com/object-type/PUBCERT",
+          "description": "Object type identifier."
         },
         "subject": {
           "type": "string",
-          "pattern": "^ztdnaid:\\s[0-9A-F]{64}\\s*$",
-          "description": "ZTDNA identifier containing a SHA-256 DNA ID."
+          "pattern": "^ztdnaid:\\s[A-F0-9]{64}$",
+          "description": "ZTDNA identifier of the subject."
         },
         "RegPolicy": {
           "type": "string",
-          "pattern": "^ztdnaid:\\s[0-9A-F]{64}\\s*$",
-          "description": "Registration Policy Document identifier containing a SHA-256 DNA ID."
+          "pattern": "^ztdnaid:\\s[A-F0-9]{64}$",
+          "description": "ZTDNA identifier of the governing regulatory policy."
         },
         "statementType": {
           "type": "string",
+          "format": "uri",
           "const": "https://softwareassuranceguardian.com/statement-type/vnd.BCG.TrustDeclaration",
-          "description": "Statement type URI."
+          "description": "Statement type identifier."
         },
         "statementVersion": {
           "type": "string",
-          "pattern": "^\\d+\\.\\d+$",
-          "examples": [
-            "1.0"
-          ]
+          "const": "1.0",
+          "description": "Schema version of the statement."
         }
       }
     },
     "Statement": {
       "type": "object",
+      "additionalProperties": false,
       "required": [
         "ObjectDNAID",
         "EvidenceFileHash",
-        "EvidenceFileName"
+        "EvidenceFileName",
+        "TrustLabelURL"
       ],
-      "additionalProperties": false,
       "properties": {
         "ObjectDNAID": {
           "type": "string",
           "pattern": "^[A-F0-9]{64}$",
-          "description": "SHA-256 Digital DNA identifier."
+          "description": "SHA-256 Object DNA identifier."
         },
         "EvidenceFileHash": {
           "type": "string",
           "pattern": "^[a-fA-F0-9]{64}$",
-          "description": "SHA-256 hash of the evidence file."
+          "description": "SHA-256 hash of the supporting evidence file."
         },
         "EvidenceFileName": {
           "type": "string",
           "minLength": 1,
-          "description": "Original evidence file name."
+          "description": "Name of the evidence file."
+        },
+        "TrustLabelURL": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the generated trust label."
         }
       }
     }
