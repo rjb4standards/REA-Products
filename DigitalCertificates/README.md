@@ -39,11 +39,10 @@ The SAG-CTR Gatekeeper will evaluate the submitted evidence in the Trust Declara
   },
   "Statement": {
     "ObjectDNAID": "7A5E3A0F83A90734B2FDD8D3A90BDB5A5E8B8B5F82D5F6D83B7B0A63D4E8F123",
-    "EvidenceFileHash": "c5f91e64f6a6a7e9c3f1a4b8d9e2f7c6b5a4d3c2e1f09876543210abcdef1234",
-    "EvidenceFileName": "BCG-SIGNING-KEY-2030-Evidence.txt"
+    "EvidenceFileHash": "5c0a3524e46ef74b1b9c37aa485e76e3bc3cfa03a2d625500ab1386ecd534753",
+    "EvidenceFileName": "2026-06-04_00_00_11_700505_ONLINE_c951e105-dd77-4cba-b469-8f73c29320bc_BCGSIGNINGKEY2030cer_5938862e737ae3ac4819d9e89c321f52.txt"
   }
 }
-
 ```
 
 Parties can perform a Trust Registry lookup to view details of this digital certificate stored in the Trust Registry. A SCITT Receipt returns the registered payload along with an inclusion proof showing its location in the Merkle Tree Ledger.
