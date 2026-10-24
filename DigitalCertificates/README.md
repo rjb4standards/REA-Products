@@ -1,4 +1,4 @@
-This folder contains the public certificate (.cer) files used to verify digital objects as *trusted*, i.e. software apps, signed by Business Cyber Guardian.
+This folder contains the public certificate (.cer) files used to verify digital objects as *TRUSTED*, i.e. software apps, signed by Business Cyber Guardian.
 https://businesscyberguardian.com/
 
 This shows how to check if a digital certificate is listed in a PTI Trust Registry:
