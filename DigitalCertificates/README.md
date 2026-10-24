@@ -1,7 +1,7 @@
 This folder contains the public certificate (.cer) files used to verify digital objects as *TRUSTED*, i.e. software apps, signed by Business Cyber Guardian.
 https://businesscyberguardian.com/
 
-This shows how to check if a digital certificate is listed in a PTI Trust Registry:
+This shows how to check if a digital certificate is listed in a PTI Trust Registry (*TRUSTED*):
 
 - Download Verifyscript.txt and save as a powershell script with the name sagverify.ps1
 
