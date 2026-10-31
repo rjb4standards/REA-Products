@@ -23,8 +23,7 @@
         "subjectType": {
           "type": "string",
           "format": "uri",
-          "const": "https://softwareassuranceguardian.com/object-type/PUBCERT",
-          "description": "Object type identifier."
+          "description": "Object type identifier, i.e. https://softwareassuranceguardian.com/object-type/PUBCERT"
         },
         "subject": {
           "type": "string",
