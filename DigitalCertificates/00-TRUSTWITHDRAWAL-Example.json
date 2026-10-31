@@ -1,0 +1,15 @@
+{
+  "Metadata": {
+    "subjectType": "https://softwareassuranceguardian.com/object-type/PUBCERT",
+    "subject": "ztdnaid: AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5",
+    "RegPolicy": "ztdnaid: 1F9D89436A6C7E1B7D9A3F29B18A40C9C03D784B58A90E6F8A2B7D4E9F6C1234",
+    "statementType": "https://softwareassuranceguardian.com/statement-type/vnd.BCG.TrustWithdrawal",
+    "statementVersion": "1.0"
+  },
+  "Statement": {
+    "ObjectDNAID": "AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5",
+    "EvidenceFileHash": "5c0a3524e46ef74b1b9c37aa485e76e3bc3cfa03a2d625500ab1386ecd534753",
+    "EvidenceFileName": "2026-06-04_00_00_11_700505_ONLINE_c951e105-dd77-4cba-b469-8f73c29320bc_BCGSIGNINGKEY2030cer_5938862e737ae3ac4819d9e89c321f52.txt",
+    "TrustLabelURL": "https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=AEB689F8F4FAFC1AB435EA89FBE57315F5AD4D2AF0902EBFB30D566CCBA05FB5&html=1"
+  }
+}
